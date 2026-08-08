@@ -4,8 +4,6 @@ import { useEffect, useMemo, useState } from "react";
 import { schedule, venues, week } from "./schedule-data";
 
 const venueNames = new Map(venues.map((venue) => [venue.id, venue.name]));
-const themeOptions = ["aqua", "mist", "sky", "ink", "paper"] as const;
-type Theme = typeof themeOptions[number];
 const englishDayNames: Record<string, string> = {
   周日: "Sunday",
   周一: "Monday",
@@ -128,7 +126,6 @@ function distanceKm(a: { lat: number; lng: number }, b: { lat: number; lng: numb
 
 export default function Home() {
   const [language, setLanguage] = useState<"zh" | "en">("zh");
-  const [theme, setTheme] = useState<Theme>("aqua");
   const [activity, setActivity] = useState<"all" | "Leisure Swim" | "Lane Swim" | "Aquafit" | "Women Only">("all");
   const [selected, setSelected] = useState("all");
   const [postalCode, setPostalCode] = useState("");
@@ -144,15 +141,6 @@ export default function Home() {
       setLanguage(saved);
       document.documentElement.lang = saved === "en" ? "en-CA" : "zh-CN";
     }
-
-    const savedTheme = window.localStorage.getItem("swim-calendar-theme");
-    if (themeOptions.includes(savedTheme as Theme)) {
-      const nextTheme = savedTheme as Theme;
-      setTheme(nextTheme);
-      document.documentElement.dataset.theme = nextTheme;
-    } else {
-      document.documentElement.dataset.theme = "aqua";
-    }
   }, []);
 
   function toggleLanguage() {
@@ -161,12 +149,6 @@ export default function Home() {
     window.localStorage.setItem("swim-calendar-language", next);
     document.documentElement.lang = next === "en" ? "en-CA" : "zh-CN";
     setSearchError("");
-  }
-
-  function chooseTheme(nextTheme: Theme) {
-    setTheme(nextTheme);
-    window.localStorage.setItem("swim-calendar-theme", nextTheme);
-    document.documentElement.dataset.theme = nextTheme;
   }
 
   const venueDistances = useMemo(() => new Map(venues.map((venue) => [
@@ -229,20 +211,6 @@ export default function Home() {
             <span>{text.brand}</span>
           </a>
           <div className="nav-actions">
-            <div className="theme-picker" role="group" aria-label="Background theme">
-              {themeOptions.map((option) => (
-                <button
-                  className={theme === option ? "active" : ""}
-                  type="button"
-                  onClick={() => chooseTheme(option)}
-                  aria-label={`Use ${option} background`}
-                  title={option}
-                  key={option}
-                >
-                  <span>{option}</span>
-                </button>
-              ))}
-            </div>
             <span className="updated">{text.update} · {week.updatedLabel}</span>
             <button className="language-toggle" type="button" onClick={toggleLanguage} aria-label={text.language}>{text.languageButton}</button>
           </div>
