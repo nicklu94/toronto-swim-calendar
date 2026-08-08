@@ -19,7 +19,7 @@ export const week = {
     "周五"
   ],
   "todayIndex": 0,
-  "updatedLabel": "8/8 16:16",
+  "updatedLabel": "8/8 19:24",
   "nextUpdateLabel": "8/9（每日）"
 } as const;
 
@@ -45,13 +45,53 @@ export const venues = [
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1110"
   },
   {
+    "id": "albion-pool-and-health-club",
+    "name": "Albion Pool and Health Club",
+    "shortName": "Albion Pool and Health Club",
+    "district": "Etobicoke York",
+    "lat": 43.7392632426,
+    "lng": -79.5811300019,
+    "color": "#687d39",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
+  },
+  {
+    "id": "alderwood-pool",
+    "name": "Alderwood Pool",
+    "shortName": "Alderwood Pool",
+    "district": "Etobicoke York",
+    "lat": 43.6017214884,
+    "lng": -79.5477780552,
+    "color": "#a34d78",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
+  },
+  {
+    "id": "amesbury-sports-complex",
+    "name": "Amesbury Sports Complex",
+    "shortName": "Amesbury Sports Complex",
+    "district": "Etobicoke York",
+    "lat": 43.7060292755,
+    "lng": -79.4867792144,
+    "color": "#1779a7",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=480"
+  },
+  {
+    "id": "annette-community-recreation-centre",
+    "name": "Annette Community Recreation Centre",
+    "shortName": "Annette",
+    "district": "Toronto and East York",
+    "lat": 43.6611733002,
+    "lng": -79.473882206,
+    "color": "#c87d24",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=17"
+  },
+  {
     "id": "antibes-community-centre",
     "name": "Antibes Community Centre",
     "shortName": "Antibes",
     "district": "North York",
     "lat": 43.7811383787,
     "lng": -79.4469957603,
-    "color": "#687d39",
+    "color": "#397d67",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
   },
   {
@@ -61,7 +101,7 @@ export const venues = [
     "district": "Scarborough",
     "lat": 43.6954854305,
     "lng": -79.2621805295,
-    "color": "#a34d78",
+    "color": "#8b5b3e",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
   },
   {
@@ -71,7 +111,7 @@ export const venues = [
     "district": "North York",
     "lat": 43.7459183129,
     "lng": -79.3227602225,
-    "color": "#1779a7",
+    "color": "#3976b8",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=7"
   },
   {
@@ -81,7 +121,7 @@ export const venues = [
     "district": "Scarborough",
     "lat": 43.756582,
     "lng": -79.226156,
-    "color": "#c87d24",
+    "color": "#7a4b95",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1143"
   },
   {
@@ -91,7 +131,7 @@ export const venues = [
     "district": "Scarborough",
     "lat": 43.7745337738,
     "lng": -79.2370287041,
-    "color": "#397d67",
+    "color": "#687d39",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
   },
   {
@@ -101,7 +141,7 @@ export const venues = [
     "district": "North York",
     "lat": 43.8001014521,
     "lng": -79.3712734,
-    "color": "#8b5b3e",
+    "color": "#a34d78",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
   },
   {
@@ -111,8 +151,18 @@ export const venues = [
     "district": "North York",
     "lat": 43.7178757617,
     "lng": -79.3317945617,
-    "color": "#3976b8",
+    "color": "#1779a7",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1056"
+  },
+  {
+    "id": "domenico-diluca-community-recreation-centre",
+    "name": "Domenico DiLuca Community Recreation Centre",
+    "shortName": "Domenico DiLuca",
+    "district": "Etobicoke York",
+    "lat": 43.742467623,
+    "lng": -79.5158013293,
+    "color": "#c87d24",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=760"
   },
   {
     "id": "douglas-snow-aquatic-centre",
@@ -121,8 +171,38 @@ export const venues = [
     "district": "North York",
     "lat": 43.7671270409,
     "lng": -79.4153038949,
-    "color": "#7a4b95",
+    "color": "#397d67",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
+  },
+  {
+    "id": "driftwood-community-recreation-centre",
+    "name": "Driftwood Community Recreation Centre",
+    "shortName": "Driftwood",
+    "district": "Etobicoke York",
+    "lat": 43.7654199481,
+    "lng": -79.5187434709,
+    "color": "#8b5b3e",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=575"
+  },
+  {
+    "id": "earl-beatty-community-centre",
+    "name": "Earl Beatty Community Centre",
+    "shortName": "Earl Beatty",
+    "district": "Toronto and East York",
+    "lat": 43.6861614627,
+    "lng": -79.3211484935,
+    "color": "#3976b8",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=36"
+  },
+  {
+    "id": "east-york-community-recreation-centre",
+    "name": "East York Community Recreation Centre",
+    "shortName": "East York",
+    "district": "Toronto and East York",
+    "lat": 43.6917662254,
+    "lng": -79.3492559061,
+    "color": "#7a4b95",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
   },
   {
     "id": "ethennonnhawahstihnen-community-recreation-centre-and-library",
@@ -135,13 +215,43 @@ export const venues = [
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
   },
   {
+    "id": "etobicoke-olympium",
+    "name": "Etobicoke Olympium",
+    "shortName": "Etobicoke Olympium",
+    "district": "Etobicoke York",
+    "lat": 43.6502300613,
+    "lng": -79.5844327452,
+    "color": "#a34d78",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=892"
+  },
+  {
+    "id": "fairmount-park-community-centre",
+    "name": "Fairmount Park Community Centre",
+    "shortName": "Fairmount Park",
+    "district": "Toronto and East York",
+    "lat": 43.6766857432,
+    "lng": -79.3149233158,
+    "color": "#1779a7",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=308"
+  },
+  {
+    "id": "gord-and-irene-risk-community-recreation-centre",
+    "name": "Gord and Irene Risk Community Recreation Centre",
+    "shortName": "Gord and Irene Risk",
+    "district": "Etobicoke York",
+    "lat": 43.747436541,
+    "lng": -79.5665092407,
+    "color": "#c87d24",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
+  },
+  {
     "id": "goulding-community-recreation-centre",
     "name": "Goulding Community Recreation Centre",
     "shortName": "Goulding",
     "district": "North York",
     "lat": 43.790627129,
     "lng": -79.4221107147,
-    "color": "#a34d78",
+    "color": "#397d67",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=643"
   },
   {
@@ -151,8 +261,28 @@ export const venues = [
     "district": "North York",
     "lat": 43.7519152687,
     "lng": -79.4906515107,
-    "color": "#1779a7",
+    "color": "#8b5b3e",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=647"
+  },
+  {
+    "id": "gus-ryder-pool-and-health-club",
+    "name": "Gus Ryder Pool and Health Club",
+    "shortName": "Gus Ryder Pool and Health Club",
+    "district": "Etobicoke York",
+    "lat": 43.6012154911,
+    "lng": -79.5219470045,
+    "color": "#3976b8",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=896"
+  },
+  {
+    "id": "harrison-pool",
+    "name": "Harrison Pool",
+    "shortName": "Harrison Pool",
+    "district": "Toronto and East York",
+    "lat": 43.6510882561,
+    "lng": -79.3908365215,
+    "color": "#7a4b95",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=45"
   },
   {
     "id": "heron-park-community-recreation-centre",
@@ -161,8 +291,28 @@ export const venues = [
     "district": "Scarborough",
     "lat": 43.7688363856,
     "lng": -79.1772548152,
-    "color": "#c87d24",
+    "color": "#687d39",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=633"
+  },
+  {
+    "id": "hillcrest-community-centre",
+    "name": "Hillcrest Community Centre",
+    "shortName": "Hillcrest",
+    "district": "Toronto and East York",
+    "lat": 43.6791928045,
+    "lng": -79.4159949473,
+    "color": "#a34d78",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=48"
+  },
+  {
+    "id": "humber-community-pool",
+    "name": "Humber Community Pool",
+    "shortName": "Humber Community Pool",
+    "district": "Etobicoke York",
+    "lat": 43.7305517835,
+    "lng": -79.608667829,
+    "color": "#1779a7",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=357"
   },
   {
     "id": "irving-w-chapley-community-centre",
@@ -171,8 +321,38 @@ export const venues = [
     "district": "North York",
     "lat": 43.7616194071,
     "lng": -79.4558674081,
-    "color": "#397d67",
+    "color": "#c87d24",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=664"
+  },
+  {
+    "id": "jimmie-simpson-recreation-centre",
+    "name": "Jimmie Simpson Recreation Centre",
+    "shortName": "Jimmie Simpson",
+    "district": "Toronto and East York",
+    "lat": 43.6604475847,
+    "lng": -79.3453133539,
+    "color": "#397d67",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
+  },
+  {
+    "id": "john-innes-community-recreation-centre",
+    "name": "John Innes Community Recreation Centre",
+    "shortName": "John Innes",
+    "district": "Toronto and East York",
+    "lat": 43.6554231288,
+    "lng": -79.3703437807,
+    "color": "#8b5b3e",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=63"
+  },
+  {
+    "id": "joseph-j-piccininni-community-recreation-centre",
+    "name": "Joseph J. Piccininni Community Recreation Centre",
+    "shortName": "Joseph J. Piccininni",
+    "district": "Toronto and East York",
+    "lat": 43.6753207225,
+    "lng": -79.4514499254,
+    "color": "#3976b8",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
   },
   {
     "id": "l-amoreaux-collegiate-institute",
@@ -181,7 +361,7 @@ export const venues = [
     "district": "Scarborough",
     "lat": 43.80292093,
     "lng": -79.31808383,
-    "color": "#8b5b3e",
+    "color": "#7a4b95",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1250"
   },
   {
@@ -191,7 +371,7 @@ export const venues = [
     "district": "North York",
     "lat": 43.718048766,
     "lng": -79.4422180127,
-    "color": "#3976b8",
+    "color": "#687d39",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=675"
   },
   {
@@ -201,7 +381,7 @@ export const venues = [
     "district": "North York",
     "lat": 43.701891,
     "lng": -79.36099099,
-    "color": "#7a4b95",
+    "color": "#a34d78",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
   },
   {
@@ -211,8 +391,28 @@ export const venues = [
     "district": "Scarborough",
     "lat": 43.803059,
     "lng": -79.226017,
-    "color": "#687d39",
+    "color": "#1779a7",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1255"
+  },
+  {
+    "id": "main-square-community-recreation-centre",
+    "name": "Main Square Community Recreation Centre",
+    "shortName": "Main Square",
+    "district": "Toronto and East York",
+    "lat": 43.687172376,
+    "lng": -79.2997884972,
+    "color": "#c87d24",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
+  },
+  {
+    "id": "mary-mccormick-recreation-centre",
+    "name": "Mary McCormick Recreation Centre",
+    "shortName": "Mary McCormick",
+    "district": "Toronto and East York",
+    "lat": 43.6473984626,
+    "lng": -79.4331856298,
+    "color": "#397d67",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "id": "maryvale-park",
@@ -221,8 +421,18 @@ export const venues = [
     "district": "Scarborough",
     "lat": 43.7530814449,
     "lng": -79.3065284999,
-    "color": "#a34d78",
+    "color": "#8b5b3e",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
+  },
+  {
+    "id": "matty-eckler-recreation-centre",
+    "name": "Matty Eckler Recreation Centre",
+    "shortName": "Matty Eckler",
+    "district": "Toronto and East York",
+    "lat": 43.6679040188,
+    "lng": -79.3395835221,
+    "color": "#3976b8",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=234"
   },
   {
     "id": "mcgregor-park-community-centre",
@@ -231,8 +441,18 @@ export const venues = [
     "district": "Scarborough",
     "lat": 43.7476393777,
     "lng": -79.2803212437,
-    "color": "#1779a7",
+    "color": "#7a4b95",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=506"
+  },
+  {
+    "id": "memorial-pool-and-health-club",
+    "name": "Memorial Pool and Health Club",
+    "shortName": "Memorial Pool and Health Club",
+    "district": "Etobicoke York",
+    "lat": 43.648379084,
+    "lng": -79.5196174904,
+    "color": "#687d39",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
   },
   {
     "id": "mitchell-field-community-centre",
@@ -241,8 +461,18 @@ export const venues = [
     "district": "North York",
     "lat": 43.7745089458,
     "lng": -79.4086633159,
-    "color": "#c87d24",
+    "color": "#a34d78",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=693"
+  },
+  {
+    "id": "norseman-community-school-and-pool",
+    "name": "Norseman Community School and Pool",
+    "shortName": "Norseman Community School and Pool",
+    "district": "Etobicoke York",
+    "lat": 43.6342945544,
+    "lng": -79.5164833659,
+    "color": "#1779a7",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
   },
   {
     "id": "north-toronto-memorial-community-centre",
@@ -251,8 +481,38 @@ export const venues = [
     "district": "North York",
     "lat": 43.7060603033,
     "lng": -79.4045943922,
-    "color": "#397d67",
+    "color": "#c87d24",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
+  },
+  {
+    "id": "northwood-community-centre",
+    "name": "Northwood Community Centre",
+    "shortName": "Northwood",
+    "district": "Etobicoke York",
+    "lat": 43.7455298702,
+    "lng": -79.5000806855,
+    "color": "#397d67",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=703"
+  },
+  {
+    "id": "o-connor-community-centre",
+    "name": "O'Connor Community Centre",
+    "shortName": "O'Connor",
+    "district": "Toronto and East York",
+    "lat": 43.7176595112,
+    "lng": -79.3017999022,
+    "color": "#8b5b3e",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1093"
+  },
+  {
+    "id": "oakdale-community-centre",
+    "name": "Oakdale Community Centre",
+    "shortName": "Oakdale",
+    "district": "Etobicoke York",
+    "lat": 43.7478337815,
+    "lng": -79.5131274546,
+    "color": "#3976b8",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=780"
   },
   {
     "id": "oriole-community-recreation-centre",
@@ -261,8 +521,28 @@ export const venues = [
     "district": "North York",
     "lat": 43.7817608757,
     "lng": -79.3514094227,
-    "color": "#8b5b3e",
+    "color": "#7a4b95",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=714"
+  },
+  {
+    "id": "pam-mcconnell-aquatic-centre",
+    "name": "Pam McConnell Aquatic Centre",
+    "shortName": "Pam McConnell Aquatic Centre",
+    "district": "Toronto and East York",
+    "lat": 43.6612288668,
+    "lng": -79.3611018311,
+    "color": "#687d39",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
+  },
+  {
+    "id": "parkdale-community-recreation-centre",
+    "name": "Parkdale Community Recreation Centre",
+    "shortName": "Parkdale",
+    "district": "Toronto and East York",
+    "lat": 43.643359689,
+    "lng": -79.4371133056,
+    "color": "#a34d78",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=243"
   },
   {
     "id": "pleasantview-community-centre",
@@ -271,7 +551,7 @@ export const venues = [
     "district": "North York",
     "lat": 43.7869936825,
     "lng": -79.3368309989,
-    "color": "#3976b8",
+    "color": "#1779a7",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=732"
   },
   {
@@ -281,7 +561,7 @@ export const venues = [
     "district": "North York",
     "lat": 43.7291977687,
     "lng": -79.4927303094,
-    "color": "#7a4b95",
+    "color": "#c87d24",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=744"
   },
   {
@@ -291,8 +571,18 @@ export const venues = [
     "district": "Scarborough",
     "lat": 43.805171,
     "lng": -79.189786,
-    "color": "#687d39",
+    "color": "#397d67",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
+  },
+  {
+    "id": "scadding-court-community-centre",
+    "name": "Scadding Court Community Centre",
+    "shortName": "Scadding Court",
+    "district": "Toronto and East York",
+    "lat": 43.6518252776,
+    "lng": -79.4049504151,
+    "color": "#8b5b3e",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1098"
   },
   {
     "id": "sir-oliver-mowat-collegiate-institute",
@@ -301,8 +591,38 @@ export const venues = [
     "district": "Scarborough",
     "lat": 43.779385,
     "lng": -79.142051,
-    "color": "#a34d78",
+    "color": "#3976b8",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1315"
+  },
+  {
+    "id": "st-lawrence-community-recreation-centre",
+    "name": "St. Lawrence Community Recreation Centre",
+    "shortName": "St. Lawrence",
+    "district": "Toronto and East York",
+    "lat": 43.6497591195,
+    "lng": -79.3649478632,
+    "color": "#7a4b95",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=272"
+  },
+  {
+    "id": "swansea-community-recreation-centre",
+    "name": "Swansea Community Recreation Centre",
+    "shortName": "Swansea",
+    "district": "Toronto and East York",
+    "lat": 43.6439799368,
+    "lng": -79.4771006187,
+    "color": "#687d39",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=282"
+  },
+  {
+    "id": "the-elms-community-school-and-pool",
+    "name": "The Elms Community School and Pool",
+    "shortName": "The Elms Community School and Pool",
+    "district": "Etobicoke York",
+    "lat": 43.7221973665,
+    "lng": -79.5519841574,
+    "color": "#a34d78",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
   },
   {
     "id": "toronto-pan-am-sports-centre",
@@ -315,13 +635,53 @@ export const venues = [
     "source": "https://www.tpasc.ca/portal/city-toronto/schedule"
   },
   {
+    "id": "trinity-community-recreation-centre",
+    "name": "Trinity Community Recreation Centre",
+    "shortName": "Trinity",
+    "district": "Toronto and East York",
+    "lat": 43.6462504565,
+    "lng": -79.41487781,
+    "color": "#c87d24",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=287"
+  },
+  {
+    "id": "vaughan-road-academy",
+    "name": "Vaughan Road Academy",
+    "shortName": "Vaughan Road Academy",
+    "district": "Toronto and East York",
+    "lat": 43.690589,
+    "lng": -79.436815,
+    "color": "#397d67",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1371"
+  },
+  {
+    "id": "wallace-emerson-community-recreation-centre",
+    "name": "Wallace Emerson Community Recreation Centre",
+    "shortName": "Wallace Emerson",
+    "district": "Toronto and East York",
+    "lat": 43.6673368844,
+    "lng": -79.4393144856,
+    "color": "#8b5b3e",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=294"
+  },
+  {
+    "id": "wellesley-community-centre",
+    "name": "Wellesley Community Centre",
+    "shortName": "Wellesley",
+    "district": "Toronto and East York",
+    "lat": 43.6677008503,
+    "lng": -79.3745558804,
+    "color": "#3976b8",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
+  },
+  {
     "id": "west-hill-collegiate-institute",
     "name": "West Hill Collegiate Institute",
     "shortName": "West Hill",
     "district": "Scarborough",
     "lat": 43.775738,
     "lng": -79.190376,
-    "color": "#c87d24",
+    "color": "#7a4b95",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1381"
   },
   {
@@ -331,8 +691,18 @@ export const venues = [
     "district": "Scarborough",
     "lat": 43.746001,
     "lng": -79.30676699,
-    "color": "#397d67",
+    "color": "#687d39",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1387"
+  },
+  {
+    "id": "york-recreation-centre",
+    "name": "York Recreation Centre",
+    "shortName": "York",
+    "district": "Etobicoke York",
+    "lat": 43.6878729055,
+    "lng": -79.4820344156,
+    "color": "#a34d78",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
   }
 ] as const;
 
@@ -345,6 +715,22 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
     "venue": "centennial-recreation-centre-scarborough",
     "start": "07:45",
     "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "memorial-pool-and-health-club",
+    "start": "08:35",
+    "end": "09:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "10:00",
+    "end": "11:45",
     "type": "Lane Swim",
     "womenOnly": false
   },
@@ -398,6 +784,22 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 0,
+    "venue": "o-connor-community-centre",
+    "start": "10:00",
+    "end": "11:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "oakdale-community-centre",
+    "start": "10:00",
+    "end": "19:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
     "venue": "oriole-community-recreation-centre",
     "start": "10:00",
     "end": "20:00",
@@ -422,8 +824,64 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 0,
+    "venue": "harrison-pool",
+    "start": "11:00",
+    "end": "11:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "o-connor-community-centre",
+    "start": "11:00",
+    "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "11:00",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
     "venue": "mcgregor-park-community-centre",
     "start": "11:30",
+    "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "scadding-court-community-centre",
+    "start": "11:30",
+    "end": "12:30",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "11:30",
+    "end": "12:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "harrison-pool",
+    "start": "11:45",
+    "end": "15:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "amesbury-sports-complex",
+    "start": "12:00",
     "end": "20:00",
     "type": "Leisure Swim",
     "womenOnly": false
@@ -438,10 +896,50 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 0,
+    "venue": "domenico-diluca-community-recreation-centre",
+    "start": "12:00",
+    "end": "15:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "12:00",
+    "end": "14:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "gord-and-irene-risk-community-recreation-centre",
+    "start": "12:00",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
     "venue": "heron-park-community-recreation-centre",
     "start": "12:00",
     "end": "20:00",
     "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "northwood-community-centre",
+    "start": "12:00",
+    "end": "19:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "york-recreation-centre",
+    "start": "12:00",
+    "end": "13:30",
+    "type": "Lane Swim",
     "womenOnly": false
   },
   {
@@ -457,6 +955,22 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
     "venue": "maryvale-park",
     "start": "12:30",
     "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "scadding-court-community-centre",
+    "start": "12:45",
+    "end": "13:45",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "wellesley-community-centre",
+    "start": "12:45",
+    "end": "15:30",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -478,7 +992,47 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 0,
+    "venue": "humber-community-pool",
+    "start": "13:00",
+    "end": "14:25",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "13:00",
+    "end": "14:30",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "13:00",
+    "end": "14:00",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "vaughan-road-academy",
+    "start": "13:00",
+    "end": "14:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
     "venue": "cedarbrae-collegiate-institute",
+    "start": "13:30",
+    "end": "15:30",
+    "type": "Leisure Swim",
+    "womenOnly": true
+  },
+  {
+    "day": 0,
+    "venue": "pam-mcconnell-aquatic-centre",
     "start": "13:30",
     "end": "15:30",
     "type": "Leisure Swim",
@@ -494,6 +1048,54 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 0,
+    "venue": "gus-ryder-pool-and-health-club",
+    "start": "13:45",
+    "end": "15:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "norseman-community-school-and-pool",
+    "start": "13:45",
+    "end": "15:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "scadding-court-community-centre",
+    "start": "13:45",
+    "end": "15:30",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "york-recreation-centre",
+    "start": "13:45",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "etobicoke-olympium",
+    "start": "14:00",
+    "end": "15:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "joseph-j-piccininni-community-recreation-centre",
+    "start": "14:00",
+    "end": "16:30",
+    "type": "Leisure Swim",
+    "womenOnly": true
+  },
+  {
+    "day": 0,
     "venue": "l-amoreaux-collegiate-institute",
     "start": "14:00",
     "end": "16:00",
@@ -502,9 +1104,41 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 0,
+    "venue": "main-square-community-recreation-centre",
+    "start": "14:00",
+    "end": "16:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
     "venue": "toronto-pan-am-sports-centre",
     "start": "14:00",
     "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "trinity-community-recreation-centre",
+    "start": "14:00",
+    "end": "15:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "memorial-pool-and-health-club",
+    "start": "14:10",
+    "end": "15:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "annette-community-recreation-centre",
+    "start": "14:15",
+    "end": "15:45",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -534,6 +1168,14 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 0,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "14:15",
+    "end": "15:25",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
     "venue": "agincourt-community-recreation-centre",
     "start": "14:30",
     "end": "17:25",
@@ -545,6 +1187,14 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
     "venue": "albert-campbell-collegiate-institute",
     "start": "14:30",
     "end": "17:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "alderwood-pool",
+    "start": "14:30",
+    "end": "15:55",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -566,9 +1216,41 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 0,
+    "venue": "wallace-emerson-community-recreation-centre",
+    "start": "14:30",
+    "end": "15:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "14:45",
+    "end": "15:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
     "venue": "sir-oliver-mowat-collegiate-institute",
     "start": "14:45",
     "end": "15:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "15:00",
+    "end": "15:55",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "east-york-community-recreation-centre",
+    "start": "15:00",
+    "end": "16:30",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -590,10 +1272,58 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 0,
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "15:45",
+    "end": "16:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "15:45",
+    "end": "16:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "wellesley-community-centre",
+    "start": "15:45",
+    "end": "18:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "16:00",
+    "end": "19:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
     "venue": "dennis-r-timbrell-resource-centre",
     "start": "16:15",
     "end": "17:15",
     "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "domenico-diluca-community-recreation-centre",
+    "start": "17:00",
+    "end": "19:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 0,
+    "venue": "gord-and-irene-risk-community-recreation-centre",
+    "start": "17:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
     "womenOnly": false
   },
   {
@@ -609,6 +1339,14 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
     "venue": "centennial-recreation-centre-scarborough",
     "start": "07:45",
     "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "10:00",
+    "end": "11:45",
     "type": "Lane Swim",
     "womenOnly": false
   },
@@ -662,6 +1400,22 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 1,
+    "venue": "o-connor-community-centre",
+    "start": "10:00",
+    "end": "11:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "oakdale-community-centre",
+    "start": "10:00",
+    "end": "19:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
     "venue": "oriole-community-recreation-centre",
     "start": "10:00",
     "end": "20:00",
@@ -686,9 +1440,41 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 1,
+    "venue": "harrison-pool",
+    "start": "11:00",
+    "end": "11:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "o-connor-community-centre",
+    "start": "11:00",
+    "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "11:00",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
     "venue": "mcgregor-park-community-centre",
     "start": "11:30",
     "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "11:30",
+    "end": "12:55",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -702,9 +1488,49 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 1,
+    "venue": "harrison-pool",
+    "start": "11:45",
+    "end": "15:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "amesbury-sports-complex",
+    "start": "12:00",
+    "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
     "venue": "broadlands-community-recreation-centre",
     "start": "12:00",
     "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "domenico-diluca-community-recreation-centre",
+    "start": "12:00",
+    "end": "15:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "12:00",
+    "end": "14:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "gord-and-irene-risk-community-recreation-centre",
+    "start": "12:00",
+    "end": "16:00",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -718,6 +1544,30 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 1,
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "12:00",
+    "end": "14:30",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "northwood-community-centre",
+    "start": "12:00",
+    "end": "19:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "york-recreation-centre",
+    "start": "12:00",
+    "end": "13:30",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
     "venue": "maryvale-park",
     "start": "12:30",
     "end": "20:00",
@@ -727,6 +1577,14 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   {
     "day": 1,
     "venue": "sir-oliver-mowat-collegiate-institute",
+    "start": "12:30",
+    "end": "14:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "wellesley-community-centre",
     "start": "12:30",
     "end": "14:00",
     "type": "Leisure Swim",
@@ -750,6 +1608,38 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 1,
+    "venue": "humber-community-pool",
+    "start": "13:00",
+    "end": "14:25",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "vaughan-road-academy",
+    "start": "13:00",
+    "end": "14:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "13:15",
+    "end": "14:15",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "13:30",
+    "end": "17:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
     "venue": "rouge-valley-community-recreation-centre",
     "start": "13:30",
     "end": "17:00",
@@ -758,9 +1648,65 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 1,
+    "venue": "gus-ryder-pool-and-health-club",
+    "start": "13:45",
+    "end": "14:45",
+    "type": "Leisure Swim",
+    "womenOnly": true
+  },
+  {
+    "day": 1,
+    "venue": "york-recreation-centre",
+    "start": "13:45",
+    "end": "16:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "etobicoke-olympium",
+    "start": "14:00",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "trinity-community-recreation-centre",
+    "start": "14:00",
+    "end": "15:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "memorial-pool-and-health-club",
+    "start": "14:10",
+    "end": "15:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "annette-community-recreation-centre",
+    "start": "14:15",
+    "end": "15:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
     "venue": "douglas-snow-aquatic-centre",
     "start": "14:15",
     "end": "15:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "earl-beatty-community-centre",
+    "start": "14:15",
+    "end": "15:45",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -790,6 +1736,30 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 1,
+    "venue": "scadding-court-community-centre",
+    "start": "14:15",
+    "end": "17:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "14:15",
+    "end": "15:25",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "wellesley-community-centre",
+    "start": "14:15",
+    "end": "15:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
     "venue": "agincourt-community-recreation-centre",
     "start": "14:30",
     "end": "17:25",
@@ -801,6 +1771,14 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
     "venue": "albert-campbell-collegiate-institute",
     "start": "14:30",
     "end": "17:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "alderwood-pool",
+    "start": "14:30",
+    "end": "15:55",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -822,11 +1800,91 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 1,
+    "venue": "wallace-emerson-community-recreation-centre",
+    "start": "14:30",
+    "end": "15:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "14:45",
+    "end": "15:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "main-square-community-recreation-centre",
+    "start": "14:50",
+    "end": "16:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "15:00",
+    "end": "15:55",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "gus-ryder-pool-and-health-club",
+    "start": "15:00",
+    "end": "15:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "16:00",
+    "end": "19:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "east-york-community-recreation-centre",
+    "start": "16:00",
+    "end": "17:15",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "wellesley-community-centre",
+    "start": "16:15",
+    "end": "18:00",
+    "type": "Leisure Swim",
+    "womenOnly": true
+  },
+  {
+    "day": 1,
     "venue": "dennis-r-timbrell-resource-centre",
     "start": "17:00",
     "end": "20:00",
     "type": "Leisure Swim",
     "womenOnly": true
+  },
+  {
+    "day": 1,
+    "venue": "domenico-diluca-community-recreation-centre",
+    "start": "17:00",
+    "end": "19:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 1,
+    "venue": "gord-and-irene-risk-community-recreation-centre",
+    "start": "17:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
   },
   {
     "day": 1,
@@ -837,9 +1895,49 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
     "womenOnly": false
   },
   {
+    "day": 1,
+    "venue": "wellesley-community-centre",
+    "start": "18:15",
+    "end": "19:30",
+    "type": "Lane Swim",
+    "womenOnly": true
+  },
+  {
     "day": 2,
     "venue": "centennial-recreation-centre-scarborough",
     "start": "07:00",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "07:00",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "07:00",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "wellesley-community-centre",
+    "start": "07:00",
+    "end": "09:15",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "york-recreation-centre",
+    "start": "07:10",
     "end": "08:45",
     "type": "Lane Swim",
     "womenOnly": false
@@ -854,9 +1952,41 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 2,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "08:00",
+    "end": "11:30",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "york-recreation-centre",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "wellesley-community-centre",
+    "start": "09:30",
+    "end": "10:30",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
     "venue": "antibes-community-centre",
     "start": "10:00",
     "end": "11:30",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "10:00",
+    "end": "11:45",
     "type": "Lane Swim",
     "womenOnly": false
   },
@@ -878,6 +2008,14 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 2,
+    "venue": "harrison-pool",
+    "start": "10:00",
+    "end": "18:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
     "venue": "heron-park-community-recreation-centre",
     "start": "10:00",
     "end": "12:15",
@@ -894,6 +2032,14 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 2,
+    "venue": "john-innes-community-recreation-centre",
+    "start": "10:00",
+    "end": "13:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
     "venue": "lawrence-heights-community-centre",
     "start": "10:00",
     "end": "17:45",
@@ -903,6 +2049,22 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   {
     "day": 2,
     "venue": "mitchell-field-community-centre",
+    "start": "10:00",
+    "end": "19:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "o-connor-community-centre",
+    "start": "10:00",
+    "end": "11:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "oakdale-community-centre",
     "start": "10:00",
     "end": "19:55",
     "type": "Leisure Swim",
@@ -934,6 +2096,38 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 2,
+    "venue": "york-recreation-centre",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "gus-ryder-pool-and-health-club",
+    "start": "10:45",
+    "end": "11:40",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "o-connor-community-centre",
+    "start": "11:00",
+    "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "11:00",
+    "end": "12:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
     "venue": "antibes-community-centre",
     "start": "11:30",
     "end": "13:45",
@@ -950,10 +2144,82 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 2,
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "11:45",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "amesbury-sports-complex",
+    "start": "12:00",
+    "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
     "venue": "broadlands-community-recreation-centre",
     "start": "12:00",
     "end": "20:00",
     "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "domenico-diluca-community-recreation-centre",
+    "start": "12:00",
+    "end": "15:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "12:00",
+    "end": "14:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "gord-and-irene-risk-community-recreation-centre",
+    "start": "12:00",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "northwood-community-centre",
+    "start": "12:00",
+    "end": "19:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "12:00",
+    "end": "13:30",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "york-recreation-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "wellesley-community-centre",
+    "start": "12:15",
+    "end": "13:30",
+    "type": "Lane Swim",
     "womenOnly": false
   },
   {
@@ -982,6 +2248,14 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 2,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "12:30",
+    "end": "13:25",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
     "venue": "centennial-recreation-centre-scarborough",
     "start": "13:00",
     "end": "15:00",
@@ -998,10 +2272,34 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 2,
+    "venue": "humber-community-pool",
+    "start": "13:00",
+    "end": "14:25",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "albion-pool-and-health-club",
+    "start": "13:15",
+    "end": "15:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
     "venue": "dennis-r-timbrell-resource-centre",
     "start": "13:15",
     "end": "14:15",
     "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "york-recreation-centre",
+    "start": "13:15",
+    "end": "14:45",
+    "type": "Leisure Swim",
     "womenOnly": false
   },
   {
@@ -1014,9 +2312,41 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 2,
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "13:30",
+    "end": "14:30",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "st-lawrence-community-recreation-centre",
+    "start": "13:30",
+    "end": "15:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
     "venue": "wexford-collegiate-institute",
     "start": "13:30",
     "end": "15:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "matty-eckler-recreation-centre",
+    "start": "13:45",
+    "end": "14:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "wellesley-community-centre",
+    "start": "13:45",
+    "end": "15:00",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -1038,6 +2368,14 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 2,
+    "venue": "etobicoke-olympium",
+    "start": "14:00",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
     "venue": "l-amoreaux-collegiate-institute",
     "start": "14:00",
     "end": "16:00",
@@ -1054,9 +2392,57 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 2,
+    "venue": "main-square-community-recreation-centre",
+    "start": "14:00",
+    "end": "15:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "norseman-community-school-and-pool",
+    "start": "14:00",
+    "end": "15:10",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "14:00",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
     "venue": "sir-oliver-mowat-collegiate-institute",
     "start": "14:00",
     "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "swansea-community-recreation-centre",
+    "start": "14:00",
+    "end": "14:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "vaughan-road-academy",
+    "start": "14:00",
+    "end": "15:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "alderwood-pool",
+    "start": "14:15",
+    "end": "15:15",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -1070,9 +2456,25 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 2,
+    "venue": "john-innes-community-recreation-centre",
+    "start": "14:15",
+    "end": "15:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
     "venue": "agincourt-community-recreation-centre",
     "start": "14:30",
     "end": "16:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "annette-community-recreation-centre",
+    "start": "14:30",
+    "end": "15:45",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -1086,10 +2488,66 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 2,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "15:00",
+    "end": "15:55",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "hillcrest-community-centre",
+    "start": "15:00",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "memorial-pool-and-health-club",
+    "start": "15:05",
+    "end": "15:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
     "venue": "centennial-recreation-centre-scarborough",
     "start": "15:15",
     "end": "16:30",
     "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "16:00",
+    "end": "19:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "16:00",
+    "end": "18:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "york-recreation-centre",
+    "start": "16:00",
+    "end": "17:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "scadding-court-community-centre",
+    "start": "16:30",
+    "end": "17:30",
+    "type": "Aquafit",
     "womenOnly": false
   },
   {
@@ -1102,10 +2560,58 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 2,
+    "venue": "domenico-diluca-community-recreation-centre",
+    "start": "17:00",
+    "end": "19:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "gord-and-irene-risk-community-recreation-centre",
+    "start": "17:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "hillcrest-community-centre",
+    "start": "17:00",
+    "end": "19:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "scadding-court-community-centre",
+    "start": "17:45",
+    "end": "18:45",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
     "venue": "centennial-recreation-centre-scarborough",
     "start": "18:00",
     "end": "19:00",
     "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "york-recreation-centre",
+    "start": "18:00",
+    "end": "19:00",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "wellesley-community-centre",
+    "start": "18:15",
+    "end": "19:30",
+    "type": "Leisure Swim",
     "womenOnly": false
   },
   {
@@ -1118,10 +2624,34 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 2,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "18:30",
+    "end": "19:45",
+    "type": "Lane Swim",
+    "womenOnly": true
+  },
+  {
+    "day": 2,
     "venue": "antibes-community-centre",
     "start": "18:45",
     "end": "19:45",
     "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "main-square-community-recreation-centre",
+    "start": "18:45",
+    "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "19:00",
+    "end": "20:00",
+    "type": "Aquafit",
     "womenOnly": false
   },
   {
@@ -1134,10 +2664,50 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 2,
+    "venue": "scadding-court-community-centre",
+    "start": "19:00",
+    "end": "21:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
     "venue": "centennial-recreation-centre-scarborough",
     "start": "19:15",
     "end": "20:15",
     "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "york-recreation-centre",
+    "start": "19:15",
+    "end": "20:15",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "norseman-community-school-and-pool",
+    "start": "19:30",
+    "end": "20:25",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "etobicoke-olympium",
+    "start": "19:45",
+    "end": "20:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "wellesley-community-centre",
+    "start": "19:45",
+    "end": "21:00",
+    "type": "Lane Swim",
     "womenOnly": false
   },
   {
@@ -1150,7 +2720,39 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 2,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "20:00",
+    "end": "21:00",
+    "type": "Aquafit",
+    "womenOnly": true
+  },
+  {
+    "day": 2,
+    "venue": "memorial-pool-and-health-club",
+    "start": "20:05",
+    "end": "20:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "20:15",
+    "end": "21:15",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
     "venue": "centennial-recreation-centre-scarborough",
+    "start": "20:30",
+    "end": "21:30",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 2,
+    "venue": "york-recreation-centre",
     "start": "20:30",
     "end": "21:30",
     "type": "Lane Swim",
@@ -1166,9 +2768,65 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 3,
+    "venue": "wellesley-community-centre",
+    "start": "07:00",
+    "end": "09:15",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "york-recreation-centre",
+    "start": "07:10",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "08:00",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "09:15",
+    "end": "10:15",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "alderwood-pool",
+    "start": "09:30",
+    "end": "11:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
     "venue": "antibes-community-centre",
     "start": "10:00",
     "end": "11:30",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "10:00",
+    "end": "11:45",
     "type": "Lane Swim",
     "womenOnly": false
   },
@@ -1182,10 +2840,42 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 3,
+    "venue": "harrison-pool",
+    "start": "10:00",
+    "end": "18:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
     "venue": "heron-park-community-recreation-centre",
     "start": "10:00",
     "end": "11:00",
     "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "john-innes-community-recreation-centre",
+    "start": "10:00",
+    "end": "11:00",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "oakdale-community-centre",
+    "start": "10:00",
+    "end": "11:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "10:30",
+    "end": "11:30",
+    "type": "Lane Swim",
     "womenOnly": false
   },
   {
@@ -1202,6 +2892,14 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
     "start": "11:15",
     "end": "12:15",
     "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "john-innes-community-recreation-centre",
+    "start": "11:15",
+    "end": "13:45",
+    "type": "Lane Swim",
     "womenOnly": false
   },
   {
@@ -1238,9 +2936,41 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 3,
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "11:45",
+    "end": "13:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "wellesley-community-centre",
+    "start": "11:45",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "amesbury-sports-complex",
+    "start": "12:00",
+    "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
     "venue": "broadlands-community-recreation-centre",
     "start": "12:00",
     "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "gord-and-irene-risk-community-recreation-centre",
+    "start": "12:00",
+    "end": "16:00",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -1262,6 +2992,22 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 3,
+    "venue": "northwood-community-centre",
+    "start": "12:00",
+    "end": "19:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "o-connor-community-centre",
+    "start": "12:00",
+    "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
     "venue": "oriole-community-recreation-centre",
     "start": "12:00",
     "end": "20:00",
@@ -1273,6 +3019,22 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
     "venue": "pleasantview-community-centre",
     "start": "12:00",
     "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "york-recreation-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "main-square-community-recreation-centre",
+    "start": "12:15",
+    "end": "15:30",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -1294,6 +3056,14 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 3,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "12:30",
+    "end": "13:25",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
     "venue": "dennis-r-timbrell-resource-centre",
     "start": "12:45",
     "end": "13:45",
@@ -1302,9 +3072,65 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 3,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "12:45",
+    "end": "13:45",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "domenico-diluca-community-recreation-centre",
+    "start": "13:00",
+    "end": "15:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "13:00",
+    "end": "14:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "humber-community-pool",
+    "start": "13:00",
+    "end": "14:25",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "oakdale-community-centre",
+    "start": "13:00",
+    "end": "19:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "wellesley-community-centre",
+    "start": "13:15",
+    "end": "14:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
     "venue": "cedarbrae-collegiate-institute",
     "start": "13:30",
     "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "fairmount-park-community-centre",
+    "start": "13:30",
+    "end": "15:30",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -1342,6 +3168,14 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 3,
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "14:00",
+    "end": "15:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
     "venue": "l-amoreaux-collegiate-institute",
     "start": "14:00",
     "end": "16:00",
@@ -1358,9 +3192,33 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 3,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "14:00",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
     "venue": "sir-oliver-mowat-collegiate-institute",
     "start": "14:00",
     "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "swansea-community-recreation-centre",
+    "start": "14:00",
+    "end": "14:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "alderwood-pool",
+    "start": "14:15",
+    "end": "15:15",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -1377,6 +3235,22 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
     "venue": "douglas-snow-aquatic-centre",
     "start": "14:15",
     "end": "15:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "east-york-community-recreation-centre",
+    "start": "14:15",
+    "end": "15:15",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "john-innes-community-recreation-centre",
+    "start": "14:15",
+    "end": "15:45",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -1406,9 +3280,41 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 3,
+    "venue": "annette-community-recreation-centre",
+    "start": "15:00",
+    "end": "15:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
     "venue": "dennis-r-timbrell-resource-centre",
     "start": "15:00",
     "end": "16:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "15:00",
+    "end": "15:55",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "etobicoke-olympium",
+    "start": "15:00",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "hillcrest-community-centre",
+    "start": "15:00",
+    "end": "16:00",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -1422,9 +3328,73 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 3,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "16:00",
+    "end": "19:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
     "venue": "rouge-valley-community-recreation-centre",
     "start": "16:00",
     "end": "18:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "gus-ryder-pool-and-health-club",
+    "start": "16:15",
+    "end": "17:10",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "domenico-diluca-community-recreation-centre",
+    "start": "17:00",
+    "end": "19:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "gord-and-irene-risk-community-recreation-centre",
+    "start": "17:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "annette-community-recreation-centre",
+    "start": "18:30",
+    "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "18:45",
+    "end": "21:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "wellesley-community-centre",
+    "start": "19:00",
+    "end": "20:00",
+    "type": "Aquafit",
+    "womenOnly": true
+  },
+  {
+    "day": 3,
+    "venue": "etobicoke-olympium",
+    "start": "19:45",
+    "end": "20:45",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -1445,10 +3415,90 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
     "womenOnly": false
   },
   {
+    "day": 3,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "20:00",
+    "end": "20:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "wellesley-community-centre",
+    "start": "20:05",
+    "end": "21:00",
+    "type": "Lane Swim",
+    "womenOnly": true
+  },
+  {
+    "day": 3,
+    "venue": "scadding-court-community-centre",
+    "start": "20:15",
+    "end": "21:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "york-recreation-centre",
+    "start": "20:30",
+    "end": "21:30",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 3,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "21:00",
+    "end": "21:55",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "06:45",
+    "end": "07:45",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
     "day": 4,
     "venue": "centennial-recreation-centre-scarborough",
     "start": "07:00",
     "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "07:00",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "07:00",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "wellesley-community-centre",
+    "start": "07:00",
+    "end": "09:15",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "york-recreation-centre",
+    "start": "07:10",
+    "end": "07:45",
     "type": "Lane Swim",
     "womenOnly": false
   },
@@ -1462,9 +3512,73 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 4,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "york-recreation-centre",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "09:15",
+    "end": "10:15",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "main-square-community-recreation-centre",
+    "start": "09:30",
+    "end": "10:15",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "wellesley-community-centre",
+    "start": "09:30",
+    "end": "10:30",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
     "venue": "antibes-community-centre",
     "start": "10:00",
     "end": "11:30",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "10:00",
+    "end": "11:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "harrison-pool",
+    "start": "10:00",
+    "end": "18:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "john-innes-community-recreation-centre",
+    "start": "10:00",
+    "end": "12:00",
     "type": "Lane Swim",
     "womenOnly": false
   },
@@ -1478,10 +3592,50 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 4,
+    "venue": "o-connor-community-centre",
+    "start": "10:00",
+    "end": "11:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "oakdale-community-centre",
+    "start": "10:00",
+    "end": "11:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
     "venue": "oriole-community-recreation-centre",
     "start": "10:00",
     "end": "20:00",
     "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "10:30",
+    "end": "11:30",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "gus-ryder-pool-and-health-club",
+    "start": "10:45",
+    "end": "11:40",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "11:00",
+    "end": "12:00",
+    "type": "Lane Swim",
     "womenOnly": false
   },
   {
@@ -1526,9 +3680,25 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 4,
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "11:45",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
     "venue": "broadlands-community-recreation-centre",
     "start": "12:00",
     "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "gord-and-irene-risk-community-recreation-centre",
+    "start": "12:00",
+    "end": "16:00",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -1538,6 +3708,30 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
     "start": "12:00",
     "end": "19:55",
     "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "northwood-community-centre",
+    "start": "12:00",
+    "end": "19:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "o-connor-community-centre",
+    "start": "12:00",
+    "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "12:00",
+    "end": "13:30",
+    "type": "Lane Swim",
     "womenOnly": false
   },
   {
@@ -1554,6 +3748,30 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
     "start": "12:00",
     "end": "19:55",
     "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "york-recreation-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "john-innes-community-recreation-centre",
+    "start": "12:15",
+    "end": "13:15",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "wellesley-community-centre",
+    "start": "12:15",
+    "end": "13:30",
+    "type": "Lane Swim",
     "womenOnly": false
   },
   {
@@ -1582,9 +3800,65 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 4,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "12:30",
+    "end": "13:25",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
     "venue": "centennial-recreation-centre-scarborough",
     "start": "13:00",
     "end": "15:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "domenico-diluca-community-recreation-centre",
+    "start": "13:00",
+    "end": "15:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "13:00",
+    "end": "14:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "oakdale-community-centre",
+    "start": "13:00",
+    "end": "19:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "albion-pool-and-health-club",
+    "start": "13:15",
+    "end": "13:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "york-recreation-centre",
+    "start": "13:15",
+    "end": "14:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "amesbury-sports-complex",
+    "start": "13:30",
+    "end": "20:00",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -1598,9 +3872,41 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 4,
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "13:30",
+    "end": "14:30",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "parkdale-community-recreation-centre",
+    "start": "13:30",
+    "end": "15:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "st-lawrence-community-recreation-centre",
+    "start": "13:30",
+    "end": "15:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
     "venue": "wexford-collegiate-institute",
     "start": "13:30",
     "end": "15:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "wellesley-community-centre",
+    "start": "13:45",
+    "end": "15:00",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -1622,6 +3928,14 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 4,
+    "venue": "john-innes-community-recreation-centre",
+    "start": "14:00",
+    "end": "15:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
     "venue": "l-amoreaux-collegiate-institute",
     "start": "14:00",
     "end": "16:00",
@@ -1638,6 +3952,14 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 4,
+    "venue": "main-square-community-recreation-centre",
+    "start": "14:00",
+    "end": "17:15",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
     "venue": "sir-oliver-mowat-collegiate-institute",
     "start": "14:00",
     "end": "16:00",
@@ -1646,9 +3968,25 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 4,
+    "venue": "swansea-community-recreation-centre",
+    "start": "14:00",
+    "end": "14:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
     "venue": "west-hill-collegiate-institute",
     "start": "14:00",
     "end": "16:15",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "alderwood-pool",
+    "start": "14:15",
+    "end": "15:15",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -1678,10 +4016,66 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 4,
+    "venue": "annette-community-recreation-centre",
+    "start": "14:30",
+    "end": "15:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
     "venue": "dennis-r-timbrell-resource-centre",
     "start": "14:30",
     "end": "15:30",
     "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "15:00",
+    "end": "15:55",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "etobicoke-olympium",
+    "start": "15:00",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "hillcrest-community-centre",
+    "start": "15:00",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "15:00",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "york-recreation-centre",
+    "start": "15:00",
+    "end": "16:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "memorial-pool-and-health-club",
+    "start": "15:05",
+    "end": "15:55",
+    "type": "Leisure Swim",
     "womenOnly": false
   },
   {
@@ -1694,9 +4088,65 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 4,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "16:00",
+    "end": "19:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "domenico-diluca-community-recreation-centre",
+    "start": "17:00",
+    "end": "19:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "gord-and-irene-risk-community-recreation-centre",
+    "start": "17:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "hillcrest-community-centre",
+    "start": "17:00",
+    "end": "18:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
     "venue": "centennial-recreation-centre-scarborough",
     "start": "18:00",
     "end": "19:00",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "wellesley-community-centre",
+    "start": "18:15",
+    "end": "19:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "18:30",
+    "end": "19:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "19:00",
+    "end": "20:00",
     "type": "Aquafit",
     "womenOnly": false
   },
@@ -1718,10 +4168,34 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 4,
+    "venue": "norseman-community-school-and-pool",
+    "start": "19:30",
+    "end": "20:25",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "etobicoke-olympium",
+    "start": "19:45",
+    "end": "20:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
     "venue": "sir-oliver-mowat-collegiate-institute",
     "start": "19:45",
     "end": "21:00",
     "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "wellesley-community-centre",
+    "start": "19:45",
+    "end": "21:00",
+    "type": "Lane Swim",
     "womenOnly": false
   },
   {
@@ -1734,7 +4208,47 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 4,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "20:00",
+    "end": "21:00",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "20:00",
+    "end": "20:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "memorial-pool-and-health-club",
+    "start": "20:05",
+    "end": "20:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "20:15",
+    "end": "21:15",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
     "venue": "centennial-recreation-centre-scarborough",
+    "start": "20:30",
+    "end": "21:30",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 4,
+    "venue": "york-recreation-centre",
     "start": "20:30",
     "end": "21:30",
     "type": "Lane Swim",
@@ -1750,9 +4264,73 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 5,
+    "venue": "wellesley-community-centre",
+    "start": "07:00",
+    "end": "09:15",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "york-recreation-centre",
+    "start": "07:10",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "08:00",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "09:15",
+    "end": "10:15",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "alderwood-pool",
+    "start": "09:30",
+    "end": "11:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
     "venue": "antibes-community-centre",
     "start": "10:00",
     "end": "11:30",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "10:00",
+    "end": "11:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "harrison-pool",
+    "start": "10:00",
+    "end": "18:00",
     "type": "Lane Swim",
     "womenOnly": false
   },
@@ -1766,10 +4344,34 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 5,
+    "venue": "john-innes-community-recreation-centre",
+    "start": "10:00",
+    "end": "11:00",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "oakdale-community-centre",
+    "start": "10:00",
+    "end": "11:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
     "venue": "oriole-community-recreation-centre",
     "start": "10:00",
     "end": "20:00",
     "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "10:30",
+    "end": "11:30",
+    "type": "Lane Swim",
     "womenOnly": false
   },
   {
@@ -1790,10 +4392,26 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 5,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "11:00",
+    "end": "12:30",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
     "venue": "heron-park-community-recreation-centre",
     "start": "11:15",
     "end": "12:15",
     "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "john-innes-community-recreation-centre",
+    "start": "11:15",
+    "end": "13:45",
+    "type": "Lane Swim",
     "womenOnly": false
   },
   {
@@ -1830,9 +4448,41 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 5,
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "11:45",
+    "end": "13:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "wellesley-community-centre",
+    "start": "11:45",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "amesbury-sports-complex",
+    "start": "12:00",
+    "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
     "venue": "broadlands-community-recreation-centre",
     "start": "12:00",
     "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "gord-and-irene-risk-community-recreation-centre",
+    "start": "12:00",
+    "end": "16:00",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -1854,10 +4504,34 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 5,
+    "venue": "northwood-community-centre",
+    "start": "12:00",
+    "end": "19:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "o-connor-community-centre",
+    "start": "12:00",
+    "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
     "venue": "pleasantview-community-centre",
     "start": "12:00",
     "end": "20:00",
     "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "york-recreation-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Lane Swim",
     "womenOnly": false
   },
   {
@@ -1878,9 +4552,57 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 5,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "12:30",
+    "end": "13:25",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
     "venue": "dennis-r-timbrell-resource-centre",
     "start": "12:45",
     "end": "13:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "12:45",
+    "end": "13:45",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "domenico-diluca-community-recreation-centre",
+    "start": "13:00",
+    "end": "15:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "13:00",
+    "end": "14:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "oakdale-community-centre",
+    "start": "13:00",
+    "end": "19:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "wellesley-community-centre",
+    "start": "13:15",
+    "end": "14:00",
     "type": "Lane Swim",
     "womenOnly": false
   },
@@ -1897,6 +4619,14 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
     "venue": "wexford-collegiate-institute",
     "start": "13:30",
     "end": "15:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "main-square-community-recreation-centre",
+    "start": "13:45",
+    "end": "14:45",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -1926,6 +4656,14 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 5,
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "14:00",
+    "end": "15:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
     "venue": "l-amoreaux-collegiate-institute",
     "start": "14:00",
     "end": "16:00",
@@ -1942,6 +4680,22 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 5,
+    "venue": "norseman-community-school-and-pool",
+    "start": "14:00",
+    "end": "15:10",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "14:00",
+    "end": "15:00",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
     "venue": "sir-oliver-mowat-collegiate-institute",
     "start": "14:00",
     "end": "16:00",
@@ -1950,9 +4704,25 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 5,
+    "venue": "swansea-community-recreation-centre",
+    "start": "14:00",
+    "end": "14:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
     "venue": "west-hill-collegiate-institute",
     "start": "14:00",
     "end": "16:15",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "alderwood-pool",
+    "start": "14:15",
+    "end": "15:15",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -1969,6 +4739,22 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
     "venue": "douglas-snow-aquatic-centre",
     "start": "14:15",
     "end": "15:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "east-york-community-recreation-centre",
+    "start": "14:15",
+    "end": "15:15",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "john-innes-community-recreation-centre",
+    "start": "14:15",
+    "end": "15:45",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -1998,9 +4784,57 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 5,
+    "venue": "annette-community-recreation-centre",
+    "start": "15:00",
+    "end": "15:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
     "venue": "dennis-r-timbrell-resource-centre",
     "start": "15:00",
     "end": "16:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "15:00",
+    "end": "15:55",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "etobicoke-olympium",
+    "start": "15:00",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "hillcrest-community-centre",
+    "start": "15:00",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "15:00",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "16:00",
+    "end": "19:55",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -2014,11 +4848,91 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 5,
+    "venue": "gus-ryder-pool-and-health-club",
+    "start": "16:15",
+    "end": "17:10",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "domenico-diluca-community-recreation-centre",
+    "start": "17:00",
+    "end": "19:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "gord-and-irene-risk-community-recreation-centre",
+    "start": "17:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "wellesley-community-centre",
+    "start": "17:45",
+    "end": "18:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
     "venue": "lawrence-heights-community-centre",
     "start": "18:00",
     "end": "19:55",
     "type": "Leisure Swim",
     "womenOnly": true
+  },
+  {
+    "day": 5,
+    "venue": "annette-community-recreation-centre",
+    "start": "18:30",
+    "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "main-square-community-recreation-centre",
+    "start": "18:30",
+    "end": "19:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "18:30",
+    "end": "21:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "19:00",
+    "end": "20:00",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "wellesley-community-centre",
+    "start": "19:00",
+    "end": "20:00",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "etobicoke-olympium",
+    "start": "19:45",
+    "end": "20:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
   },
   {
     "day": 5,
@@ -2037,6 +4951,78 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
     "womenOnly": false
   },
   {
+    "day": 5,
+    "venue": "wellesley-community-centre",
+    "start": "20:05",
+    "end": "21:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "20:15",
+    "end": "21:15",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "20:15",
+    "end": "21:15",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "york-recreation-centre",
+    "start": "20:30",
+    "end": "21:30",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 5,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "21:30",
+    "end": "22:25",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "07:00",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "07:00",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "wellesley-community-centre",
+    "start": "07:00",
+    "end": "09:15",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "york-recreation-centre",
+    "start": "07:10",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
     "day": 6,
     "venue": "dennis-r-timbrell-resource-centre",
     "start": "07:30",
@@ -2046,9 +5032,41 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 6,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "08:00",
+    "end": "11:30",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "alderwood-pool",
+    "start": "09:30",
+    "end": "11:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "wellesley-community-centre",
+    "start": "09:30",
+    "end": "10:30",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
     "venue": "antibes-community-centre",
     "start": "10:00",
     "end": "11:30",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "10:00",
+    "end": "11:45",
     "type": "Lane Swim",
     "womenOnly": false
   },
@@ -2062,10 +5080,42 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 6,
+    "venue": "harrison-pool",
+    "start": "10:00",
+    "end": "18:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
     "venue": "heron-park-community-recreation-centre",
     "start": "10:00",
     "end": "12:15",
     "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "john-innes-community-recreation-centre",
+    "start": "10:00",
+    "end": "13:45",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "o-connor-community-centre",
+    "start": "10:00",
+    "end": "11:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "oakdale-community-centre",
+    "start": "10:00",
+    "end": "11:45",
+    "type": "Leisure Swim",
     "womenOnly": false
   },
   {
@@ -2082,6 +5132,38 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
     "start": "10:00",
     "end": "19:55",
     "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "gus-ryder-pool-and-health-club",
+    "start": "10:45",
+    "end": "11:40",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "wellesley-community-centre",
+    "start": "10:45",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "o-connor-community-centre",
+    "start": "11:00",
+    "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "11:00",
+    "end": "12:00",
+    "type": "Lane Swim",
     "womenOnly": false
   },
   {
@@ -2118,9 +5200,25 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 6,
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "11:45",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
     "venue": "broadlands-community-recreation-centre",
     "start": "12:00",
     "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "gord-and-irene-risk-community-recreation-centre",
+    "start": "12:00",
+    "end": "16:00",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -2142,10 +5240,34 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 6,
+    "venue": "northwood-community-centre",
+    "start": "12:00",
+    "end": "19:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
     "venue": "oriole-community-recreation-centre",
     "start": "12:00",
     "end": "20:00",
     "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "12:00",
+    "end": "13:30",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "york-recreation-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Lane Swim",
     "womenOnly": false
   },
   {
@@ -2174,9 +5296,33 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 6,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "12:30",
+    "end": "13:55",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
     "venue": "centennial-recreation-centre-scarborough",
     "start": "13:00",
     "end": "15:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "domenico-diluca-community-recreation-centre",
+    "start": "13:00",
+    "end": "15:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "13:00",
+    "end": "14:55",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -2190,10 +5336,74 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 6,
+    "venue": "oakdale-community-centre",
+    "start": "13:00",
+    "end": "19:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "albion-pool-and-health-club",
+    "start": "13:15",
+    "end": "15:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
     "venue": "dennis-r-timbrell-resource-centre",
     "start": "13:15",
     "end": "14:15",
     "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "york-recreation-centre",
+    "start": "13:15",
+    "end": "14:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "amesbury-sports-complex",
+    "start": "13:30",
+    "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "13:30",
+    "end": "14:30",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "parkdale-community-recreation-centre",
+    "start": "13:30",
+    "end": "15:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "st-lawrence-community-recreation-centre",
+    "start": "13:30",
+    "end": "15:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "wellesley-community-centre",
+    "start": "13:30",
+    "end": "15:00",
+    "type": "Leisure Swim",
     "womenOnly": false
   },
   {
@@ -2230,6 +5440,22 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 6,
+    "venue": "norseman-community-school-and-pool",
+    "start": "14:00",
+    "end": "15:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "14:00",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
     "venue": "sir-oliver-mowat-collegiate-institute",
     "start": "14:00",
     "end": "16:00",
@@ -2238,9 +5464,41 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 6,
+    "venue": "swansea-community-recreation-centre",
+    "start": "14:00",
+    "end": "14:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
     "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
     "start": "14:15",
     "end": "15:15",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "john-innes-community-recreation-centre",
+    "start": "14:15",
+    "end": "15:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "main-square-community-recreation-centre",
+    "start": "14:15",
+    "end": "15:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "the-elms-community-school-and-pool",
+    "start": "14:15",
+    "end": "15:25",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -2270,6 +5528,46 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 6,
+    "venue": "annette-community-recreation-centre",
+    "start": "14:45",
+    "end": "15:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "gus-ryder-pool-and-health-club",
+    "start": "14:45",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "15:00",
+    "end": "15:55",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "hillcrest-community-centre",
+    "start": "15:00",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "york-recreation-centre",
+    "start": "15:00",
+    "end": "16:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
     "venue": "centennial-recreation-centre-scarborough",
     "start": "15:15",
     "end": "16:30",
@@ -2278,8 +5576,32 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 6,
+    "venue": "alderwood-pool",
+    "start": "16:00",
+    "end": "17:40",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "driftwood-community-recreation-centre",
+    "start": "16:00",
+    "end": "19:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
     "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
     "start": "16:15",
+    "end": "18:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "16:45",
     "end": "18:45",
     "type": "Leisure Swim",
     "womenOnly": false
@@ -2294,9 +5616,33 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 6,
+    "venue": "domenico-diluca-community-recreation-centre",
+    "start": "17:00",
+    "end": "19:55",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
     "venue": "douglas-snow-aquatic-centre",
     "start": "17:00",
     "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "gord-and-irene-risk-community-recreation-centre",
+    "start": "17:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "memorial-pool-and-health-club",
+    "start": "17:05",
+    "end": "18:55",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -2318,9 +5664,33 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 6,
+    "venue": "st-lawrence-community-recreation-centre",
+    "start": "18:15",
+    "end": "20:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "matty-eckler-recreation-centre",
+    "start": "18:30",
+    "end": "20:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
     "venue": "antibes-community-centre",
     "start": "18:45",
     "end": "19:45",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "main-square-community-recreation-centre",
+    "start": "19:00",
+    "end": "20:15",
     "type": "Leisure Swim",
     "womenOnly": false
   },
@@ -2350,7 +5720,47 @@ export const schedule: Array<{day: number; venue: VenueId; start: string; end: s
   },
   {
     "day": 6,
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "19:30",
+    "end": "21:00",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "swansea-community-recreation-centre",
+    "start": "19:30",
+    "end": "20:30",
+    "type": "Leisure Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "20:00",
+    "end": "21:00",
+    "type": "Aquafit",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "wellesley-community-centre",
+    "start": "20:00",
+    "end": "21:00",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
     "venue": "centennial-recreation-centre-scarborough",
+    "start": "20:30",
+    "end": "21:30",
+    "type": "Lane Swim",
+    "womenOnly": false
+  },
+  {
+    "day": 6,
+    "venue": "york-recreation-centre",
     "start": "20:30",
     "end": "21:30",
     "type": "Lane Swim",

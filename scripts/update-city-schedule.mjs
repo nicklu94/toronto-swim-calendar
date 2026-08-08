@@ -4,8 +4,20 @@ import path from "node:path";
 const root = path.resolve(import.meta.dirname, "..");
 const cityApi = "https://www.toronto.ca/data/parks/live/locations";
 const locationPage = "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/";
-const districts = new Set(["North York", "Scarborough"]);
+const districts = new Set(["Etobicoke York", "North York", "Scarborough", "Toronto and East York"]);
 const freeCentres = new Set([
+  "Chalkfarm Community Recreation Centre",
+  "Driftwood Community Recreation Centre",
+  "Elmbank Community Centre",
+  "Emery Collegiate Institute",
+  "Falstaff Community Recreation Centre",
+  "John English Community School",
+  "Islington Community School",
+  "Kingsview Village Community School",
+  "North Kipling Community Centre",
+  "Oakdale Community Centre",
+  "The Elms Community School and Pool",
+  "York Recreation Centre",
   "Antibes Community Centre",
   "Dennis R. Timbrell Resource Centre",
   "Grandravine Community Recreation Centre",
@@ -21,6 +33,17 @@ const freeCentres = new Set([
   "Oakridge Community Recreation Centre",
   "Scarborough Village Recreation Centre",
   "Stephen Leacock Community Recreation Centre",
+  "Stephen Leacock Seniors Community Centre",
+  "Harrison Pool",
+  "Jimmie Simpson Recreation Centre",
+  "John Innes Community Recreation Centre",
+  "Masaryk-Cowan Community Recreation Centre",
+  "O'Connor Community Centre",
+  "Pam McConnell Aquatic Centre",
+  "Regent Park Community Centre",
+  "Scadding Court Community Centre",
+  "Secord Community Centre",
+  "Wellesley Community Centre",
 ]);
 
 function decodeJson(buffer) {
@@ -78,7 +101,7 @@ const requiredWeekStarts = new Set(targetDates.map(mondayFor));
 
 const arcgis = new URL("https://gis.toronto.ca/arcgis/rest/services/cot_geospatial13/FeatureServer/77/query");
 arcgis.search = new URLSearchParams({
-  where: "TYPE='Community Centre' AND DISTRICT_CCA IN ('North York','Scarborough')",
+  where: "TYPE='Community Centre'",
   outFields: "LOCATIONID,ASSET_NAME,DISTRICT_CCA",
   returnGeometry: "false",
   f: "json",

@@ -21,7 +21,7 @@ const copy = {
     language: "Switch to English",
     languageButton: "English",
     title: <>未来 7 天，什么时候<br />可以去游泳？</>,
-    intro: "从今天开始连续显示七天，汇总北约克和士嘉堡市营泳池的免费 Leisure Swim、Lane Swim、Aquafit 与 Women Only 时段。",
+    intro: "从今天开始连续显示七天，汇总多伦多全市市营泳池的免费 Leisure Swim、Lane Swim、Aquafit 与 Women Only 时段。",
     nextSeven: "未来 7 天",
     sessions: "开放时段",
     pools: "泳池地点",
@@ -54,6 +54,7 @@ const copy = {
     freeAquafit: "免费 Aquafit",
     womenOnlyBadge: "仅限女性",
     sources: "地点与官方来源",
+    sourceCount: (value: number) => `${value} 个地点 · 点击展开`,
     officialSchedule: "官方排期",
     noLocations: "这个范围内没有收录的泳池，请把距离调大一些。",
     noticeTitle: "出发前请再点开官方排期确认。",
@@ -68,7 +69,7 @@ const copy = {
     language: "切换到中文",
     languageButton: "中文",
     title: <>When can I swim<br />in the next 7 days?</>,
-    intro: "A rolling seven-day calendar of free Leisure Swim, Lane Swim, Aquafit and Women Only sessions at City-run pools across North York and Scarborough.",
+    intro: "A rolling seven-day calendar of free Leisure Swim, Lane Swim, Aquafit and Women Only sessions at City-run pools across Toronto.",
     nextSeven: "Next 7 days",
     sessions: "Open sessions",
     pools: "Pool locations",
@@ -101,6 +102,7 @@ const copy = {
     freeAquafit: "Free Aquafit",
     womenOnlyBadge: "Women Only",
     sources: "Locations & official sources",
+    sourceCount: (value: number) => `${value} locations · Expand`,
     officialSchedule: "Official schedule",
     noLocations: "No listed pools are within this radius. Try increasing the distance.",
     noticeTitle: "Check the official schedule before you leave.",
@@ -307,11 +309,14 @@ export default function Home() {
         })}
       </section>
 
-      <section className="locations">
-        <div className="section-title">
-          <p className="eyebrow">LOCATIONS & SOURCES</p>
-          <h2>{text.sources}</h2>
-        </div>
+      <details className="locations">
+        <summary className="section-title">
+          <span>
+            <span className="eyebrow">LOCATIONS & SOURCES</span>
+            <strong>{text.sources}</strong>
+          </span>
+          <span className="source-count">{text.sourceCount(filteredVenues.length)}</span>
+        </summary>
         <div className="location-grid">
           {filteredVenues.map((venue) => (
             <a className="location-card" href={venue.source} target="_blank" rel="noreferrer" key={venue.id}>
@@ -325,7 +330,7 @@ export default function Home() {
           ))}
           {filteredVenues.length === 0 && <p className="no-locations">{text.noLocations}</p>}
         </div>
-      </section>
+      </details>
 
       <aside className="notice">
         <strong>{text.noticeTitle}</strong>

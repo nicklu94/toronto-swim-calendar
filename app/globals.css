@@ -84,19 +84,25 @@ h1 { font-size:clamp(56px,8vw,112px); line-height:.91; letter-spacing:-.07em; ma
 .slot-labels small { display:block; color:var(--muted-ink); margin:0; font-size:10px; }
 .women-only-badge { display:inline-flex; align-items:center; min-height:20px; padding:3px 7px; border-radius:999px; background:#7a245f; color:#fff; font-size:9px; font-weight:800; letter-spacing:.04em; line-height:1; }
 .empty { color:#8b938e; font-size:12px; padding:12px 4px; }
-.locations { padding:90px clamp(22px,5vw,74px); background:var(--location-bg); color:#f6f3e9; }
-.section-title { display:flex; align-items:flex-end; justify-content:space-between; gap:30px; border-bottom:1px solid rgba(255,255,255,.25); padding-bottom:25px; }
+.locations { padding:30px clamp(22px,5vw,74px); background:var(--location-bg); color:#f6f3e9; }
+.section-title { display:flex; align-items:center; justify-content:space-between; gap:30px; cursor:pointer; list-style:none; }
+.section-title::-webkit-details-marker { display:none; }
+.section-title > span:first-child { display:flex; align-items:baseline; gap:18px; }
 .section-title .eyebrow { margin:0; }
+.section-title strong { font-size:clamp(22px,3vw,34px); letter-spacing:-.035em; }
+.source-count { flex:none; border:1px solid rgba(255,255,255,.32); border-radius:999px; padding:8px 12px; font-size:11px; font-weight:750; }
+.source-count::after { content:"↓"; margin-left:8px; }
+.locations[open] .source-count::after { content:"↑"; }
+.locations[open] .section-title { border-bottom:1px solid rgba(255,255,255,.25); padding-bottom:22px; }
 h2 { margin:0; font-size:clamp(32px,5vw,62px); letter-spacing:-.055em; }
-.location-grid { display:grid; grid-template-columns:repeat(3,1fr); }
-.location-card { min-height:180px; padding:28px 18px; border-right:1px solid rgba(255,255,255,.18); display:grid; grid-template-columns:auto 1fr auto; gap:22px; align-items:start; }
-.location-card:nth-child(3n+1) { padding-left:0; }
-.location-card:nth-child(3n) { border-right:0; }
-.location-card:nth-child(n+4) { border-top:1px solid rgba(255,255,255,.18); }
-.location-number { font-size:11px; opacity:.55; padding-top:6px; }
-.location-card h3 { margin:0 0 10px; font-size:20px; }
-.location-card p { margin:0; opacity:.66; line-height:1.5; font-size:13px; }
-.arrow { font-size:22px; }
+.location-grid { display:grid; grid-template-columns:repeat(4,1fr); padding-top:8px; }
+.location-card { min-height:106px; padding:18px 14px; border-right:1px solid rgba(255,255,255,.18); border-bottom:1px solid rgba(255,255,255,.18); display:grid; grid-template-columns:auto 1fr auto; gap:12px; align-items:start; }
+.location-card:nth-child(4n+1) { padding-left:0; }
+.location-card:nth-child(4n) { border-right:0; }
+.location-number { font-size:10px; opacity:.5; padding-top:3px; }
+.location-card h3 { margin:0 0 6px; font-size:15px; line-height:1.25; }
+.location-card p { margin:0; opacity:.66; line-height:1.4; font-size:11px; }
+.arrow { font-size:16px; }
 .no-locations { grid-column:1/-1; margin:0; padding:38px 0; color:rgba(255,255,255,.72); }
 .notice { padding:42px clamp(22px,5vw,74px); background:#e84b31; color:#fff; display:grid; grid-template-columns:1fr 2fr; gap:40px; }
 .notice strong { font-size:22px; line-height:1.35; }
@@ -133,10 +139,14 @@ footer { padding:24px clamp(22px,5vw,74px); display:flex; justify-content:space-
   .day-heading em { margin:3px 0 0; }
   .slots { display:grid; grid-template-columns:1fr; }
   .slot { padding:12px 14px; }
+  .locations { padding:24px 20px; }
   .location-grid { grid-template-columns:1fr; }
-  .location-card,.location-card:nth-child(3n+1) { padding:24px 0; border-right:0; border-top:0; border-bottom:1px solid rgba(255,255,255,.18); min-height:0; }
-  .section-title { display:block; }
-  .section-title .eyebrow { margin-bottom:12px; }
+  .location-card,.location-card:nth-child(4n+1) { padding:15px 0; border-right:0; border-bottom:1px solid rgba(255,255,255,.18); min-height:0; }
+  .section-title { align-items:flex-end; gap:12px; }
+  .section-title > span:first-child { display:block; }
+  .section-title .eyebrow { display:block; margin-bottom:7px; }
+  .section-title strong { font-size:21px; }
+  .source-count { padding:7px 9px; font-size:10px; }
   .notice { grid-template-columns:1fr; gap:14px; }
   footer { flex-direction:column; gap:7px; }
 }
