@@ -40,7 +40,7 @@ const copy = {
   zh: {
     home: "泳池日历首页",
     brand: "泳池日历",
-    update: "三市扩展测试版",
+    update: "Toronto + York Region",
     language: "Switch to English",
     languageButton: "English",
     title: "未来 7 天，什么时候可以去游泳？",
@@ -57,7 +57,7 @@ const copy = {
     findPools: "查找泳池",
     showAll: "显示全部",
     radius: "距离范围",
-    privacy: "邮编不会保存；新增三市地点在本测试中按城市中心近似计算距离。",
+    privacy: "邮编不会保存；Markham、Richmond Hill 和 Vaughan 地点目前按城市中心近似计算距离。",
     invalidPostal: "无法查询这个邮编。",
     status: (fsa: string, radius: number, count: number) => `已使用 ${fsa} 邮区的近似中心，显示 ${radius} km 内的 ${count} 个地点。`,
     prompt: "输入邮编后拖动滑杆，缩小日历范围。",
@@ -87,14 +87,14 @@ const copy = {
     officialSchedule: "官方排期",
     noLocations: "这个范围内没有收录的泳池，请把距离调大一些。",
     noticeTitle: "出发前请再点开官方排期确认。",
-    notice: "这是一次性测试快照。Markham 和 Vaughan 的预约系统在抓取时仅开放了 8 月 9–10 日；Richmond Hill 使用其本周公布的固定周表。Toronto 的常规收费场次按官方公开排期收录，但官方数据不逐场次提供价格；出发前请查看官方页面。",
-    footer: "泳池日历 · Toronto + York Region 测试",
-    nextUpdate: "测试数据抓取于",
+    notice: "数据来自各市官方公开排期。Markham 和 Vaughan 的预约系统有时只开放近期日期；Richmond Hill 使用其公布的周表。Toronto 的常规收费场次按官方公开排期收录，但官方数据不逐场次提供价格；出发前请查看官方页面。",
+    footer: "泳池日历 · Toronto + York Region",
+    nextUpdate: "数据抓取于",
   },
   en: {
     home: "Swim calendar home",
     brand: "wim Calendar",
-    update: "Three-city expansion test",
+    update: "Toronto + York Region",
     language: "切换到中文",
     languageButton: "中文",
     title: "When can I swim in the next 7 days?",
@@ -111,7 +111,7 @@ const copy = {
     findPools: "Find pools",
     showAll: "Show all",
     radius: "Distance radius",
-    privacy: "Your postal code is not saved. Added-city distances use approximate city centres in this test.",
+    privacy: "Your postal code is not saved. Markham, Richmond Hill and Vaughan distances currently use approximate city centres.",
     invalidPostal: "We could not find that postal code.",
     status: (fsa: string, radius: number, count: number) => `Using the approximate centre of ${fsa}; showing ${count} locations within ${radius} km.`,
     prompt: "Enter a postal code, then move the slider to narrow the calendar.",
@@ -141,9 +141,9 @@ const copy = {
     officialSchedule: "Official schedule",
     noLocations: "No listed pools are within this radius. Try increasing the distance.",
     noticeTitle: "Check the official schedule before you leave.",
-    notice: "This is a one-time test snapshot. Markham and Vaughan's booking systems exposed only August 9–10 when collected; Richmond Hill uses its published weekly table. Toronto regular paid sessions are collected from the official public schedule, but the official feed does not provide per-session prices. Check the official page before travelling.",
-    footer: "Swim Calendar · Toronto + York Region test",
-    nextUpdate: "Test data collected",
+    notice: "Data is collected from official public schedules. Markham and Vaughan booking systems sometimes expose only near-term dates; Richmond Hill uses its published weekly table. Toronto regular paid sessions are collected from the official public schedule, but the official feed does not provide per-session prices. Check the official page before travelling.",
+    footer: "Swim Calendar · Toronto + York Region",
+    nextUpdate: "Data collected",
   },
 } as const;
 type Origin = { lat: number; lng: number; postalCode: string; approximate: boolean };
@@ -283,7 +283,7 @@ export default function Home() {
         </nav>
 
         <div className="hero-copy" id="top">
-          <p className="eyebrow">TEST · TORONTO + MARKHAM + RICHMOND HILL + VAUGHAN</p>
+          <p className="eyebrow">TORONTO · MARKHAM · RICHMOND HILL · VAUGHAN</p>
           <h1>{text.title}</h1>
           <p className="dek">{text.intro}</p>
         </div>

@@ -11,7 +11,7 @@ export async function GET(request: Request) {
   const fsa = postalCode.slice(0, 3);
   const result = fsaCentroids[fsa];
   if (!result) {
-    return Response.json({ error: "测试版目前支持多伦多、Markham、Richmond Hill 和 Vaughan 的邮编。" }, { status: 404 });
+    return Response.json({ error: "目前支持 Toronto、Markham、Richmond Hill 和 Vaughan 的邮编。" }, { status: 404 });
   }
   return Response.json(
     { ...result, postalCode, approximate: true },

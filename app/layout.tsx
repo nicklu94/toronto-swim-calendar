@@ -7,8 +7,8 @@ export async function generateMetadata(): Promise<Metadata> {
   const host = requestHeaders.get("x-forwarded-host") ?? requestHeaders.get("host") ?? "localhost:5173";
   const protocol = requestHeaders.get("x-forwarded-proto") ?? (host.includes("localhost") ? "http" : "https");
   const image = `${protocol}://${host}/og.png`;
-  const title = "三市扩展测试 · 未来 7 天泳池日历";
-  const description = "测试加入 Markham、Richmond Hill 和 Vaughan 的市营泳池排期，并与多伦多免费游泳日历合并显示。";
+  const title = "Swim Calendar · Toronto & York Region";
+  const description = "Find upcoming public swim, lane swim and aquafit times across Toronto, Markham, Richmond Hill and Vaughan.";
 
   return {
     title,
@@ -20,7 +20,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="zh-CN">
+    <html lang="en-CA">
       <body>{children}</body>
     </html>
   );

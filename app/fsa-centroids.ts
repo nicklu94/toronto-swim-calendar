@@ -1,6 +1,6 @@
 // Generated from Statistics Canada 2021 Census FSA boundaries.
 export const fsaCentroids: Record<string, { lat: number; lng: number }> = {
-  // York Region test coverage. These FSA-level coordinates come from the
+  // York Region coverage. These FSA-level coordinates come from the
   // GeoNames Canada postal-code dataset and are intentionally approximate.
   "L0J": { "lat": 43.8566, "lng": -79.6485 },
   "L3P": { "lat": 43.8769, "lng": -79.2686 },

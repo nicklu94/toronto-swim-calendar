@@ -10,7 +10,7 @@ export type RegionalEvent = {
   source: string;
 };
 
-// Test-only snapshot collected from the three municipalities' official schedules on 2026-08-08.
+// Regional schedule data collected from the three municipalities' official schedules on 2026-08-08.
 // Markham and Vaughan booking systems exposed Aug 9-10 at collection time; Richmond Hill publishes a weekly table.
 export const regionalVenues = [
   {
@@ -3466,4 +3466,3 @@ export const regionalSchedule: RegionalEvent[] = [
     "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
   }
 ];
-
