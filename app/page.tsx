@@ -456,7 +456,7 @@ export default function Home() {
 
       <footer>
         <span>{text.footer}</span>
-        <span>{text.nextUpdate}: {week.updatedLabel}</span>
+        <span>{text.nextUpdate}: {week.nextUpdateLabel}</span>
       </footer>
     </main>
   );
