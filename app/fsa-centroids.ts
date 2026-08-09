@@ -1,5 +1,25 @@
 // Generated from Statistics Canada 2021 Census FSA boundaries.
 export const fsaCentroids: Record<string, { lat: number; lng: number }> = {
+  // York Region test coverage. These FSA-level coordinates come from the
+  // GeoNames Canada postal-code dataset and are intentionally approximate.
+  "L0J": { "lat": 43.8566, "lng": -79.6485 },
+  "L3P": { "lat": 43.8769, "lng": -79.2686 },
+  "L3R": { "lat": 43.8479, "lng": -79.3288 },
+  "L3S": { "lat": 43.8486, "lng": -79.2617 },
+  "L3T": { "lat": 43.8227, "lng": -79.3946 },
+  "L4B": { "lat": 43.8582, "lng": -79.3985 },
+  "L4C": { "lat": 43.8669, "lng": -79.4414 },
+  "L4E": { "lat": 43.9394, "lng": -79.4349 },
+  "L4H": { "lat": 43.8432, "lng": -79.5644 },
+  "L4J": { "lat": 43.8156, "lng": -79.4534 },
+  "L4K": { "lat": 43.8001, "lng": -79.4829 },
+  "L4L": { "lat": 43.8064, "lng": -79.5995 },
+  "L4S": { "lat": 43.8985, "lng": -79.4143 },
+  "L6A": { "lat": 43.8501, "lng": -79.5163 },
+  "L6B": { "lat": 43.9007, "lng": -79.2175 },
+  "L6C": { "lat": 43.9045, "lng": -79.3392 },
+  "L6E": { "lat": 43.9002, "lng": -79.2676 },
+  "L6G": { "lat": 43.8485, "lng": -79.3346 },
   "M1B": {
     "lat": 43.818630463448514,
     "lng": -79.1917182311908

@@ -7,8 +7,8 @@ export async function generateMetadata(): Promise<Metadata> {
   const host = requestHeaders.get("x-forwarded-host") ?? requestHeaders.get("host") ?? "localhost:5173";
   const protocol = requestHeaders.get("x-forwarded-proto") ?? (host.includes("localhost") ? "http" : "https");
   const image = `${protocol}://${host}/og.png`;
-  const title = "未来 7 天泳池日历 / Next 7 Days Swim Calendar";
-  const description = "中英双语显示未来七天的北约克和士嘉堡市营公共泳池免费 Leisure Swim、Lane Swim、Aquafit 与 Women Only 时段。 A bilingual rolling seven-day calendar of free City-run swim and aquatic fitness sessions.";
+  const title = "三市扩展测试 · 未来 7 天泳池日历";
+  const description = "测试加入 Markham、Richmond Hill 和 Vaughan 的市营泳池排期，并与多伦多免费游泳日历合并显示。";
 
   return {
     title,

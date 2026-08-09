@@ -2,8 +2,31 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { schedule, venues, week } from "./schedule-data";
+import { regionalSchedule, regionalVenues } from "./regional-schedule-data";
 
-const venueNames = new Map(venues.map((venue) => [venue.id, venue.name]));
+const allVenues = [...venues, ...regionalVenues];
+const allSchedule = [
+  ...schedule.map((item) => ({ ...item, free: item.free ?? true, fee: item.fee ?? "", source: item.source || venues.find((venue) => venue.id === item.venue)?.source || "" })),
+  ...regionalSchedule,
+];
+const venueNames = new Map(allVenues.map((venue) => [venue.id, venue.name]));
+type CityFilter = "all" | "Toronto" | "Markham" | "Richmond Hill" | "Vaughan";
+
+function cityForVenue(venue: { district: string }): Exclude<CityFilter, "all"> {
+  if (venue.district === "Markham" || venue.district === "Richmond Hill" || venue.district === "Vaughan") {
+    return venue.district;
+  }
+  return "Toronto";
+}
+
+const cityOptions: Array<{ value: CityFilter; label: Record<"zh" | "en", string> }> = [
+  { value: "all", label: { zh: "全部城市", en: "All cities" } },
+  { value: "Toronto", label: { zh: "City of Toronto", en: "City of Toronto" } },
+  { value: "Markham", label: { zh: "Markham", en: "Markham" } },
+  { value: "Richmond Hill", label: { zh: "Richmond Hill", en: "Richmond Hill" } },
+  { value: "Vaughan", label: { zh: "Vaughan", en: "Vaughan" } },
+];
+const collapsedVenueLimit = 12;
 const englishDayNames: Record<string, string> = {
   周日: "Sunday",
   周一: "Monday",
@@ -17,11 +40,11 @@ const copy = {
   zh: {
     home: "泳池日历首页",
     brand: "泳池日历",
-    update: "每日更新",
+    update: "三市扩展测试版",
     language: "Switch to English",
     languageButton: "English",
-    title: <>未来 7 天，什么时候<br />可以去游泳？</>,
-    intro: "从今天开始连续显示七天，汇总多伦多全市市营泳池的免费 Leisure Swim、Lane Swim、Aquafit 与 Women Only 时段。",
+    title: "未来 7 天，什么时候可以去游泳？",
+    intro: "免费泳池大多在 City of Toronto；Markham、Richmond Hill 和 Vaughan 主要是收费泳池，常规 drop-in 大多约 $3.55–$13.90。默认仍只显示免费场次；收费场次会明确标注，并可选择显示。",
     nextSeven: "未来 7 天",
     sessions: "开放时段",
     pools: "泳池地点",
@@ -34,7 +57,7 @@ const copy = {
     findPools: "查找泳池",
     showAll: "显示全部",
     radius: "距离范围",
-    privacy: "邮编不会保存；距离按前三位邮区中心近似计算。",
+    privacy: "邮编不会保存；新增三市地点在本测试中按城市中心近似计算距离。",
     invalidPostal: "无法查询这个邮编。",
     status: (fsa: string, radius: number, count: number) => `已使用 ${fsa} 邮区的近似中心，显示 ${radius} km 内的 ${count} 个地点。`,
     prompt: "输入邮编后拖动滑杆，缩小日历范围。",
@@ -45,7 +68,13 @@ const copy = {
     laneSwim: "Lane Swim",
     aquafit: "Aquafit",
     womenOnly: "Women Only",
+    priceFilter: "费用",
+    freeOnly: "只看免费",
+    includePaid: "包括收费",
+    paid: "收费",
     allLocations: "全部地点",
+    showAllLocations: (value: number) => `展开全部 ${value} 个地点`,
+    showFewerLocations: "收起地点",
     calendar: "未来七天游泳日历",
     today: "今天",
     empty: "暂无开放时段",
@@ -58,18 +87,18 @@ const copy = {
     officialSchedule: "官方排期",
     noLocations: "这个范围内没有收录的泳池，请把距离调大一些。",
     noticeTitle: "出发前请再点开官方排期确认。",
-    notice: "临时维修、天气、假日安排和泳池容量可能导致当天变动。页面收录免费的 Leisure Swim（包括 Women Only），以及市政府 Free Centre 内的免费 Lane Swim 与 Aquafit；不收录 YMCA、会员专属或其他收费项目。",
-    footer: "泳池日历 · Toronto",
-    nextUpdate: "下一次计划更新",
+    notice: "这是一次性测试快照。Markham 和 Vaughan 的预约系统在抓取时仅开放了 8 月 9–10 日；Richmond Hill 使用其本周公布的固定周表。Toronto 的常规收费场次按官方公开排期收录，但官方数据不逐场次提供价格；出发前请查看官方页面。",
+    footer: "泳池日历 · Toronto + York Region 测试",
+    nextUpdate: "测试数据抓取于",
   },
   en: {
     home: "Swim calendar home",
-    brand: "Swim Calendar",
-    update: "Updated daily",
+    brand: "wim Calendar",
+    update: "Three-city expansion test",
     language: "切换到中文",
     languageButton: "中文",
-    title: <>When can I swim<br />in the next 7 days?</>,
-    intro: "A rolling seven-day calendar of free Leisure Swim, Lane Swim, Aquafit and Women Only sessions at City-run pools across Toronto.",
+    title: "When can I swim in the next 7 days?",
+    intro: "Most free swims are in the City of Toronto. Markham, Richmond Hill and Vaughan are mostly paid pools, with regular drop-ins generally around $3.55–$13.90. Free-only remains the default; paid sessions are clearly labelled and optional.",
     nextSeven: "Next 7 days",
     sessions: "Open sessions",
     pools: "Pool locations",
@@ -82,7 +111,7 @@ const copy = {
     findPools: "Find pools",
     showAll: "Show all",
     radius: "Distance radius",
-    privacy: "Your postal code is not saved. Distances use the approximate centre of its first three characters.",
+    privacy: "Your postal code is not saved. Added-city distances use approximate city centres in this test.",
     invalidPostal: "We could not find that postal code.",
     status: (fsa: string, radius: number, count: number) => `Using the approximate centre of ${fsa}; showing ${count} locations within ${radius} km.`,
     prompt: "Enter a postal code, then move the slider to narrow the calendar.",
@@ -93,7 +122,13 @@ const copy = {
     laneSwim: "Lane Swim",
     aquafit: "Aquafit",
     womenOnly: "Women Only",
+    priceFilter: "Cost",
+    freeOnly: "Free only",
+    includePaid: "Include paid",
+    paid: "Paid",
     allLocations: "All locations",
+    showAllLocations: (value: number) => `Show all ${value} locations`,
+    showFewerLocations: "Show fewer locations",
     calendar: "Swimming calendar for the next seven days",
     today: "Today",
     empty: "No open sessions",
@@ -106,9 +141,9 @@ const copy = {
     officialSchedule: "Official schedule",
     noLocations: "No listed pools are within this radius. Try increasing the distance.",
     noticeTitle: "Check the official schedule before you leave.",
-    notice: "Maintenance, weather, holiday hours and pool capacity can cause same-day changes. This calendar includes free Leisure Swim (including Women Only), plus free Lane Swim and Aquafit at designated City Free Centres. YMCA, membership-only and paid activities are excluded.",
-    footer: "Swim Calendar · Toronto",
-    nextUpdate: "Next planned test update",
+    notice: "This is a one-time test snapshot. Markham and Vaughan's booking systems exposed only August 9–10 when collected; Richmond Hill uses its published weekly table. Toronto regular paid sessions are collected from the official public schedule, but the official feed does not provide per-session prices. Check the official page before travelling.",
+    footer: "Swim Calendar · Toronto + York Region test",
+    nextUpdate: "Test data collected",
   },
 } as const;
 type Origin = { lat: number; lng: number; postalCode: string; approximate: boolean };
@@ -127,9 +162,12 @@ function distanceKm(a: { lat: number; lng: number }, b: { lat: number; lng: numb
 }
 
 export default function Home() {
-  const [language, setLanguage] = useState<"zh" | "en">("zh");
+  const [language, setLanguage] = useState<"zh" | "en">("en");
+  const [city, setCity] = useState<CityFilter>("all");
   const [activity, setActivity] = useState<"all" | "Leisure Swim" | "Lane Swim" | "Aquafit" | "Women Only">("all");
+  const [cost, setCost] = useState<"free" | "all">("free");
   const [selected, setSelected] = useState("all");
+  const [venueExpanded, setVenueExpanded] = useState(false);
   const [postalCode, setPostalCode] = useState("");
   const [origin, setOrigin] = useState<Origin | null>(null);
   const [radiusKm, setRadiusKm] = useState(8);
@@ -142,6 +180,8 @@ export default function Home() {
     if (saved === "en" || saved === "zh") {
       setLanguage(saved);
       document.documentElement.lang = saved === "en" ? "en-CA" : "zh-CN";
+    } else {
+      document.documentElement.lang = "en-CA";
     }
   }, []);
 
@@ -153,28 +193,52 @@ export default function Home() {
     setSearchError("");
   }
 
-  const venueDistances = useMemo(() => new Map(venues.map((venue) => [
+  const venueDistances = useMemo(() => new Map(allVenues.map((venue) => [
     venue.id,
     origin ? distanceKm(origin, venue) : null,
   ])), [origin]);
 
+  const cityFilteredVenues = useMemo(
+    () => city === "all" ? allVenues : allVenues.filter((venue) => cityForVenue(venue) === city),
+    [city]
+  );
+
   const filteredVenues = useMemo(
-    () => origin ? venues.filter((venue) => (venueDistances.get(venue.id) ?? Infinity) <= radiusKm) : venues,
-    [origin, radiusKm, venueDistances]
+    () => origin ? cityFilteredVenues.filter((venue) => (venueDistances.get(venue.id) ?? Infinity) <= radiusKm) : cityFilteredVenues,
+    [cityFilteredVenues, origin, radiusKm, venueDistances]
   );
   const filteredVenueIds = useMemo(() => new Set(filteredVenues.map((venue) => venue.id)), [filteredVenues]);
+  const displayedVenues = useMemo(() => {
+    if (venueExpanded || filteredVenues.length <= collapsedVenueLimit) return filteredVenues;
+    const collapsed = filteredVenues.slice(0, collapsedVenueLimit);
+    if (selected === "all" || collapsed.some((venue) => venue.id === selected)) return collapsed;
+    const selectedVenue = filteredVenues.find((venue) => venue.id === selected);
+    return selectedVenue ? [...collapsed, selectedVenue] : collapsed;
+  }, [filteredVenues, selected, venueExpanded]);
+  const hiddenVenueCount = Math.max(filteredVenues.length - displayedVenues.length, 0);
+
+  useEffect(() => {
+    if (selected !== "all" && !filteredVenueIds.has(selected)) {
+      setSelected("all");
+    }
+  }, [filteredVenueIds, selected]);
+
+  useEffect(() => {
+    setVenueExpanded(false);
+  }, [city, origin, radiusKm]);
 
   const visible = useMemo(
-    () => [...schedule]
+    () => [...allSchedule]
       .filter((item) => filteredVenueIds.has(item.venue))
       .filter((item) => selected === "all" || item.venue === selected)
+      .filter((item) => cost === "all" || item.free)
       .filter((item) => activity === "all" || (activity === "Women Only" ? item.womenOnly : item.type === activity))
       .sort((a, b) =>
         a.day - b.day ||
         timeToMinutes(a.start) - timeToMinutes(b.start) ||
         (venueNames.get(a.venue) ?? "").localeCompare(venueNames.get(b.venue) ?? "", "en-CA")
       ),
-    [activity, filteredVenueIds, selected]
+    [activity, cost, filteredVenueIds, selected]
   );
 
   const count = visible.length;
@@ -209,7 +273,7 @@ export default function Home() {
       <header className="hero">
         <nav className="nav">
           <a className="brand" href="#top" aria-label={text.home}>
-            <span className="brand-mark">游</span>
+            <span className="brand-mark">{language === "en" ? "S" : "游"}</span>
             <span>{text.brand}</span>
           </a>
           <div className="nav-actions">
@@ -219,7 +283,7 @@ export default function Home() {
         </nav>
 
         <div className="hero-copy" id="top">
-          <p className="eyebrow">TORONTO · RECREATIONAL SWIM</p>
+          <p className="eyebrow">TEST · TORONTO + MARKHAM + RICHMOND HILL + VAUGHAN</p>
           <h1>{text.title}</h1>
           <p className="dek">{text.intro}</p>
         </div>
@@ -258,6 +322,23 @@ export default function Home() {
               : text.prompt)}
           </p>
         </form>
+        <div className="activity-row city-row">
+          <span>{language === "en" ? "City" : "城市"}</span>
+          <div className="activity-tabs" role="group" aria-label={language === "en" ? "City" : "城市"}>
+            {cityOptions.map((option) => (
+              <button
+                key={option.value}
+                className={city === option.value ? "active" : ""}
+                onClick={() => {
+                  setCity(option.value);
+                  setSelected("all");
+                }}
+              >
+                {option.label[language]}
+              </button>
+            ))}
+          </div>
+        </div>
         <div className="activity-row">
           <span>{text.activityType}</span>
           <div className="activity-tabs" role="group" aria-label={text.activityType}>
@@ -268,13 +349,26 @@ export default function Home() {
             <button className={activity === "Women Only" ? "active" : ""} onClick={() => setActivity("Women Only")}>{text.womenOnly}</button>
           </div>
         </div>
+        <div className="activity-row cost-row">
+          <span>{text.priceFilter}</span>
+          <div className="activity-tabs" role="group" aria-label={text.priceFilter}>
+            <button className={cost === "free" ? "active" : ""} onClick={() => setCost("free")}>{text.freeOnly}</button>
+            <button className={cost === "all" ? "active" : ""} onClick={() => setCost("all")}>{text.includePaid}</button>
+          </div>
+        </div>
         <div className="venue-tabs" role="group" aria-label={text.filterByVenue}>
           <button className={selected === "all" ? "active" : ""} onClick={() => setSelected("all")}>{text.allLocations}</button>
-          {filteredVenues.map((venue) => (
+          {displayedVenues.map((venue) => (
             <button key={venue.id} className={selected === venue.id ? "active" : ""} onClick={() => setSelected(venue.id)}>
               {venue.shortName}{origin && <small>{venueDistances.get(venue.id)?.toFixed(1)} km</small>}
             </button>
           ))}
+          {filteredVenues.length > collapsedVenueLimit && (
+            <button className="venue-more-button" type="button" onClick={() => setVenueExpanded((value) => !value)}>
+              {venueExpanded ? text.showFewerLocations : text.showAllLocations(filteredVenues.length)}
+              {!venueExpanded && hiddenVenueCount > 0 && <small>+{hiddenVenueCount}</small>}
+            </button>
+          )}
         </div>
       </section>
 
@@ -291,13 +385,14 @@ export default function Home() {
               </div>
               <div className="slots">
                 {items.length === 0 ? <p className="empty">{text.empty}</p> : items.map((item, index) => {
-                  const venue = venues.find((entry) => entry.id === item.venue)!;
+                  const venue = allVenues.find((entry) => entry.id === item.venue)!;
                   return (
-                    <a className="slot" style={{"--venue": venue.color} as React.CSSProperties} href={venue.source} target="_blank" rel="noreferrer" key={`${item.venue}-${item.start}-${index}`}>
+                    <a className={`slot ${item.free ? "" : "paid-slot"}`} style={{"--venue": venue.color} as React.CSSProperties} href={item.source || venue.source} target="_blank" rel="noreferrer" key={`${item.venue}-${item.start}-${index}`}>
                       <span className="slot-venue">{venue.shortName}</span>
                       <strong>{item.start}<i>—</i>{item.end}</strong>
                       <div className="slot-labels">
-                        <small>{item.type === "Aquafit" ? text.freeAquafit : item.type === "Lane Swim" ? text.freeLaneSwim : text.freeSwim}</small>
+                        <small>{item.free ? (item.type === "Aquafit" ? text.freeAquafit : item.type === "Lane Swim" ? text.freeLaneSwim : text.freeSwim) : item.type}</small>
+                        {!item.free && <span className="paid-badge">{text.paid} · {item.fee}</span>}
                         {item.womenOnly && <span className="women-only-badge">{text.womenOnlyBadge}</span>}
                       </div>
                     </a>
@@ -339,7 +434,7 @@ export default function Home() {
 
       <footer>
         <span>{text.footer}</span>
-        <span>{text.nextUpdate}: {week.nextUpdateLabel}</span>
+        <span>{text.nextUpdate}: {week.updatedLabel}</span>
       </footer>
     </main>
   );

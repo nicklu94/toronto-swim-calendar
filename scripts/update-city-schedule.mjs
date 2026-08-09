@@ -155,10 +155,11 @@ for (const entry of verified) {
       for (const dayGroup of program.days ?? []) {
         const womenOnly = /\(Women\)|\bWomen\b/i.test(dayGroup.title);
         const leisureSwim = /^Leisure Swim(?: \(Women\))?$/i.test(dayGroup.title) && dayGroup.age === "0 years and over";
-        const laneSwim = freeCentres.has(venue.name) && /^Lane Swim(?:$|[ :(])/i.test(dayGroup.title);
-        const aquafit = freeCentres.has(venue.name) && /^Aquatic Fitness(?::|$)/i.test(dayGroup.title);
+        const laneSwim = /^Lane Swim(?:$|[ :(])/i.test(dayGroup.title);
+        const aquafit = /^Aquatic Fitness(?::|$)/i.test(dayGroup.title);
         if (!leisureSwim && !laneSwim && !aquafit) continue;
         const type = aquafit ? "Aquafit" : laneSwim ? "Lane Swim" : "Leisure Swim";
+        const free = leisureSwim || freeCentres.has(venue.name);
         for (const time of dayGroup.times ?? []) {
           if (String(time.status).toLowerCase() === "cancelled") continue;
           const parts = time.title.match(/^(.+?)\s+-\s+(.+)$/);
@@ -168,7 +169,17 @@ for (const entry of verified) {
           const date = addDays(weekInfo.title, weekday);
           const day = targetDay.get(date);
           if (day === undefined) continue;
-          events.push({ day, venue: venue.id, start: to24Hour(parts[1]), end: to24Hour(parts[2]), type, womenOnly });
+          events.push({
+            day,
+            venue: venue.id,
+            start: to24Hour(parts[1]),
+            end: to24Hour(parts[2]),
+            type,
+            womenOnly,
+            free,
+            fee: free ? "" : "Regular drop-in fee",
+            source: venue.source,
+          });
         }
       }
     }
@@ -185,7 +196,7 @@ const manualVenues = [{
   source: "https://www.tpasc.ca/portal/city-toronto/schedule",
 }];
 const manualEvents = [
-  { date: "2026-08-08", venue: "toronto-pan-am-sports-centre", start: "14:00", end: "16:00", type: "Leisure Swim", womenOnly: false },
+  { date: "2026-08-08", venue: "toronto-pan-am-sports-centre", start: "14:00", end: "16:00", type: "Leisure Swim", womenOnly: false, free: true, fee: "", source: "https://www.tpasc.ca/portal/city-toronto/schedule" },
 ].flatMap(({ date, ...event }) => targetDay.has(date) ? [{ day: targetDay.get(date), ...event }] : []);
 
 const venues = [...cityVenues, ...manualVenues].sort((a, b) => a.name.localeCompare(b.name, "en-CA"));
@@ -217,7 +228,7 @@ const ts = `export const week = ${JSON.stringify({
   lng: venue.lng,
   color: colors[index % colors.length],
   source: venue.source,
-})), null, 2)} as const;\n\ntype VenueId = typeof venues[number]["id"];\ntype SwimType = "Leisure Swim" | "Lane Swim" | "Aquafit";\n\nexport const schedule: Array<{day: number; venue: VenueId; start: string; end: string; type: SwimType; womenOnly: boolean}> = ${JSON.stringify(uniqueEvents, null, 2)};\n`;
+})), null, 2)} as const;\n\ntype VenueId = typeof venues[number]["id"];\ntype SwimType = "Leisure Swim" | "Lane Swim" | "Aquafit";\n\nexport const schedule: Array<{day: number; venue: VenueId; start: string; end: string; type: SwimType; womenOnly: boolean; free: boolean; fee: string; source: string}> = ${JSON.stringify(uniqueEvents, null, 2)};\n`;
 
 await writeFile(path.join(root, "app", "schedule-data.ts"), ts, "utf8");
-console.log(`Updated ${venues.length} venues and ${uniqueEvents.length} free Leisure Swim/Lane Swim/Aquafit slots for ${targetDates[0]} through ${targetDates[6]}.`);
+console.log(`Updated ${venues.length} venues and ${uniqueEvents.length} Toronto Leisure Swim/Lane Swim/Aquafit slots for ${targetDates[0]} through ${targetDates[6]}.`);
