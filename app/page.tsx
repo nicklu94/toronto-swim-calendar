@@ -11,6 +11,15 @@ const allSchedule = [
 ];
 const venueNames = new Map(allVenues.map((venue) => [venue.id, venue.name]));
 type CityFilter = "all" | "Toronto" | "Markham" | "Richmond Hill" | "Vaughan";
+const serviceAlerts = [
+  {
+    venue: "Toronto Pan Am Sports Centre",
+    checked: "Checked Aug 9, 2026, 2:08 a.m. America/Toronto",
+    source: "https://www.tpasc.ca/portal/city-toronto/schedule",
+    zh: "TPASC 官方公告：Competition Pool 于 2026-08-08 至 2026-08-09 19:00-24:00 不可用，并于 2026-08-09 至 2026-09-07 05:00-24:00 不可用。出发前请点击官方排期确认 Training Pool / leisure swim 是否仍按现场安排开放。",
+    en: "TPASC official notice: the Competition Pool is unavailable Aug 8-9, 2026 from 7 p.m. to midnight, and Aug 9-Sep 7, 2026 from 5 a.m. to midnight. Before travelling, open the official schedule to confirm whether Training Pool / leisure swim access is still operating on site.",
+  },
+] as const;
 
 function cityForVenue(venue: { district: string }): Exclude<CityFilter, "all"> {
   if (venue.district === "Markham" || venue.district === "Richmond Hill" || venue.district === "Vaughan") {
@@ -426,6 +435,19 @@ export default function Home() {
           {filteredVenues.length === 0 && <p className="no-locations">{text.noLocations}</p>}
         </div>
       </details>
+
+      {serviceAlerts.length > 0 && (
+        <section className="service-alerts" aria-label={language === "en" ? "Current service alerts" : "临时状态提示"}>
+          <span className="eyebrow">{language === "en" ? "TEMPORARY SERVICE ALERT" : "临时状态提示"}</span>
+          {serviceAlerts.map((alert) => (
+            <a className="service-alert" href={alert.source} target="_blank" rel="noreferrer" key={alert.venue}>
+              <strong>{alert.venue}</strong>
+              <p>{alert[language]}</p>
+              <small>{alert.checked}</small>
+            </a>
+          ))}
+        </section>
+      )}
 
       <aside className="notice">
         <strong>{text.noticeTitle}</strong>
