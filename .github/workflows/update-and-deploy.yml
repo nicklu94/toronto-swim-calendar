@@ -6,10 +6,8 @@ on:
     branches:
       - main
   schedule:
-    # GitHub cron uses UTC. These two entries cover 5 AM Toronto time
-    # across daylight saving time and standard time. A gate below skips
-    # the non-matching run.
-    - cron: "15 9 * * *"
+    # GitHub cron uses UTC and may start late. Run once each morning instead
+    # of gating on an exact Toronto hour, so delayed starts still update.
     - cron: "15 10 * * *"
 
 permissions:
@@ -25,51 +23,30 @@ jobs:
     timeout-minutes: 30
 
     steps:
-      - name: Check Toronto run window
-        id: gate
-        shell: bash
-        run: |
-          if [ "${{ github.event_name }}" = "schedule" ]; then
-            toronto_hour="$(TZ=America/Toronto date +%H)"
-            if [ "$toronto_hour" != "05" ]; then
-              echo "run=false" >> "$GITHUB_OUTPUT"
-              echo "Skipping: not the 5 AM hour in Toronto."
-              exit 0
-            fi
-          fi
-          echo "run=true" >> "$GITHUB_OUTPUT"
-
       - name: Checkout
-        if: steps.gate.outputs.run == 'true'
         uses: actions/checkout@v6
 
       - name: Setup pnpm
-        if: steps.gate.outputs.run == 'true'
         uses: pnpm/action-setup@v4
         with:
           version: 10.23.0
 
       - name: Setup Node
-        if: steps.gate.outputs.run == 'true'
         uses: actions/setup-node@v5
         with:
           node-version: "22"
           cache: pnpm
 
       - name: Install dependencies
-        if: steps.gate.outputs.run == 'true'
         run: pnpm install --frozen-lockfile
 
       - name: Refresh schedule
-        if: steps.gate.outputs.run == 'true'
         run: pnpm run update:schedule
 
       - name: Build
-        if: steps.gate.outputs.run == 'true'
         run: pnpm run build
 
       - name: Check for content changes
-        if: steps.gate.outputs.run == 'true'
         id: changes
         shell: bash
         run: |
@@ -82,7 +59,7 @@ jobs:
           fi
 
       - name: Commit refreshed schedule
-        if: steps.gate.outputs.run == 'true' && steps.changes.outputs.changed == 'true'
+        if: steps.changes.outputs.changed == 'true'
         shell: bash
         run: |
           git config user.name "toronto-swim-bot"
@@ -92,7 +69,7 @@ jobs:
           git push
 
       - name: Deploy to Cloudflare Workers
-        if: steps.gate.outputs.run == 'true' && (steps.changes.outputs.changed == 'true' || github.event_name == 'workflow_dispatch' || github.event_name == 'push')
+        if: steps.changes.outputs.changed == 'true' || github.event_name == 'workflow_dispatch' || github.event_name == 'push'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
