@@ -6,7 +6,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const requestHeaders = await headers();
   const host = requestHeaders.get("x-forwarded-host") ?? requestHeaders.get("host") ?? "localhost:5173";
   const protocol = requestHeaders.get("x-forwarded-proto") ?? (host.includes("localhost") ? "http" : "https");
-  const image = `${protocol}://${host}/og.png`;
+  const image = `${protocol}://${host}/og-share-v2.png`;
   const title = "Swim Calendar · Toronto & York Region";
   const description = "Find upcoming public swim, lane swim and aquafit times across Toronto, Markham, Richmond Hill and Vaughan.";
 
