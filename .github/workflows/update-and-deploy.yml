@@ -46,6 +46,10 @@ jobs:
       - name: Build
         run: pnpm run build
 
+      - name: Attach production custom domain
+        run: |
+          node -e "const fs=require('node:fs'); const path='dist/server/wrangler.json'; const config=JSON.parse(fs.readFileSync(path,'utf8')); config.routes=[{pattern:'torontoswim.ca',custom_domain:true}]; fs.writeFileSync(path, JSON.stringify(config));"
+
       - name: Check for content changes
         id: changes
         shell: bash
