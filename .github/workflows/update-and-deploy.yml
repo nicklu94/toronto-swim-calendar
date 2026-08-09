@@ -2,6 +2,9 @@ name: Update swim calendar and deploy
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
   schedule:
     # GitHub cron uses UTC. These two entries cover 5 AM Toronto time
     # across daylight saving time and standard time. A gate below skips
@@ -89,7 +92,7 @@ jobs:
           git push
 
       - name: Deploy to Cloudflare Workers
-        if: steps.gate.outputs.run == 'true' && (steps.changes.outputs.changed == 'true' || github.event_name == 'workflow_dispatch')
+        if: steps.gate.outputs.run == 'true' && (steps.changes.outputs.changed == 'true' || github.event_name == 'workflow_dispatch' || github.event_name == 'push')
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
