@@ -81,5 +81,6 @@ jobs:
       - name: Verify production website and ratings API
         shell: bash
         run: |
-          curl --fail --silent --show-error --retry 5 --retry-delay 4 https://torontoswim.ca/ > /dev/null
-          curl --fail --silent --show-error --retry 5 --retry-delay 4 "https://torontoswim.ca/api/ratings?venueId=agincourt-community-recreation-centre" > /dev/null
+          sleep 8
+          curl --fail --silent --show-error --retry 5 --retry-delay 4 --retry-all-errors https://torontoswim.ca/ > /dev/null
+          curl --fail --silent --show-error --retry 5 --retry-delay 4 --retry-all-errors "https://torontoswim.ca/api/ratings?venueId=agincourt-community-recreation-centre" > /dev/null
