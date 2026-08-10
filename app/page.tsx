@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { schedule, venues, week } from "./schedule-data";
 import { regionalSchedule, regionalVenues } from "./regional-schedule-data";
+import { PoolRating } from "./pool-rating";
 
 const allVenues = [...venues, ...regionalVenues];
 const allSchedule = [
@@ -53,7 +54,7 @@ const copy = {
     language: "Switch to English",
     languageButton: "English",
     title: "未来 7 天，什么时候可以去游泳？",
-    intro: "免费泳池大多在 City of Toronto；Markham、Richmond Hill 和 Vaughan 主要是收费泳池，常规 drop-in 大多约 $3.55–$13.90。默认仍只显示免费场次；收费场次会明确标注，并可选择显示。",
+    intro: "免费泳池大多在 City of Toronto；Markham、Richmond Hill 和 Vaughan 主要是收费泳池。",
     nextSeven: "未来 7 天",
     sessions: "开放时段",
     pools: "泳池地点",
@@ -107,7 +108,7 @@ const copy = {
     language: "切换到中文",
     languageButton: "中文",
     title: "When can I swim in the next 7 days?",
-    intro: "Most free swims are in the City of Toronto. Markham, Richmond Hill and Vaughan are mostly paid pools, with regular drop-ins generally around $3.55–$13.90. Free-only remains the default; paid sessions are clearly labelled and optional.",
+    intro: "Most free swims are in the City of Toronto. Markham, Richmond Hill and Vaughan are mostly paid pools.",
     nextSeven: "Next 7 days",
     sessions: "Open sessions",
     pools: "Pool locations",
@@ -155,7 +156,7 @@ const copy = {
     nextUpdate: "Data collected",
   },
 } as const;
-type Origin = { lat: number; lng: number; postalCode: string; approximate: boolean };
+type Origin = { lat: number; lng: number; postalCode: string; approximate: boolean; kind?: "postal" | "device" };
 
 function timeToMinutes(time: string) {
   const [hours, minutes] = time.split(":").map(Number);
@@ -181,8 +182,26 @@ export default function Home() {
   const [origin, setOrigin] = useState<Origin | null>(null);
   const [radiusKm, setRadiusKm] = useState(8);
   const [searching, setSearching] = useState(false);
+  const [locating, setLocating] = useState(false);
   const [searchError, setSearchError] = useState("");
   const text = copy[language];
+  const nearbyCopy = language === "en"
+    ? {
+        useLocation: "Use my location",
+        locating: "Locating…",
+        locationStatus: (radius: number, count: number) => `Using your current location; showing ${count} pools within ${radius} km, nearest first.`,
+        unavailable: "Location is unavailable. Enter a postal code instead.",
+        denied: "Location permission was denied. You can still enter a postal code.",
+        choosePool: "Choose a pool above to view and submit its community rating.",
+      }
+    : {
+        useLocation: "使用我的位置",
+        locating: "定位中…",
+        locationStatus: (radius: number, count: number) => `已使用你的当前位置，按由近到远显示 ${radius} km 内的 ${count} 个泳池。`,
+        unavailable: "暂时无法获取定位，请改用邮编查询。",
+        denied: "定位权限未开启，你仍可输入邮编查询。",
+        choosePool: "请在上方选择一个泳池，查看并提交社区评分。",
+      };
 
   useEffect(() => {
     const saved = window.localStorage.getItem("swim-calendar-language");
@@ -212,10 +231,12 @@ export default function Home() {
     [city]
   );
 
-  const filteredVenues = useMemo(
-    () => origin ? cityFilteredVenues.filter((venue) => (venueDistances.get(venue.id) ?? Infinity) <= radiusKm) : cityFilteredVenues,
-    [cityFilteredVenues, origin, radiusKm, venueDistances]
-  );
+  const filteredVenues = useMemo(() => {
+    if (!origin) return cityFilteredVenues;
+    return cityFilteredVenues
+      .filter((venue) => (venueDistances.get(venue.id) ?? Infinity) <= radiusKm)
+      .sort((a, b) => (venueDistances.get(a.id) ?? Infinity) - (venueDistances.get(b.id) ?? Infinity));
+  }, [cityFilteredVenues, origin, radiusKm, venueDistances]);
   const filteredVenueIds = useMemo(() => new Set(filteredVenues.map((venue) => venue.id)), [filteredVenues]);
   const displayedVenues = useMemo(() => {
     if (venueExpanded || filteredVenues.length <= collapsedVenueLimit) return filteredVenues;
@@ -225,6 +246,7 @@ export default function Home() {
     return selectedVenue ? [...collapsed, selectedVenue] : collapsed;
   }, [filteredVenues, selected, venueExpanded]);
   const hiddenVenueCount = Math.max(filteredVenues.length - displayedVenues.length, 0);
+  const selectedVenue = selected === "all" ? null : allVenues.find((venue) => venue.id === selected) ?? null;
 
   useEffect(() => {
     if (selected !== "all" && !filteredVenueIds.has(selected)) {
@@ -260,7 +282,7 @@ export default function Home() {
       const response = await fetch(`/api/geocode?postalCode=${encodeURIComponent(postalCode)}`);
       const result = await response.json() as Origin & { error?: string };
       if (!response.ok) throw new Error(text.invalidPostal);
-      setOrigin(result);
+      setOrigin({ ...result, kind: "postal" });
       setPostalCode(result.postalCode);
       setSelected("all");
     } catch (error) {
@@ -268,6 +290,34 @@ export default function Home() {
     } finally {
       setSearching(false);
     }
+  }
+
+  function useCurrentLocation() {
+    setSearchError("");
+    if (!("geolocation" in navigator)) {
+      setSearchError(nearbyCopy.unavailable);
+      return;
+    }
+    setLocating(true);
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        setOrigin({
+          lat: position.coords.latitude,
+          lng: position.coords.longitude,
+          postalCode: "",
+          approximate: position.coords.accuracy > 1000,
+          kind: "device",
+        });
+        setPostalCode("");
+        setSelected("all");
+        setLocating(false);
+      },
+      (error) => {
+        setSearchError(error.code === error.PERMISSION_DENIED ? nearbyCopy.denied : nearbyCopy.unavailable);
+        setLocating(false);
+      },
+      { enableHighAccuracy: true, timeout: 12000, maximumAge: 300000 }
+    );
   }
 
   function clearLocation() {
@@ -286,6 +336,7 @@ export default function Home() {
             <span>{text.brand}</span>
           </a>
           <div className="nav-actions">
+            <a className="feedback-link" href="mailto:superninglu@gmail.com?subject=Toronto%20Swim%20Calendar%20Feedback"><span>Feedback · </span>superninglu@gmail.com</a>
             <span className="updated">{text.update} · {week.updatedLabel}</span>
             <button className="language-toggle" type="button" onClick={toggleLanguage} aria-label={text.language}>{text.languageButton}</button>
           </div>
@@ -319,15 +370,18 @@ export default function Home() {
             />
           </label>
           <button className="locate-button" type="submit" disabled={searching}>{searching ? text.searching : text.findPools}</button>
+          <button className="device-location-button" type="button" onClick={useCurrentLocation} disabled={locating}>
+            {locating ? nearbyCopy.locating : nearbyCopy.useLocation}
+          </button>
           {origin && <button className="clear-button" type="button" onClick={clearLocation}>{text.showAll}</button>}
           <label className="radius-field">
             <span>{text.radius} <strong>{radiusKm} km</strong></span>
             <input type="range" min="1" max="30" step="1" value={radiusKm} onChange={(event) => setRadiusKm(Number(event.target.value))} />
           </label>
-          <small id="postal-privacy">{text.privacy}</small>
+          <small id="postal-privacy">{text.privacy} {language === "en" ? "Device location is processed in this browser and is not saved." : "设备定位仅在当前浏览器中计算，不会保存。"}</small>
           <p id="postal-status" className={searchError ? "locator-status error" : "locator-status"} aria-live="polite">
             {searchError || (origin
-              ? text.status(origin.postalCode.slice(0, 3), radiusKm, filteredVenues.length)
+              ? (origin.kind === "device" ? nearbyCopy.locationStatus(radiusKm, filteredVenues.length) : text.status(origin.postalCode.slice(0, 3), radiusKm, filteredVenues.length))
               : text.prompt)}
           </p>
         </form>
@@ -380,6 +434,12 @@ export default function Home() {
           )}
         </div>
       </section>
+
+      {selectedVenue ? (
+        <PoolRating key={selectedVenue.id} venueId={selectedVenue.id} venueName={selectedVenue.name} language={language} />
+      ) : (
+        <p className="rating-select-hint">{nearbyCopy.choosePool}</p>
+      )}
 
       <section className="calendar" aria-label={`${week.rangeLabel} ${text.calendar}`}>
         {week.dayNames.map((day, dayIndex) => {

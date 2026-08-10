@@ -46,9 +46,9 @@ jobs:
       - name: Build
         run: pnpm run build
 
-      - name: Attach production custom domain
+      - name: Attach production domain and ratings database
         run: |
-          node -e "const fs=require('node:fs'); const path='dist/server/wrangler.json'; const config=JSON.parse(fs.readFileSync(path,'utf8')); config.routes=[{pattern:'torontoswim.ca',custom_domain:true}]; fs.writeFileSync(path, JSON.stringify(config));"
+          node -e "const fs=require('node:fs'); const path='dist/server/wrangler.json'; const config=JSON.parse(fs.readFileSync(path,'utf8')); config.routes=[{pattern:'torontoswim.ca',custom_domain:true}]; config.d1_databases=[{binding:'DB',database_name:'toronto-swim-ratings',database_id:'10ad1542-f841-4f2b-bc00-6a9cf2adeb75'}]; fs.writeFileSync(path, JSON.stringify(config));"
 
       - name: Check for content changes
         id: changes
@@ -73,8 +73,13 @@ jobs:
           git push
 
       - name: Deploy to Cloudflare Workers
-        if: steps.changes.outputs.changed == 'true' || github.event_name == 'workflow_dispatch' || github.event_name == 'push'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: pnpm exec wrangler deploy --config dist/server/wrangler.json
+
+      - name: Verify production website and ratings API
+        shell: bash
+        run: |
+          curl --fail --silent --show-error --retry 5 --retry-delay 4 https://torontoswim.ca/ > /dev/null
+          curl --fail --silent --show-error --retry 5 --retry-delay 4 "https://torontoswim.ca/api/ratings?venueId=agincourt-community-recreation-centre" > /dev/null
