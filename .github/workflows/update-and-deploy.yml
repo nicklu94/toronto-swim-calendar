@@ -6,9 +6,11 @@ on:
     branches:
       - main
   schedule:
-    # GitHub cron uses UTC and may start late. Run once each morning instead
-    # of gating on an exact Toronto hour, so delayed starts still update.
-    - cron: "15 10 * * *"
+    # GitHub cron uses UTC and can occasionally delay or drop a scheduled event.
+    # Use an off-peak primary run plus a backup; the freshness check below makes
+    # the backup exit quickly when the primary run already refreshed the site.
+    - cron: "37 10 * * *"
+    - cron: "37 12 * * *"
 
 permissions:
   contents: write
@@ -26,31 +28,56 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
+      - name: Check whether a scheduled refresh is still needed
+        id: freshness
+        shell: bash
+        run: |
+          if [[ "$GITHUB_EVENT_NAME" != "schedule" ]]; then
+            echo "needs_refresh=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          toronto_today="$(TZ=America/Toronto date +%-m/%-d)"
+          if grep -q "\"rangeLabel\": \"${toronto_today} " app/schedule-data.ts; then
+            echo "needs_refresh=false" >> "$GITHUB_OUTPUT"
+            echo "The rolling calendar already starts on ${toronto_today}; skipping the backup run."
+          else
+            echo "needs_refresh=true" >> "$GITHUB_OUTPUT"
+            echo "The rolling calendar is stale; continuing with the refresh."
+          fi
+
       - name: Setup pnpm
+        if: steps.freshness.outputs.needs_refresh == 'true'
         uses: pnpm/action-setup@v4
         with:
           version: 10.23.0
 
       - name: Setup Node
+        if: steps.freshness.outputs.needs_refresh == 'true'
         uses: actions/setup-node@v5
         with:
           node-version: "22"
           cache: pnpm
 
       - name: Install dependencies
+        if: steps.freshness.outputs.needs_refresh == 'true'
         run: pnpm install --frozen-lockfile
 
       - name: Refresh schedule
+        if: steps.freshness.outputs.needs_refresh == 'true'
         run: pnpm run update:schedule
 
       - name: Build
+        if: steps.freshness.outputs.needs_refresh == 'true'
         run: pnpm run build
 
       - name: Attach production domain and ratings database
+        if: steps.freshness.outputs.needs_refresh == 'true'
         run: |
           node -e "const fs=require('node:fs'); const path='dist/server/wrangler.json'; const config=JSON.parse(fs.readFileSync(path,'utf8')); config.routes=[{pattern:'torontoswim.ca',custom_domain:true}]; config.d1_databases=[{binding:'DB',database_name:'toronto-swim-ratings',database_id:'10ad1542-f841-4f2b-bc00-6a9cf2adeb75'}]; fs.writeFileSync(path, JSON.stringify(config));"
 
       - name: Check for content changes
+        if: steps.freshness.outputs.needs_refresh == 'true'
         id: changes
         shell: bash
         run: |
@@ -63,7 +90,7 @@ jobs:
           fi
 
       - name: Commit refreshed schedule
-        if: steps.changes.outputs.changed == 'true'
+        if: steps.freshness.outputs.needs_refresh == 'true' && steps.changes.outputs.changed == 'true'
         shell: bash
         run: |
           git config user.name "toronto-swim-bot"
@@ -73,12 +100,14 @@ jobs:
           git push
 
       - name: Deploy to Cloudflare Workers
+        if: steps.freshness.outputs.needs_refresh == 'true'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: pnpm exec wrangler deploy --config dist/server/wrangler.json
 
       - name: Verify production website and ratings API
+        if: steps.freshness.outputs.needs_refresh == 'true'
         shell: bash
         run: |
           sleep 8
