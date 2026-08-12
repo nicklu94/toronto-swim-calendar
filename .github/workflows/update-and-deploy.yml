@@ -106,6 +106,13 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: pnpm exec wrangler deploy --config dist/server/wrangler.json
 
+      - name: Deploy Cloudflare cron scheduler
+        if: github.event_name == 'push'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: pnpm exec wrangler deploy --config cloudflare-scheduler/wrangler.jsonc
+
       - name: Verify production website and ratings API
         if: steps.freshness.outputs.needs_refresh == 'true'
         shell: bash
