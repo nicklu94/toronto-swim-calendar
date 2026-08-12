@@ -5,8 +5,6 @@ const TORONTO_TIME = new Intl.DateTimeFormat("en-CA", {
   hourCycle: "h23",
 });
 
-const TEMPORARY_TEST_CRON = "*/2 * * * *";
-
 function getTorontoClock(date) {
   return Object.fromEntries(
     TORONTO_TIME.formatToParts(date)
@@ -52,17 +50,6 @@ export default {
   async scheduled(controller, env) {
     const scheduledDate = new Date(controller.scheduledTime);
     const torontoClock = getTorontoClock(scheduledDate);
-
-    if (controller.cron === TEMPORARY_TEST_CRON) {
-      await dispatchGitHubWorkflow(env);
-      console.log(JSON.stringify({
-        outcome: "dispatched",
-        reason: "temporary-cron-test",
-        scheduledTime: scheduledDate.toISOString(),
-        torontoClock,
-      }));
-      return;
-    }
 
     // Cloudflare cron is UTC-only. Two UTC triggers cover EST and EDT; exactly
     // one corresponds to 03:15 in Toronto on any given day.
