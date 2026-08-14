@@ -81,15 +81,24 @@ async function fetchPerfectMind(config, targetDay) {
     const classesUrl = `${config.origin}${config.prefix}/Clients/BookMe4BookingPages/Classes?calendarId=${calendar.id}&widgetId=${config.widgetId}&embed=False`;
     const page = await fetchText(classesUrl);
     const pageCookie = cookieFrom(page.response) || cookie;
-    const data = await postForm(
-      `${config.origin}${config.prefix}/Clients/BookMe4BookingPagesV2/ClassesV2`,
-      { calendarId: calendar.id, widgetId: config.widgetId, page: "0", dateString: "", token: tokenFrom(page.text) },
-      pageCookie,
-    );
-    const classes = data.classes || data.Classes || data.items || data.Items || [];
-    for (const item of classes) {
-      const event = normalizePerfectMindEvent(item, config, targetDay);
-      if (event) events.push(event);
+    const token = tokenFrom(page.text);
+    let nextKey = "";
+    for (let pageNumber = 0; pageNumber < 20; pageNumber += 1) {
+      const fields = { calendarId: calendar.id, widgetId: config.widgetId, page: String(pageNumber), dateString: "", token };
+      if (nextKey) fields.nextKey = nextKey;
+      const data = await postForm(
+        `${config.origin}${config.prefix}/Clients/BookMe4BookingPagesV2/ClassesV2`,
+        fields,
+        pageCookie,
+      );
+      const classes = data.classes || data.Classes || data.items || data.Items || [];
+      for (const item of classes) {
+        const event = normalizePerfectMindEvent(item, config, targetDay);
+        if (event) events.push(event);
+      }
+      const followingKey = data.nextKey || data.NextKey || "";
+      if (!followingKey || followingKey === nextKey || classes.length === 0) break;
+      nextKey = followingKey;
     }
   }
   return events;
