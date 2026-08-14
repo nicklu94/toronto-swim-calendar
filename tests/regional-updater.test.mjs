@@ -4,6 +4,7 @@ import {
   classifyActivity,
   isWomenOnly,
   normalizePerfectMindEvent,
+  nextPerfectMindDate,
   parseRichmondHillSchedule,
   parseTimeRanges,
 } from "../scripts/lib/regional-schedule.mjs";
@@ -42,6 +43,12 @@ test("normalizes a PerfectMind class", () => {
   assert.equal(event.womenOnly, true);
   assert.equal(event.free, false);
   assert.equal(event.start, "19:00");
+});
+
+test("advances PerfectMind Load More from its maximum returned date", () => {
+  assert.equal(nextPerfectMindDate({ classesMaxEndDateString: "14/08/2026" }), "2026-08-15");
+  assert.equal(nextPerfectMindDate({ classesMaxEndDateString: "18/08/2026 08:20 PM" }, [{ OccurrenceDate: "20260814" }]), "2026-08-15");
+  assert.equal(nextPerfectMindDate({}, [{ OccurrenceDate: "20260816" }, { OccurrenceDate: "20260815" }]), "2026-08-17");
 });
 
 test("parses a Richmond Hill weekly table", () => {

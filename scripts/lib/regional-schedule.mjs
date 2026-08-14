@@ -94,6 +94,19 @@ export function parseOccurrenceDate(value) {
   return match ? `${match[1]}-${match[2]}-${match[3]}` : null;
 }
 
+export function nextPerfectMindDate(result, classes = []) {
+  const dates = classes.map((item) => parseOccurrenceDate(item.OccurrenceDate)).filter(Boolean).sort();
+  if (dates.length) return addDays(dates.at(-1), 1);
+
+  const raw = String(result.classesMaxEndDateString || result.ClassesMaxEndDateString || "").trim();
+  let dateKey = null;
+  let match = raw.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})(?:\s+.*)?$/);
+  if (match) dateKey = `${match[3]}-${match[2]}-${match[1]}`;
+  match = raw.match(/^(\d{4})-(\d{2})-(\d{2})(?:\s+.*)?$/);
+  if (match) dateKey = `${match[1]}-${match[2]}-${match[3]}`;
+  return dateKey ? addDays(dateKey, 1) : "";
+}
+
 export function normalizePerfectMindEvent(item, config, targetDay) {
   const dateKey = parseOccurrenceDate(item.OccurrenceDate);
   const day = targetDay.get(dateKey);

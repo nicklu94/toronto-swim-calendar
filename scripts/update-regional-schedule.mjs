@@ -6,6 +6,7 @@ import {
   addDays,
   dedupeAndSort,
   normalizePerfectMindEvent,
+  nextPerfectMindDate,
   parseRichmondHillSchedule,
   slugify,
   torontoDateKey,
@@ -16,7 +17,23 @@ const outputPath = path.join(root, "app", "regional-schedule-data.ts");
 const headers = { "user-agent": "Toronto Swim Calendar/1.0 (+https://torontoswim.ca)" };
 
 function cookieFrom(response) {
-  return response.headers.get("set-cookie")?.split(";")[0] || "";
+  return mergeCookies("", response);
+}
+
+function mergeCookies(current, response) {
+  const values = typeof response.headers.getSetCookie === "function"
+    ? response.headers.getSetCookie()
+    : [response.headers.get("set-cookie")].filter(Boolean);
+  const jar = new Map(String(current).split(/;\s*/).filter(Boolean).map((item) => {
+    const separator = item.indexOf("=");
+    return [item.slice(0, separator), item.slice(separator + 1)];
+  }));
+  for (const value of values) {
+    const pair = value.split(";", 1)[0];
+    const separator = pair.indexOf("=");
+    if (separator > 0) jar.set(pair.slice(0, separator), pair.slice(separator + 1));
+  }
+  return [...jar].map(([name, value]) => `${name}=${value}`).join("; ");
 }
 
 function tokenFrom(html) {
@@ -33,14 +50,25 @@ async function fetchText(url, options = {}) {
 }
 
 async function postForm(url, fields, cookie) {
-  const body = new URLSearchParams(fields);
+  const bodyFields = { ...fields };
+  if (bodyFields.token) {
+    bodyFields.__RequestVerificationToken = bodyFields.token;
+    delete bodyFields.token;
+  }
+  const body = new URLSearchParams(bodyFields);
   const response = await fetch(url, {
     method: "POST",
-    headers: { ...headers, cookie, "content-type": "application/x-www-form-urlencoded; charset=UTF-8" },
+    headers: {
+      ...headers,
+      cookie,
+      accept: "application/json, text/javascript, */*; q=0.01",
+      "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "x-requested-with": "XMLHttpRequest",
+    },
     body,
   });
   if (!response.ok) throw new Error(`${response.status} ${url}: ${await response.text()}`);
-  return response.json();
+  return { response, data: await response.json() };
 }
 
 function collectObjects(value, result = []) {
@@ -67,38 +95,68 @@ function calendarCandidates(payload) {
 async function fetchPerfectMind(config, targetDay) {
   const startUrl = `${config.origin}${config.prefix}/Clients/BookMe4?widgetId=${config.widgetId}`;
   const start = await fetchText(startUrl);
-  const cookie = cookieFrom(start.response);
-  const categories = await postForm(
+  let cookie = cookieFrom(start.response);
+  const categoriesResult = await postForm(
     `${config.origin}${config.prefix}/Clients/BookMe4V2/GetCategoriesDataV2?embed=False`,
     { widgetId: config.widgetId, token: tokenFrom(start.text) },
     cookie,
   );
+  cookie = mergeCookies(cookie, categoriesResult.response);
+  const categories = categoriesResult.data;
   const calendars = calendarCandidates(categories).filter((calendar) => config.calendars.some((pattern) => pattern.test(calendar.name)));
   if (!calendars.length) throw new Error(`${config.district}: no matching swim calendar was found`);
 
   const events = [];
+  const targetStart = [...targetDay.keys()][0];
+  const targetEnd = [...targetDay.keys()].at(-1);
+  const toPerfectMindFilterDate = (dateKey) => `${dateKey}T00:00:00.000Z`;
   for (const calendar of calendars) {
     const classesUrl = `${config.origin}${config.prefix}/Clients/BookMe4BookingPages/Classes?calendarId=${calendar.id}&widgetId=${config.widgetId}&embed=False`;
     const page = await fetchText(classesUrl);
-    const pageCookie = cookieFrom(page.response) || cookie;
+    let pageCookie = mergeCookies(cookie, page.response);
     const token = tokenFrom(page.text);
-    let nextKey = "";
+    let after = "";
+    let dateString = "";
+    const seenPages = new Set();
     for (let pageNumber = 0; pageNumber < 20; pageNumber += 1) {
-      const fields = { calendarId: calendar.id, widgetId: config.widgetId, page: String(pageNumber), dateString: "", token };
-      if (nextKey) fields.nextKey = nextKey;
-      const data = await postForm(
+      if (dateString && dateString > targetEnd) break;
+      const fields = { calendarId: calendar.id, widgetId: config.widgetId, page: String(pageNumber), dateString, token };
+      fields["values[0][Name]"] = "Date Range";
+      fields["values[0][Value]"] = toPerfectMindFilterDate(targetStart);
+      fields["values[0][Value2]"] = toPerfectMindFilterDate(targetEnd);
+      fields["values[0][ValueKind]"] = "6";
+      if (after) fields.after = after;
+      const result = await postForm(
         `${config.origin}${config.prefix}/Clients/BookMe4BookingPagesV2/ClassesV2`,
         fields,
         pageCookie,
       );
+      pageCookie = mergeCookies(pageCookie, result.response);
+      const data = result.data;
       const classes = data.classes || data.Classes || data.items || data.Items || [];
+      if (process.env.DEBUG_REGIONAL) {
+        console.log(config.district, calendar.name, {
+          pageNumber,
+          dateString,
+          count: classes.length,
+          dates: [...new Set(classes.map((item) => item.OccurrenceDate))],
+          maxEnd: data.classesMaxEndDateString || data.ClassesMaxEndDateString || "",
+          nextKey: data.nextKey || data.NextKey || "",
+        });
+      }
+      if (classes.length === 0) break;
+      const signature = classes.map((item) => `${item.EventId || item.Id || ""}:${item.OccurrenceDate || ""}`).join("|");
+      if (seenPages.has(signature)) break;
+      seenPages.add(signature);
       for (const item of classes) {
         const event = normalizePerfectMindEvent(item, config, targetDay);
         if (event) events.push(event);
       }
       const followingKey = data.nextKey || data.NextKey || "";
-      if (!followingKey || followingKey === nextKey || classes.length === 0) break;
-      nextKey = followingKey;
+      if (followingKey && followingKey !== after) after = followingKey;
+      const followingDate = nextPerfectMindDate(data, classes);
+      if (!followingDate || followingDate === dateString) break;
+      dateString = followingDate;
     }
   }
   return events;
