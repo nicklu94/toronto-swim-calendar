@@ -35,8 +35,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Refresh York Region schedule from official sources
-        run: pnpm run update:regional
+      - name: Refresh Toronto and York Region on the same date anchor
+        run: pnpm run update:schedule
 
       - name: Test and build
         run: pnpm run test
