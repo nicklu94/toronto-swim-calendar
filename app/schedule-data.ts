@@ -19,7 +19,7 @@ export const week = {
     "周三"
   ],
   "todayIndex": 0,
-  "updatedLabel": "8/13 23:46",
+  "updatedLabel": "8/13 23:51",
   "nextUpdateLabel": "8/14（每日）"
 } as const;
 
