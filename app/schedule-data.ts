@@ -1,8 +1,8 @@
 export const scheduleMetadata = {
   "cacheStart": "2026-08-14",
   "cacheEnd": "2026-08-29",
-  "fetchedAt": "2026-08-14T06:41:01.266Z",
-  "updatedLabel": "8/14 02:41"
+  "fetchedAt": "2026-08-14T06:51:26.608Z",
+  "updatedLabel": "8/14 02:51"
 } as const;
 
 export const venues = [
