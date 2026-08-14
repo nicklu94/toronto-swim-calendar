@@ -1,4 +1,11 @@
-# vinext-starter
+# Toronto Swim Calendar
+
+Public swimming schedule finder for Toronto and nearby municipalities.
+
+- Production site: [torontoswim.ca](https://torontoswim.ca)
+- Planned improvements: [TODO.md](TODO.md)
+
+## Technical foundation
 
 A clean full-stack starter running on
 [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and
