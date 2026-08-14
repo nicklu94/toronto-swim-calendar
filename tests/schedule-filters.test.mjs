@@ -1,14 +1,14 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { matchesTimeWindow, poolSettingForVenue } from "../app/schedule-filters.ts";
+import { poolSettingForVenue, sessionContainsTime } from "../app/schedule-filters.ts";
 
-test("filters sessions inside a preferred time window", () => {
+test("keeps sessions that are open at the selected time", () => {
   const session = { start: "10:30", end: "12:00" };
-  assert.equal(matchesTimeWindow(session, "10:00", "13:00"), true);
-  assert.equal(matchesTimeWindow(session, "11:00", "13:00"), false);
-  assert.equal(matchesTimeWindow(session, "10:00", "11:30"), false);
-  assert.equal(matchesTimeWindow(session, "", ""), true);
-  assert.equal(matchesTimeWindow(session, "15:00", "09:00"), false);
+  assert.equal(sessionContainsTime(session, "10:30"), true);
+  assert.equal(sessionContainsTime(session, "11:15"), true);
+  assert.equal(sessionContainsTime(session, "10:29"), false);
+  assert.equal(sessionContainsTime(session, "12:00"), false);
+  assert.equal(sessionContainsTime(session, ""), true);
 });
 
 test("classifies municipal outdoor pools without changing the schedule cache", () => {

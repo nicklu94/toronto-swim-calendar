@@ -19,13 +19,7 @@ export function poolSettingForVenue(venueId: string): Exclude<PoolSettingFilter,
   return outdoorVenueIds.has(venueId) ? "outdoor" : "indoor";
 }
 
-export function matchesTimeWindow(
-  session: { start: string; end: string },
-  earliestStart: string,
-  latestEnd: string,
-) {
-  if (earliestStart && latestEnd && earliestStart > latestEnd) return false;
-  if (earliestStart && session.start < earliestStart) return false;
-  if (latestEnd && session.end > latestEnd) return false;
-  return true;
+export function sessionContainsTime(session: { start: string; end: string }, selectedTime: string) {
+  if (!selectedTime) return true;
+  return session.start <= selectedTime && selectedTime < session.end;
 }
