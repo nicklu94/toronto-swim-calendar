@@ -1,0 +1,57 @@
+name: Deploy York Region fix preview
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - codex/fix-york-region-refresh
+
+permissions:
+  contents: read
+
+concurrency:
+  group: york-region-fix-preview
+  cancel-in-progress: true
+
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout test branch
+        uses: actions/checkout@v6
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.23.0
+
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Refresh York Region schedule from official sources
+        run: pnpm run update:regional
+
+      - name: Test and build
+        run: pnpm run test
+
+      - name: Isolate preview Worker from production
+        run: |
+          node -e "const fs=require('node:fs'); const p='dist/server/wrangler.json'; const c=JSON.parse(fs.readFileSync(p,'utf8')); c.name='toronto-swim-york-fix-test'; c.workers_dev=true; delete c.routes; delete c.d1_databases; fs.writeFileSync(p, JSON.stringify(c));"
+
+      - name: Deploy isolated preview
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: pnpm exec wrangler deploy --config dist/server/wrangler.json
+
+      - name: Verify preview website
+        run: |
+          sleep 8
+          curl --fail --silent --show-error --retry 5 --retry-delay 4 --retry-all-errors https://toronto-swim-york-fix-test.nicklu94.workers.dev/ > /dev/null

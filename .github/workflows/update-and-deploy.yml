@@ -38,7 +38,9 @@ jobs:
           fi
 
           toronto_today="$(TZ=America/Toronto date +%-m/%-d)"
-          if grep -q "\"rangeLabel\": \"${toronto_today} " app/schedule-data.ts; then
+          regional_today="$(TZ=America/Toronto date +%F)"
+          if grep -q "\"rangeLabel\": \"${toronto_today} " app/schedule-data.ts \
+            && grep -q "regionalUpdatedDate = \"${regional_today}\"" app/regional-schedule-data.ts; then
             echo "needs_refresh=false" >> "$GITHUB_OUTPUT"
             echo "The rolling calendar already starts on ${toronto_today}; skipping the backup run."
           else
@@ -81,9 +83,9 @@ jobs:
         id: changes
         shell: bash
         run: |
-          if git diff --quiet -- app/schedule-data.ts; then
+          if git diff --quiet -- app/schedule-data.ts app/regional-schedule-data.ts; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "No schedule-data.ts changes."
+            echo "No Toronto or York Region schedule changes."
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
             echo "Schedule data changed."
@@ -95,7 +97,7 @@ jobs:
         run: |
           git config user.name "toronto-swim-bot"
           git config user.email "toronto-swim-bot@users.noreply.github.com"
-          git add app/schedule-data.ts
+          git add app/schedule-data.ts app/regional-schedule-data.ts
           git commit -m "Update swim schedule"
           git push
 
