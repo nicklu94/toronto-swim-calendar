@@ -140,8 +140,12 @@ for (const source of RICHMOND_HILL_SOURCES) {
   console.log(`Richmond Hill ${source.defaultType}: ${fetched.length} sessions`);
 }
 
+const venues = buildVenues(existingVenues, events);
+const venueIds = new Map(venues.map((venue) => [venue.name, venue.id]));
 const normalized = dedupeAndSort(events).map((event) => {
   const publicEvent = { ...event };
+  publicEvent.venue = venueIds.get(event.venue);
+  if (!publicEvent.venue) throw new Error(`No venue id was generated for ${event.venue}`);
   delete publicEvent.district;
   return publicEvent;
 });
@@ -149,7 +153,6 @@ if (!normalized.length) throw new Error("Regional update returned no sessions");
 for (const district of ["Markham", "Richmond Hill", "Vaughan"]) {
   if (!events.some((event) => event.district === district)) throw new Error(`Regional update returned no ${district} sessions`);
 }
-const venues = buildVenues(existingVenues, events);
 const output = `export type RegionalEvent = {
   day: number;
   venue: string;

@@ -77,5 +77,5 @@ test("generated seven-day snapshot covers all three York Region cities", () => {
   assert.ok(regionalSchedule.length > 0);
   assert.deepEqual([...new Set(regionalVenues.map((venue) => venue.district))].sort(), ["Markham", "Richmond Hill", "Vaughan"]);
   assert.ok(regionalSchedule.every((event) => event.day >= 0 && event.day <= 6));
-  assert.ok(regionalSchedule.every((event) => regionalVenues.some((venue) => venue.name === event.venue)));
+  assert.ok(regionalSchedule.every((event) => regionalVenues.some((venue) => venue.id === event.venue)));
 });

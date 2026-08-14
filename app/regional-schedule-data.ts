@@ -278,7 +278,7 @@ export const regionalVenues = [
 export const regionalSchedule: RegionalEvent[] = [
   {
     "day": 0,
-    "venue": "Milliken Mills Community Centre",
+    "venue": "regional-markham-milliken-mills-community-centre",
     "start": "06:00",
     "end": "07:00",
     "type": "Lane Swim",
@@ -289,7 +289,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Garnet A. Williams Community Centre",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
     "start": "06:15",
     "end": "07:30",
     "type": "Lane Swim",
@@ -300,7 +300,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Al Palladini Community Centre",
+    "venue": "regional-vaughan-al-palladini-community-centre",
     "start": "06:30",
     "end": "07:30",
     "type": "Lane Swim",
@@ -311,7 +311,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Maple Community Centre",
+    "venue": "regional-vaughan-maple-community-centre",
     "start": "06:30",
     "end": "07:30",
     "type": "Lane Swim",
@@ -322,7 +322,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "North Thornhill Community Centre",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
     "start": "06:30",
     "end": "07:30",
     "type": "Lane Swim",
@@ -333,7 +333,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "06:30",
     "end": "08:00",
     "type": "Lane Swim",
@@ -344,7 +344,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Angus Glen Community Centre",
+    "venue": "regional-markham-angus-glen-community-centre",
     "start": "06:45",
     "end": "07:45",
     "type": "Lane Swim",
@@ -355,7 +355,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Carrville Community Centre",
+    "venue": "regional-vaughan-carrville-community-centre",
     "start": "06:45",
     "end": "07:45",
     "type": "Lane Swim",
@@ -366,7 +366,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Cornell Community Centre",
+    "venue": "regional-markham-cornell-community-centre",
     "start": "06:45",
     "end": "07:45",
     "type": "Lane Swim",
@@ -377,7 +377,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Vellore Village Community Centre",
+    "venue": "regional-vaughan-vellore-village-community-centre",
     "start": "06:45",
     "end": "07:45",
     "type": "Lane Swim",
@@ -388,7 +388,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Milliken Mills Community Centre",
+    "venue": "regional-markham-milliken-mills-community-centre",
     "start": "07:00",
     "end": "08:00",
     "type": "Lane Swim",
@@ -399,7 +399,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "07:00",
     "end": "08:30",
     "type": "Lane Swim",
@@ -410,7 +410,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Thornlea Pool & Gymnasium",
+    "venue": "regional-markham-thornlea-pool-gymnasium",
     "start": "07:00",
     "end": "08:00",
     "type": "Lane Swim",
@@ -421,7 +421,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Chancellor Community Centre",
+    "venue": "regional-vaughan-chancellor-community-centre",
     "start": "07:30",
     "end": "08:15",
     "type": "Aquafit",
@@ -432,7 +432,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Thornhill Outdoor Pool",
+    "venue": "regional-vaughan-thornhill-outdoor-pool",
     "start": "07:30",
     "end": "08:30",
     "type": "Lane Swim",
@@ -443,7 +443,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Maple Community Centre",
+    "venue": "regional-vaughan-maple-community-centre",
     "start": "07:40",
     "end": "08:25",
     "type": "Aquafit",
@@ -454,7 +454,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Al Palladini Community Centre",
+    "venue": "regional-vaughan-al-palladini-community-centre",
     "start": "07:45",
     "end": "08:30",
     "type": "Aquafit",
@@ -465,7 +465,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Angus Glen Community Centre",
+    "venue": "regional-markham-angus-glen-community-centre",
     "start": "07:45",
     "end": "08:45",
     "type": "Lane Swim",
@@ -476,7 +476,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Centennial Community Centre",
+    "venue": "regional-markham-centennial-community-centre",
     "start": "07:45",
     "end": "08:45",
     "type": "Lane Swim",
@@ -487,7 +487,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Cornell Community Centre",
+    "venue": "regional-markham-cornell-community-centre",
     "start": "07:45",
     "end": "08:45",
     "type": "Lane Swim",
@@ -498,7 +498,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Garnet A. Williams Community Centre",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
     "start": "07:45",
     "end": "08:30",
     "type": "Aquafit",
@@ -509,7 +509,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "North Thornhill Community Centre",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
     "start": "07:45",
     "end": "08:30",
     "type": "Aquafit",
@@ -520,7 +520,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Aaniin Community Centre",
+    "venue": "regional-markham-aaniin-community-centre",
     "start": "08:00",
     "end": "09:00",
     "type": "Lane Swim",
@@ -531,7 +531,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Carrville Community Centre",
+    "venue": "regional-vaughan-carrville-community-centre",
     "start": "08:00",
     "end": "08:45",
     "type": "Aquafit",
@@ -542,7 +542,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Elgin West Pool",
+    "venue": "regional-richmond-hill-elgin-west-pool",
     "start": "08:00",
     "end": "08:50",
     "type": "Aquafit",
@@ -553,7 +553,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Father Ermanno Bulfon Community Centre",
+    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
     "start": "08:00",
     "end": "08:45",
     "type": "Aquafit",
@@ -564,7 +564,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Milliken Mills Community Centre",
+    "venue": "regional-markham-milliken-mills-community-centre",
     "start": "08:00",
     "end": "09:00",
     "type": "Lane Swim",
@@ -575,7 +575,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Thornhill Community Centre",
+    "venue": "regional-markham-thornhill-community-centre",
     "start": "08:00",
     "end": "08:45",
     "type": "Leisure Swim",
@@ -586,7 +586,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Thornlea Pool & Gymnasium",
+    "venue": "regional-markham-thornlea-pool-gymnasium",
     "start": "08:00",
     "end": "09:00",
     "type": "Lane Swim",
@@ -597,7 +597,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Vellore Village Community Centre",
+    "venue": "regional-vaughan-vellore-village-community-centre",
     "start": "08:00",
     "end": "08:45",
     "type": "Aquafit",
@@ -608,7 +608,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Chancellor Community Centre",
+    "venue": "regional-vaughan-chancellor-community-centre",
     "start": "08:30",
     "end": "09:15",
     "type": "Aquafit",
@@ -619,7 +619,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Maple Community Centre",
+    "venue": "regional-vaughan-maple-community-centre",
     "start": "08:35",
     "end": "09:20",
     "type": "Aquafit",
@@ -630,7 +630,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Angus Glen Community Centre",
+    "venue": "regional-markham-angus-glen-community-centre",
     "start": "08:45",
     "end": "09:45",
     "type": "Lane Swim",
@@ -641,7 +641,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Garnet A. Williams Community Centre",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
     "start": "08:45",
     "end": "09:30",
     "type": "Aquafit",
@@ -652,7 +652,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Thornhill Outdoor Pool",
+    "venue": "regional-vaughan-thornhill-outdoor-pool",
     "start": "08:45",
     "end": "09:30",
     "type": "Aquafit",
@@ -663,7 +663,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "The Wave Pool",
+    "venue": "regional-richmond-hill-the-wave-pool",
     "start": "08:55",
     "end": "09:45",
     "type": "Aquafit",
@@ -674,7 +674,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Aaniin Community Centre",
+    "venue": "regional-markham-aaniin-community-centre",
     "start": "09:00",
     "end": "10:00",
     "type": "Lane Swim",
@@ -685,7 +685,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Centennial Community Centre",
+    "venue": "regional-markham-centennial-community-centre",
     "start": "09:00",
     "end": "09:45",
     "type": "Aquafit",
@@ -696,7 +696,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Father Ermanno Bulfon Community Centre",
+    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
     "start": "09:00",
     "end": "09:45",
     "type": "Aquafit",
@@ -707,7 +707,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Rouge River Community Centre",
+    "venue": "regional-markham-rouge-river-community-centre",
     "start": "09:00",
     "end": "09:45",
     "type": "Aquafit",
@@ -718,7 +718,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Thornhill Community Centre",
+    "venue": "regional-markham-thornhill-community-centre",
     "start": "09:00",
     "end": "10:00",
     "type": "Aquafit",
@@ -729,7 +729,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Thornhill Outdoor Pool",
+    "venue": "regional-vaughan-thornhill-outdoor-pool",
     "start": "09:45",
     "end": "10:30",
     "type": "Aquafit",
@@ -740,7 +740,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Centennial Community Centre",
+    "venue": "regional-markham-centennial-community-centre",
     "start": "10:00",
     "end": "11:00",
     "type": "Lane Swim",
@@ -751,7 +751,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Centennial Community Centre",
+    "venue": "regional-markham-centennial-community-centre",
     "start": "10:00",
     "end": "11:00",
     "type": "Leisure Swim",
@@ -762,7 +762,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Rouge River Community Centre",
+    "venue": "regional-markham-rouge-river-community-centre",
     "start": "10:00",
     "end": "10:45",
     "type": "Aquafit",
@@ -773,7 +773,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Thornhill Community Centre",
+    "venue": "regional-markham-thornhill-community-centre",
     "start": "10:00",
     "end": "10:45",
     "type": "Aquafit",
@@ -784,7 +784,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Morgan Pool",
+    "venue": "regional-markham-morgan-pool",
     "start": "10:30",
     "end": "11:30",
     "type": "Lane Swim",
@@ -795,7 +795,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "10:45",
     "end": "13:15",
     "type": "Leisure Swim",
@@ -806,7 +806,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Thornhill Outdoor Pool",
+    "venue": "regional-vaughan-thornhill-outdoor-pool",
     "start": "10:45",
     "end": "11:45",
     "type": "Lane Swim",
@@ -817,7 +817,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Thornhill Outdoor Pool",
+    "venue": "regional-vaughan-thornhill-outdoor-pool",
     "start": "10:45",
     "end": "11:45",
     "type": "Leisure Swim",
@@ -828,7 +828,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Centennial Community Centre",
+    "venue": "regional-markham-centennial-community-centre",
     "start": "11:00",
     "end": "12:00",
     "type": "Lane Swim",
@@ -839,7 +839,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Centennial Community Centre",
+    "venue": "regional-markham-centennial-community-centre",
     "start": "11:00",
     "end": "12:00",
     "type": "Leisure Swim",
@@ -850,7 +850,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "11:00",
     "end": "12:30",
     "type": "Leisure Swim",
@@ -861,7 +861,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Thornhill Community Centre",
+    "venue": "regional-markham-thornhill-community-centre",
     "start": "11:00",
     "end": "11:45",
     "type": "Leisure Swim",
@@ -872,7 +872,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Centennial Pool",
+    "venue": "regional-richmond-hill-centennial-pool",
     "start": "11:15",
     "end": "12:00",
     "type": "Lane Swim",
@@ -883,7 +883,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Woodbridge Pool & Memorial Arena",
+    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
     "start": "11:15",
     "end": "12:00",
     "type": "Aquafit",
@@ -894,7 +894,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Garnet A. Williams Community Centre",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
     "start": "11:30",
     "end": "12:45",
     "type": "Lane Swim",
@@ -905,7 +905,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Garnet A. Williams Community Centre",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
     "start": "11:30",
     "end": "12:45",
     "type": "Leisure Swim",
@@ -916,7 +916,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Morgan Pool",
+    "venue": "regional-markham-morgan-pool",
     "start": "11:30",
     "end": "12:30",
     "type": "Lane Swim",
@@ -927,7 +927,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "11:30",
     "end": "12:45",
     "type": "Leisure Swim",
@@ -938,7 +938,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Cornell Community Centre",
+    "venue": "regional-markham-cornell-community-centre",
     "start": "11:35",
     "end": "12:20",
     "type": "Aquafit",
@@ -949,7 +949,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Cornell Community Centre",
+    "venue": "regional-markham-cornell-community-centre",
     "start": "11:35",
     "end": "12:35",
     "type": "Leisure Swim",
@@ -960,7 +960,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Chancellor Community Centre",
+    "venue": "regional-vaughan-chancellor-community-centre",
     "start": "11:45",
     "end": "13:15",
     "type": "Lane Swim",
@@ -971,7 +971,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Maple Community Centre",
+    "venue": "regional-vaughan-maple-community-centre",
     "start": "11:45",
     "end": "12:45",
     "type": "Lane Swim",
@@ -982,7 +982,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Rouge River Community Centre",
+    "venue": "regional-markham-rouge-river-community-centre",
     "start": "11:45",
     "end": "12:45",
     "type": "Leisure Swim",
@@ -993,7 +993,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Thornhill Outdoor Pool",
+    "venue": "regional-vaughan-thornhill-outdoor-pool",
     "start": "11:45",
     "end": "12:45",
     "type": "Lane Swim",
@@ -1004,7 +1004,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Thornhill Outdoor Pool",
+    "venue": "regional-vaughan-thornhill-outdoor-pool",
     "start": "11:45",
     "end": "12:45",
     "type": "Leisure Swim",
@@ -1015,7 +1015,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Al Palladini Community Centre",
+    "venue": "regional-vaughan-al-palladini-community-centre",
     "start": "12:00",
     "end": "13:00",
     "type": "Lane Swim",
@@ -1026,7 +1026,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Angus Glen Community Centre",
+    "venue": "regional-markham-angus-glen-community-centre",
     "start": "12:00",
     "end": "13:00",
     "type": "Lane Swim",
@@ -1037,7 +1037,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Angus Glen Community Centre",
+    "venue": "regional-markham-angus-glen-community-centre",
     "start": "12:00",
     "end": "13:00",
     "type": "Leisure Swim",
@@ -1048,7 +1048,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Centennial Community Centre",
+    "venue": "regional-markham-centennial-community-centre",
     "start": "12:00",
     "end": "13:00",
     "type": "Leisure Swim",
@@ -1059,7 +1059,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Centennial Pool",
+    "venue": "regional-richmond-hill-centennial-pool",
     "start": "12:00",
     "end": "13:30",
     "type": "Lane Swim",
@@ -1070,7 +1070,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Elgin West Pool",
+    "venue": "regional-richmond-hill-elgin-west-pool",
     "start": "12:00",
     "end": "13:00",
     "type": "Leisure Swim",
@@ -1081,7 +1081,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "North Thornhill Community Centre",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
     "start": "12:00",
     "end": "13:00",
     "type": "Lane Swim",
@@ -1092,7 +1092,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "North Thornhill Community Centre",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
     "start": "12:00",
     "end": "13:00",
     "type": "Leisure Swim",
@@ -1103,7 +1103,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Thornhill Community Centre",
+    "venue": "regional-markham-thornhill-community-centre",
     "start": "12:00",
     "end": "13:00",
     "type": "Aquafit",
@@ -1114,7 +1114,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "The Wave Pool",
+    "venue": "regional-richmond-hill-the-wave-pool",
     "start": "12:05",
     "end": "15:35",
     "type": "Leisure Swim",
@@ -1125,7 +1125,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Carrville Community Centre",
+    "venue": "regional-vaughan-carrville-community-centre",
     "start": "12:15",
     "end": "13:15",
     "type": "Lane Swim",
@@ -1136,7 +1136,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Carrville Community Centre",
+    "venue": "regional-vaughan-carrville-community-centre",
     "start": "12:15",
     "end": "13:15",
     "type": "Leisure Swim",
@@ -1147,7 +1147,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Dufferin Clark Community Centre",
+    "venue": "regional-vaughan-dufferin-clark-community-centre",
     "start": "12:15",
     "end": "13:45",
     "type": "Lane Swim",
@@ -1158,7 +1158,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Father Ermanno Bulfon Community Centre",
+    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
     "start": "12:15",
     "end": "13:30",
     "type": "Leisure Swim",
@@ -1169,7 +1169,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Vellore Village Community Centre",
+    "venue": "regional-vaughan-vellore-village-community-centre",
     "start": "12:15",
     "end": "13:15",
     "type": "Lane Swim",
@@ -1180,7 +1180,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Woodbridge Pool & Memorial Arena",
+    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
     "start": "12:15",
     "end": "13:00",
     "type": "Aquafit",
@@ -1191,7 +1191,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Woodbridge Pool & Memorial Arena",
+    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
     "start": "12:15",
     "end": "13:15",
     "type": "Lane Swim",
@@ -1202,7 +1202,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Cornell Community Centre",
+    "venue": "regional-markham-cornell-community-centre",
     "start": "12:45",
     "end": "13:45",
     "type": "Lane Swim",
@@ -1213,7 +1213,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Cornell Community Centre",
+    "venue": "regional-markham-cornell-community-centre",
     "start": "12:45",
     "end": "13:45",
     "type": "Leisure Swim",
@@ -1224,7 +1224,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Milliken Mills Community Centre",
+    "venue": "regional-markham-milliken-mills-community-centre",
     "start": "12:45",
     "end": "13:30",
     "type": "Aquafit",
@@ -1235,7 +1235,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Morgan Pool",
+    "venue": "regional-markham-morgan-pool",
     "start": "12:45",
     "end": "13:30",
     "type": "Aquafit",
@@ -1246,7 +1246,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Rouge River Community Centre",
+    "venue": "regional-markham-rouge-river-community-centre",
     "start": "12:45",
     "end": "13:45",
     "type": "Leisure Swim",
@@ -1257,7 +1257,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Aaniin Community Centre",
+    "venue": "regional-markham-aaniin-community-centre",
     "start": "13:00",
     "end": "13:45",
     "type": "Aquafit",
@@ -1268,7 +1268,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Angus Glen Community Centre",
+    "venue": "regional-markham-angus-glen-community-centre",
     "start": "13:00",
     "end": "14:00",
     "type": "Lane Swim",
@@ -1279,7 +1279,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Angus Glen Community Centre",
+    "venue": "regional-markham-angus-glen-community-centre",
     "start": "13:00",
     "end": "14:00",
     "type": "Leisure Swim",
@@ -1290,7 +1290,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "13:00",
     "end": "14:15",
     "type": "Leisure Swim",
@@ -1301,7 +1301,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Thornhill Community Centre",
+    "venue": "regional-markham-thornhill-community-centre",
     "start": "13:00",
     "end": "13:45",
     "type": "Aquafit",
@@ -1312,7 +1312,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Thornhill Outdoor Pool",
+    "venue": "regional-vaughan-thornhill-outdoor-pool",
     "start": "13:00",
     "end": "15:00",
     "type": "Leisure Swim",
@@ -1323,7 +1323,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Woodbridge Pool & Memorial Arena",
+    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
     "start": "13:15",
     "end": "14:15",
     "type": "Lane Swim",
@@ -1334,7 +1334,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Woodbridge Pool & Memorial Arena",
+    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
     "start": "13:15",
     "end": "14:15",
     "type": "Leisure Swim",
@@ -1345,7 +1345,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Morgan Pool",
+    "venue": "regional-markham-morgan-pool",
     "start": "13:45",
     "end": "14:45",
     "type": "Leisure Swim",
@@ -1356,7 +1356,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Rouge River Community Centre",
+    "venue": "regional-markham-rouge-river-community-centre",
     "start": "13:45",
     "end": "14:45",
     "type": "Leisure Swim",
@@ -1367,7 +1367,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Aaniin Community Centre",
+    "venue": "regional-markham-aaniin-community-centre",
     "start": "14:00",
     "end": "15:00",
     "type": "Leisure Swim",
@@ -1378,7 +1378,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Angus Glen Community Centre",
+    "venue": "regional-markham-angus-glen-community-centre",
     "start": "14:00",
     "end": "15:00",
     "type": "Leisure Swim",
@@ -1389,7 +1389,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Milliken Mills Community Centre",
+    "venue": "regional-markham-milliken-mills-community-centre",
     "start": "14:00",
     "end": "15:00",
     "type": "Leisure Swim",
@@ -1400,7 +1400,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "14:00",
     "end": "15:30",
     "type": "Leisure Swim",
@@ -1411,7 +1411,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Thornhill Community Centre",
+    "venue": "regional-markham-thornhill-community-centre",
     "start": "14:00",
     "end": "14:45",
     "type": "Leisure Swim",
@@ -1422,7 +1422,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Cornell Community Centre",
+    "venue": "regional-markham-cornell-community-centre",
     "start": "14:45",
     "end": "15:45",
     "type": "Leisure Swim",
@@ -1433,7 +1433,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Morgan Pool",
+    "venue": "regional-markham-morgan-pool",
     "start": "14:45",
     "end": "15:45",
     "type": "Leisure Swim",
@@ -1444,7 +1444,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Vellore Village Community Centre",
+    "venue": "regional-vaughan-vellore-village-community-centre",
     "start": "14:45",
     "end": "15:45",
     "type": "Leisure Swim",
@@ -1455,7 +1455,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Angus Glen Community Centre",
+    "venue": "regional-markham-angus-glen-community-centre",
     "start": "15:00",
     "end": "16:00",
     "type": "Leisure Swim",
@@ -1466,7 +1466,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Dufferin Clark Community Centre",
+    "venue": "regional-vaughan-dufferin-clark-community-centre",
     "start": "15:00",
     "end": "16:00",
     "type": "Leisure Swim",
@@ -1477,7 +1477,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Garnet A. Williams Community Centre",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
     "start": "15:00",
     "end": "16:00",
     "type": "Leisure Swim",
@@ -1488,7 +1488,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Milliken Mills Community Centre",
+    "venue": "regional-markham-milliken-mills-community-centre",
     "start": "15:00",
     "end": "16:00",
     "type": "Leisure Swim",
@@ -1499,7 +1499,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Aaniin Community Centre",
+    "venue": "regional-markham-aaniin-community-centre",
     "start": "15:15",
     "end": "16:15",
     "type": "Leisure Swim",
@@ -1510,7 +1510,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Chancellor Community Centre",
+    "venue": "regional-vaughan-chancellor-community-centre",
     "start": "15:15",
     "end": "16:15",
     "type": "Leisure Swim",
@@ -1521,7 +1521,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Maple Community Centre",
+    "venue": "regional-vaughan-maple-community-centre",
     "start": "15:15",
     "end": "16:15",
     "type": "Leisure Swim",
@@ -1532,7 +1532,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "North Thornhill Community Centre",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
     "start": "15:15",
     "end": "16:30",
     "type": "Leisure Swim",
@@ -1543,7 +1543,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Rouge River Community Centre",
+    "venue": "regional-markham-rouge-river-community-centre",
     "start": "15:15",
     "end": "16:15",
     "type": "Leisure Swim",
@@ -1554,7 +1554,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Thornhill Outdoor Pool",
+    "venue": "regional-vaughan-thornhill-outdoor-pool",
     "start": "15:15",
     "end": "17:15",
     "type": "Leisure Swim",
@@ -1565,7 +1565,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Al Palladini Community Centre",
+    "venue": "regional-vaughan-al-palladini-community-centre",
     "start": "15:30",
     "end": "16:30",
     "type": "Leisure Swim",
@@ -1576,7 +1576,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Woodbridge Pool & Memorial Arena",
+    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
     "start": "15:30",
     "end": "16:30",
     "type": "Leisure Swim",
@@ -1587,7 +1587,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Cornell Community Centre",
+    "venue": "regional-markham-cornell-community-centre",
     "start": "15:45",
     "end": "16:45",
     "type": "Leisure Swim",
@@ -1598,7 +1598,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Morgan Pool",
+    "venue": "regional-markham-morgan-pool",
     "start": "16:15",
     "end": "17:15",
     "type": "Leisure Swim",
@@ -1609,7 +1609,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Rouge River Community Centre",
+    "venue": "regional-markham-rouge-river-community-centre",
     "start": "16:15",
     "end": "17:15",
     "type": "Leisure Swim",
@@ -1620,7 +1620,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Garnet A. Williams Community Centre",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
     "start": "16:45",
     "end": "18:00",
     "type": "Lane Swim",
@@ -1631,7 +1631,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Garnet A. Williams Community Centre",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
     "start": "16:45",
     "end": "18:00",
     "type": "Leisure Swim",
@@ -1642,7 +1642,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Morgan Pool",
+    "venue": "regional-markham-morgan-pool",
     "start": "17:15",
     "end": "18:15",
     "type": "Leisure Swim",
@@ -1653,7 +1653,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Rouge River Community Centre",
+    "venue": "regional-markham-rouge-river-community-centre",
     "start": "17:15",
     "end": "18:15",
     "type": "Leisure Swim",
@@ -1664,7 +1664,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Carrville Community Centre",
+    "venue": "regional-vaughan-carrville-community-centre",
     "start": "17:30",
     "end": "19:30",
     "type": "Leisure Swim",
@@ -1675,7 +1675,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Thornhill Outdoor Pool",
+    "venue": "regional-vaughan-thornhill-outdoor-pool",
     "start": "17:30",
     "end": "19:00",
     "type": "Leisure Swim",
@@ -1686,7 +1686,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Morgan Pool",
+    "venue": "regional-markham-morgan-pool",
     "start": "18:15",
     "end": "19:15",
     "type": "Leisure Swim",
@@ -1697,7 +1697,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Thornhill Community Centre",
+    "venue": "regional-markham-thornhill-community-centre",
     "start": "18:45",
     "end": "19:30",
     "type": "Aquafit",
@@ -1708,7 +1708,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "19:00",
     "end": "20:00",
     "type": "Leisure Swim",
@@ -1719,7 +1719,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "19:15",
     "end": "20:30",
     "type": "Leisure Swim",
@@ -1730,7 +1730,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Thornhill Outdoor Pool",
+    "venue": "regional-vaughan-thornhill-outdoor-pool",
     "start": "19:15",
     "end": "20:15",
     "type": "Lane Swim",
@@ -1741,7 +1741,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Cornell Community Centre",
+    "venue": "regional-markham-cornell-community-centre",
     "start": "19:35",
     "end": "20:35",
     "type": "Leisure Swim",
@@ -1752,7 +1752,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Thornhill Community Centre",
+    "venue": "regional-markham-thornhill-community-centre",
     "start": "19:45",
     "end": "20:30",
     "type": "Aquafit",
@@ -1763,7 +1763,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Thornlea Pool & Gymnasium",
+    "venue": "regional-markham-thornlea-pool-gymnasium",
     "start": "19:45",
     "end": "20:45",
     "type": "Leisure Swim",
@@ -1774,7 +1774,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Centennial Community Centre",
+    "venue": "regional-markham-centennial-community-centre",
     "start": "20:00",
     "end": "21:00",
     "type": "Lane Swim",
@@ -1785,7 +1785,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Aaniin Community Centre",
+    "venue": "regional-markham-aaniin-community-centre",
     "start": "20:15",
     "end": "21:15",
     "type": "Leisure Swim",
@@ -1796,7 +1796,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Angus Glen Community Centre",
+    "venue": "regional-markham-angus-glen-community-centre",
     "start": "20:15",
     "end": "21:15",
     "type": "Leisure Swim",
@@ -1807,7 +1807,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Milliken Mills Community Centre",
+    "venue": "regional-markham-milliken-mills-community-centre",
     "start": "20:15",
     "end": "21:15",
     "type": "Lane Swim",
@@ -1818,7 +1818,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Cornell Community Centre",
+    "venue": "regional-markham-cornell-community-centre",
     "start": "20:40",
     "end": "21:40",
     "type": "Lane Swim",
@@ -1829,7 +1829,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "21:00",
     "end": "22:00",
     "type": "Lane Swim",
@@ -1840,18 +1840,18 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 0,
-    "venue": "Milliken Mills Community Centre",
+    "venue": "regional-markham-milliken-mills-community-centre",
     "start": "21:15",
     "end": "22:15",
     "type": "Lane Swim",
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.02",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=3eb213d5-6e76-46f2-a006-d00ad8ca60d3"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=2a0dc955-bd06-b5eb-2af0-ab8cc12fe40d"
   },
   {
     "day": 1,
-    "venue": "Elgin West Pool",
+    "venue": "regional-richmond-hill-elgin-west-pool",
     "start": "07:00",
     "end": "08:15",
     "type": "Lane Swim",
@@ -1862,7 +1862,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 1,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "07:30",
     "end": "09:00",
     "type": "Lane Swim",
@@ -1873,7 +1873,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 1,
-    "venue": "Rouge River Community Centre",
+    "venue": "regional-markham-rouge-river-community-centre",
     "start": "11:15",
     "end": "12:00",
     "type": "Aquafit",
@@ -1884,7 +1884,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 1,
-    "venue": "Thornhill Community Centre",
+    "venue": "regional-markham-thornhill-community-centre",
     "start": "12:15",
     "end": "13:00",
     "type": "Aquafit",
@@ -1895,7 +1895,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 1,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "13:00",
     "end": "14:00",
     "type": "Leisure Swim",
@@ -1906,7 +1906,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 1,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "13:00",
     "end": "14:15",
     "type": "Leisure Swim",
@@ -1917,7 +1917,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 1,
-    "venue": "Thornhill Community Centre",
+    "venue": "regional-markham-thornhill-community-centre",
     "start": "13:15",
     "end": "14:00",
     "type": "Aquafit",
@@ -1928,7 +1928,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 1,
-    "venue": "Centennial Pool",
+    "venue": "regional-richmond-hill-centennial-pool",
     "start": "14:00",
     "end": "15:30",
     "type": "Leisure Swim",
@@ -1939,7 +1939,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 1,
-    "venue": "Elgin West Pool",
+    "venue": "regional-richmond-hill-elgin-west-pool",
     "start": "14:00",
     "end": "15:30",
     "type": "Leisure Swim",
@@ -1950,7 +1950,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 1,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "14:00",
     "end": "16:00",
     "type": "Leisure Swim",
@@ -1961,7 +1961,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 1,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "14:15",
     "end": "15:45",
     "type": "Leisure Swim",
@@ -1972,7 +1972,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 1,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "14:30",
     "end": "15:30",
     "type": "Leisure Swim",
@@ -1983,7 +1983,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 1,
-    "venue": "The Wave Pool",
+    "venue": "regional-richmond-hill-the-wave-pool",
     "start": "15:35",
     "end": "17:35",
     "type": "Leisure Swim",
@@ -1994,7 +1994,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 2,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "06:30",
     "end": "08:00",
     "type": "Lane Swim",
@@ -2005,7 +2005,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 2,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "06:30",
     "end": "08:30",
     "type": "Lane Swim",
@@ -2016,7 +2016,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 2,
-    "venue": "Centennial Pool",
+    "venue": "regional-richmond-hill-centennial-pool",
     "start": "07:00",
     "end": "09:00",
     "type": "Lane Swim",
@@ -2027,7 +2027,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 2,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "07:15",
     "end": "08:15",
     "type": "Lane Swim",
@@ -2038,7 +2038,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 2,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "08:10",
     "end": "09:00",
     "type": "Aquafit",
@@ -2049,7 +2049,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 2,
-    "venue": "The Wave Pool",
+    "venue": "regional-richmond-hill-the-wave-pool",
     "start": "11:35",
     "end": "13:35",
     "type": "Leisure Swim",
@@ -2060,7 +2060,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 2,
-    "venue": "Rouge River Community Centre",
+    "venue": "regional-markham-rouge-river-community-centre",
     "start": "12:00",
     "end": "12:45",
     "type": "Aquafit",
@@ -2071,7 +2071,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 2,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "13:00",
     "end": "14:00",
     "type": "Leisure Swim",
@@ -2082,7 +2082,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 2,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "13:00",
     "end": "14:15",
     "type": "Leisure Swim",
@@ -2093,7 +2093,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 2,
-    "venue": "Aaniin Community Centre",
+    "venue": "regional-markham-aaniin-community-centre",
     "start": "13:15",
     "end": "14:00",
     "type": "Aquafit",
@@ -2104,7 +2104,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 2,
-    "venue": "Centennial Pool",
+    "venue": "regional-richmond-hill-centennial-pool",
     "start": "14:00",
     "end": "15:30",
     "type": "Leisure Swim",
@@ -2115,7 +2115,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 2,
-    "venue": "Elgin West Pool",
+    "venue": "regional-richmond-hill-elgin-west-pool",
     "start": "14:00",
     "end": "15:30",
     "type": "Leisure Swim",
@@ -2126,7 +2126,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 2,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "14:00",
     "end": "16:00",
     "type": "Leisure Swim",
@@ -2137,7 +2137,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 2,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "14:15",
     "end": "15:45",
     "type": "Leisure Swim",
@@ -2148,7 +2148,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 2,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "14:30",
     "end": "15:30",
     "type": "Leisure Swim",
@@ -2159,7 +2159,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 2,
-    "venue": "The Wave Pool",
+    "venue": "regional-richmond-hill-the-wave-pool",
     "start": "15:35",
     "end": "17:35",
     "type": "Leisure Swim",
@@ -2170,7 +2170,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "06:30",
     "end": "08:00",
     "type": "Lane Swim",
@@ -2181,7 +2181,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "07:00",
     "end": "08:30",
     "type": "Lane Swim",
@@ -2192,7 +2192,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Angus Glen Community Centre",
+    "venue": "regional-markham-angus-glen-community-centre",
     "start": "08:00",
     "end": "08:45",
     "type": "Aquafit",
@@ -2203,7 +2203,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Elgin West Pool",
+    "venue": "regional-richmond-hill-elgin-west-pool",
     "start": "08:00",
     "end": "08:50",
     "type": "Aquafit",
@@ -2214,7 +2214,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "The Wave Pool",
+    "venue": "regional-richmond-hill-the-wave-pool",
     "start": "08:15",
     "end": "09:05",
     "type": "Aquafit",
@@ -2225,7 +2225,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "The Wave Pool",
+    "venue": "regional-richmond-hill-the-wave-pool",
     "start": "08:15",
     "end": "09:00",
     "type": "Aquafit",
@@ -2236,7 +2236,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Rouge River Community Centre",
+    "venue": "regional-markham-rouge-river-community-centre",
     "start": "08:30",
     "end": "09:15",
     "type": "Aquafit",
@@ -2247,7 +2247,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Angus Glen Community Centre",
+    "venue": "regional-markham-angus-glen-community-centre",
     "start": "09:00",
     "end": "09:45",
     "type": "Aquafit",
@@ -2258,7 +2258,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Centennial Community Centre",
+    "venue": "regional-markham-centennial-community-centre",
     "start": "09:00",
     "end": "09:45",
     "type": "Aquafit",
@@ -2269,7 +2269,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Rouge River Community Centre",
+    "venue": "regional-markham-rouge-river-community-centre",
     "start": "09:30",
     "end": "10:15",
     "type": "Aquafit",
@@ -2280,7 +2280,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Thornhill Community Centre",
+    "venue": "regional-markham-thornhill-community-centre",
     "start": "09:30",
     "end": "10:30",
     "type": "Aquafit",
@@ -2291,7 +2291,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Thornhill Community Centre",
+    "venue": "regional-markham-thornhill-community-centre",
     "start": "10:30",
     "end": "11:15",
     "type": "Aquafit",
@@ -2302,7 +2302,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "10:45",
     "end": "11:35",
     "type": "Aquafit",
@@ -2313,7 +2313,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "11:00",
     "end": "12:30",
     "type": "Leisure Swim",
@@ -2324,7 +2324,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Centennial Pool",
+    "venue": "regional-richmond-hill-centennial-pool",
     "start": "11:15",
     "end": "12:00",
     "type": "Lane Swim",
@@ -2335,7 +2335,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "11:30",
     "end": "12:45",
     "type": "Leisure Swim",
@@ -2346,7 +2346,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Cornell Community Centre",
+    "venue": "regional-markham-cornell-community-centre",
     "start": "11:35",
     "end": "12:20",
     "type": "Aquafit",
@@ -2357,7 +2357,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "11:45",
     "end": "13:15",
     "type": "Leisure Swim",
@@ -2368,7 +2368,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Centennial Pool",
+    "venue": "regional-richmond-hill-centennial-pool",
     "start": "12:00",
     "end": "13:30",
     "type": "Lane Swim",
@@ -2379,7 +2379,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Elgin West Pool",
+    "venue": "regional-richmond-hill-elgin-west-pool",
     "start": "12:00",
     "end": "13:00",
     "type": "Leisure Swim",
@@ -2390,7 +2390,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Thornhill Community Centre",
+    "venue": "regional-markham-thornhill-community-centre",
     "start": "12:00",
     "end": "13:00",
     "type": "Aquafit",
@@ -2401,7 +2401,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "The Wave Pool",
+    "venue": "regional-richmond-hill-the-wave-pool",
     "start": "12:05",
     "end": "15:35",
     "type": "Leisure Swim",
@@ -2412,7 +2412,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "12:30",
     "end": "13:30",
     "type": "Lane Swim",
@@ -2423,7 +2423,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Milliken Mills Community Centre",
+    "venue": "regional-markham-milliken-mills-community-centre",
     "start": "12:45",
     "end": "13:30",
     "type": "Aquafit",
@@ -2434,7 +2434,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Morgan Pool",
+    "venue": "regional-markham-morgan-pool",
     "start": "12:45",
     "end": "13:30",
     "type": "Aquafit",
@@ -2445,7 +2445,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Aaniin Community Centre",
+    "venue": "regional-markham-aaniin-community-centre",
     "start": "13:00",
     "end": "13:45",
     "type": "Aquafit",
@@ -2456,7 +2456,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "13:00",
     "end": "14:15",
     "type": "Leisure Swim",
@@ -2467,7 +2467,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Thornhill Community Centre",
+    "venue": "regional-markham-thornhill-community-centre",
     "start": "13:00",
     "end": "13:45",
     "type": "Aquafit",
@@ -2478,7 +2478,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "14:00",
     "end": "15:30",
     "type": "Leisure Swim",
@@ -2489,7 +2489,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "18:15",
     "end": "19:45",
     "type": "Leisure Swim",
@@ -2500,7 +2500,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Morgan Pool",
+    "venue": "regional-markham-morgan-pool",
     "start": "18:45",
     "end": "19:30",
     "type": "Aquafit",
@@ -2511,7 +2511,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Thornhill Community Centre",
+    "venue": "regional-markham-thornhill-community-centre",
     "start": "18:45",
     "end": "19:30",
     "type": "Aquafit",
@@ -2522,7 +2522,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "19:00",
     "end": "20:00",
     "type": "Leisure Swim",
@@ -2533,7 +2533,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "19:15",
     "end": "20:30",
     "type": "Leisure Swim",
@@ -2544,7 +2544,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Elgin West Pool",
+    "venue": "regional-richmond-hill-elgin-west-pool",
     "start": "19:45",
     "end": "21:00",
     "type": "Leisure Swim",
@@ -2555,7 +2555,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Thornhill Community Centre",
+    "venue": "regional-markham-thornhill-community-centre",
     "start": "19:45",
     "end": "20:30",
     "type": "Aquafit",
@@ -2566,7 +2566,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "20:00",
     "end": "20:50",
     "type": "Aquafit",
@@ -2577,7 +2577,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Centennial Pool",
+    "venue": "regional-richmond-hill-centennial-pool",
     "start": "20:30",
     "end": "21:30",
     "type": "Lane Swim",
@@ -2588,7 +2588,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "20:45",
     "end": "21:45",
     "type": "Lane Swim",
@@ -2599,7 +2599,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 3,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "21:00",
     "end": "22:00",
     "type": "Lane Swim",
@@ -2610,7 +2610,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Centennial Pool",
+    "venue": "regional-richmond-hill-centennial-pool",
     "start": "06:30",
     "end": "08:00",
     "type": "Lane Swim",
@@ -2621,7 +2621,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Elgin West Pool",
+    "venue": "regional-richmond-hill-elgin-west-pool",
     "start": "06:30",
     "end": "08:00",
     "type": "Lane Swim",
@@ -2632,7 +2632,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "07:15",
     "end": "08:15",
     "type": "Lane Swim",
@@ -2643,7 +2643,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Angus Glen Community Centre",
+    "venue": "regional-markham-angus-glen-community-centre",
     "start": "08:00",
     "end": "08:45",
     "type": "Aquafit",
@@ -2654,7 +2654,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "08:00",
     "end": "08:50",
     "type": "Aquafit",
@@ -2665,7 +2665,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Cornell Community Centre",
+    "venue": "regional-markham-cornell-community-centre",
     "start": "08:05",
     "end": "08:50",
     "type": "Aquafit",
@@ -2676,7 +2676,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "08:30",
     "end": "09:20",
     "type": "Aquafit",
@@ -2687,7 +2687,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Angus Glen Community Centre",
+    "venue": "regional-markham-angus-glen-community-centre",
     "start": "09:00",
     "end": "09:45",
     "type": "Aquafit",
@@ -2698,7 +2698,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Centennial Community Centre",
+    "venue": "regional-markham-centennial-community-centre",
     "start": "09:00",
     "end": "09:45",
     "type": "Aquafit",
@@ -2709,7 +2709,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Thornhill Community Centre",
+    "venue": "regional-markham-thornhill-community-centre",
     "start": "09:00",
     "end": "10:00",
     "type": "Aquafit",
@@ -2720,7 +2720,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Rouge River Community Centre",
+    "venue": "regional-markham-rouge-river-community-centre",
     "start": "09:15",
     "end": "10:00",
     "type": "Aquafit",
@@ -2731,7 +2731,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Centennial Community Centre",
+    "venue": "regional-markham-centennial-community-centre",
     "start": "10:00",
     "end": "10:45",
     "type": "Aquafit",
@@ -2742,7 +2742,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Thornhill Community Centre",
+    "venue": "regional-markham-thornhill-community-centre",
     "start": "10:00",
     "end": "10:45",
     "type": "Aquafit",
@@ -2753,7 +2753,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Rouge River Community Centre",
+    "venue": "regional-markham-rouge-river-community-centre",
     "start": "10:15",
     "end": "11:00",
     "type": "Aquafit",
@@ -2764,7 +2764,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "10:45",
     "end": "13:15",
     "type": "Leisure Swim",
@@ -2775,7 +2775,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "11:00",
     "end": "12:30",
     "type": "Leisure Swim",
@@ -2786,7 +2786,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Centennial Pool",
+    "venue": "regional-richmond-hill-centennial-pool",
     "start": "11:15",
     "end": "12:00",
     "type": "Lane Swim",
@@ -2797,7 +2797,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "11:30",
     "end": "12:45",
     "type": "Leisure Swim",
@@ -2808,7 +2808,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Centennial Pool",
+    "venue": "regional-richmond-hill-centennial-pool",
     "start": "12:00",
     "end": "13:30",
     "type": "Lane Swim",
@@ -2819,7 +2819,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Elgin West Pool",
+    "venue": "regional-richmond-hill-elgin-west-pool",
     "start": "12:00",
     "end": "13:30",
     "type": "Leisure Swim",
@@ -2830,7 +2830,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Morgan Pool",
+    "venue": "regional-markham-morgan-pool",
     "start": "12:00",
     "end": "12:45",
     "type": "Aquafit",
@@ -2841,7 +2841,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "The Wave Pool",
+    "venue": "regional-richmond-hill-the-wave-pool",
     "start": "12:00",
     "end": "13:00",
     "type": "Leisure Swim",
@@ -2852,7 +2852,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "13:00",
     "end": "14:15",
     "type": "Leisure Swim",
@@ -2863,7 +2863,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "The Wave Pool",
+    "venue": "regional-richmond-hill-the-wave-pool",
     "start": "13:35",
     "end": "15:35",
     "type": "Leisure Swim",
@@ -2874,7 +2874,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Centennial Pool",
+    "venue": "regional-richmond-hill-centennial-pool",
     "start": "13:45",
     "end": "14:45",
     "type": "Leisure Swim",
@@ -2885,7 +2885,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Elgin West Pool",
+    "venue": "regional-richmond-hill-elgin-west-pool",
     "start": "14:00",
     "end": "15:30",
     "type": "Leisure Swim",
@@ -2896,7 +2896,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "14:00",
     "end": "15:30",
     "type": "Leisure Swim",
@@ -2907,7 +2907,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "14:15",
     "end": "15:45",
     "type": "Leisure Swim",
@@ -2918,7 +2918,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Morgan Pool",
+    "venue": "regional-markham-morgan-pool",
     "start": "16:10",
     "end": "16:55",
     "type": "Aquafit",
@@ -2929,7 +2929,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "The Wave Pool",
+    "venue": "regional-richmond-hill-the-wave-pool",
     "start": "18:45",
     "end": "20:15",
     "type": "Leisure Swim",
@@ -2940,7 +2940,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Cornell Community Centre",
+    "venue": "regional-markham-cornell-community-centre",
     "start": "19:35",
     "end": "20:20",
     "type": "Aquafit",
@@ -2951,7 +2951,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Elgin West Pool",
+    "venue": "regional-richmond-hill-elgin-west-pool",
     "start": "19:35",
     "end": "20:25",
     "type": "Aquafit",
@@ -2962,7 +2962,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "20:15",
     "end": "21:05",
     "type": "Aquafit",
@@ -2973,7 +2973,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "21:00",
     "end": "22:00",
     "type": "Lane Swim",
@@ -2984,7 +2984,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 4,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "21:00",
     "end": "22:30",
     "type": "Lane Swim",
@@ -2995,7 +2995,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 5,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "06:30",
     "end": "08:00",
     "type": "Lane Swim",
@@ -3006,7 +3006,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 5,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "07:00",
     "end": "08:30",
     "type": "Lane Swim",
@@ -3017,7 +3017,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 5,
-    "venue": "Elgin West Pool",
+    "venue": "regional-richmond-hill-elgin-west-pool",
     "start": "08:00",
     "end": "08:50",
     "type": "Aquafit",
@@ -3028,7 +3028,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 5,
-    "venue": "The Wave Pool",
+    "venue": "regional-richmond-hill-the-wave-pool",
     "start": "08:15",
     "end": "09:05",
     "type": "Aquafit",
@@ -3039,7 +3039,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 5,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "10:45",
     "end": "11:35",
     "type": "Aquafit",
@@ -3050,7 +3050,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 5,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "11:00",
     "end": "12:30",
     "type": "Leisure Swim",
@@ -3061,7 +3061,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 5,
-    "venue": "Centennial Pool",
+    "venue": "regional-richmond-hill-centennial-pool",
     "start": "11:15",
     "end": "12:00",
     "type": "Lane Swim",
@@ -3072,7 +3072,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 5,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "11:30",
     "end": "12:45",
     "type": "Leisure Swim",
@@ -3083,7 +3083,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 5,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "11:45",
     "end": "13:15",
     "type": "Leisure Swim",
@@ -3094,7 +3094,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 5,
-    "venue": "Centennial Pool",
+    "venue": "regional-richmond-hill-centennial-pool",
     "start": "12:00",
     "end": "13:30",
     "type": "Lane Swim",
@@ -3105,7 +3105,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 5,
-    "venue": "Elgin West Pool",
+    "venue": "regional-richmond-hill-elgin-west-pool",
     "start": "12:00",
     "end": "13:00",
     "type": "Leisure Swim",
@@ -3116,7 +3116,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 5,
-    "venue": "The Wave Pool",
+    "venue": "regional-richmond-hill-the-wave-pool",
     "start": "12:05",
     "end": "15:35",
     "type": "Leisure Swim",
@@ -3127,7 +3127,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 5,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "13:00",
     "end": "14:15",
     "type": "Leisure Swim",
@@ -3138,7 +3138,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 5,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "14:00",
     "end": "15:30",
     "type": "Leisure Swim",
@@ -3149,7 +3149,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 5,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "18:15",
     "end": "19:45",
     "type": "Leisure Swim",
@@ -3160,7 +3160,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 5,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "19:00",
     "end": "20:00",
     "type": "Leisure Swim",
@@ -3171,7 +3171,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 5,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "19:15",
     "end": "20:30",
     "type": "Leisure Swim",
@@ -3182,7 +3182,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 5,
-    "venue": "Elgin West Pool",
+    "venue": "regional-richmond-hill-elgin-west-pool",
     "start": "19:45",
     "end": "21:00",
     "type": "Leisure Swim",
@@ -3193,7 +3193,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 5,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "20:00",
     "end": "20:50",
     "type": "Aquafit",
@@ -3204,7 +3204,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 5,
-    "venue": "Centennial Pool",
+    "venue": "regional-richmond-hill-centennial-pool",
     "start": "20:30",
     "end": "21:30",
     "type": "Lane Swim",
@@ -3215,7 +3215,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 5,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "20:45",
     "end": "21:45",
     "type": "Lane Swim",
@@ -3226,7 +3226,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 5,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "21:00",
     "end": "22:00",
     "type": "Lane Swim",
@@ -3237,7 +3237,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 6,
-    "venue": "Centennial Pool",
+    "venue": "regional-richmond-hill-centennial-pool",
     "start": "06:30",
     "end": "08:00",
     "type": "Lane Swim",
@@ -3248,7 +3248,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 6,
-    "venue": "Elgin West Pool",
+    "venue": "regional-richmond-hill-elgin-west-pool",
     "start": "06:30",
     "end": "08:00",
     "type": "Lane Swim",
@@ -3259,7 +3259,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 6,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "07:15",
     "end": "08:15",
     "type": "Lane Swim",
@@ -3270,7 +3270,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 6,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "08:00",
     "end": "08:50",
     "type": "Aquafit",
@@ -3281,7 +3281,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 6,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "08:30",
     "end": "09:20",
     "type": "Aquafit",
@@ -3292,7 +3292,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 6,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "10:45",
     "end": "13:15",
     "type": "Leisure Swim",
@@ -3303,7 +3303,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 6,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "11:00",
     "end": "12:30",
     "type": "Leisure Swim",
@@ -3314,7 +3314,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 6,
-    "venue": "Centennial Pool",
+    "venue": "regional-richmond-hill-centennial-pool",
     "start": "11:15",
     "end": "12:00",
     "type": "Lane Swim",
@@ -3325,7 +3325,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 6,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "11:30",
     "end": "12:45",
     "type": "Leisure Swim",
@@ -3336,7 +3336,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 6,
-    "venue": "Centennial Pool",
+    "venue": "regional-richmond-hill-centennial-pool",
     "start": "12:00",
     "end": "13:30",
     "type": "Lane Swim",
@@ -3347,7 +3347,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 6,
-    "venue": "Elgin West Pool",
+    "venue": "regional-richmond-hill-elgin-west-pool",
     "start": "12:00",
     "end": "13:30",
     "type": "Leisure Swim",
@@ -3358,7 +3358,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 6,
-    "venue": "The Wave Pool",
+    "venue": "regional-richmond-hill-the-wave-pool",
     "start": "12:00",
     "end": "13:00",
     "type": "Leisure Swim",
@@ -3369,7 +3369,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 6,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "13:00",
     "end": "14:15",
     "type": "Leisure Swim",
@@ -3380,7 +3380,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 6,
-    "venue": "The Wave Pool",
+    "venue": "regional-richmond-hill-the-wave-pool",
     "start": "13:35",
     "end": "15:35",
     "type": "Leisure Swim",
@@ -3391,7 +3391,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 6,
-    "venue": "Centennial Pool",
+    "venue": "regional-richmond-hill-centennial-pool",
     "start": "13:45",
     "end": "14:45",
     "type": "Leisure Swim",
@@ -3402,7 +3402,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 6,
-    "venue": "Elgin West Pool",
+    "venue": "regional-richmond-hill-elgin-west-pool",
     "start": "14:00",
     "end": "15:30",
     "type": "Leisure Swim",
@@ -3413,7 +3413,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 6,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "14:00",
     "end": "15:30",
     "type": "Leisure Swim",
@@ -3424,7 +3424,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 6,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "14:15",
     "end": "15:45",
     "type": "Leisure Swim",
@@ -3435,7 +3435,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 6,
-    "venue": "Elgin West Pool",
+    "venue": "regional-richmond-hill-elgin-west-pool",
     "start": "19:35",
     "end": "20:25",
     "type": "Aquafit",
@@ -3446,7 +3446,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 6,
-    "venue": "Oak Ridges Pool",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "20:15",
     "end": "21:05",
     "type": "Aquafit",
@@ -3457,7 +3457,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 6,
-    "venue": "Bayview Hill Pool",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
     "start": "21:00",
     "end": "22:00",
     "type": "Lane Swim",
@@ -3468,7 +3468,7 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "day": 6,
-    "venue": "Richvale Pool",
+    "venue": "regional-richmond-hill-richvale-pool",
     "start": "21:00",
     "end": "22:30",
     "type": "Lane Swim",
