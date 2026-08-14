@@ -92,7 +92,7 @@ function calendarCandidates(payload) {
   }));
 }
 
-async function fetchPerfectMind(config, targetDay) {
+async function fetchPerfectMind(config, targetDates) {
   const startUrl = `${config.origin}${config.prefix}/Clients/BookMe4?widgetId=${config.widgetId}`;
   const start = await fetchText(startUrl);
   let cookie = cookieFrom(start.response);
@@ -107,8 +107,8 @@ async function fetchPerfectMind(config, targetDay) {
   if (!calendars.length) throw new Error(`${config.district}: no matching swim calendar was found`);
 
   const events = [];
-  const targetStart = [...targetDay.keys()][0];
-  const targetEnd = [...targetDay.keys()].at(-1);
+  const targetStart = [...targetDates][0];
+  const targetEnd = [...targetDates].at(-1);
   const toPerfectMindFilterDate = (dateKey) => `${dateKey}T00:00:00.000Z`;
   for (const calendar of calendars) {
     const classesUrl = `${config.origin}${config.prefix}/Clients/BookMe4BookingPages/Classes?calendarId=${calendar.id}&widgetId=${config.widgetId}&embed=False`;
@@ -149,7 +149,7 @@ async function fetchPerfectMind(config, targetDay) {
       if (seenPages.has(signature)) break;
       seenPages.add(signature);
       for (const item of classes) {
-        const event = normalizePerfectMindEvent(item, config, targetDay);
+        const event = normalizePerfectMindEvent(item, config, targetDates);
         if (event) events.push(event);
       }
       const followingKey = data.nextKey || data.NextKey || "";
@@ -188,14 +188,14 @@ function buildVenues(existing, events) {
 }
 
 const today = torontoDateKey();
-const targetDates = Array.from({ length: 7 }, (_, index) => addDays(today, index));
-const targetDay = new Map(targetDates.map((date, index) => [date, index]));
+const targetDates = Array.from({ length: 16 }, (_, index) => addDays(today, index));
+const targetDateSet = new Set(targetDates);
 const oldSource = await readFile(outputPath, "utf8");
 const existingVenues = parseExistingVenues(oldSource);
 const events = [];
 
 for (const config of CITY_CONFIGS) {
-  const fetched = await fetchPerfectMind(config, targetDay);
+  const fetched = await fetchPerfectMind(config, targetDateSet);
   events.push(...fetched.map((event) => ({ ...event, district: config.district })));
   console.log(`${config.district}: ${fetched.length} sessions`);
 }
@@ -221,7 +221,7 @@ for (const district of ["Markham", "Richmond Hill", "Vaughan"]) {
   if (!events.some((event) => event.district === district)) throw new Error(`Regional update returned no ${district} sessions`);
 }
 const output = `export type RegionalEvent = {
-  day: number;
+  date: string;
   venue: string;
   start: string;
   end: string;

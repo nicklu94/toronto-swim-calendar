@@ -107,10 +107,9 @@ export function nextPerfectMindDate(result, classes = []) {
   return dateKey ? addDays(dateKey, 1) : "";
 }
 
-export function normalizePerfectMindEvent(item, config, targetDay) {
+export function normalizePerfectMindEvent(item, config, targetDates) {
   const dateKey = parseOccurrenceDate(item.OccurrenceDate);
-  const day = targetDay.get(dateKey);
-  if (day === undefined) return null;
+  if (!dateKey || !targetDates.has(dateKey)) return null;
   const name = item.EventName || item.Name || "Public Swim";
   const venue = item.Location || item.Facility || item.FacilityName;
   if (!venue) return null;
@@ -122,7 +121,7 @@ export function normalizePerfectMindEvent(item, config, targetDay) {
     ? `${config.origin}${config.prefix}/Clients/BookMe4LandingPages/Class?widgetId=${config.widgetId}&classId=${eventId}`
     : config.source;
   return {
-    day,
+    date: dateKey,
     venue: String(venue).trim(),
     start,
     end,
@@ -158,7 +157,6 @@ function headingContainsDate(heading, dateKey) {
 
 export function parseRichmondHillSchedule(html, sourceConfig, targetDates) {
   const $ = cheerio.load(html);
-  const targetDay = new Map(targetDates.map((date, index) => [date, index]));
   const events = [];
   const headings = $("h2").filter((_, element) => sourceConfig.heading.test(cleanText($(element).text()))).toArray();
   for (const dateKey of targetDates) {
@@ -186,7 +184,7 @@ export function parseRichmondHillSchedule(html, sourceConfig, targetDates) {
             const text = cell.text();
             for (const range of parseTimeRanges(text)) {
               events.push({
-                day: targetDay.get(dateKey),
+                date: dateKey,
                 venue,
                 ...range,
                 type: classifyActivity(activity, sourceConfig.defaultType),
@@ -208,8 +206,8 @@ export function parseRichmondHillSchedule(html, sourceConfig, targetDates) {
 export function dedupeAndSort(events) {
   const unique = new Map();
   for (const event of events) {
-    const key = [event.day, event.venue, event.start, event.end, event.type, event.womenOnly].join("|");
+    const key = [event.date, event.venue, event.start, event.end, event.type, event.womenOnly].join("|");
     unique.set(key, event);
   }
-  return [...unique.values()].sort((a, b) => a.day - b.day || a.start.localeCompare(b.start) || a.venue.localeCompare(b.venue));
+  return [...unique.values()].sort((a, b) => a.date.localeCompare(b.date) || a.start.localeCompare(b.start) || a.venue.localeCompare(b.venue));
 }

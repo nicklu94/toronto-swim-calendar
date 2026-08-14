@@ -1,16 +1,16 @@
-name: Deploy York Region fix preview
+name: Deploy rolling-cache preview
 
 on:
   workflow_dispatch:
   push:
     branches:
-      - codex/fix-york-region-refresh
+      - codex/rolling-16-day-cache
 
 permissions:
   contents: read
 
 concurrency:
-  group: york-region-fix-preview
+  group: rolling-cache-preview
   cancel-in-progress: true
 
 jobs:
@@ -35,7 +35,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Refresh Toronto and York Region on the same date anchor
+      - name: Refresh the 16-day Toronto and York Region cache
         run: pnpm run update:schedule
 
       - name: Test and build

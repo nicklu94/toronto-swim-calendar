@@ -1,9 +1,10 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { schedule, venues, week } from "./schedule-data";
+import { schedule, scheduleMetadata, venues } from "./schedule-data";
 import { regionalSchedule, regionalVenues } from "./regional-schedule-data";
 import { PoolRating } from "./pool-rating";
+import { buildDisplayWeek } from "./schedule-window";
 
 const allVenues = [...venues, ...regionalVenues];
 const allSchedule = [
@@ -172,6 +173,8 @@ function distanceKm(a: { lat: number; lng: number }, b: { lat: number; lng: numb
 }
 
 export default function Home() {
+  const week = useMemo(() => buildDisplayWeek(), []);
+  const displayDateIndex = useMemo(() => new Map(week.dateKeys.map((date, index) => [date, index])), [week]);
   const [language, setLanguage] = useState<"zh" | "en">("en");
   const [city, setCity] = useState<CityFilter>("all");
   const [activity, setActivity] = useState<"all" | "Leisure Swim" | "Lane Swim" | "Aquafit" | "Women Only">("all");
@@ -260,16 +263,17 @@ export default function Home() {
 
   const visible = useMemo(
     () => [...allSchedule]
+      .filter((item) => displayDateIndex.has(item.date))
       .filter((item) => filteredVenueIds.has(item.venue))
       .filter((item) => selected === "all" || item.venue === selected)
       .filter((item) => cost === "all" || item.free)
       .filter((item) => activity === "all" || (activity === "Women Only" ? item.womenOnly : item.type === activity))
       .sort((a, b) =>
-        a.day - b.day ||
+        (displayDateIndex.get(a.date) ?? 99) - (displayDateIndex.get(b.date) ?? 99) ||
         timeToMinutes(a.start) - timeToMinutes(b.start) ||
         (venueNames.get(a.venue) ?? "").localeCompare(venueNames.get(b.venue) ?? "", "en-CA")
       ),
-    [activity, cost, filteredVenueIds, selected]
+    [activity, cost, displayDateIndex, filteredVenueIds, selected]
   );
 
   const count = visible.length;
@@ -337,7 +341,7 @@ export default function Home() {
           </a>
           <div className="nav-actions">
             <a className="feedback-link" href="mailto:superninglu@gmail.com?subject=Toronto%20Swim%20Calendar%20Feedback"><span>Feedback · </span>superninglu@gmail.com</a>
-            <span className="updated">{text.update} · {week.updatedLabel}</span>
+            <span className="updated">{text.update} · {scheduleMetadata.updatedLabel}</span>
             <button className="language-toggle" type="button" onClick={toggleLanguage} aria-label={text.language}>{text.languageButton}</button>
           </div>
         </nav>
@@ -443,7 +447,7 @@ export default function Home() {
 
       <section className="calendar" aria-label={`${week.rangeLabel} ${text.calendar}`}>
         {week.dayNames.map((day, dayIndex) => {
-          const items = visible.filter((item) => item.day === dayIndex);
+          const items = visible.filter((item) => item.date === week.dateKeys[dayIndex]);
           const isToday = week.todayIndex === dayIndex;
           return (
             <article className={`day ${isToday ? "today" : ""}`} key={day}>
@@ -516,7 +520,7 @@ export default function Home() {
 
       <footer>
         <span>{text.footer}</span>
-        <span>{text.nextUpdate}: {week.nextUpdateLabel}</span>
+        <span>{text.nextUpdate}: {language === "en" ? "Mondays and Thursdays" : "每周一、周四"}</span>
       </footer>
     </main>
   );

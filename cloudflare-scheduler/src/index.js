@@ -1,5 +1,6 @@
 const TORONTO_TIME = new Intl.DateTimeFormat("en-CA", {
   timeZone: "America/Toronto",
+  weekday: "short",
   hour: "2-digit",
   minute: "2-digit",
   hourCycle: "h23",
@@ -43,6 +44,7 @@ export default {
       service: "toronto-swim-scheduler",
       status: "ready",
       localSchedule: "03:15 America/Toronto",
+      refreshDays: "Monday and Thursday",
       target: "nicklu94/toronto-swim-calendar",
     });
   },
@@ -53,10 +55,10 @@ export default {
 
     // Cloudflare cron is UTC-only. Two UTC triggers cover EST and EDT; exactly
     // one corresponds to 03:15 in Toronto on any given day.
-    if (torontoClock.hour !== "03" || torontoClock.minute !== "15") {
+    if (torontoClock.hour !== "03" || torontoClock.minute !== "15" || !["Mon", "Thu"].includes(torontoClock.weekday)) {
       console.log(JSON.stringify({
         outcome: "skipped",
-        reason: "not-03:15-in-toronto",
+        reason: "not-monday-or-thursday-03:15-in-toronto",
         scheduledTime: scheduledDate.toISOString(),
         torontoClock,
       }));

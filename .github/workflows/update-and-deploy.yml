@@ -6,11 +6,10 @@ on:
     branches:
       - main
   schedule:
-    # GitHub cron uses UTC and can occasionally delay or drop a scheduled event.
-    # Use an off-peak primary run plus a backup; the freshness check below makes
-    # the backup exit quickly when the primary run already refreshed the site.
-    - cron: "37 10 * * *"
-    - cron: "37 12 * * *"
+    # Monday/Thursday backups for the 03:15 America/Toronto Cloudflare trigger.
+    # Successful primary runs make these exit before installing dependencies.
+    - cron: "37 10 * * 1,4"
+    - cron: "37 12 * * 1,4"
 
 permissions:
   contents: write
@@ -32,17 +31,16 @@ jobs:
         id: freshness
         shell: bash
         run: |
-          if [[ "$GITHUB_EVENT_NAME" != "schedule" ]]; then
+          if [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
             echo "needs_refresh=true" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
-          toronto_today="$(TZ=America/Toronto date +%-m/%-d)"
-          regional_today="$(TZ=America/Toronto date +%F)"
-          if grep -q "\"rangeLabel\": \"${toronto_today} " app/schedule-data.ts \
-            && grep -q "regionalUpdatedDate = \"${regional_today}\"" app/regional-schedule-data.ts; then
+          toronto_today="$(TZ=America/Toronto date +%F)"
+          if grep -q "\"cacheStart\": \"${toronto_today}\"" app/schedule-data.ts \
+            && grep -q "regionalUpdatedDate = \"${toronto_today}\"" app/regional-schedule-data.ts; then
             echo "needs_refresh=false" >> "$GITHUB_OUTPUT"
-            echo "The rolling calendar already starts on ${toronto_today}; skipping the backup run."
+            echo "The 16-day cache was already refreshed on ${toronto_today}; skipping this backup run."
           else
             echo "needs_refresh=true" >> "$GITHUB_OUTPUT"
             echo "The rolling calendar is stale; continuing with the refresh."
@@ -67,7 +65,18 @@ jobs:
 
       - name: Refresh schedule
         if: steps.freshness.outputs.needs_refresh == 'true'
-        run: pnpm run update:schedule
+        shell: bash
+        run: |
+          for attempt in 1 2 3; do
+            if pnpm run update:schedule; then
+              exit 0
+            fi
+            if [[ "$attempt" -lt 3 ]]; then
+              echo "Refresh attempt ${attempt} failed; retrying shortly."
+              sleep $((attempt * 30))
+            fi
+          done
+          exit 1
 
       - name: Build
         if: steps.freshness.outputs.needs_refresh == 'true'

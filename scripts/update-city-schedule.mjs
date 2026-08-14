@@ -95,8 +95,8 @@ function mondayFor(dateKey) {
 }
 
 const todayKey = torontoDateKey();
-const targetDates = Array.from({ length: 7 }, (_, index) => addDays(todayKey, index));
-const targetDay = new Map(targetDates.map((date, index) => [date, index]));
+const targetDates = Array.from({ length: 16 }, (_, index) => addDays(todayKey, index));
+const targetDateSet = new Set(targetDates);
 const requiredWeekStarts = new Set(targetDates.map(mondayFor));
 
 const arcgis = new URL("https://gis.toronto.ca/arcgis/rest/services/cot_geospatial13/FeatureServer/77/query");
@@ -167,10 +167,9 @@ for (const entry of verified) {
           const weekday = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"].indexOf(time.day.toLowerCase());
           if (weekday < 0) continue;
           const date = addDays(weekInfo.title, weekday);
-          const day = targetDay.get(date);
-          if (day === undefined) continue;
+          if (!targetDateSet.has(date)) continue;
           events.push({
-            day,
+            date,
             venue: venue.id,
             start: to24Hour(parts[1]),
             end: to24Hour(parts[2]),
@@ -197,28 +196,20 @@ const manualVenues = [{
 }];
 const manualEvents = [
   { date: "2026-08-08", venue: "toronto-pan-am-sports-centre", start: "14:00", end: "16:00", type: "Leisure Swim", womenOnly: false, free: true, fee: "", source: "https://www.tpasc.ca/portal/city-toronto/schedule" },
-].flatMap(({ date, ...event }) => targetDay.has(date) ? [{ day: targetDay.get(date), ...event }] : []);
+].flatMap(({ date, ...event }) => targetDateSet.has(date) ? [{ date, ...event }] : []);
 
 const venues = [...cityVenues, ...manualVenues].sort((a, b) => a.name.localeCompare(b.name, "en-CA"));
-const uniqueEvents = [...new Map([...events, ...manualEvents].map((event) => [`${event.day}|${event.venue}|${event.start}|${event.end}|${event.type}|${event.womenOnly}`, event])).values()]
-  .sort((a, b) => a.day - b.day || a.start.localeCompare(b.start) || a.venue.localeCompare(b.venue));
+const uniqueEvents = [...new Map([...events, ...manualEvents].map((event) => [`${event.date}|${event.venue}|${event.start}|${event.end}|${event.type}|${event.womenOnly}`, event])).values()]
+  .sort((a, b) => a.date.localeCompare(b.date) || a.start.localeCompare(b.start) || a.venue.localeCompare(b.venue));
 
-const firstDay = new Date(`${targetDates[0]}T12:00:00Z`);
-const lastDay = new Date(`${targetDates[6]}T12:00:00Z`);
 const now = new Date();
-const monthDay = (date) => new Intl.DateTimeFormat("zh-CN", { timeZone: "America/Toronto", month: "numeric", day: "numeric" }).format(date);
-const dates = targetDates.map((date) => date.slice(-2));
-const dayNames = targetDates.map((date) => ["周日", "周一", "周二", "周三", "周四", "周五", "周六"][new Date(`${date}T12:00:00Z`).getUTCDay()]);
-const tomorrow = new Date(`${targetDates[1]}T12:00:00Z`);
 const colors = ["#3976b8", "#7a4b95", "#687d39", "#a34d78", "#1779a7", "#c87d24", "#397d67", "#8b5b3e"];
 
-const ts = `export const week = ${JSON.stringify({
-  rangeLabel: `${monthDay(firstDay)} — ${monthDay(lastDay)}`,
-  dates,
-  dayNames,
-  todayIndex: 0,
+const ts = `export const scheduleMetadata = ${JSON.stringify({
+  cacheStart: targetDates[0],
+  cacheEnd: targetDates.at(-1),
+  fetchedAt: now.toISOString(),
   updatedLabel: new Intl.DateTimeFormat("zh-CN", { timeZone: "America/Toronto", month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit", hour12: false }).format(now),
-  nextUpdateLabel: `${monthDay(tomorrow)}（每日）`,
 }, null, 2)} as const;\n\nexport const venues = ${JSON.stringify(venues.map((venue, index) => ({
   id: venue.id,
   name: venue.name,
@@ -228,7 +219,7 @@ const ts = `export const week = ${JSON.stringify({
   lng: venue.lng,
   color: colors[index % colors.length],
   source: venue.source,
-})), null, 2)} as const;\n\ntype VenueId = typeof venues[number]["id"];\ntype SwimType = "Leisure Swim" | "Lane Swim" | "Aquafit";\n\nexport const schedule: Array<{day: number; venue: VenueId; start: string; end: string; type: SwimType; womenOnly: boolean; free: boolean; fee: string; source: string}> = ${JSON.stringify(uniqueEvents, null, 2)};\n`;
+})), null, 2)} as const;\n\ntype VenueId = typeof venues[number]["id"];\ntype SwimType = "Leisure Swim" | "Lane Swim" | "Aquafit";\n\nexport const schedule: Array<{date: string; venue: VenueId; start: string; end: string; type: SwimType; womenOnly: boolean; free: boolean; fee: string; source: string}> = ${JSON.stringify(uniqueEvents, null, 2)};\n`;
 
 await writeFile(path.join(root, "app", "schedule-data.ts"), ts, "utf8");
-console.log(`Updated ${venues.length} venues and ${uniqueEvents.length} Toronto Leisure Swim/Lane Swim/Aquafit slots for ${targetDates[0]} through ${targetDates[6]}.`);
+console.log(`Updated ${venues.length} venues and ${uniqueEvents.length} Toronto Leisure Swim/Lane Swim/Aquafit slots for ${targetDates[0]} through ${targetDates.at(-1)}.`);

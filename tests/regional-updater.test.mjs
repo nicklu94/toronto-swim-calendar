@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import {
   classifyActivity,
+  addDays,
   isWomenOnly,
   normalizePerfectMindEvent,
   nextPerfectMindDate,
@@ -38,7 +39,8 @@ test("normalizes a PerfectMind class", () => {
     prefix: "",
     widgetId: "widget",
     source: "https://example.com/swim",
-  }, new Map([["2026-08-14", 0]]));
+  }, new Set(["2026-08-14"]));
+  assert.equal(event.date, "2026-08-14");
   assert.equal(event.type, "Lane Swim");
   assert.equal(event.womenOnly, true);
   assert.equal(event.free, false);
@@ -79,10 +81,11 @@ test("keeps each Richmond Hill accordion table under its own pool", () => {
   assert.deepEqual(events.map((event) => event.venue), ["First Pool", "Second Pool"]);
 });
 
-test("generated seven-day snapshot covers all three York Region cities", () => {
+test("generated sixteen-day cache covers all three York Region cities", () => {
   assert.match(regionalUpdatedDate, /^\d{4}-\d{2}-\d{2}$/);
   assert.ok(regionalSchedule.length > 0);
   assert.deepEqual([...new Set(regionalVenues.map((venue) => venue.district))].sort(), ["Markham", "Richmond Hill", "Vaughan"]);
-  assert.ok(regionalSchedule.every((event) => event.day >= 0 && event.day <= 6));
+  const cacheEnd = addDays(regionalUpdatedDate, 15);
+  assert.ok(regionalSchedule.every((event) => event.date >= regionalUpdatedDate && event.date <= cacheEnd));
   assert.ok(regionalSchedule.every((event) => regionalVenues.some((venue) => venue.id === event.venue)));
 });
