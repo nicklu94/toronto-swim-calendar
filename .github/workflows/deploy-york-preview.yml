@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - codex/rolling-16-day-cache
+      - codex/filters-localization-banner-test
 
 permissions:
   contents: read

@@ -17,6 +17,9 @@ const tagOptions = [
   { value: "Lanes often full", zh: "泳道经常满" },
   { value: "Difficult parking", zh: "停车困难" },
   { value: "Lots of children", zh: "儿童很多" },
+  { value: "Universal change room", zh: "无障碍／通用更衣室" },
+  { value: "Outdoor pool", zh: "露天泳池" },
+  { value: "Indoor pool", zh: "室内泳池" },
 ] as const;
 
 type Stats = {
@@ -88,7 +91,7 @@ export function PoolRating({ venueId, venueName, language }: { venueId: string; 
   return (
     <section className="rating-panel" aria-labelledby="rating-title">
       <div className="rating-summary">
-        <span className="eyebrow">COMMUNITY RATING</span>
+        <span className="eyebrow">{language === "en" ? "COMMUNITY RATING" : "社区评分"}</span>
         <h2 id="rating-title">{venueName}</h2>
         <div className="rating-score">
           <strong>{loading ? "…" : stats.average ?? "—"}</strong>

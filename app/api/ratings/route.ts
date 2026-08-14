@@ -18,6 +18,9 @@ const allowedTags = [
   "Lanes often full",
   "Difficult parking",
   "Lots of children",
+  "Universal change room",
+  "Outdoor pool",
+  "Indoor pool",
 ] as const;
 const allowedTagSet = new Set<string>(allowedTags);
 

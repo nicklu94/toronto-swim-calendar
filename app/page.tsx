@@ -5,6 +5,7 @@ import { schedule, scheduleMetadata, venues } from "./schedule-data";
 import { regionalSchedule, regionalVenues } from "./regional-schedule-data";
 import { PoolRating } from "./pool-rating";
 import { buildDisplayWeek } from "./schedule-window";
+import { matchesTimeWindow, poolSettingForVenue, type PoolSettingFilter } from "./schedule-filters";
 
 const allVenues = [...venues, ...regionalVenues];
 const allSchedule = [
@@ -32,10 +33,10 @@ function cityForVenue(venue: { district: string }): Exclude<CityFilter, "all"> {
 
 const cityOptions: Array<{ value: CityFilter; label: Record<"zh" | "en", string> }> = [
   { value: "all", label: { zh: "全部城市", en: "All cities" } },
-  { value: "Toronto", label: { zh: "City of Toronto", en: "City of Toronto" } },
-  { value: "Markham", label: { zh: "Markham", en: "Markham" } },
-  { value: "Richmond Hill", label: { zh: "Richmond Hill", en: "Richmond Hill" } },
-  { value: "Vaughan", label: { zh: "Vaughan", en: "Vaughan" } },
+  { value: "Toronto", label: { zh: "多伦多市", en: "City of Toronto" } },
+  { value: "Markham", label: { zh: "万锦市", en: "Markham" } },
+  { value: "Richmond Hill", label: { zh: "列治文山市", en: "Richmond Hill" } },
+  { value: "Vaughan", label: { zh: "旺市", en: "Vaughan" } },
 ];
 const collapsedVenueLimit = 12;
 const englishDayNames: Record<string, string> = {
@@ -75,10 +76,10 @@ const copy = {
     filterByVenue: "按地点筛选",
     activityType: "活动类型",
     allActivities: "全部活动",
-    leisureSwim: "Leisure Swim",
-    laneSwim: "Lane Swim",
-    aquafit: "Aquafit",
-    womenOnly: "Women Only",
+    leisureSwim: "休闲游泳",
+    laneSwim: "泳道游泳",
+    aquafit: "水中健身",
+    womenOnly: "仅限女性",
     priceFilter: "费用",
     freeOnly: "只看免费",
     includePaid: "包括收费",
@@ -101,6 +102,22 @@ const copy = {
     notice: "数据来自各市官方公开排期。Markham 和 Vaughan 的预约系统有时只开放近期日期；Richmond Hill 使用其公布的周表。Toronto 的常规收费场次按官方公开排期收录，但官方数据不逐场次提供价格；出发前请查看官方页面。",
     footer: "泳池日历 · Toronto + York Region",
     nextUpdate: "数据抓取于",
+    releaseLabel: "测试版更新",
+    releaseDate: "2026 年 8 月 14 日",
+    releaseSummary: "新增星期、时间和室内／露天泳池筛选，完善中文选项，并增加泳池评分标签。",
+    dayFilter: "星期",
+    allDays: "全部日期",
+    poolSetting: "泳池类型",
+    allPoolSettings: "全部",
+    indoorPool: "室内泳池",
+    outdoorPool: "露天泳池",
+    poolSettingNote: "泳池类型依据各市官方场馆指南整理。",
+    timeFilter: "时间范围",
+    startsAfter: "不早于",
+    endsBefore: "不晚于",
+    anyTime: "不限",
+    clearScheduleFilters: "清除时间筛选",
+    invalidTimeRange: "开始时间需要早于结束时间。",
   },
   en: {
     home: "Swim calendar home",
@@ -155,6 +172,22 @@ const copy = {
     notice: "Data is collected from official public schedules. Markham and Vaughan booking systems sometimes expose only near-term dates; Richmond Hill uses its published weekly table. Toronto regular paid sessions are collected from the official public schedule, but the official feed does not provide per-session prices. Check the official page before travelling.",
     footer: "Swim Calendar · Toronto + York Region",
     nextUpdate: "Data collected",
+    releaseLabel: "Test update",
+    releaseDate: "August 14, 2026",
+    releaseSummary: "New day, time and indoor/outdoor filters, improved Chinese labels, and additional pool rating tags.",
+    dayFilter: "Day",
+    allDays: "All days",
+    poolSetting: "Pool setting",
+    allPoolSettings: "All",
+    indoorPool: "Indoor",
+    outdoorPool: "Outdoor",
+    poolSettingNote: "Pool settings are classified from official municipal facility guides.",
+    timeFilter: "Time range",
+    startsAfter: "Starts after",
+    endsBefore: "Ends before",
+    anyTime: "Any time",
+    clearScheduleFilters: "Clear time filters",
+    invalidTimeRange: "Start time must be earlier than end time.",
   },
 } as const;
 type Origin = { lat: number; lng: number; postalCode: string; approximate: boolean; kind?: "postal" | "device" };
@@ -179,6 +212,10 @@ export default function Home() {
   const [city, setCity] = useState<CityFilter>("all");
   const [activity, setActivity] = useState<"all" | "Leisure Swim" | "Lane Swim" | "Aquafit" | "Women Only">("all");
   const [cost, setCost] = useState<"free" | "all">("free");
+  const [day, setDay] = useState("all");
+  const [poolSetting, setPoolSetting] = useState<PoolSettingFilter>("all");
+  const [earliestStart, setEarliestStart] = useState("");
+  const [latestEnd, setLatestEnd] = useState("");
   const [selected, setSelected] = useState("all");
   const [venueExpanded, setVenueExpanded] = useState(false);
   const [postalCode, setPostalCode] = useState("");
@@ -230,8 +267,10 @@ export default function Home() {
   ])), [origin]);
 
   const cityFilteredVenues = useMemo(
-    () => city === "all" ? allVenues : allVenues.filter((venue) => cityForVenue(venue) === city),
-    [city]
+    () => allVenues
+      .filter((venue) => city === "all" || cityForVenue(venue) === city)
+      .filter((venue) => poolSetting === "all" || poolSettingForVenue(venue.id) === poolSetting),
+    [city, poolSetting]
   );
 
   const filteredVenues = useMemo(() => {
@@ -259,21 +298,23 @@ export default function Home() {
 
   useEffect(() => {
     setVenueExpanded(false);
-  }, [city, origin, radiusKm]);
+  }, [city, origin, poolSetting, radiusKm]);
 
   const visible = useMemo(
     () => [...allSchedule]
       .filter((item) => displayDateIndex.has(item.date))
       .filter((item) => filteredVenueIds.has(item.venue))
       .filter((item) => selected === "all" || item.venue === selected)
+      .filter((item) => day === "all" || item.date === day)
       .filter((item) => cost === "all" || item.free)
       .filter((item) => activity === "all" || (activity === "Women Only" ? item.womenOnly : item.type === activity))
+      .filter((item) => matchesTimeWindow(item, earliestStart, latestEnd))
       .sort((a, b) =>
         (displayDateIndex.get(a.date) ?? 99) - (displayDateIndex.get(b.date) ?? 99) ||
         timeToMinutes(a.start) - timeToMinutes(b.start) ||
         (venueNames.get(a.venue) ?? "").localeCompare(venueNames.get(b.venue) ?? "", "en-CA")
       ),
-    [activity, cost, displayDateIndex, filteredVenueIds, selected]
+    [activity, cost, day, displayDateIndex, earliestStart, filteredVenueIds, latestEnd, selected]
   );
 
   const count = visible.length;
@@ -345,6 +386,11 @@ export default function Home() {
             <button className="language-toggle" type="button" onClick={toggleLanguage} aria-label={text.language}>{text.languageButton}</button>
           </div>
         </nav>
+
+        <div className="release-banner" role="status">
+          <strong>{text.releaseLabel} · {text.releaseDate}</strong>
+          <span>{text.releaseSummary}</span>
+        </div>
 
         <div className="hero-copy" id="top">
           <p className="eyebrow">TORONTO · MARKHAM · RICHMOND HILL · VAUGHAN</p>
@@ -423,6 +469,43 @@ export default function Home() {
             <button className={cost === "all" ? "active" : ""} onClick={() => setCost("all")}>{text.includePaid}</button>
           </div>
         </div>
+        <div className="activity-row schedule-filter-row">
+          <span>{text.poolSetting}</span>
+          <div className="activity-tabs" role="group" aria-label={text.poolSetting}>
+            <button className={poolSetting === "all" ? "active" : ""} onClick={() => setPoolSetting("all")}>{text.allPoolSettings}</button>
+            <button className={poolSetting === "indoor" ? "active" : ""} onClick={() => setPoolSetting("indoor")}>{text.indoorPool}</button>
+            <button className={poolSetting === "outdoor" ? "active" : ""} onClick={() => setPoolSetting("outdoor")}>{text.outdoorPool}</button>
+          </div>
+          <small className="filter-note">{text.poolSettingNote}</small>
+        </div>
+        <div className="activity-row schedule-filter-row day-filter-row">
+          <span>{text.dayFilter}</span>
+          <div className="activity-tabs" role="group" aria-label={text.dayFilter}>
+            <button className={day === "all" ? "active" : ""} onClick={() => setDay("all")}>{text.allDays}</button>
+            {week.dateKeys.map((dateKey, index) => (
+              <button key={dateKey} className={day === dateKey ? "active" : ""} onClick={() => setDay(dateKey)}>
+                {language === "en" ? englishDayNames[week.dayNames[index]] : week.dayNames[index]} <small>{week.dates[index]}</small>
+              </button>
+            ))}
+          </div>
+        </div>
+        <div className="activity-row schedule-filter-row time-filter-row">
+          <span>{text.timeFilter}</span>
+          <label>
+            <span>{text.startsAfter}</span>
+            <input type="time" value={earliestStart} onChange={(event) => setEarliestStart(event.target.value)} aria-label={text.startsAfter} />
+          </label>
+          <label>
+            <span>{text.endsBefore}</span>
+            <input type="time" value={latestEnd} onChange={(event) => setLatestEnd(event.target.value)} aria-label={text.endsBefore} />
+          </label>
+          {(earliestStart || latestEnd) && (
+            <button className="clear-time-button" type="button" onClick={() => { setEarliestStart(""); setLatestEnd(""); }}>
+              {text.clearScheduleFilters}
+            </button>
+          )}
+          {earliestStart && latestEnd && earliestStart > latestEnd && <small className="time-error">{text.invalidTimeRange}</small>}
+        </div>
         <div className="venue-tabs" role="group" aria-label={text.filterByVenue}>
           <button className={selected === "all" ? "active" : ""} onClick={() => setSelected("all")}>{text.allLocations}</button>
           {displayedVenues.map((venue) => (
@@ -491,7 +574,7 @@ export default function Home() {
               <span className="location-number">{String(filteredVenues.indexOf(venue) + 1).padStart(2, "0")}</span>
               <div>
                 <h3>{venue.name}</h3>
-                <p>{venue.district} · {text.officialSchedule}{origin && ` · ${venueDistances.get(venue.id)?.toFixed(1)} km`}</p>
+                <p>{venue.district} · {poolSettingForVenue(venue.id) === "outdoor" ? text.outdoorPool : text.indoorPool} · {text.officialSchedule}{origin && ` · ${venueDistances.get(venue.id)?.toFixed(1)} km`}</p>
               </div>
               <span className="arrow">↗</span>
             </a>
