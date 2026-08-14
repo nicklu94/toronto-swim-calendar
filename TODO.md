@@ -11,6 +11,22 @@ been deployed to the production site and verified.
 
 - [ ] Add start-time and end-time filters so users can limit sessions to a preferred time range.
   增加开始时间和结束时间筛选，让用户只查看合适时段的场次。
+- [ ] Add an indoor/outdoor pool filter.
+  增加室内泳池／露天泳池筛选。
+- [ ] Add a day-of-week filter.
+  增加星期几筛选。
+
+## Data collection and automation / 数据抓取与自动更新
+
+- [ ] Fix the York Region daily refresh so Markham, Richmond Hill, and Vaughan schedules update alongside City of Toronto data.
+  修复 York Region 每日抓取任务，让 Markham、Richmond Hill 和 Vaughan 的场次与 City of Toronto 数据一起更新。
+
+## Regional coverage / 地区覆盖
+
+- [ ] Add pool information and available swim schedules for Newmarket.
+  添加 Newmarket 地区的泳池信息和可用游泳场次。
+- [ ] Add pool information and available swim schedules for Aurora.
+  添加 Aurora 地区的泳池信息和可用游泳场次。
 
 ## Chinese localization / 中文本地化
 
