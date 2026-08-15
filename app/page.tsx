@@ -63,6 +63,11 @@ const copy = {
     sessionCount: (value: number) => `${value} 个`,
     poolCount: (value: number) => `${value} 个`,
     filters: "日历筛选",
+    expandFilters: "展开筛选",
+    collapseFilters: "收起筛选",
+    filterSummary: (active: number, sessions: number) => active > 0
+      ? `${active} 组筛选已启用 · ${sessions} 个开放时段`
+      : `${sessions} 个开放时段 · 点击调整条件`,
     postalCode: "你的邮编",
     postalPlaceholder: "例如 M1P 4P5",
     searching: "查询中…",
@@ -130,6 +135,11 @@ const copy = {
     sessionCount: (value: number) => `${value} sessions`,
     poolCount: (value: number) => `${value} pools`,
     filters: "Calendar filters",
+    expandFilters: "Show filters",
+    collapseFilters: "Hide filters",
+    filterSummary: (active: number, sessions: number) => active > 0
+      ? `${active} active ${active === 1 ? "filter" : "filters"} · ${sessions} sessions`
+      : `${sessions} sessions · Open to refine`,
     postalCode: "Your postal code",
     postalPlaceholder: "e.g. M1P 4P5",
     searching: "Searching…",
@@ -217,6 +227,7 @@ export default function Home() {
   const [searching, setSearching] = useState(false);
   const [locating, setLocating] = useState(false);
   const [searchError, setSearchError] = useState("");
+  const [filtersExpanded, setFiltersExpanded] = useState(false);
   const text = copy[language];
   const nearbyCopy = language === "en"
     ? {
@@ -319,6 +330,16 @@ export default function Home() {
   );
 
   const count = visible.length;
+  const activeFilterCount = [
+    city !== "all",
+    activity !== "all",
+    cost !== "free",
+    selectedDays.length > 0,
+    poolSetting !== "all",
+    selectedTime !== "",
+    selected !== "all",
+    origin !== null,
+  ].filter(Boolean).length;
 
   async function locate(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -406,8 +427,25 @@ export default function Home() {
         </div>
       </header>
 
-      <section className="controls" aria-label={text.filters}>
-        <form className="locator" onSubmit={locate}>
+      <section className={`controls${filtersExpanded ? " is-expanded" : ""}`} aria-label={text.filters}>
+        <div className="controls-bar">
+          <div className="controls-summary">
+            <span>{text.filters}</span>
+            <strong aria-live="polite">{text.filterSummary(activeFilterCount, count)}</strong>
+          </div>
+          <button
+            className="controls-toggle"
+            type="button"
+            aria-expanded={filtersExpanded}
+            aria-controls="filter-panel"
+            onClick={() => setFiltersExpanded((value) => !value)}
+          >
+            {filtersExpanded ? text.collapseFilters : text.expandFilters}
+            <span aria-hidden="true">{filtersExpanded ? "−" : "+"}</span>
+          </button>
+        </div>
+        <div id="filter-panel" className="controls-body" hidden={!filtersExpanded}>
+          <form className="locator" onSubmit={locate}>
           <label className="postal-field">
             <span>{text.postalCode}</span>
             <input
@@ -435,8 +473,8 @@ export default function Home() {
               ? (origin.kind === "device" ? nearbyCopy.locationStatus(radiusKm, filteredVenues.length) : text.status(origin.postalCode.slice(0, 3), radiusKm, filteredVenues.length))
               : text.prompt)}
           </p>
-        </form>
-        <div className="activity-row city-row">
+          </form>
+          <div className="activity-row city-row">
           <span>{language === "en" ? "City" : "城市"}</span>
           <div className="activity-tabs" role="group" aria-label={language === "en" ? "City" : "城市"}>
             {cityOptions.map((option) => (
@@ -509,7 +547,7 @@ export default function Home() {
             </button>
           )}
         </div>
-        <div className="venue-tabs" role="group" aria-label={text.filterByVenue}>
+          <div className="venue-tabs" role="group" aria-label={text.filterByVenue}>
           <button className={selected === "all" ? "active" : ""} onClick={() => setSelected("all")}>{text.allLocations}</button>
           {displayedVenues.map((venue) => (
             <button key={venue.id} className={selected === venue.id ? "active" : ""} onClick={() => setSelected(venue.id)}>
@@ -522,6 +560,7 @@ export default function Home() {
               {!venueExpanded && hiddenVenueCount > 0 && <small>+{hiddenVenueCount}</small>}
             </button>
           )}
+          </div>
         </div>
       </section>
 

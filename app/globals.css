@@ -43,7 +43,18 @@ h1 { font-size:clamp(46px,5.2vw,74px); line-height:1; letter-spacing:-.04em; mar
 .week-meta div { padding:20px 20px 0 0; display:flex; flex-direction:column; gap:5px; }
 .week-meta span { font-size:11px; text-transform:uppercase; letter-spacing:.1em; }
 .week-meta strong { font-size:18px; }
-.controls { padding:24px clamp(18px,4vw,64px); border-bottom:1px solid var(--line); position:sticky; top:0; z-index:10; background:var(--hero-panel); backdrop-filter:blur(12px); }
+.controls { padding:0 clamp(18px,4vw,64px); border-bottom:1px solid var(--line); position:sticky; top:0; z-index:10; background:var(--hero-panel); backdrop-filter:blur(12px); }
+.controls.is-expanded { position:relative; }
+.controls-bar { min-height:68px; display:flex; align-items:center; justify-content:space-between; gap:24px; }
+.controls-summary { min-width:0; display:flex; align-items:baseline; gap:16px; }
+.controls-summary span { flex:none; font-size:11px; font-weight:850; letter-spacing:.1em; text-transform:uppercase; }
+.controls-summary strong { color:var(--muted-ink); font-size:12px; font-weight:650; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.controls-toggle { min-height:40px; flex:none; display:flex; align-items:center; gap:10px; border:1px solid var(--ink); border-radius:999px; background:var(--ink); color:#fff; padding:8px 10px 8px 15px; font-size:12px; font-weight:800; cursor:pointer; }
+.controls-toggle span { width:22px; height:22px; display:grid; place-items:center; border-radius:50%; background:rgba(255,255,255,.18); font-size:16px; line-height:1; }
+.controls-toggle:hover,.controls-toggle:focus-visible { background:#173f39; }
+.controls-toggle:focus-visible { outline:3px solid rgba(57,125,103,.24); outline-offset:2px; }
+.controls-body { padding:4px 0 24px; }
+.controls-body[hidden] { display:none; }
 .locator { display:grid; grid-template-columns:minmax(190px,260px) auto auto auto minmax(210px,1fr); align-items:end; gap:10px 12px; padding-bottom:20px; border-bottom:1px solid var(--line); }
 .postal-field,.radius-field { display:flex; flex-direction:column; gap:7px; font-size:12px; font-weight:750; }
 .postal-field input { width:100%; border:1px solid var(--ink); border-radius:8px; background:#fff; padding:11px 12px; text-transform:uppercase; }
@@ -180,7 +191,14 @@ footer { padding:24px clamp(22px,5vw,74px); display:flex; justify-content:space-
   .dek { font-size:16px; max-width:330px; }
   .week-meta { grid-template-columns:1.35fr .8fr .8fr; }
   .week-meta strong { font-size:14px; }
-  .controls { position:static; padding:20px; }
+  .controls { padding:0 20px; }
+  .controls.is-expanded { position:static; }
+  .controls-bar { min-height:62px; gap:12px; }
+  .controls-summary { display:block; }
+  .controls-summary span,.controls-summary strong { display:block; }
+  .controls-summary strong { margin-top:3px; max-width:58vw; font-size:10px; }
+  .controls-toggle { min-height:38px; padding:7px 8px 7px 12px; }
+  .controls-body { padding:2px 0 20px; }
   .locator { grid-template-columns:1fr auto; align-items:end; }
   .postal-field { min-width:0; }
   .locate-button { padding:0 12px; }

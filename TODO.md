@@ -1,6 +1,6 @@
 # Toronto Swim Calendar Roadmap / 后续更新清单
 
-Last updated / 最后更新：2026-08-13
+Last updated / 最后更新：2026-08-15
 
 This file tracks planned improvements. Mark an item complete only after it has
 been deployed to the production site and verified.
@@ -15,6 +15,20 @@ been deployed to the production site and verified.
   增加室内泳池／露天泳池筛选。
 - [ ] Add a day-of-week filter.
   增加星期几筛选。
+
+## Filter panel usability / 筛选面板易用性
+
+Feedback summary: Users value the filtering options, but the growing filter
+panel leaves too little room for the results and makes schedules harder to read
+and navigate.
+
+反馈摘要：用户认可现有筛选功能，但随着筛选项增加，筛选面板占用空间过大，
+导致结果区域太小，场次信息较难阅读和浏览。
+
+- [ ] Make the filter panel collapsible (for example, an accordion) and keep the
+  results area comfortably readable and navigable on both mobile and desktop.
+  将筛选面板改为可折叠设计（例如 Accordion），并确保手机端和电脑端的结果区域
+  都有足够空间，便于阅读和操作。
 
 ## Data collection and automation / 数据抓取与自动更新
 
