@@ -174,6 +174,8 @@ h2 { margin:0; font-size:clamp(32px,5vw,62px); letter-spacing:-.055em; }
 .notice p { margin:0; max-width:780px; line-height:1.65; opacity:.9; }
 footer { padding:24px clamp(22px,5vw,74px); display:flex; justify-content:space-between; font-size:12px; }
 @media (min-width:801px) {
+  .hero { min-height:0; grid-template-rows:auto auto auto auto; }
+  .hero-copy { align-self:start; padding:52px 0 38px; }
   h1 { white-space:nowrap; }
 }
 @media (max-width:800px) {
