@@ -13,6 +13,7 @@ test("keeps sessions that are open at the selected time", () => {
 
 test("classifies municipal outdoor pools without changing the schedule cache", () => {
   assert.equal(poolSettingForVenue("maryvale-park"), "outdoor");
+  assert.equal(poolSettingForVenue("pleasantview-community-centre"), "outdoor");
   assert.equal(poolSettingForVenue("regional-markham-morgan-pool"), "outdoor");
   assert.equal(poolSettingForVenue("regional-vaughan-thornhill-outdoor-pool"), "outdoor");
   assert.equal(poolSettingForVenue("agincourt-community-recreation-centre"), "indoor");

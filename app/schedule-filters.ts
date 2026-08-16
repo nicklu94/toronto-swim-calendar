@@ -10,6 +10,7 @@ export const outdoorVenueIds = new Set([
   "maryvale-park",
   "mcgregor-park-community-centre",
   "o-connor-community-centre",
+  "pleasantview-community-centre",
   "regional-markham-morgan-pool",
   "regional-markham-rouge-river-community-centre",
   "regional-vaughan-thornhill-outdoor-pool",
