@@ -1,8 +1,8 @@
 export const scheduleMetadata = {
-  "cacheStart": "2026-08-31",
-  "cacheEnd": "2026-09-15",
-  "fetchedAt": "2026-08-31T10:41:33.691Z",
-  "updatedLabel": "8/31 06:41"
+  "cacheStart": "2026-09-03",
+  "cacheEnd": "2026-09-18",
+  "fetchedAt": "2026-09-03T10:44:33.189Z",
+  "updatedLabel": "9/3 06:44"
 } as const;
 
 export const venues = [
@@ -257,23 +257,13 @@ export const venues = [
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=647"
   },
   {
-    "id": "gus-ryder-pool-and-health-club",
-    "name": "Gus Ryder Pool and Health Club",
-    "shortName": "Gus Ryder Pool and Health Club",
-    "district": "Etobicoke York",
-    "lat": 43.6012154911,
-    "lng": -79.5219470045,
-    "color": "#7a4b95",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=896"
-  },
-  {
     "id": "harrison-pool",
     "name": "Harrison Pool",
     "shortName": "Harrison Pool",
     "district": "Toronto and East York",
     "lat": 43.6510882561,
     "lng": -79.3908365215,
-    "color": "#687d39",
+    "color": "#7a4b95",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=45"
   },
   {
@@ -283,7 +273,7 @@ export const venues = [
     "district": "Scarborough",
     "lat": 43.7688363856,
     "lng": -79.1772548152,
-    "color": "#a34d78",
+    "color": "#687d39",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=633"
   },
   {
@@ -293,7 +283,7 @@ export const venues = [
     "district": "Etobicoke York",
     "lat": 43.7305517835,
     "lng": -79.608667829,
-    "color": "#1779a7",
+    "color": "#a34d78",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=357"
   },
   {
@@ -303,7 +293,7 @@ export const venues = [
     "district": "North York",
     "lat": 43.7616194071,
     "lng": -79.4558674081,
-    "color": "#c87d24",
+    "color": "#1779a7",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=664"
   },
   {
@@ -313,7 +303,7 @@ export const venues = [
     "district": "Toronto and East York",
     "lat": 43.6604475847,
     "lng": -79.3453133539,
-    "color": "#397d67",
+    "color": "#c87d24",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
   },
   {
@@ -323,7 +313,7 @@ export const venues = [
     "district": "Toronto and East York",
     "lat": 43.6554231288,
     "lng": -79.3703437807,
-    "color": "#8b5b3e",
+    "color": "#397d67",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=63"
   },
   {
@@ -333,7 +323,7 @@ export const venues = [
     "district": "Toronto and East York",
     "lat": 43.6753207225,
     "lng": -79.4514499254,
-    "color": "#3976b8",
+    "color": "#8b5b3e",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
   },
   {
@@ -343,7 +333,7 @@ export const venues = [
     "district": "North York",
     "lat": 43.718048766,
     "lng": -79.4422180127,
-    "color": "#7a4b95",
+    "color": "#3976b8",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=675"
   },
   {
@@ -353,7 +343,7 @@ export const venues = [
     "district": "North York",
     "lat": 43.701891,
     "lng": -79.36099099,
-    "color": "#687d39",
+    "color": "#7a4b95",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
   },
   {
@@ -363,7 +353,7 @@ export const venues = [
     "district": "Toronto and East York",
     "lat": 43.687172376,
     "lng": -79.2997884972,
-    "color": "#a34d78",
+    "color": "#687d39",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
   },
   {
@@ -373,7 +363,7 @@ export const venues = [
     "district": "Toronto and East York",
     "lat": 43.6473984626,
     "lng": -79.4331856298,
-    "color": "#1779a7",
+    "color": "#a34d78",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
@@ -383,7 +373,7 @@ export const venues = [
     "district": "Scarborough",
     "lat": 43.7530814449,
     "lng": -79.3065284999,
-    "color": "#c87d24",
+    "color": "#1779a7",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
   },
   {
@@ -393,7 +383,7 @@ export const venues = [
     "district": "Scarborough",
     "lat": 43.7476393777,
     "lng": -79.2803212437,
-    "color": "#397d67",
+    "color": "#c87d24",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=506"
   },
   {
@@ -403,7 +393,7 @@ export const venues = [
     "district": "Etobicoke York",
     "lat": 43.648379084,
     "lng": -79.5196174904,
-    "color": "#8b5b3e",
+    "color": "#397d67",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
   },
   {
@@ -413,7 +403,7 @@ export const venues = [
     "district": "North York",
     "lat": 43.7745089458,
     "lng": -79.4086633159,
-    "color": "#3976b8",
+    "color": "#8b5b3e",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=693"
   },
   {
@@ -423,7 +413,7 @@ export const venues = [
     "district": "Etobicoke York",
     "lat": 43.6342945544,
     "lng": -79.5164833659,
-    "color": "#7a4b95",
+    "color": "#3976b8",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
   },
   {
@@ -433,7 +423,7 @@ export const venues = [
     "district": "North York",
     "lat": 43.7060603033,
     "lng": -79.4045943922,
-    "color": "#687d39",
+    "color": "#7a4b95",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
   },
   {
@@ -443,7 +433,7 @@ export const venues = [
     "district": "Etobicoke York",
     "lat": 43.7455298702,
     "lng": -79.5000806855,
-    "color": "#a34d78",
+    "color": "#687d39",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=703"
   },
   {
@@ -453,7 +443,7 @@ export const venues = [
     "district": "Toronto and East York",
     "lat": 43.7176595112,
     "lng": -79.3017999022,
-    "color": "#1779a7",
+    "color": "#a34d78",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1093"
   },
   {
@@ -463,7 +453,7 @@ export const venues = [
     "district": "Etobicoke York",
     "lat": 43.7478337815,
     "lng": -79.5131274546,
-    "color": "#c87d24",
+    "color": "#1779a7",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=780"
   },
   {
@@ -473,7 +463,7 @@ export const venues = [
     "district": "North York",
     "lat": 43.7817608757,
     "lng": -79.3514094227,
-    "color": "#397d67",
+    "color": "#c87d24",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=714"
   },
   {
@@ -483,7 +473,7 @@ export const venues = [
     "district": "Toronto and East York",
     "lat": 43.6612288668,
     "lng": -79.3611018311,
-    "color": "#8b5b3e",
+    "color": "#397d67",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
   },
   {
@@ -493,7 +483,7 @@ export const venues = [
     "district": "North York",
     "lat": 43.7869936825,
     "lng": -79.3368309989,
-    "color": "#3976b8",
+    "color": "#8b5b3e",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=732"
   },
   {
@@ -503,7 +493,7 @@ export const venues = [
     "district": "North York",
     "lat": 43.7291977687,
     "lng": -79.4927303094,
-    "color": "#7a4b95",
+    "color": "#3976b8",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=744"
   },
   {
@@ -513,7 +503,7 @@ export const venues = [
     "district": "Scarborough",
     "lat": 43.805171,
     "lng": -79.189786,
-    "color": "#687d39",
+    "color": "#7a4b95",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
   },
   {
@@ -523,18 +513,8 @@ export const venues = [
     "district": "Toronto and East York",
     "lat": 43.6518252776,
     "lng": -79.4049504151,
-    "color": "#a34d78",
+    "color": "#687d39",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1098"
-  },
-  {
-    "id": "sir-oliver-mowat-collegiate-institute",
-    "name": "Sir Oliver Mowat Collegiate Institute",
-    "shortName": "Sir Oliver Mowat",
-    "district": "Scarborough",
-    "lat": 43.779385,
-    "lng": -79.142051,
-    "color": "#1779a7",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1315"
   },
   {
     "id": "the-elms-community-school-and-pool",
@@ -543,7 +523,7 @@ export const venues = [
     "district": "Etobicoke York",
     "lat": 43.7221973665,
     "lng": -79.5519841574,
-    "color": "#c87d24",
+    "color": "#a34d78",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
   },
   {
@@ -553,7 +533,7 @@ export const venues = [
     "district": "Scarborough",
     "lat": 43.7907755,
     "lng": -79.1936912,
-    "color": "#397d67",
+    "color": "#1779a7",
     "source": "https://www.tpasc.ca/portal/city-toronto/schedule"
   },
   {
@@ -563,18 +543,8 @@ export const venues = [
     "district": "Toronto and East York",
     "lat": 43.6462504565,
     "lng": -79.41487781,
-    "color": "#8b5b3e",
+    "color": "#c87d24",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=287"
-  },
-  {
-    "id": "vaughan-road-academy",
-    "name": "Vaughan Road Academy",
-    "shortName": "Vaughan Road Academy",
-    "district": "Toronto and East York",
-    "lat": 43.690589,
-    "lng": -79.436815,
-    "color": "#3976b8",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1371"
   },
   {
     "id": "wallace-emerson-community-recreation-centre",
@@ -583,18 +553,18 @@ export const venues = [
     "district": "Toronto and East York",
     "lat": 43.6673368844,
     "lng": -79.4393144856,
-    "color": "#7a4b95",
+    "color": "#397d67",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=294"
   },
   {
-    "id": "west-hill-collegiate-institute",
-    "name": "West Hill Collegiate Institute",
-    "shortName": "West Hill",
-    "district": "Scarborough",
-    "lat": 43.775738,
-    "lng": -79.190376,
-    "color": "#687d39",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1381"
+    "id": "wellesley-community-centre",
+    "name": "Wellesley Community Centre",
+    "shortName": "Wellesley",
+    "district": "Toronto and East York",
+    "lat": 43.6677008503,
+    "lng": -79.3745558804,
+    "color": "#8b5b3e",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
   },
   {
     "id": "wexford-collegiate-institute",
@@ -603,7 +573,7 @@ export const venues = [
     "district": "Scarborough",
     "lat": 43.746001,
     "lng": -79.30676699,
-    "color": "#a34d78",
+    "color": "#3976b8",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1387"
   },
   {
@@ -613,7 +583,7 @@ export const venues = [
     "district": "Etobicoke York",
     "lat": 43.6878729055,
     "lng": -79.4820344156,
-    "color": "#1779a7",
+    "color": "#7a4b95",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
   }
 ] as const;
@@ -623,5396 +593,6 @@ type SwimType = "Leisure Swim" | "Lane Swim" | "Aquafit";
 
 export const schedule: Array<{date: string; venue: VenueId; start: string; end: string; type: SwimType; womenOnly: boolean; free: boolean; fee: string; source: string}> = [
   {
-    "date": "2026-08-31",
-    "venue": "alderwood-pool",
-    "start": "06:30",
-    "end": "07:40",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "main-square-community-recreation-centre",
-    "start": "06:30",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "agincourt-community-recreation-centre",
-    "start": "07:00",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=523"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "centennial-recreation-centre-scarborough",
-    "start": "07:00",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "cummer-park-community-centre",
-    "start": "07:00",
-    "end": "08:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "east-york-community-recreation-centre",
-    "start": "07:00",
-    "end": "09:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "humber-community-pool",
-    "start": "07:00",
-    "end": "07:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=357"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "jimmie-simpson-recreation-centre",
-    "start": "07:00",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "joseph-j-piccininni-community-recreation-centre",
-    "start": "07:00",
-    "end": "09:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "leaside-gardens-indoor-pool",
-    "start": "07:00",
-    "end": "07:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "memorial-pool-and-health-club",
-    "start": "07:00",
-    "end": "08:25",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "north-toronto-memorial-community-centre",
-    "start": "07:00",
-    "end": "08:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "pam-mcconnell-aquatic-centre",
-    "start": "07:00",
-    "end": "10:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "wallace-emerson-community-recreation-centre",
-    "start": "07:00",
-    "end": "09:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=294"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "albion-pool-and-health-club",
-    "start": "07:15",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "birchmount-community-centre",
-    "start": "07:15",
-    "end": "13:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "mary-mccormick-recreation-centre",
-    "start": "07:15",
-    "end": "09:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "dennis-r-timbrell-resource-centre",
-    "start": "07:30",
-    "end": "08:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1056"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "douglas-snow-aquatic-centre",
-    "start": "07:30",
-    "end": "08:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
-    "start": "07:30",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "norseman-community-school-and-pool",
-    "start": "07:45",
-    "end": "08:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "rouge-valley-community-recreation-centre",
-    "start": "07:45",
-    "end": "08:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "leaside-gardens-indoor-pool",
-    "start": "08:00",
-    "end": "09:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "the-elms-community-school-and-pool",
-    "start": "08:00",
-    "end": "11:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "trinity-community-recreation-centre",
-    "start": "08:00",
-    "end": "09:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=287"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "alderwood-pool",
-    "start": "08:30",
-    "end": "09:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "cummer-park-community-centre",
-    "start": "08:45",
-    "end": "09:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "north-toronto-memorial-community-centre",
-    "start": "08:45",
-    "end": "09:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "douglas-snow-aquatic-centre",
-    "start": "09:00",
-    "end": "10:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
-    "start": "09:00",
-    "end": "10:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "norseman-community-school-and-pool",
-    "start": "09:00",
-    "end": "10:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "leaside-gardens-indoor-pool",
-    "start": "09:15",
-    "end": "10:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "joseph-j-piccininni-community-recreation-centre",
-    "start": "09:30",
-    "end": "10:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "main-square-community-recreation-centre",
-    "start": "09:30",
-    "end": "10:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "alderwood-pool",
-    "start": "09:45",
-    "end": "10:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "amesbury-sports-complex",
-    "start": "10:00",
-    "end": "11:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=480"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "antibes-community-centre",
-    "start": "10:00",
-    "end": "11:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "domenico-diluca-community-recreation-centre",
-    "start": "10:00",
-    "end": "11:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=760"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "driftwood-community-recreation-centre",
-    "start": "10:00",
-    "end": "11:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=575"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "gord-and-irene-risk-community-recreation-centre",
-    "start": "10:00",
-    "end": "11:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "goulding-community-recreation-centre",
-    "start": "10:00",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=643"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "grandravine-community-recreation-centre",
-    "start": "10:00",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=647"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "harrison-pool",
-    "start": "10:00",
-    "end": "18:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=45"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "heron-park-community-recreation-centre",
-    "start": "10:00",
-    "end": "12:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=633"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "irving-w-chapley-community-centre",
-    "start": "10:00",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=664"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "john-innes-community-recreation-centre",
-    "start": "10:00",
-    "end": "13:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=63"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "lawrence-heights-community-centre",
-    "start": "10:00",
-    "end": "17:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=675"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "maryvale-park",
-    "start": "10:00",
-    "end": "12:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "mitchell-field-community-centre",
-    "start": "10:00",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=693"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "north-toronto-memorial-community-centre",
-    "start": "10:00",
-    "end": "11:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "northwood-community-centre",
-    "start": "10:00",
-    "end": "12:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=703"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "o-connor-community-centre",
-    "start": "10:00",
-    "end": "11:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1093"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "oakdale-community-centre",
-    "start": "10:00",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=780"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "oriole-community-recreation-centre",
-    "start": "10:00",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=714"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "pleasantview-community-centre",
-    "start": "10:00",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=732"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "roding-community-centre",
-    "start": "10:00",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=744"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "cummer-park-community-centre",
-    "start": "10:15",
-    "end": "11:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
-    "start": "10:15",
-    "end": "11:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "mary-mccormick-recreation-centre",
-    "start": "10:15",
-    "end": "11:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "main-square-community-recreation-centre",
-    "start": "10:45",
-    "end": "11:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "o-connor-community-centre",
-    "start": "11:00",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1093"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "pam-mcconnell-aquatic-centre",
-    "start": "11:00",
-    "end": "12:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "annette-community-recreation-centre",
-    "start": "11:15",
-    "end": "12:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=17"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "joseph-j-piccininni-community-recreation-centre",
-    "start": "11:15",
-    "end": "13:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "mcgregor-park-community-centre",
-    "start": "11:15",
-    "end": "12:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=506"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "north-toronto-memorial-community-centre",
-    "start": "11:15",
-    "end": "13:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "albion-pool-and-health-club",
-    "start": "11:30",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "alderwood-pool",
-    "start": "11:30",
-    "end": "12:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "antibes-community-centre",
-    "start": "11:30",
-    "end": "13:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "dennis-r-timbrell-resource-centre",
-    "start": "11:30",
-    "end": "13:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1056"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "humber-community-pool",
-    "start": "11:30",
-    "end": "12:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=357"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "cummer-park-community-centre",
-    "start": "11:45",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "jimmie-simpson-recreation-centre",
-    "start": "11:45",
-    "end": "13:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "trinity-community-recreation-centre",
-    "start": "11:45",
-    "end": "12:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=287"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "main-square-community-recreation-centre",
-    "start": "11:50",
-    "end": "14:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "amesbury-sports-complex",
-    "start": "12:00",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=480"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "broadlands-community-recreation-centre",
-    "start": "12:00",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=7"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "domenico-diluca-community-recreation-centre",
-    "start": "12:00",
-    "end": "15:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=760"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "douglas-snow-aquatic-centre",
-    "start": "12:00",
-    "end": "13:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "driftwood-community-recreation-centre",
-    "start": "12:00",
-    "end": "14:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=575"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
-    "start": "12:00",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "gord-and-irene-risk-community-recreation-centre",
-    "start": "12:00",
-    "end": "16:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "memorial-pool-and-health-club",
-    "start": "12:00",
-    "end": "13:50",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "northwood-community-centre",
-    "start": "12:00",
-    "end": "19:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=703"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "pam-mcconnell-aquatic-centre",
-    "start": "12:00",
-    "end": "13:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "agincourt-community-recreation-centre",
-    "start": "12:15",
-    "end": "13:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=523"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "annette-community-recreation-centre",
-    "start": "12:15",
-    "end": "13:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=17"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "leaside-gardens-indoor-pool",
-    "start": "12:30",
-    "end": "14:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "maryvale-park",
-    "start": "12:30",
-    "end": "19:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "mcgregor-park-community-centre",
-    "start": "12:30",
-    "end": "19:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=506"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "the-elms-community-school-and-pool",
-    "start": "12:30",
-    "end": "13:25",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "norseman-community-school-and-pool",
-    "start": "12:45",
-    "end": "13:40",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "rouge-valley-community-recreation-centre",
-    "start": "12:45",
-    "end": "13:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "wallace-emerson-community-recreation-centre",
-    "start": "12:45",
-    "end": "13:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=294"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "centennial-recreation-centre-scarborough",
-    "start": "13:00",
-    "end": "15:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
-    "start": "13:00",
-    "end": "14:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "heron-park-community-recreation-centre",
-    "start": "13:00",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=633"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "humber-community-pool",
-    "start": "13:00",
-    "end": "14:25",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=357"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "mary-mccormick-recreation-centre",
-    "start": "13:00",
-    "end": "15:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "rouge-valley-community-recreation-centre",
-    "start": "13:00",
-    "end": "14:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "trinity-community-recreation-centre",
-    "start": "13:00",
-    "end": "14:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=287"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "agincourt-community-recreation-centre",
-    "start": "13:15",
-    "end": "14:10",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=523"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "albion-pool-and-health-club",
-    "start": "13:15",
-    "end": "15:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "alderwood-pool",
-    "start": "13:15",
-    "end": "14:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "dennis-r-timbrell-resource-centre",
-    "start": "13:15",
-    "end": "14:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1056"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "east-york-community-recreation-centre",
-    "start": "13:15",
-    "end": "14:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "annette-community-recreation-centre",
-    "start": "13:30",
-    "end": "14:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=17"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "cedarbrae-collegiate-institute",
-    "start": "13:30",
-    "end": "16:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1143"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "jimmie-simpson-recreation-centre",
-    "start": "13:30",
-    "end": "14:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "north-toronto-memorial-community-centre",
-    "start": "13:30",
-    "end": "14:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "wexford-collegiate-institute",
-    "start": "13:30",
-    "end": "15:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1387"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "albert-campbell-collegiate-institute",
-    "start": "14:00",
-    "end": "16:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1110"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "antibes-community-centre",
-    "start": "14:00",
-    "end": "15:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "douglas-snow-aquatic-centre",
-    "start": "14:00",
-    "end": "15:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "main-square-community-recreation-centre",
-    "start": "14:00",
-    "end": "15:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "norseman-community-school-and-pool",
-    "start": "14:00",
-    "end": "15:10",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "pam-mcconnell-aquatic-centre",
-    "start": "14:00",
-    "end": "16:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "trinity-community-recreation-centre",
-    "start": "14:00",
-    "end": "15:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=287"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "wallace-emerson-community-recreation-centre",
-    "start": "14:00",
-    "end": "15:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=294"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "alderwood-pool",
-    "start": "14:15",
-    "end": "15:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
-    "start": "14:15",
-    "end": "15:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "john-innes-community-recreation-centre",
-    "start": "14:15",
-    "end": "15:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=63"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "leaside-gardens-indoor-pool",
-    "start": "14:15",
-    "end": "15:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "rouge-valley-community-recreation-centre",
-    "start": "14:15",
-    "end": "15:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "agincourt-community-recreation-centre",
-    "start": "14:30",
-    "end": "16:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=523"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "annette-community-recreation-centre",
-    "start": "14:30",
-    "end": "15:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=17"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "birchmount-community-centre",
-    "start": "14:30",
-    "end": "19:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "dennis-r-timbrell-resource-centre",
-    "start": "14:30",
-    "end": "15:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1056"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "driftwood-community-recreation-centre",
-    "start": "15:00",
-    "end": "15:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=575"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "memorial-pool-and-health-club",
-    "start": "15:05",
-    "end": "15:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "centennial-recreation-centre-scarborough",
-    "start": "15:15",
-    "end": "16:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "domenico-diluca-community-recreation-centre",
-    "start": "16:00",
-    "end": "16:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=760"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "driftwood-community-recreation-centre",
-    "start": "16:00",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=575"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "gord-and-irene-risk-community-recreation-centre",
-    "start": "16:00",
-    "end": "16:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "mary-mccormick-recreation-centre",
-    "start": "16:00",
-    "end": "18:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "scadding-court-community-centre",
-    "start": "16:30",
-    "end": "17:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1098"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "antibes-community-centre",
-    "start": "17:00",
-    "end": "18:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "domenico-diluca-community-recreation-centre",
-    "start": "17:00",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=760"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "gord-and-irene-risk-community-recreation-centre",
-    "start": "17:00",
-    "end": "19:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "norseman-community-school-and-pool",
-    "start": "17:30",
-    "end": "18:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "annette-community-recreation-centre",
-    "start": "17:45",
-    "end": "18:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=17"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "scadding-court-community-centre",
-    "start": "17:45",
-    "end": "18:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1098"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "centennial-recreation-centre-scarborough",
-    "start": "18:00",
-    "end": "19:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "mary-mccormick-recreation-centre",
-    "start": "18:15",
-    "end": "19:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "north-toronto-memorial-community-centre",
-    "start": "18:15",
-    "end": "19:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "albion-pool-and-health-club",
-    "start": "18:30",
-    "end": "19:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "norseman-community-school-and-pool",
-    "start": "18:30",
-    "end": "20:25",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "pam-mcconnell-aquatic-centre",
-    "start": "18:30",
-    "end": "19:45",
-    "type": "Lane Swim",
-    "womenOnly": true,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "antibes-community-centre",
-    "start": "18:45",
-    "end": "19:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "jimmie-simpson-recreation-centre",
-    "start": "18:45",
-    "end": "19:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "main-square-community-recreation-centre",
-    "start": "18:45",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "annette-community-recreation-centre",
-    "start": "19:00",
-    "end": "20:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=17"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "gord-and-irene-risk-community-recreation-centre",
-    "start": "19:00",
-    "end": "19:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "maryvale-park",
-    "start": "19:00",
-    "end": "20:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "mcgregor-park-community-centre",
-    "start": "19:00",
-    "end": "20:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=506"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "rouge-valley-community-recreation-centre",
-    "start": "19:00",
-    "end": "21:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "trinity-community-recreation-centre",
-    "start": "19:00",
-    "end": "20:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=287"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "centennial-recreation-centre-scarborough",
-    "start": "19:15",
-    "end": "20:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "mary-mccormick-recreation-centre",
-    "start": "19:30",
-    "end": "20:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "north-toronto-memorial-community-centre",
-    "start": "19:30",
-    "end": "21:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "antibes-community-centre",
-    "start": "20:00",
-    "end": "21:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "birchmount-community-centre",
-    "start": "20:00",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
-    "start": "20:00",
-    "end": "21:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "pam-mcconnell-aquatic-centre",
-    "start": "20:00",
-    "end": "21:00",
-    "type": "Aquafit",
-    "womenOnly": true,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "wallace-emerson-community-recreation-centre",
-    "start": "20:00",
-    "end": "21:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=294"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "memorial-pool-and-health-club",
-    "start": "20:05",
-    "end": "20:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "cummer-park-community-centre",
-    "start": "20:15",
-    "end": "21:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "jimmie-simpson-recreation-centre",
-    "start": "20:15",
-    "end": "21:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "main-square-community-recreation-centre",
-    "start": "20:15",
-    "end": "21:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "centennial-recreation-centre-scarborough",
-    "start": "20:30",
-    "end": "21:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "joseph-j-piccininni-community-recreation-centre",
-    "start": "20:30",
-    "end": "21:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "leaside-gardens-indoor-pool",
-    "start": "20:30",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "agincourt-community-recreation-centre",
-    "start": "20:45",
-    "end": "21:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=523"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "douglas-snow-aquatic-centre",
-    "start": "20:45",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "humber-community-pool",
-    "start": "21:00",
-    "end": "21:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=357"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "memorial-pool-and-health-club",
-    "start": "21:05",
-    "end": "22:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
-  },
-  {
-    "date": "2026-08-31",
-    "venue": "rouge-valley-community-recreation-centre",
-    "start": "21:15",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "main-square-community-recreation-centre",
-    "start": "06:30",
-    "end": "09:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "agincourt-community-recreation-centre",
-    "start": "07:00",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=523"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "alderwood-pool",
-    "start": "07:00",
-    "end": "08:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "centennial-recreation-centre-scarborough",
-    "start": "07:00",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "cummer-park-community-centre",
-    "start": "07:00",
-    "end": "08:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "east-york-community-recreation-centre",
-    "start": "07:00",
-    "end": "09:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "humber-community-pool",
-    "start": "07:00",
-    "end": "07:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=357"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "joseph-j-piccininni-community-recreation-centre",
-    "start": "07:00",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "north-toronto-memorial-community-centre",
-    "start": "07:00",
-    "end": "08:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "wallace-emerson-community-recreation-centre",
-    "start": "07:00",
-    "end": "08:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=294"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "birchmount-community-centre",
-    "start": "07:15",
-    "end": "11:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "mary-mccormick-recreation-centre",
-    "start": "07:15",
-    "end": "08:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "norseman-community-school-and-pool",
-    "start": "07:15",
-    "end": "08:25",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "rouge-valley-community-recreation-centre",
-    "start": "07:15",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "douglas-snow-aquatic-centre",
-    "start": "07:30",
-    "end": "08:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
-    "start": "07:30",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "albion-pool-and-health-club",
-    "start": "08:00",
-    "end": "09:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "mary-mccormick-recreation-centre",
-    "start": "08:00",
-    "end": "09:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "pam-mcconnell-aquatic-centre",
-    "start": "08:00",
-    "end": "09:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "the-elms-community-school-and-pool",
-    "start": "08:00",
-    "end": "09:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "trinity-community-recreation-centre",
-    "start": "08:00",
-    "end": "11:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=287"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "alderwood-pool",
-    "start": "08:15",
-    "end": "09:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "north-toronto-memorial-community-centre",
-    "start": "08:15",
-    "end": "09:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "cummer-park-community-centre",
-    "start": "08:45",
-    "end": "09:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
-    "start": "08:45",
-    "end": "09:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "douglas-snow-aquatic-centre",
-    "start": "09:00",
-    "end": "10:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "joseph-j-piccininni-community-recreation-centre",
-    "start": "09:00",
-    "end": "10:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "leaside-gardens-indoor-pool",
-    "start": "09:00",
-    "end": "10:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "norseman-community-school-and-pool",
-    "start": "09:00",
-    "end": "10:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "the-elms-community-school-and-pool",
-    "start": "09:15",
-    "end": "10:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "alderwood-pool",
-    "start": "09:30",
-    "end": "11:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "north-toronto-memorial-community-centre",
-    "start": "09:30",
-    "end": "10:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "amesbury-sports-complex",
-    "start": "10:00",
-    "end": "11:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=480"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "antibes-community-centre",
-    "start": "10:00",
-    "end": "11:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "cummer-park-community-centre",
-    "start": "10:00",
-    "end": "11:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "domenico-diluca-community-recreation-centre",
-    "start": "10:00",
-    "end": "11:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=760"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "driftwood-community-recreation-centre",
-    "start": "10:00",
-    "end": "11:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=575"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "gord-and-irene-risk-community-recreation-centre",
-    "start": "10:00",
-    "end": "11:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "goulding-community-recreation-centre",
-    "start": "10:00",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=643"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "grandravine-community-recreation-centre",
-    "start": "10:00",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=647"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "harrison-pool",
-    "start": "10:00",
-    "end": "18:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=45"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "john-innes-community-recreation-centre",
-    "start": "10:00",
-    "end": "11:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=63"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "lawrence-heights-community-centre",
-    "start": "10:00",
-    "end": "17:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=675"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "maryvale-park",
-    "start": "10:00",
-    "end": "12:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "northwood-community-centre",
-    "start": "10:00",
-    "end": "12:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=703"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "oakdale-community-centre",
-    "start": "10:00",
-    "end": "11:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=780"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "roding-community-centre",
-    "start": "10:00",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=744"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "mary-mccormick-recreation-centre",
-    "start": "10:15",
-    "end": "11:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "main-square-community-recreation-centre",
-    "start": "10:30",
-    "end": "12:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "the-elms-community-school-and-pool",
-    "start": "10:30",
-    "end": "11:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "dennis-r-timbrell-resource-centre",
-    "start": "10:45",
-    "end": "11:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1056"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "north-toronto-memorial-community-centre",
-    "start": "10:45",
-    "end": "11:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "joseph-j-piccininni-community-recreation-centre",
-    "start": "11:00",
-    "end": "13:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "annette-community-recreation-centre",
-    "start": "11:15",
-    "end": "12:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=17"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "john-innes-community-recreation-centre",
-    "start": "11:15",
-    "end": "13:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=63"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "albion-pool-and-health-club",
-    "start": "11:30",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "alderwood-pool",
-    "start": "11:30",
-    "end": "12:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "antibes-community-centre",
-    "start": "11:30",
-    "end": "13:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "east-york-community-recreation-centre",
-    "start": "11:30",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "humber-community-pool",
-    "start": "11:30",
-    "end": "12:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=357"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "mitchell-field-community-centre",
-    "start": "11:30",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=693"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "cummer-park-community-centre",
-    "start": "11:45",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "jimmie-simpson-recreation-centre",
-    "start": "11:45",
-    "end": "13:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "trinity-community-recreation-centre",
-    "start": "11:45",
-    "end": "12:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=287"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "amesbury-sports-complex",
-    "start": "12:00",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=480"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "broadlands-community-recreation-centre",
-    "start": "12:00",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=7"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "douglas-snow-aquatic-centre",
-    "start": "12:00",
-    "end": "13:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
-    "start": "12:00",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "gord-and-irene-risk-community-recreation-centre",
-    "start": "12:00",
-    "end": "16:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "irving-w-chapley-community-centre",
-    "start": "12:00",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=664"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "memorial-pool-and-health-club",
-    "start": "12:00",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "north-toronto-memorial-community-centre",
-    "start": "12:00",
-    "end": "14:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "northwood-community-centre",
-    "start": "12:00",
-    "end": "19:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=703"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "o-connor-community-centre",
-    "start": "12:00",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1093"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "oriole-community-recreation-centre",
-    "start": "12:00",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=714"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "pleasantview-community-centre",
-    "start": "12:00",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=732"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "main-square-community-recreation-centre",
-    "start": "12:15",
-    "end": "15:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "annette-community-recreation-centre",
-    "start": "12:30",
-    "end": "13:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=17"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "maryvale-park",
-    "start": "12:30",
-    "end": "19:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "mcgregor-park-community-centre",
-    "start": "12:30",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=506"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "the-elms-community-school-and-pool",
-    "start": "12:30",
-    "end": "13:25",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "dennis-r-timbrell-resource-centre",
-    "start": "12:45",
-    "end": "13:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1056"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "norseman-community-school-and-pool",
-    "start": "12:45",
-    "end": "13:40",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "pam-mcconnell-aquatic-centre",
-    "start": "12:45",
-    "end": "13:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "wallace-emerson-community-recreation-centre",
-    "start": "12:45",
-    "end": "13:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=294"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "centennial-recreation-centre-scarborough",
-    "start": "13:00",
-    "end": "16:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "domenico-diluca-community-recreation-centre",
-    "start": "13:00",
-    "end": "15:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=760"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "driftwood-community-recreation-centre",
-    "start": "13:00",
-    "end": "14:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=575"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "humber-community-pool",
-    "start": "13:00",
-    "end": "14:25",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=357"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "memorial-pool-and-health-club",
-    "start": "13:00",
-    "end": "15:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "oakdale-community-centre",
-    "start": "13:00",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=780"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "trinity-community-recreation-centre",
-    "start": "13:00",
-    "end": "14:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=287"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "cedarbrae-collegiate-institute",
-    "start": "13:30",
-    "end": "16:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1143"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "wexford-collegiate-institute",
-    "start": "13:30",
-    "end": "15:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1387"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "albert-campbell-collegiate-institute",
-    "start": "14:00",
-    "end": "16:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1110"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "antibes-community-centre",
-    "start": "14:00",
-    "end": "15:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "heron-park-community-recreation-centre",
-    "start": "14:00",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=633"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "norseman-community-school-and-pool",
-    "start": "14:00",
-    "end": "15:10",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "pam-mcconnell-aquatic-centre",
-    "start": "14:00",
-    "end": "16:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "wallace-emerson-community-recreation-centre",
-    "start": "14:00",
-    "end": "15:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=294"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "alderwood-pool",
-    "start": "14:15",
-    "end": "15:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "douglas-snow-aquatic-centre",
-    "start": "14:15",
-    "end": "15:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "east-york-community-recreation-centre",
-    "start": "14:15",
-    "end": "15:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "john-innes-community-recreation-centre",
-    "start": "14:15",
-    "end": "15:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=63"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "leaside-gardens-indoor-pool",
-    "start": "14:15",
-    "end": "15:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "trinity-community-recreation-centre",
-    "start": "14:15",
-    "end": "15:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=287"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
-    "start": "14:20",
-    "end": "15:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "agincourt-community-recreation-centre",
-    "start": "14:30",
-    "end": "16:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=523"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "birchmount-community-centre",
-    "start": "14:30",
-    "end": "17:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "rouge-valley-community-recreation-centre",
-    "start": "14:30",
-    "end": "15:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "annette-community-recreation-centre",
-    "start": "15:00",
-    "end": "15:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=17"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "dennis-r-timbrell-resource-centre",
-    "start": "15:00",
-    "end": "16:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1056"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "driftwood-community-recreation-centre",
-    "start": "15:00",
-    "end": "15:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=575"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "leaside-gardens-indoor-pool",
-    "start": "15:30",
-    "end": "16:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "domenico-diluca-community-recreation-centre",
-    "start": "16:00",
-    "end": "16:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=760"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "driftwood-community-recreation-centre",
-    "start": "16:00",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=575"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "rouge-valley-community-recreation-centre",
-    "start": "16:00",
-    "end": "18:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "domenico-diluca-community-recreation-centre",
-    "start": "17:00",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=760"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "gord-and-irene-risk-community-recreation-centre",
-    "start": "17:00",
-    "end": "19:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "wexford-collegiate-institute",
-    "start": "17:30",
-    "end": "18:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1387"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "agincourt-community-recreation-centre",
-    "start": "17:45",
-    "end": "18:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=523"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "annette-community-recreation-centre",
-    "start": "17:45",
-    "end": "18:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=17"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "main-square-community-recreation-centre",
-    "start": "18:00",
-    "end": "19:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "annette-community-recreation-centre",
-    "start": "18:30",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=17"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
-    "start": "18:45",
-    "end": "19:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "pam-mcconnell-aquatic-centre",
-    "start": "18:45",
-    "end": "21:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "wexford-collegiate-institute",
-    "start": "18:45",
-    "end": "19:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1387"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "gord-and-irene-risk-community-recreation-centre",
-    "start": "19:00",
-    "end": "19:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "maryvale-park",
-    "start": "19:00",
-    "end": "20:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "trinity-community-recreation-centre",
-    "start": "19:00",
-    "end": "20:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=287"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "east-york-community-recreation-centre",
-    "start": "19:15",
-    "end": "20:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "mary-mccormick-recreation-centre",
-    "start": "19:45",
-    "end": "20:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "antibes-community-centre",
-    "start": "20:00",
-    "end": "21:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "birchmount-community-centre",
-    "start": "20:00",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "centennial-recreation-centre-scarborough",
-    "start": "20:00",
-    "end": "21:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
-    "start": "20:00",
-    "end": "21:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "north-toronto-memorial-community-centre",
-    "start": "20:00",
-    "end": "21:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "the-elms-community-school-and-pool",
-    "start": "20:00",
-    "end": "20:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "wallace-emerson-community-recreation-centre",
-    "start": "20:00",
-    "end": "21:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=294"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "cummer-park-community-centre",
-    "start": "20:15",
-    "end": "21:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "east-york-community-recreation-centre",
-    "start": "20:15",
-    "end": "21:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "main-square-community-recreation-centre",
-    "start": "20:15",
-    "end": "21:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "scadding-court-community-centre",
-    "start": "20:15",
-    "end": "21:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1098"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "wexford-collegiate-institute",
-    "start": "20:15",
-    "end": "21:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1387"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "alderwood-pool",
-    "start": "20:30",
-    "end": "21:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "joseph-j-piccininni-community-recreation-centre",
-    "start": "20:30",
-    "end": "21:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "leaside-gardens-indoor-pool",
-    "start": "20:30",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "agincourt-community-recreation-centre",
-    "start": "20:45",
-    "end": "21:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=523"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "douglas-snow-aquatic-centre",
-    "start": "20:45",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "humber-community-pool",
-    "start": "21:00",
-    "end": "21:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=357"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "the-elms-community-school-and-pool",
-    "start": "21:00",
-    "end": "21:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
-  },
-  {
-    "date": "2026-09-01",
-    "venue": "rouge-valley-community-recreation-centre",
-    "start": "21:15",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "alderwood-pool",
-    "start": "06:30",
-    "end": "07:40",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "main-square-community-recreation-centre",
-    "start": "06:30",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "the-elms-community-school-and-pool",
-    "start": "06:45",
-    "end": "07:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "agincourt-community-recreation-centre",
-    "start": "07:00",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=523"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "centennial-recreation-centre-scarborough",
-    "start": "07:00",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "cummer-park-community-centre",
-    "start": "07:00",
-    "end": "08:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "east-york-community-recreation-centre",
-    "start": "07:00",
-    "end": "09:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "humber-community-pool",
-    "start": "07:00",
-    "end": "07:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=357"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "jimmie-simpson-recreation-centre",
-    "start": "07:00",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "joseph-j-piccininni-community-recreation-centre",
-    "start": "07:00",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "leaside-gardens-indoor-pool",
-    "start": "07:00",
-    "end": "07:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "memorial-pool-and-health-club",
-    "start": "07:00",
-    "end": "08:25",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "north-toronto-memorial-community-centre",
-    "start": "07:00",
-    "end": "08:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "pam-mcconnell-aquatic-centre",
-    "start": "07:00",
-    "end": "10:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "wallace-emerson-community-recreation-centre",
-    "start": "07:00",
-    "end": "09:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=294"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "albion-pool-and-health-club",
-    "start": "07:15",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "birchmount-community-centre",
-    "start": "07:15",
-    "end": "11:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "mary-mccormick-recreation-centre",
-    "start": "07:15",
-    "end": "09:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "rouge-valley-community-recreation-centre",
-    "start": "07:15",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "dennis-r-timbrell-resource-centre",
-    "start": "07:30",
-    "end": "08:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1056"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "douglas-snow-aquatic-centre",
-    "start": "07:30",
-    "end": "08:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
-    "start": "07:30",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "norseman-community-school-and-pool",
-    "start": "07:45",
-    "end": "08:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "leaside-gardens-indoor-pool",
-    "start": "08:00",
-    "end": "09:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "the-elms-community-school-and-pool",
-    "start": "08:00",
-    "end": "09:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "trinity-community-recreation-centre",
-    "start": "08:00",
-    "end": "11:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=287"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "alderwood-pool",
-    "start": "08:15",
-    "end": "09:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "cummer-park-community-centre",
-    "start": "08:45",
-    "end": "09:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "north-toronto-memorial-community-centre",
-    "start": "08:45",
-    "end": "11:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "douglas-snow-aquatic-centre",
-    "start": "09:00",
-    "end": "10:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
-    "start": "09:00",
-    "end": "10:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "joseph-j-piccininni-community-recreation-centre",
-    "start": "09:00",
-    "end": "10:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "norseman-community-school-and-pool",
-    "start": "09:00",
-    "end": "10:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "leaside-gardens-indoor-pool",
-    "start": "09:15",
-    "end": "10:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "the-elms-community-school-and-pool",
-    "start": "09:15",
-    "end": "10:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "alderwood-pool",
-    "start": "09:30",
-    "end": "10:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "main-square-community-recreation-centre",
-    "start": "09:30",
-    "end": "10:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "amesbury-sports-complex",
-    "start": "10:00",
-    "end": "11:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=480"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "antibes-community-centre",
-    "start": "10:00",
-    "end": "11:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "domenico-diluca-community-recreation-centre",
-    "start": "10:00",
-    "end": "11:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=760"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "driftwood-community-recreation-centre",
-    "start": "10:00",
-    "end": "11:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=575"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "gord-and-irene-risk-community-recreation-centre",
-    "start": "10:00",
-    "end": "11:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "goulding-community-recreation-centre",
-    "start": "10:00",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=643"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "grandravine-community-recreation-centre",
-    "start": "10:00",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=647"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "harrison-pool",
-    "start": "10:00",
-    "end": "18:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=45"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "john-innes-community-recreation-centre",
-    "start": "10:00",
-    "end": "12:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=63"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "lawrence-heights-community-centre",
-    "start": "10:00",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=675"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "maryvale-park",
-    "start": "10:00",
-    "end": "10:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "northwood-community-centre",
-    "start": "10:00",
-    "end": "12:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=703"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "o-connor-community-centre",
-    "start": "10:00",
-    "end": "11:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1093"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "oakdale-community-centre",
-    "start": "10:00",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=780"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "oriole-community-recreation-centre",
-    "start": "10:00",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=714"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "roding-community-centre",
-    "start": "10:00",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=744"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "cummer-park-community-centre",
-    "start": "10:15",
-    "end": "11:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
-    "start": "10:15",
-    "end": "11:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "mary-mccormick-recreation-centre",
-    "start": "10:15",
-    "end": "11:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "main-square-community-recreation-centre",
-    "start": "10:30",
-    "end": "11:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "the-elms-community-school-and-pool",
-    "start": "10:30",
-    "end": "11:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "joseph-j-piccininni-community-recreation-centre",
-    "start": "11:00",
-    "end": "13:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "pam-mcconnell-aquatic-centre",
-    "start": "11:00",
-    "end": "12:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "annette-community-recreation-centre",
-    "start": "11:15",
-    "end": "12:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=17"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "albion-pool-and-health-club",
-    "start": "11:30",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "alderwood-pool",
-    "start": "11:30",
-    "end": "12:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "antibes-community-centre",
-    "start": "11:30",
-    "end": "13:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "dennis-r-timbrell-resource-centre",
-    "start": "11:30",
-    "end": "13:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1056"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "east-york-community-recreation-centre",
-    "start": "11:30",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "humber-community-pool",
-    "start": "11:30",
-    "end": "12:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=357"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "mitchell-field-community-centre",
-    "start": "11:30",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=693"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "main-square-community-recreation-centre",
-    "start": "11:35",
-    "end": "14:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "cummer-park-community-centre",
-    "start": "11:45",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "jimmie-simpson-recreation-centre",
-    "start": "11:45",
-    "end": "13:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "north-toronto-memorial-community-centre",
-    "start": "11:45",
-    "end": "13:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "trinity-community-recreation-centre",
-    "start": "11:45",
-    "end": "12:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=287"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "amesbury-sports-complex",
-    "start": "12:00",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=480"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "broadlands-community-recreation-centre",
-    "start": "12:00",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=7"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "douglas-snow-aquatic-centre",
-    "start": "12:00",
-    "end": "13:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
-    "start": "12:00",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "gord-and-irene-risk-community-recreation-centre",
-    "start": "12:00",
-    "end": "16:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "irving-w-chapley-community-centre",
-    "start": "12:00",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=664"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "memorial-pool-and-health-club",
-    "start": "12:00",
-    "end": "13:50",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "northwood-community-centre",
-    "start": "12:00",
-    "end": "19:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=703"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "o-connor-community-centre",
-    "start": "12:00",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1093"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "pam-mcconnell-aquatic-centre",
-    "start": "12:00",
-    "end": "13:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "pleasantview-community-centre",
-    "start": "12:00",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=732"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "annette-community-recreation-centre",
-    "start": "12:15",
-    "end": "13:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=17"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "john-innes-community-recreation-centre",
-    "start": "12:15",
-    "end": "13:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=63"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "leaside-gardens-indoor-pool",
-    "start": "12:30",
-    "end": "14:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "maryvale-park",
-    "start": "12:30",
-    "end": "19:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "mcgregor-park-community-centre",
-    "start": "12:30",
-    "end": "19:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=506"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "the-elms-community-school-and-pool",
-    "start": "12:30",
-    "end": "13:25",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "norseman-community-school-and-pool",
-    "start": "12:45",
-    "end": "13:40",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "rouge-valley-community-recreation-centre",
-    "start": "12:45",
-    "end": "13:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "centennial-recreation-centre-scarborough",
-    "start": "13:00",
-    "end": "15:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "domenico-diluca-community-recreation-centre",
-    "start": "13:00",
-    "end": "15:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=760"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "driftwood-community-recreation-centre",
-    "start": "13:00",
-    "end": "14:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=575"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "rouge-valley-community-recreation-centre",
-    "start": "13:00",
-    "end": "14:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "trinity-community-recreation-centre",
-    "start": "13:00",
-    "end": "14:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=287"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "albion-pool-and-health-club",
-    "start": "13:15",
-    "end": "13:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "east-york-community-recreation-centre",
-    "start": "13:15",
-    "end": "14:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "annette-community-recreation-centre",
-    "start": "13:30",
-    "end": "14:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=17"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "cedarbrae-collegiate-institute",
-    "start": "13:30",
-    "end": "16:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1143"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "jimmie-simpson-recreation-centre",
-    "start": "13:30",
-    "end": "14:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "north-toronto-memorial-community-centre",
-    "start": "13:30",
-    "end": "14:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "wexford-collegiate-institute",
-    "start": "13:30",
-    "end": "15:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1387"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "albert-campbell-collegiate-institute",
-    "start": "14:00",
-    "end": "16:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1110"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "heron-park-community-recreation-centre",
-    "start": "14:00",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=633"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "john-innes-community-recreation-centre",
-    "start": "14:00",
-    "end": "15:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=63"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "norseman-community-school-and-pool",
-    "start": "14:00",
-    "end": "15:10",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "alderwood-pool",
-    "start": "14:15",
-    "end": "15:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "douglas-snow-aquatic-centre",
-    "start": "14:15",
-    "end": "15:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "leaside-gardens-indoor-pool",
-    "start": "14:15",
-    "end": "15:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "trinity-community-recreation-centre",
-    "start": "14:15",
-    "end": "15:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=287"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
-    "start": "14:20",
-    "end": "15:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "annette-community-recreation-centre",
-    "start": "14:30",
-    "end": "15:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=17"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "birchmount-community-centre",
-    "start": "14:30",
-    "end": "17:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "dennis-r-timbrell-resource-centre",
-    "start": "14:30",
-    "end": "15:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1056"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "east-york-community-recreation-centre",
-    "start": "14:30",
-    "end": "15:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "driftwood-community-recreation-centre",
-    "start": "15:00",
-    "end": "15:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=575"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "pam-mcconnell-aquatic-centre",
-    "start": "15:00",
-    "end": "16:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "memorial-pool-and-health-club",
-    "start": "15:05",
-    "end": "15:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "centennial-recreation-centre-scarborough",
-    "start": "15:15",
-    "end": "16:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "rouge-valley-community-recreation-centre",
-    "start": "15:30",
-    "end": "16:30",
-    "type": "Lane Swim",
-    "womenOnly": true,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "domenico-diluca-community-recreation-centre",
-    "start": "16:00",
-    "end": "16:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=760"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "driftwood-community-recreation-centre",
-    "start": "16:00",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=575"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "gord-and-irene-risk-community-recreation-centre",
-    "start": "16:00",
-    "end": "16:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "main-square-community-recreation-centre",
-    "start": "16:00",
-    "end": "17:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "trinity-community-recreation-centre",
-    "start": "16:00",
-    "end": "20:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=287"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "domenico-diluca-community-recreation-centre",
-    "start": "17:00",
-    "end": "19:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=760"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "gord-and-irene-risk-community-recreation-centre",
-    "start": "17:00",
-    "end": "19:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "norseman-community-school-and-pool",
-    "start": "17:30",
-    "end": "18:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "annette-community-recreation-centre",
-    "start": "17:45",
-    "end": "18:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=17"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "centennial-recreation-centre-scarborough",
-    "start": "18:00",
-    "end": "19:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "albion-pool-and-health-club",
-    "start": "18:30",
-    "end": "19:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "norseman-community-school-and-pool",
-    "start": "18:30",
-    "end": "20:25",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "pam-mcconnell-aquatic-centre",
-    "start": "18:30",
-    "end": "19:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "jimmie-simpson-recreation-centre",
-    "start": "18:45",
-    "end": "19:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "annette-community-recreation-centre",
-    "start": "19:00",
-    "end": "20:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=17"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "gord-and-irene-risk-community-recreation-centre",
-    "start": "19:00",
-    "end": "19:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "maryvale-park",
-    "start": "19:00",
-    "end": "20:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "mcgregor-park-community-centre",
-    "start": "19:00",
-    "end": "20:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=506"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "centennial-recreation-centre-scarborough",
-    "start": "19:15",
-    "end": "20:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "rouge-valley-community-recreation-centre",
-    "start": "19:15",
-    "end": "20:45",
-    "type": "Leisure Swim",
-    "womenOnly": true,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "mary-mccormick-recreation-centre",
-    "start": "19:45",
-    "end": "20:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "antibes-community-centre",
-    "start": "20:00",
-    "end": "21:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "birchmount-community-centre",
-    "start": "20:00",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
-    "start": "20:00",
-    "end": "21:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "jimmie-simpson-recreation-centre",
-    "start": "20:00",
-    "end": "21:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "north-toronto-memorial-community-centre",
-    "start": "20:00",
-    "end": "21:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "pam-mcconnell-aquatic-centre",
-    "start": "20:00",
-    "end": "21:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "the-elms-community-school-and-pool",
-    "start": "20:00",
-    "end": "20:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "wallace-emerson-community-recreation-centre",
-    "start": "20:00",
-    "end": "21:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=294"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "memorial-pool-and-health-club",
-    "start": "20:05",
-    "end": "20:55",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "cummer-park-community-centre",
-    "start": "20:15",
-    "end": "21:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "centennial-recreation-centre-scarborough",
-    "start": "20:30",
-    "end": "21:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "joseph-j-piccininni-community-recreation-centre",
-    "start": "20:30",
-    "end": "21:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "leaside-gardens-indoor-pool",
-    "start": "20:30",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "main-square-community-recreation-centre",
-    "start": "20:30",
-    "end": "21:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "douglas-snow-aquatic-centre",
-    "start": "20:45",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "rouge-valley-community-recreation-centre",
-    "start": "20:45",
-    "end": "21:45",
-    "type": "Aquafit",
-    "womenOnly": true,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "humber-community-pool",
-    "start": "21:00",
-    "end": "21:55",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=357"
-  },
-  {
-    "date": "2026-09-02",
-    "venue": "memorial-pool-and-health-club",
-    "start": "21:05",
-    "end": "22:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
-  },
-  {
     "date": "2026-09-03",
     "venue": "main-square-community-recreation-centre",
     "start": "06:30",
@@ -6297,17 +877,6 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
-  },
-  {
-    "date": "2026-09-03",
-    "venue": "main-square-community-recreation-centre",
-    "start": "09:00",
-    "end": "10:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
   },
   {
     "date": "2026-09-03",
@@ -6542,17 +1111,6 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-03",
-    "venue": "main-square-community-recreation-centre",
-    "start": "10:30",
-    "end": "13:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
-  },
-  {
-    "date": "2026-09-03",
     "venue": "the-elms-community-school-and-pool",
     "start": "10:30",
     "end": "11:30",
@@ -6572,6 +1130,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1056"
+  },
+  {
+    "date": "2026-09-03",
+    "venue": "main-square-community-recreation-centre",
+    "start": "10:45",
+    "end": "13:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
   },
   {
     "date": "2026-09-03",
@@ -6993,6 +1562,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-03",
+    "venue": "wellesley-community-centre",
+    "start": "13:00",
+    "end": "14:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
+  },
+  {
+    "date": "2026-09-03",
     "venue": "cedarbrae-collegiate-institute",
     "start": "13:30",
     "end": "16:00",
@@ -7017,7 +1597,7 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "date": "2026-09-03",
     "venue": "main-square-community-recreation-centre",
     "start": "13:45",
-    "end": "15:45",
+    "end": "14:45",
     "type": "Leisure Swim",
     "womenOnly": false,
     "free": true,
@@ -7235,6 +1815,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-03",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "16:00",
+    "end": "18:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-03",
     "venue": "rouge-valley-community-recreation-centre",
     "start": "16:00",
     "end": "18:00",
@@ -7243,6 +1834,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
+  },
+  {
+    "date": "2026-09-03",
+    "venue": "east-york-community-recreation-centre",
+    "start": "16:30",
+    "end": "18:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
   },
   {
     "date": "2026-09-03",
@@ -7287,6 +1889,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
+  },
+  {
+    "date": "2026-09-03",
+    "venue": "wellesley-community-centre",
+    "start": "17:15",
+    "end": "18:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
   },
   {
     "date": "2026-09-03",
@@ -7356,6 +1969,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-03",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "18:45",
+    "end": "20:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-03",
     "venue": "gord-and-irene-risk-community-recreation-centre",
     "start": "19:00",
     "end": "19:55",
@@ -7400,6 +2024,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-03",
+    "venue": "wellesley-community-centre",
+    "start": "19:00",
+    "end": "20:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
+  },
+  {
+    "date": "2026-09-03",
     "venue": "east-york-community-recreation-centre",
     "start": "19:15",
     "end": "20:15",
@@ -7430,17 +2065,6 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
-  },
-  {
-    "date": "2026-09-03",
-    "venue": "mary-mccormick-recreation-centre",
-    "start": "19:45",
-    "end": "20:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "date": "2026-09-03",
@@ -7633,7 +2257,7 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "date": "2026-09-04",
     "venue": "east-york-community-recreation-centre",
     "start": "07:00",
-    "end": "09:15",
+    "end": "11:15",
     "type": "Lane Swim",
     "womenOnly": false,
     "free": false,
@@ -7950,6 +2574,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-04",
+    "venue": "wellesley-community-centre",
+    "start": "09:30",
+    "end": "10:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
+  },
+  {
+    "date": "2026-09-04",
     "venue": "amesbury-sports-complex",
     "start": "10:00",
     "end": "11:55",
@@ -8178,6 +2813,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-04",
+    "venue": "maryvale-park",
+    "start": "10:30",
+    "end": "12:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
   },
   {
     "date": "2026-09-04",
@@ -8610,6 +3256,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-04",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "13:00",
+    "end": "15:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-04",
     "venue": "oakdale-community-centre",
     "start": "13:00",
     "end": "19:55",
@@ -8786,6 +3443,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-04",
+    "venue": "main-square-community-recreation-centre",
+    "start": "14:15",
+    "end": "15:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
+  },
+  {
+    "date": "2026-09-04",
     "venue": "rouge-valley-community-recreation-centre",
     "start": "14:15",
     "end": "15:15",
@@ -8918,6 +3586,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-04",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "16:00",
+    "end": "18:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-04",
     "venue": "trinity-community-recreation-centre",
     "start": "16:00",
     "end": "20:45",
@@ -9017,6 +3696,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-04",
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "17:45",
+    "end": "19:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
+  },
+  {
+    "date": "2026-09-04",
     "venue": "alderwood-pool",
     "start": "18:00",
     "end": "19:00",
@@ -9061,6 +3751,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-04",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "18:45",
+    "end": "20:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-04",
     "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
     "start": "19:00",
     "end": "21:00",
@@ -9085,11 +3786,11 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "date": "2026-09-04",
     "venue": "main-square-community-recreation-centre",
     "start": "19:00",
-    "end": "21:30",
-    "type": "Lane Swim",
+    "end": "20:15",
+    "type": "Leisure Swim",
     "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
+    "free": true,
+    "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
   },
   {
@@ -9124,17 +3825,6 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
-  },
-  {
-    "date": "2026-09-04",
-    "venue": "mary-mccormick-recreation-centre",
-    "start": "19:45",
-    "end": "20:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "date": "2026-09-04",
@@ -9204,6 +3894,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-04",
+    "venue": "main-square-community-recreation-centre",
+    "start": "20:30",
+    "end": "21:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
+  },
+  {
+    "date": "2026-09-04",
     "venue": "douglas-snow-aquatic-centre",
     "start": "21:00",
     "end": "22:00",
@@ -9248,17 +3949,6 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-05",
-    "venue": "rouge-valley-community-recreation-centre",
-    "start": "08:00",
-    "end": "09:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
-  },
-  {
-    "date": "2026-09-05",
     "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
     "start": "08:30",
     "end": "09:30",
@@ -9289,6 +3979,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-05",
+    "venue": "alderwood-pool",
+    "start": "09:15",
+    "end": "10:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
   },
   {
     "date": "2026-09-05",
@@ -9498,17 +4199,6 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=744"
-  },
-  {
-    "date": "2026-09-05",
-    "venue": "alderwood-pool",
-    "start": "10:20",
-    "end": "11:20",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
   },
   {
     "date": "2026-09-05",
@@ -9754,6 +4444,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-05",
+    "venue": "wellesley-community-centre",
+    "start": "12:00",
+    "end": "15:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
+  },
+  {
+    "date": "2026-09-05",
     "venue": "douglas-snow-aquatic-centre",
     "start": "12:15",
     "end": "14:00",
@@ -9850,6 +4551,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=308"
+  },
+  {
+    "date": "2026-09-05",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "12:45",
+    "end": "14:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "date": "2026-09-05",
@@ -10136,6 +4848,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=294"
+  },
+  {
+    "date": "2026-09-05",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "14:45",
+    "end": "16:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "date": "2026-09-05",
@@ -10623,6 +5346,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-06",
+    "venue": "alderwood-pool",
+    "start": "11:30",
+    "end": "12:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
+  },
+  {
+    "date": "2026-09-06",
     "venue": "east-york-community-recreation-centre",
     "start": "11:30",
     "end": "13:00",
@@ -10788,6 +5522,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-06",
+    "venue": "wellesley-community-centre",
+    "start": "12:00",
+    "end": "14:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
+  },
+  {
+    "date": "2026-09-06",
     "venue": "douglas-snow-aquatic-centre",
     "start": "12:15",
     "end": "14:00",
@@ -10823,7 +5568,7 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "date": "2026-09-06",
     "venue": "maryvale-park",
     "start": "12:30",
-    "end": "20:00",
+    "end": "16:00",
     "type": "Leisure Swim",
     "womenOnly": false,
     "free": true,
@@ -10862,6 +5607,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
+  },
+  {
+    "date": "2026-09-06",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "12:45",
+    "end": "14:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "date": "2026-09-06",
@@ -11085,6 +5841,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-06",
+    "venue": "alderwood-pool",
+    "start": "14:30",
+    "end": "15:55",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
+  },
+  {
+    "date": "2026-09-06",
     "venue": "antibes-community-centre",
     "start": "14:30",
     "end": "15:30",
@@ -11126,6 +5893,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=294"
+  },
+  {
+    "date": "2026-09-06",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "14:45",
+    "end": "16:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "date": "2026-09-06",
@@ -11228,6 +6006,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-06",
+    "venue": "wellesley-community-centre",
+    "start": "16:15",
+    "end": "18:00",
+    "type": "Leisure Swim",
+    "womenOnly": true,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
+  },
+  {
+    "date": "2026-09-06",
     "venue": "dennis-r-timbrell-resource-centre",
     "start": "17:00",
     "end": "20:00",
@@ -11250,6 +6039,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-06",
+    "venue": "wellesley-community-centre",
+    "start": "18:15",
+    "end": "19:30",
+    "type": "Lane Swim",
+    "womenOnly": true,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
+  },
+  {
+    "date": "2026-09-06",
     "venue": "birchmount-community-centre",
     "start": "18:30",
     "end": "20:00",
@@ -11264,6 +6064,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "venue": "gord-and-irene-risk-community-recreation-centre",
     "start": "19:00",
     "end": "19:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
+  },
+  {
+    "date": "2026-09-07",
+    "venue": "gord-and-irene-risk-community-recreation-centre",
+    "start": "10:00",
+    "end": "11:55",
     "type": "Lane Swim",
     "womenOnly": false,
     "free": false,
@@ -11302,17 +6113,6 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=633"
-  },
-  {
-    "date": "2026-09-07",
-    "venue": "maryvale-park",
-    "start": "10:00",
-    "end": "11:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
   },
   {
     "date": "2026-09-07",
@@ -11360,17 +6160,6 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-07",
-    "venue": "maryvale-park",
-    "start": "12:30",
-    "end": "16:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
-  },
-  {
-    "date": "2026-09-07",
     "venue": "heron-park-community-recreation-centre",
     "start": "13:00",
     "end": "20:00",
@@ -11379,6 +6168,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=633"
+  },
+  {
+    "date": "2026-09-07",
+    "venue": "gord-and-irene-risk-community-recreation-centre",
+    "start": "16:00",
+    "end": "17:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
   },
   {
     "date": "2026-09-07",
@@ -11481,6 +6281,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-08",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "07:15",
+    "end": "08:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-08",
     "venue": "rouge-valley-community-recreation-centre",
     "start": "07:15",
     "end": "08:45",
@@ -11514,6 +6325,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-08",
+    "venue": "memorial-pool-and-health-club",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-08",
     "venue": "pam-mcconnell-aquatic-centre",
     "start": "08:00",
     "end": "09:15",
@@ -11533,6 +6355,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
+  },
+  {
+    "date": "2026-09-08",
+    "venue": "alderwood-pool",
+    "start": "08:15",
+    "end": "09:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
   },
   {
     "date": "2026-09-08",
@@ -11602,6 +6435,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-08",
+    "venue": "memorial-pool-and-health-club",
+    "start": "09:15",
+    "end": "10:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-08",
     "venue": "the-elms-community-school-and-pool",
     "start": "09:15",
     "end": "10:15",
@@ -11610,6 +6454,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
+  },
+  {
+    "date": "2026-09-08",
+    "venue": "alderwood-pool",
+    "start": "09:30",
+    "end": "10:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
   },
   {
     "date": "2026-09-08",
@@ -11665,6 +6520,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
+  },
+  {
+    "date": "2026-09-08",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "date": "2026-09-08",
@@ -11833,6 +6699,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-08",
+    "venue": "memorial-pool-and-health-club",
+    "start": "12:15",
+    "end": "13:10",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-08",
     "venue": "rouge-valley-community-recreation-centre",
     "start": "12:30",
     "end": "14:00",
@@ -11907,6 +6784,39 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-08",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "13:00",
+    "end": "15:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-08",
+    "venue": "wellesley-community-centre",
+    "start": "13:00",
+    "end": "14:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
+  },
+  {
+    "date": "2026-09-08",
+    "venue": "memorial-pool-and-health-club",
+    "start": "13:15",
+    "end": "15:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
   },
   {
     "date": "2026-09-08",
@@ -11987,6 +6897,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-08",
+    "venue": "heron-park-community-recreation-centre",
+    "start": "16:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=633"
+  },
+  {
+    "date": "2026-09-08",
     "venue": "main-square-community-recreation-centre",
     "start": "16:00",
     "end": "17:45",
@@ -11998,14 +6919,14 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-08",
-    "venue": "maryvale-park",
+    "venue": "mary-mccormick-recreation-centre",
     "start": "16:00",
-    "end": "19:00",
+    "end": "18:00",
     "type": "Leisure Swim",
     "womenOnly": false,
     "free": true,
     "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "date": "2026-09-08",
@@ -12086,6 +7007,28 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-08",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "18:45",
+    "end": "20:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-08",
+    "venue": "memorial-pool-and-health-club",
+    "start": "19:00",
+    "end": "19:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-08",
     "venue": "rouge-valley-community-recreation-centre",
     "start": "19:00",
     "end": "21:00",
@@ -12094,6 +7037,28 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
+  },
+  {
+    "date": "2026-09-08",
+    "venue": "the-elms-community-school-and-pool",
+    "start": "19:00",
+    "end": "20:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
+  },
+  {
+    "date": "2026-09-08",
+    "venue": "wellesley-community-centre",
+    "start": "19:00",
+    "end": "20:00",
+    "type": "Aquafit",
+    "womenOnly": true,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
   },
   {
     "date": "2026-09-08",
@@ -12193,6 +7158,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
+  },
+  {
+    "date": "2026-09-08",
+    "venue": "wellesley-community-centre",
+    "start": "20:05",
+    "end": "21:00",
+    "type": "Lane Swim",
+    "womenOnly": true,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
   },
   {
     "date": "2026-09-08",
@@ -12330,7 +7306,7 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "date": "2026-09-09",
     "venue": "jimmie-simpson-recreation-centre",
     "start": "07:00",
-    "end": "08:45",
+    "end": "10:30",
     "type": "Lane Swim",
     "womenOnly": false,
     "free": true,
@@ -12358,6 +7334,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
+  },
+  {
+    "date": "2026-09-09",
+    "venue": "memorial-pool-and-health-club",
+    "start": "07:00",
+    "end": "08:25",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
   },
   {
     "date": "2026-09-09",
@@ -12391,6 +7378,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
+  },
+  {
+    "date": "2026-09-09",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "07:15",
+    "end": "09:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "date": "2026-09-09",
@@ -12526,6 +7524,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-09",
+    "venue": "memorial-pool-and-health-club",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-09",
     "venue": "leaside-gardens-indoor-pool",
     "start": "09:15",
     "end": "10:15",
@@ -12567,6 +7576,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
+  },
+  {
+    "date": "2026-09-09",
+    "venue": "wellesley-community-centre",
+    "start": "09:30",
+    "end": "10:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
   },
   {
     "date": "2026-09-09",
@@ -12622,6 +7642,28 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-09",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-09",
+    "venue": "memorial-pool-and-health-club",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
   },
   {
     "date": "2026-09-09",
@@ -12710,6 +7752,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=357"
+  },
+  {
+    "date": "2026-09-09",
+    "venue": "memorial-pool-and-health-club",
+    "start": "11:30",
+    "end": "12:50",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
   },
   {
     "date": "2026-09-09",
@@ -12878,6 +7931,28 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-09",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "13:00",
+    "end": "15:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-09",
+    "venue": "memorial-pool-and-health-club",
+    "start": "13:00",
+    "end": "14:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-09",
     "venue": "east-york-community-recreation-centre",
     "start": "13:15",
     "end": "14:15",
@@ -12944,6 +8019,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-09",
+    "venue": "memorial-pool-and-health-club",
+    "start": "14:15",
+    "end": "15:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-09",
     "venue": "dennis-r-timbrell-resource-centre",
     "start": "14:30",
     "end": "15:30",
@@ -12974,6 +8060,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
+  },
+  {
+    "date": "2026-09-09",
+    "venue": "memorial-pool-and-health-club",
+    "start": "15:20",
+    "end": "16:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
   },
   {
     "date": "2026-09-09",
@@ -13032,6 +8129,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-09",
+    "venue": "heron-park-community-recreation-centre",
+    "start": "16:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=633"
+  },
+  {
+    "date": "2026-09-09",
     "venue": "main-square-community-recreation-centre",
     "start": "16:00",
     "end": "17:15",
@@ -13043,14 +8151,14 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-09",
-    "venue": "maryvale-park",
+    "venue": "mary-mccormick-recreation-centre",
     "start": "16:00",
-    "end": "19:00",
+    "end": "18:00",
     "type": "Leisure Swim",
     "womenOnly": false,
     "free": true,
     "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "date": "2026-09-09",
@@ -13076,6 +8184,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-09",
+    "venue": "alderwood-pool",
+    "start": "16:15",
+    "end": "17:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
+  },
+  {
+    "date": "2026-09-09",
     "venue": "gord-and-irene-risk-community-recreation-centre",
     "start": "17:00",
     "end": "19:00",
@@ -13084,6 +8203,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
+  },
+  {
+    "date": "2026-09-09",
+    "venue": "wellesley-community-centre",
+    "start": "17:15",
+    "end": "19:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
   },
   {
     "date": "2026-09-09",
@@ -13106,6 +8236,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
+  },
+  {
+    "date": "2026-09-09",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "18:45",
+    "end": "20:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "date": "2026-09-09",
@@ -13274,6 +8415,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-09",
+    "venue": "memorial-pool-and-health-club",
+    "start": "20:30",
+    "end": "21:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-09",
     "venue": "birchmount-community-centre",
     "start": "20:45",
     "end": "21:45",
@@ -13395,6 +8547,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-10",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "07:15",
+    "end": "08:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-10",
     "venue": "rouge-valley-community-recreation-centre",
     "start": "07:15",
     "end": "08:45",
@@ -13425,6 +8588,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-10",
+    "venue": "memorial-pool-and-health-club",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
   },
   {
     "date": "2026-09-10",
@@ -13527,6 +8701,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-10",
+    "venue": "memorial-pool-and-health-club",
+    "start": "09:15",
+    "end": "10:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-10",
     "venue": "the-elms-community-school-and-pool",
     "start": "09:15",
     "end": "10:15",
@@ -13590,6 +8775,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
+  },
+  {
+    "date": "2026-09-10",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "date": "2026-09-10",
@@ -13747,6 +8943,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-10",
+    "venue": "memorial-pool-and-health-club",
+    "start": "12:15",
+    "end": "13:10",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-10",
     "venue": "rouge-valley-community-recreation-centre",
     "start": "12:30",
     "end": "14:00",
@@ -13824,6 +9031,28 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-10",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "13:00",
+    "end": "15:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-10",
+    "venue": "wellesley-community-centre",
+    "start": "13:00",
+    "end": "14:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
+  },
+  {
+    "date": "2026-09-10",
     "venue": "albion-pool-and-health-club",
     "start": "13:15",
     "end": "14:15",
@@ -13832,6 +9061,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
+  },
+  {
+    "date": "2026-09-10",
+    "venue": "memorial-pool-and-health-club",
+    "start": "13:15",
+    "end": "15:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
   },
   {
     "date": "2026-09-10",
@@ -13901,17 +9141,6 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-10",
-    "venue": "albion-pool-and-health-club",
-    "start": "14:30",
-    "end": "15:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
-  },
-  {
-    "date": "2026-09-10",
     "venue": "gord-and-irene-risk-community-recreation-centre",
     "start": "16:00",
     "end": "16:55",
@@ -13945,14 +9174,25 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-10",
-    "venue": "maryvale-park",
+    "venue": "heron-park-community-recreation-centre",
     "start": "16:00",
     "end": "19:00",
     "type": "Leisure Swim",
     "womenOnly": false,
     "free": true,
     "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=633"
+  },
+  {
+    "date": "2026-09-10",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "16:00",
+    "end": "18:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "date": "2026-09-10",
@@ -14013,12 +9253,23 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "date": "2026-09-10",
     "venue": "pam-mcconnell-aquatic-centre",
     "start": "17:00",
-    "end": "21:00",
+    "end": "19:55",
     "type": "Lane Swim",
     "womenOnly": false,
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
+  },
+  {
+    "date": "2026-09-10",
+    "venue": "wellesley-community-centre",
+    "start": "17:15",
+    "end": "18:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
   },
   {
     "date": "2026-09-10",
@@ -14055,6 +9306,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-10",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "18:45",
+    "end": "20:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-10",
     "venue": "the-elms-community-school-and-pool",
     "start": "19:00",
     "end": "20:00",
@@ -14063,6 +9325,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
+  },
+  {
+    "date": "2026-09-10",
+    "venue": "wellesley-community-centre",
+    "start": "19:00",
+    "end": "20:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
   },
   {
     "date": "2026-09-10",
@@ -14299,7 +9572,7 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "date": "2026-09-11",
     "venue": "jimmie-simpson-recreation-centre",
     "start": "07:00",
-    "end": "08:45",
+    "end": "10:30",
     "type": "Lane Swim",
     "womenOnly": false,
     "free": true,
@@ -14327,6 +9600,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
+  },
+  {
+    "date": "2026-09-11",
+    "venue": "memorial-pool-and-health-club",
+    "start": "07:00",
+    "end": "08:25",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
   },
   {
     "date": "2026-09-11",
@@ -14360,6 +9644,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
+  },
+  {
+    "date": "2026-09-11",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "07:15",
+    "end": "09:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "date": "2026-09-11",
@@ -14517,6 +9812,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-11",
+    "venue": "memorial-pool-and-health-club",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-11",
     "venue": "leaside-gardens-indoor-pool",
     "start": "09:15",
     "end": "10:15",
@@ -14547,6 +9853,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
+  },
+  {
+    "date": "2026-09-11",
+    "venue": "wellesley-community-centre",
+    "start": "09:30",
+    "end": "10:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
   },
   {
     "date": "2026-09-11",
@@ -14624,6 +9941,28 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-11",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-11",
+    "venue": "memorial-pool-and-health-club",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
   },
   {
     "date": "2026-09-11",
@@ -14712,6 +10051,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
+  },
+  {
+    "date": "2026-09-11",
+    "venue": "memorial-pool-and-health-club",
+    "start": "11:30",
+    "end": "13:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
   },
   {
     "date": "2026-09-11",
@@ -14858,6 +10208,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-11",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "13:00",
+    "end": "15:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-11",
     "venue": "east-york-community-recreation-centre",
     "start": "13:15",
     "end": "14:15",
@@ -14877,6 +10238,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
+  },
+  {
+    "date": "2026-09-11",
+    "venue": "alderwood-pool",
+    "start": "13:30",
+    "end": "14:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
   },
   {
     "date": "2026-09-11",
@@ -14946,6 +10318,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-11",
+    "venue": "memorial-pool-and-health-club",
+    "start": "14:30",
+    "end": "15:55",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-11",
     "venue": "centennial-recreation-centre-scarborough",
     "start": "15:15",
     "end": "16:30",
@@ -15001,6 +10384,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-11",
+    "venue": "heron-park-community-recreation-centre",
+    "start": "16:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=633"
+  },
+  {
+    "date": "2026-09-11",
     "venue": "main-square-community-recreation-centre",
     "start": "16:00",
     "end": "18:45",
@@ -15012,14 +10406,14 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-11",
-    "venue": "maryvale-park",
+    "venue": "mary-mccormick-recreation-centre",
     "start": "16:00",
-    "end": "19:00",
+    "end": "18:00",
     "type": "Leisure Swim",
     "womenOnly": false,
     "free": true,
     "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "date": "2026-09-11",
@@ -15100,6 +10494,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-11",
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "17:45",
+    "end": "19:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
+  },
+  {
+    "date": "2026-09-11",
     "venue": "alderwood-pool",
     "start": "18:00",
     "end": "19:25",
@@ -15141,6 +10546,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-11",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "18:45",
+    "end": "20:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "date": "2026-09-11",
@@ -15276,6 +10692,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-11",
+    "venue": "memorial-pool-and-health-club",
+    "start": "20:15",
+    "end": "21:10",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-11",
     "venue": "birchmount-community-centre",
     "start": "20:30",
     "end": "21:45",
@@ -15342,6 +10769,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-12",
+    "venue": "memorial-pool-and-health-club",
+    "start": "07:45",
+    "end": "08:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-12",
     "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
     "start": "08:30",
     "end": "09:30",
@@ -15372,6 +10810,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
+  },
+  {
+    "date": "2026-09-12",
+    "venue": "alderwood-pool",
+    "start": "09:15",
+    "end": "10:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
   },
   {
     "date": "2026-09-12",
@@ -15419,14 +10868,25 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-12",
-    "venue": "maryvale-park",
+    "venue": "heron-park-community-recreation-centre",
     "start": "10:00",
-    "end": "12:15",
+    "end": "11:45",
     "type": "Lane Swim",
     "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=633"
+  },
+  {
+    "date": "2026-09-12",
+    "venue": "mcgregor-park-community-centre",
+    "start": "10:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=506"
   },
   {
     "date": "2026-09-12",
@@ -15438,17 +10898,6 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1093"
-  },
-  {
-    "date": "2026-09-12",
-    "venue": "mcgregor-park-community-centre",
-    "start": "10:30",
-    "end": "19:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=506"
   },
   {
     "date": "2026-09-12",
@@ -15551,6 +11000,28 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-12",
+    "venue": "heron-park-community-recreation-centre",
+    "start": "12:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=633"
+  },
+  {
+    "date": "2026-09-12",
+    "venue": "wellesley-community-centre",
+    "start": "12:00",
+    "end": "15:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
+  },
+  {
+    "date": "2026-09-12",
     "venue": "east-york-community-recreation-centre",
     "start": "12:30",
     "end": "14:45",
@@ -15562,17 +11033,6 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-12",
-    "venue": "maryvale-park",
-    "start": "12:30",
-    "end": "19:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
-  },
-  {
-    "date": "2026-09-12",
     "venue": "fairmount-park-community-centre",
     "start": "12:45",
     "end": "14:10",
@@ -15581,6 +11041,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=308"
+  },
+  {
+    "date": "2026-09-12",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "12:45",
+    "end": "14:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "date": "2026-09-12",
@@ -15716,6 +11187,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-12",
+    "venue": "memorial-pool-and-health-club",
+    "start": "14:05",
+    "end": "14:55",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-12",
     "venue": "douglas-snow-aquatic-centre",
     "start": "14:15",
     "end": "15:30",
@@ -15815,6 +11297,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-12",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "14:45",
+    "end": "16:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-12",
     "venue": "east-york-community-recreation-centre",
     "start": "15:00",
     "end": "16:30",
@@ -15823,6 +11316,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
+  },
+  {
+    "date": "2026-09-12",
+    "venue": "memorial-pool-and-health-club",
+    "start": "15:05",
+    "end": "15:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
   },
   {
     "date": "2026-09-12",
@@ -16013,14 +11517,25 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-13",
-    "venue": "maryvale-park",
+    "venue": "heron-park-community-recreation-centre",
     "start": "10:00",
-    "end": "12:15",
+    "end": "11:45",
     "type": "Lane Swim",
     "womenOnly": false,
-    "free": false,
-    "fee": "Regular drop-in fee",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=633"
+  },
+  {
+    "date": "2026-09-13",
+    "venue": "mcgregor-park-community-centre",
+    "start": "10:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=506"
   },
   {
     "date": "2026-09-13",
@@ -16032,17 +11547,6 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1093"
-  },
-  {
-    "date": "2026-09-13",
-    "venue": "mcgregor-park-community-centre",
-    "start": "10:30",
-    "end": "19:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=506"
   },
   {
     "date": "2026-09-13",
@@ -16156,6 +11660,28 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-13",
+    "venue": "heron-park-community-recreation-centre",
+    "start": "12:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=633"
+  },
+  {
+    "date": "2026-09-13",
+    "venue": "wellesley-community-centre",
+    "start": "12:00",
+    "end": "14:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
+  },
+  {
+    "date": "2026-09-13",
     "venue": "douglas-snow-aquatic-centre",
     "start": "12:15",
     "end": "13:55",
@@ -16164,17 +11690,6 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
-  },
-  {
-    "date": "2026-09-13",
-    "venue": "maryvale-park",
-    "start": "12:30",
-    "end": "19:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
   },
   {
     "date": "2026-09-13",
@@ -16197,6 +11712,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
+  },
+  {
+    "date": "2026-09-13",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "12:45",
+    "end": "14:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "date": "2026-09-13",
@@ -16310,6 +11836,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-13",
+    "venue": "memorial-pool-and-health-club",
+    "start": "14:05",
+    "end": "14:55",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-13",
     "venue": "douglas-snow-aquatic-centre",
     "start": "14:15",
     "end": "15:30",
@@ -16409,6 +11946,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-13",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "14:45",
+    "end": "16:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-13",
     "venue": "main-square-community-recreation-centre",
     "start": "14:50",
     "end": "16:30",
@@ -16428,6 +11976,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
+  },
+  {
+    "date": "2026-09-13",
+    "venue": "memorial-pool-and-health-club",
+    "start": "15:05",
+    "end": "15:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
   },
   {
     "date": "2026-09-13",
@@ -16486,6 +12045,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-13",
+    "venue": "wellesley-community-centre",
+    "start": "16:15",
+    "end": "18:00",
+    "type": "Leisure Swim",
+    "womenOnly": true,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
+  },
+  {
+    "date": "2026-09-13",
     "venue": "dennis-r-timbrell-resource-centre",
     "start": "17:00",
     "end": "20:00",
@@ -16505,6 +12075,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
+  },
+  {
+    "date": "2026-09-13",
+    "venue": "wellesley-community-centre",
+    "start": "18:15",
+    "end": "19:30",
+    "type": "Lane Swim",
+    "womenOnly": true,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
   },
   {
     "date": "2026-09-13",
@@ -16574,6 +12155,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-14",
+    "venue": "cummer-park-community-centre",
+    "start": "07:00",
+    "end": "08:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
+  },
+  {
+    "date": "2026-09-14",
     "venue": "east-york-community-recreation-centre",
     "start": "07:00",
     "end": "13:00",
@@ -16587,7 +12179,7 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "date": "2026-09-14",
     "venue": "jimmie-simpson-recreation-centre",
     "start": "07:00",
-    "end": "08:45",
+    "end": "10:30",
     "type": "Lane Swim",
     "womenOnly": false,
     "free": true,
@@ -16618,6 +12210,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-14",
+    "venue": "memorial-pool-and-health-club",
+    "start": "07:00",
+    "end": "08:25",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-14",
     "venue": "north-toronto-memorial-community-centre",
     "start": "07:00",
     "end": "08:30",
@@ -16642,7 +12245,7 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "date": "2026-09-14",
     "venue": "york-recreation-centre",
     "start": "07:10",
-    "end": "08:45",
+    "end": "08:15",
     "type": "Lane Swim",
     "womenOnly": false,
     "free": true,
@@ -16659,6 +12262,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
+  },
+  {
+    "date": "2026-09-14",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "07:15",
+    "end": "09:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "date": "2026-09-14",
@@ -16772,6 +12386,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-14",
+    "venue": "york-recreation-centre",
+    "start": "08:30",
+    "end": "09:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
+  },
+  {
+    "date": "2026-09-14",
     "venue": "cummer-park-community-centre",
     "start": "08:45",
     "end": "09:45",
@@ -16838,17 +12463,6 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-14",
-    "venue": "york-recreation-centre",
-    "start": "09:00",
-    "end": "10:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
-  },
-  {
-    "date": "2026-09-14",
     "venue": "etobicoke-olympium",
     "start": "09:15",
     "end": "10:15",
@@ -16868,6 +12482,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
+  },
+  {
+    "date": "2026-09-14",
+    "venue": "alderwood-pool",
+    "start": "09:30",
+    "end": "10:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
   },
   {
     "date": "2026-09-14",
@@ -16901,6 +12526,39 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
+  },
+  {
+    "date": "2026-09-14",
+    "venue": "wellesley-community-centre",
+    "start": "09:30",
+    "end": "10:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
+  },
+  {
+    "date": "2026-09-14",
+    "venue": "memorial-pool-and-health-club",
+    "start": "09:45",
+    "end": "10:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-14",
+    "venue": "york-recreation-centre",
+    "start": "09:45",
+    "end": "10:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
   },
   {
     "date": "2026-09-14",
@@ -17003,6 +12661,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-14",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-14",
     "venue": "norseman-community-school-and-pool",
     "start": "10:15",
     "end": "11:15",
@@ -17011,17 +12680,6 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
-  },
-  {
-    "date": "2026-09-14",
-    "venue": "york-recreation-centre",
-    "start": "10:15",
-    "end": "11:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
   },
   {
     "date": "2026-09-14",
@@ -17055,6 +12713,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=357"
+  },
+  {
+    "date": "2026-09-14",
+    "venue": "memorial-pool-and-health-club",
+    "start": "11:00",
+    "end": "12:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
   },
   {
     "date": "2026-09-14",
@@ -17146,6 +12815,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-14",
+    "venue": "cummer-park-community-centre",
+    "start": "11:45",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
+  },
+  {
+    "date": "2026-09-14",
     "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
     "start": "11:45",
     "end": "12:45",
@@ -17212,17 +12892,6 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-14",
-    "venue": "york-recreation-centre",
-    "start": "12:00",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
-  },
-  {
-    "date": "2026-09-14",
     "venue": "dennis-r-timbrell-resource-centre",
     "start": "12:15",
     "end": "14:15",
@@ -17231,6 +12900,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1056"
+  },
+  {
+    "date": "2026-09-14",
+    "venue": "memorial-pool-and-health-club",
+    "start": "12:15",
+    "end": "14:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
   },
   {
     "date": "2026-09-14",
@@ -17289,6 +12969,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-14",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "13:00",
+    "end": "15:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-14",
     "venue": "cummer-park-community-centre",
     "start": "13:15",
     "end": "14:15",
@@ -17322,14 +13013,14 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-14",
-    "venue": "york-recreation-centre",
-    "start": "13:15",
-    "end": "14:45",
-    "type": "Leisure Swim",
+    "venue": "alderwood-pool",
+    "start": "13:30",
+    "end": "14:30",
+    "type": "Aquafit",
     "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
   },
   {
     "date": "2026-09-14",
@@ -17366,6 +13057,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-14",
+    "venue": "york-recreation-centre",
+    "start": "13:45",
+    "end": "15:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
+  },
+  {
+    "date": "2026-09-14",
     "venue": "birchmount-community-centre",
     "start": "14:00",
     "end": "15:00",
@@ -17396,6 +13098,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1056"
+  },
+  {
+    "date": "2026-09-14",
+    "venue": "memorial-pool-and-health-club",
+    "start": "15:15",
+    "end": "16:10",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
   },
   {
     "date": "2026-09-14",
@@ -17443,14 +13156,25 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-14",
-    "venue": "maryvale-park",
+    "venue": "heron-park-community-recreation-centre",
     "start": "16:00",
     "end": "19:00",
     "type": "Leisure Swim",
     "womenOnly": false,
     "free": true,
     "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=633"
+  },
+  {
+    "date": "2026-09-14",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "16:00",
+    "end": "18:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "date": "2026-09-14",
@@ -17498,17 +13222,6 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-14",
-    "venue": "york-recreation-centre",
-    "start": "16:00",
-    "end": "17:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
-  },
-  {
-    "date": "2026-09-14",
     "venue": "antibes-community-centre",
     "start": "17:00",
     "end": "21:00",
@@ -17528,6 +13241,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
+  },
+  {
+    "date": "2026-09-14",
+    "venue": "wellesley-community-centre",
+    "start": "17:15",
+    "end": "19:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
   },
   {
     "date": "2026-09-14",
@@ -17619,6 +13343,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-14",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "19:30",
+    "end": "20:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-14",
     "venue": "dennis-r-timbrell-resource-centre",
     "start": "19:45",
     "end": "20:45",
@@ -17671,6 +13406,28 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
+  },
+  {
+    "date": "2026-09-14",
+    "venue": "cummer-park-community-centre",
+    "start": "20:15",
+    "end": "21:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
+  },
+  {
+    "date": "2026-09-14",
+    "venue": "memorial-pool-and-health-club",
+    "start": "20:15",
+    "end": "21:10",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
   },
   {
     "date": "2026-09-14",
@@ -17750,6 +13507,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=892"
   },
   {
+    "date": "2026-09-14",
+    "venue": "memorial-pool-and-health-club",
+    "start": "21:30",
+    "end": "22:25",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
     "date": "2026-09-15",
     "venue": "alderwood-pool",
     "start": "06:00",
@@ -17806,6 +13574,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-15",
+    "venue": "cummer-park-community-centre",
+    "start": "07:00",
+    "end": "08:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
+  },
+  {
+    "date": "2026-09-15",
     "venue": "east-york-community-recreation-centre",
     "start": "07:00",
     "end": "13:00",
@@ -17841,7 +13620,7 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "date": "2026-09-15",
     "venue": "york-recreation-centre",
     "start": "07:10",
-    "end": "08:45",
+    "end": "09:45",
     "type": "Lane Swim",
     "womenOnly": false,
     "free": true,
@@ -17858,6 +13637,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
+  },
+  {
+    "date": "2026-09-15",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "07:15",
+    "end": "08:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "date": "2026-09-15",
@@ -17905,6 +13695,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-15",
+    "venue": "memorial-pool-and-health-club",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-15",
     "venue": "pam-mcconnell-aquatic-centre",
     "start": "08:00",
     "end": "09:15",
@@ -17924,6 +13725,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
+  },
+  {
+    "date": "2026-09-15",
+    "venue": "alderwood-pool",
+    "start": "08:15",
+    "end": "09:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
   },
   {
     "date": "2026-09-15",
@@ -17993,6 +13805,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-15",
+    "venue": "memorial-pool-and-health-club",
+    "start": "09:15",
+    "end": "10:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-15",
     "venue": "the-elms-community-school-and-pool",
     "start": "09:15",
     "end": "10:15",
@@ -18001,6 +13824,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": true,
     "fee": "",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
+  },
+  {
+    "date": "2026-09-15",
+    "venue": "alderwood-pool",
+    "start": "09:30",
+    "end": "10:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
   },
   {
     "date": "2026-09-15",
@@ -18089,6 +13923,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
+  },
+  {
+    "date": "2026-09-15",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "date": "2026-09-15",
@@ -18202,6 +14047,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-15",
+    "venue": "cummer-park-community-centre",
+    "start": "11:45",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
+  },
+  {
+    "date": "2026-09-15",
     "venue": "jimmie-simpson-recreation-centre",
     "start": "11:45",
     "end": "13:45",
@@ -18221,6 +14077,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
+  },
+  {
+    "date": "2026-09-15",
+    "venue": "york-recreation-centre",
+    "start": "11:45",
+    "end": "13:10",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
   },
   {
     "date": "2026-09-15",
@@ -18268,14 +14135,14 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-15",
-    "venue": "york-recreation-centre",
-    "start": "12:00",
-    "end": "13:00",
+    "venue": "memorial-pool-and-health-club",
+    "start": "12:15",
+    "end": "13:10",
     "type": "Lane Swim",
     "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
   },
   {
     "date": "2026-09-15",
@@ -18353,6 +14220,50 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-15",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "13:00",
+    "end": "15:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-15",
+    "venue": "wellesley-community-centre",
+    "start": "13:00",
+    "end": "14:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
+  },
+  {
+    "date": "2026-09-15",
+    "venue": "memorial-pool-and-health-club",
+    "start": "13:15",
+    "end": "15:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-15",
+    "venue": "york-recreation-centre",
+    "start": "13:15",
+    "end": "14:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
   },
   {
     "date": "2026-09-15",
@@ -18444,14 +14355,25 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-15",
-    "venue": "maryvale-park",
+    "venue": "heron-park-community-recreation-centre",
     "start": "16:00",
     "end": "19:00",
     "type": "Leisure Swim",
     "womenOnly": false,
     "free": true,
     "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=704"
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=633"
+  },
+  {
+    "date": "2026-09-15",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "16:00",
+    "end": "18:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
   },
   {
     "date": "2026-09-15",
@@ -18521,6 +14443,28 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-15",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "18:45",
+    "end": "20:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-15",
+    "venue": "memorial-pool-and-health-club",
+    "start": "19:00",
+    "end": "19:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-15",
     "venue": "rouge-valley-community-recreation-centre",
     "start": "19:00",
     "end": "21:00",
@@ -18532,6 +14476,28 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-15",
+    "venue": "the-elms-community-school-and-pool",
+    "start": "19:00",
+    "end": "20:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
+  },
+  {
+    "date": "2026-09-15",
+    "venue": "wellesley-community-centre",
+    "start": "19:00",
+    "end": "20:00",
+    "type": "Aquafit",
+    "womenOnly": true,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
+  },
+  {
+    "date": "2026-09-15",
     "venue": "east-york-community-recreation-centre",
     "start": "19:15",
     "end": "20:15",
@@ -18540,6 +14506,17 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
+  },
+  {
+    "date": "2026-09-15",
+    "venue": "york-recreation-centre",
+    "start": "19:15",
+    "end": "21:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
   },
   {
     "date": "2026-09-15",
@@ -18609,6 +14586,28 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
   },
   {
     "date": "2026-09-15",
+    "venue": "wellesley-community-centre",
+    "start": "20:05",
+    "end": "21:00",
+    "type": "Lane Swim",
+    "womenOnly": true,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
+  },
+  {
+    "date": "2026-09-15",
+    "venue": "cummer-park-community-centre",
+    "start": "20:15",
+    "end": "21:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
+  },
+  {
+    "date": "2026-09-15",
     "venue": "east-york-community-recreation-centre",
     "start": "20:15",
     "end": "21:30",
@@ -18639,17 +14638,6 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
-  },
-  {
-    "date": "2026-09-15",
-    "venue": "york-recreation-centre",
-    "start": "20:30",
-    "end": "21:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": true,
-    "fee": "",
-    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
   },
   {
     "date": "2026-09-15",
@@ -18705,5 +14693,3965 @@ export const schedule: Array<{date: string; venue: VenueId; start: string; end: 
     "free": false,
     "fee": "Regular drop-in fee",
     "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "etobicoke-olympium",
+    "start": "06:00",
+    "end": "07:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=892"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "humber-community-pool",
+    "start": "06:45",
+    "end": "08:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=357"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "the-elms-community-school-and-pool",
+    "start": "06:45",
+    "end": "07:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "albion-pool-and-health-club",
+    "start": "07:00",
+    "end": "08:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "centennial-recreation-centre-scarborough",
+    "start": "07:00",
+    "end": "09:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "cummer-park-community-centre",
+    "start": "07:00",
+    "end": "08:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "east-york-community-recreation-centre",
+    "start": "07:00",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "07:00",
+    "end": "10:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "joseph-j-piccininni-community-recreation-centre",
+    "start": "07:00",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "leaside-gardens-indoor-pool",
+    "start": "07:00",
+    "end": "07:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "memorial-pool-and-health-club",
+    "start": "07:00",
+    "end": "08:25",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "north-toronto-memorial-community-centre",
+    "start": "07:00",
+    "end": "08:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "07:00",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "york-recreation-centre",
+    "start": "07:10",
+    "end": "08:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "birchmount-community-centre",
+    "start": "07:15",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "07:15",
+    "end": "09:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "rouge-valley-community-recreation-centre",
+    "start": "07:15",
+    "end": "08:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "alderwood-pool",
+    "start": "07:30",
+    "end": "08:40",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "dennis-r-timbrell-resource-centre",
+    "start": "07:30",
+    "end": "09:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1056"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "douglas-snow-aquatic-centre",
+    "start": "07:30",
+    "end": "08:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "07:30",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "norseman-community-school-and-pool",
+    "start": "07:45",
+    "end": "08:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "etobicoke-olympium",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=892"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "leaside-gardens-indoor-pool",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "the-elms-community-school-and-pool",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "york-recreation-centre",
+    "start": "08:30",
+    "end": "09:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "cummer-park-community-centre",
+    "start": "08:45",
+    "end": "09:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "north-toronto-memorial-community-centre",
+    "start": "08:45",
+    "end": "11:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "albion-pool-and-health-club",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "douglas-snow-aquatic-centre",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "joseph-j-piccininni-community-recreation-centre",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "memorial-pool-and-health-club",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "norseman-community-school-and-pool",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "etobicoke-olympium",
+    "start": "09:15",
+    "end": "10:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=892"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "leaside-gardens-indoor-pool",
+    "start": "09:15",
+    "end": "10:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "the-elms-community-school-and-pool",
+    "start": "09:15",
+    "end": "10:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "alderwood-pool",
+    "start": "09:30",
+    "end": "10:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "wellesley-community-centre",
+    "start": "09:30",
+    "end": "10:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "york-recreation-centre",
+    "start": "09:45",
+    "end": "10:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "antibes-community-centre",
+    "start": "10:00",
+    "end": "11:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "harrison-pool",
+    "start": "10:00",
+    "end": "18:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=45"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "john-innes-community-recreation-centre",
+    "start": "10:00",
+    "end": "12:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=63"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "albion-pool-and-health-club",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "centennial-recreation-centre-scarborough",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "cummer-park-community-centre",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "memorial-pool-and-health-club",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "the-elms-community-school-and-pool",
+    "start": "10:30",
+    "end": "11:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "alderwood-pool",
+    "start": "10:45",
+    "end": "11:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "joseph-j-piccininni-community-recreation-centre",
+    "start": "11:00",
+    "end": "13:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "leaside-gardens-indoor-pool",
+    "start": "11:15",
+    "end": "15:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "albion-pool-and-health-club",
+    "start": "11:30",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "antibes-community-centre",
+    "start": "11:30",
+    "end": "14:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "centennial-recreation-centre-scarborough",
+    "start": "11:30",
+    "end": "12:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "etobicoke-olympium",
+    "start": "11:30",
+    "end": "13:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=892"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "humber-community-pool",
+    "start": "11:30",
+    "end": "12:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=357"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "memorial-pool-and-health-club",
+    "start": "11:30",
+    "end": "12:50",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "cummer-park-community-centre",
+    "start": "11:45",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "11:45",
+    "end": "12:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "11:45",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "north-toronto-memorial-community-centre",
+    "start": "11:45",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "alderwood-pool",
+    "start": "12:00",
+    "end": "13:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "douglas-snow-aquatic-centre",
+    "start": "12:00",
+    "end": "13:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "etobicoke-olympium",
+    "start": "12:00",
+    "end": "13:25",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=892"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "norseman-community-school-and-pool",
+    "start": "12:00",
+    "end": "13:10",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "12:00",
+    "end": "13:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "dennis-r-timbrell-resource-centre",
+    "start": "12:15",
+    "end": "14:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1056"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "the-elms-community-school-and-pool",
+    "start": "12:30",
+    "end": "13:25",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "centennial-recreation-centre-scarborough",
+    "start": "12:45",
+    "end": "14:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "albion-pool-and-health-club",
+    "start": "13:00",
+    "end": "13:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "birchmount-community-centre",
+    "start": "13:00",
+    "end": "14:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "13:00",
+    "end": "14:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "john-innes-community-recreation-centre",
+    "start": "13:00",
+    "end": "14:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=63"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "13:00",
+    "end": "15:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "memorial-pool-and-health-club",
+    "start": "13:00",
+    "end": "14:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "cummer-park-community-centre",
+    "start": "13:15",
+    "end": "14:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "east-york-community-recreation-centre",
+    "start": "13:15",
+    "end": "14:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "13:30",
+    "end": "14:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "north-toronto-memorial-community-centre",
+    "start": "13:30",
+    "end": "14:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "york-recreation-centre",
+    "start": "13:45",
+    "end": "15:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "birchmount-community-centre",
+    "start": "14:00",
+    "end": "15:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "douglas-snow-aquatic-centre",
+    "start": "14:00",
+    "end": "15:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "14:00",
+    "end": "15:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "memorial-pool-and-health-club",
+    "start": "14:15",
+    "end": "15:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "dennis-r-timbrell-resource-centre",
+    "start": "14:30",
+    "end": "15:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1056"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "east-york-community-recreation-centre",
+    "start": "14:30",
+    "end": "15:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "memorial-pool-and-health-club",
+    "start": "15:20",
+    "end": "16:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "rouge-valley-community-recreation-centre",
+    "start": "15:30",
+    "end": "16:30",
+    "type": "Lane Swim",
+    "womenOnly": true,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "gord-and-irene-risk-community-recreation-centre",
+    "start": "16:00",
+    "end": "16:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "goulding-community-recreation-centre",
+    "start": "16:00",
+    "end": "18:55",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=643"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "grandravine-community-recreation-centre",
+    "start": "16:00",
+    "end": "18:55",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=647"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "heron-park-community-recreation-centre",
+    "start": "16:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=633"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "16:00",
+    "end": "18:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "mcgregor-park-community-centre",
+    "start": "16:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=506"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "o-connor-community-centre",
+    "start": "16:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1093"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "alderwood-pool",
+    "start": "16:15",
+    "end": "17:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "gord-and-irene-risk-community-recreation-centre",
+    "start": "17:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "wellesley-community-centre",
+    "start": "17:15",
+    "end": "19:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "york-recreation-centre",
+    "start": "18:30",
+    "end": "20:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "18:45",
+    "end": "19:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "18:45",
+    "end": "20:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "norseman-community-school-and-pool",
+    "start": "18:45",
+    "end": "19:25",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "rouge-valley-community-recreation-centre",
+    "start": "19:15",
+    "end": "20:45",
+    "type": "Leisure Swim",
+    "womenOnly": true,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "alderwood-pool",
+    "start": "19:30",
+    "end": "20:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "antibes-community-centre",
+    "start": "19:45",
+    "end": "21:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "dennis-r-timbrell-resource-centre",
+    "start": "19:45",
+    "end": "20:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1056"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "norseman-community-school-and-pool",
+    "start": "19:45",
+    "end": "20:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "20:00",
+    "end": "21:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "humber-community-pool",
+    "start": "20:00",
+    "end": "20:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=357"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "20:00",
+    "end": "21:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "20:00",
+    "end": "21:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "cummer-park-community-centre",
+    "start": "20:15",
+    "end": "21:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "albion-pool-and-health-club",
+    "start": "20:30",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "joseph-j-piccininni-community-recreation-centre",
+    "start": "20:30",
+    "end": "21:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "leaside-gardens-indoor-pool",
+    "start": "20:30",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "memorial-pool-and-health-club",
+    "start": "20:30",
+    "end": "21:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "york-recreation-centre",
+    "start": "20:30",
+    "end": "21:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "birchmount-community-centre",
+    "start": "20:45",
+    "end": "21:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "douglas-snow-aquatic-centre",
+    "start": "20:45",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "rouge-valley-community-recreation-centre",
+    "start": "20:45",
+    "end": "21:45",
+    "type": "Aquafit",
+    "womenOnly": true,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
+  },
+  {
+    "date": "2026-09-16",
+    "venue": "etobicoke-olympium",
+    "start": "21:00",
+    "end": "21:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=892"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "alderwood-pool",
+    "start": "06:00",
+    "end": "08:10",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "etobicoke-olympium",
+    "start": "06:00",
+    "end": "07:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=892"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "humber-community-pool",
+    "start": "06:45",
+    "end": "08:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=357"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "albion-pool-and-health-club",
+    "start": "07:00",
+    "end": "08:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "centennial-recreation-centre-scarborough",
+    "start": "07:00",
+    "end": "09:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "cummer-park-community-centre",
+    "start": "07:00",
+    "end": "08:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "east-york-community-recreation-centre",
+    "start": "07:00",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "joseph-j-piccininni-community-recreation-centre",
+    "start": "07:00",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "north-toronto-memorial-community-centre",
+    "start": "07:00",
+    "end": "08:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "york-recreation-centre",
+    "start": "07:10",
+    "end": "09:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "birchmount-community-centre",
+    "start": "07:15",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "07:15",
+    "end": "08:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "norseman-community-school-and-pool",
+    "start": "07:15",
+    "end": "08:10",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "rouge-valley-community-recreation-centre",
+    "start": "07:15",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "douglas-snow-aquatic-centre",
+    "start": "07:30",
+    "end": "08:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "07:30",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "memorial-pool-and-health-club",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "08:00",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "the-elms-community-school-and-pool",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "north-toronto-memorial-community-centre",
+    "start": "08:15",
+    "end": "09:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "cummer-park-community-centre",
+    "start": "08:45",
+    "end": "09:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "08:45",
+    "end": "09:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "alderwood-pool",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "douglas-snow-aquatic-centre",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "joseph-j-piccininni-community-recreation-centre",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "leaside-gardens-indoor-pool",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "norseman-community-school-and-pool",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "memorial-pool-and-health-club",
+    "start": "09:15",
+    "end": "10:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "the-elms-community-school-and-pool",
+    "start": "09:15",
+    "end": "10:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "north-toronto-memorial-community-centre",
+    "start": "09:30",
+    "end": "10:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "antibes-community-centre",
+    "start": "10:00",
+    "end": "11:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "etobicoke-olympium",
+    "start": "10:00",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=892"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "harrison-pool",
+    "start": "10:00",
+    "end": "18:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=45"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "john-innes-community-recreation-centre",
+    "start": "10:00",
+    "end": "11:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=63"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "centennial-recreation-centre-scarborough",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "cummer-park-community-centre",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "leaside-gardens-indoor-pool",
+    "start": "10:15",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "norseman-community-school-and-pool",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "the-elms-community-school-and-pool",
+    "start": "10:30",
+    "end": "11:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "dennis-r-timbrell-resource-centre",
+    "start": "10:45",
+    "end": "11:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1056"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "north-toronto-memorial-community-centre",
+    "start": "10:45",
+    "end": "11:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "joseph-j-piccininni-community-recreation-centre",
+    "start": "11:00",
+    "end": "13:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "john-innes-community-recreation-centre",
+    "start": "11:15",
+    "end": "13:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=63"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "albion-pool-and-health-club",
+    "start": "11:30",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "antibes-community-centre",
+    "start": "11:30",
+    "end": "14:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "centennial-recreation-centre-scarborough",
+    "start": "11:30",
+    "end": "12:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "humber-community-pool",
+    "start": "11:30",
+    "end": "12:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=357"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "cummer-park-community-centre",
+    "start": "11:45",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "11:45",
+    "end": "13:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "norseman-community-school-and-pool",
+    "start": "11:45",
+    "end": "13:10",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "york-recreation-centre",
+    "start": "11:45",
+    "end": "13:10",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "douglas-snow-aquatic-centre",
+    "start": "12:00",
+    "end": "13:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "etobicoke-olympium",
+    "start": "12:00",
+    "end": "13:25",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=892"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "north-toronto-memorial-community-centre",
+    "start": "12:00",
+    "end": "14:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "12:00",
+    "end": "12:40",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "memorial-pool-and-health-club",
+    "start": "12:15",
+    "end": "13:10",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "rouge-valley-community-recreation-centre",
+    "start": "12:30",
+    "end": "14:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "the-elms-community-school-and-pool",
+    "start": "12:30",
+    "end": "13:25",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "centennial-recreation-centre-scarborough",
+    "start": "12:45",
+    "end": "14:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "dennis-r-timbrell-resource-centre",
+    "start": "12:45",
+    "end": "15:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1056"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "12:45",
+    "end": "13:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "birchmount-community-centre",
+    "start": "13:00",
+    "end": "15:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "13:00",
+    "end": "14:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "13:00",
+    "end": "15:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "wellesley-community-centre",
+    "start": "13:00",
+    "end": "14:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "albion-pool-and-health-club",
+    "start": "13:15",
+    "end": "14:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "memorial-pool-and-health-club",
+    "start": "13:15",
+    "end": "15:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "york-recreation-centre",
+    "start": "13:15",
+    "end": "14:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "etobicoke-olympium",
+    "start": "13:30",
+    "end": "14:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=892"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "norseman-community-school-and-pool",
+    "start": "13:30",
+    "end": "14:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "douglas-snow-aquatic-centre",
+    "start": "14:00",
+    "end": "15:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "14:00",
+    "end": "15:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "rouge-valley-community-recreation-centre",
+    "start": "14:00",
+    "end": "15:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "east-york-community-recreation-centre",
+    "start": "14:15",
+    "end": "15:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "leaside-gardens-indoor-pool",
+    "start": "14:15",
+    "end": "15:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "gord-and-irene-risk-community-recreation-centre",
+    "start": "16:00",
+    "end": "16:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "goulding-community-recreation-centre",
+    "start": "16:00",
+    "end": "18:55",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=643"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "grandravine-community-recreation-centre",
+    "start": "16:00",
+    "end": "18:55",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=647"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "heron-park-community-recreation-centre",
+    "start": "16:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=633"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "16:00",
+    "end": "18:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "mcgregor-park-community-centre",
+    "start": "16:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=506"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "o-connor-community-centre",
+    "start": "16:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1093"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "east-york-community-recreation-centre",
+    "start": "16:30",
+    "end": "18:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "16:30",
+    "end": "21:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "gord-and-irene-risk-community-recreation-centre",
+    "start": "17:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "17:00",
+    "end": "19:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "wellesley-community-centre",
+    "start": "17:15",
+    "end": "18:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "earl-beatty-community-centre",
+    "start": "18:30",
+    "end": "19:25",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=36"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "18:45",
+    "end": "19:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "18:45",
+    "end": "20:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "norseman-community-school-and-pool",
+    "start": "18:45",
+    "end": "19:25",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "the-elms-community-school-and-pool",
+    "start": "19:00",
+    "end": "20:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "wellesley-community-centre",
+    "start": "19:00",
+    "end": "20:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "east-york-community-recreation-centre",
+    "start": "19:15",
+    "end": "20:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "york-recreation-centre",
+    "start": "19:15",
+    "end": "21:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "earl-beatty-community-centre",
+    "start": "19:30",
+    "end": "20:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=36"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "main-square-community-recreation-centre",
+    "start": "19:30",
+    "end": "20:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "antibes-community-centre",
+    "start": "19:45",
+    "end": "21:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "centennial-recreation-centre-scarborough",
+    "start": "19:45",
+    "end": "20:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "norseman-community-school-and-pool",
+    "start": "19:45",
+    "end": "20:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "20:00",
+    "end": "21:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "humber-community-pool",
+    "start": "20:00",
+    "end": "20:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=357"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "north-toronto-memorial-community-centre",
+    "start": "20:00",
+    "end": "21:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "east-york-community-recreation-centre",
+    "start": "20:15",
+    "end": "21:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "the-elms-community-school-and-pool",
+    "start": "20:15",
+    "end": "21:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "joseph-j-piccininni-community-recreation-centre",
+    "start": "20:30",
+    "end": "21:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "alderwood-pool",
+    "start": "20:45",
+    "end": "21:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "douglas-snow-aquatic-centre",
+    "start": "20:45",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "etobicoke-olympium",
+    "start": "21:00",
+    "end": "21:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=892"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "leaside-gardens-indoor-pool",
+    "start": "21:00",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "birchmount-community-centre",
+    "start": "21:15",
+    "end": "21:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
+  },
+  {
+    "date": "2026-09-17",
+    "venue": "the-elms-community-school-and-pool",
+    "start": "21:30",
+    "end": "22:25",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "etobicoke-olympium",
+    "start": "06:00",
+    "end": "07:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=892"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "humber-community-pool",
+    "start": "06:45",
+    "end": "08:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=357"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "albion-pool-and-health-club",
+    "start": "07:00",
+    "end": "08:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "cummer-park-community-centre",
+    "start": "07:00",
+    "end": "08:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "east-york-community-recreation-centre",
+    "start": "07:00",
+    "end": "11:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "07:00",
+    "end": "10:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "joseph-j-piccininni-community-recreation-centre",
+    "start": "07:00",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "leaside-gardens-indoor-pool",
+    "start": "07:00",
+    "end": "07:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "memorial-pool-and-health-club",
+    "start": "07:00",
+    "end": "08:25",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "north-toronto-memorial-community-centre",
+    "start": "07:00",
+    "end": "08:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "07:00",
+    "end": "10:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "york-recreation-centre",
+    "start": "07:10",
+    "end": "09:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "birchmount-community-centre",
+    "start": "07:15",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "07:15",
+    "end": "09:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "rouge-valley-community-recreation-centre",
+    "start": "07:15",
+    "end": "08:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "dennis-r-timbrell-resource-centre",
+    "start": "07:30",
+    "end": "09:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1056"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "douglas-snow-aquatic-centre",
+    "start": "07:30",
+    "end": "08:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "07:30",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "alderwood-pool",
+    "start": "07:45",
+    "end": "08:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "norseman-community-school-and-pool",
+    "start": "07:45",
+    "end": "08:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "etobicoke-olympium",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=892"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "leaside-gardens-indoor-pool",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "the-elms-community-school-and-pool",
+    "start": "08:00",
+    "end": "11:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "rouge-valley-community-recreation-centre",
+    "start": "08:30",
+    "end": "09:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "cummer-park-community-centre",
+    "start": "08:45",
+    "end": "09:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "north-toronto-memorial-community-centre",
+    "start": "08:45",
+    "end": "09:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "albion-pool-and-health-club",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "alderwood-pool",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "douglas-snow-aquatic-centre",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "joseph-j-piccininni-community-recreation-centre",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "memorial-pool-and-health-club",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "norseman-community-school-and-pool",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "etobicoke-olympium",
+    "start": "09:15",
+    "end": "10:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=892"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "leaside-gardens-indoor-pool",
+    "start": "09:15",
+    "end": "10:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "rouge-valley-community-recreation-centre",
+    "start": "09:30",
+    "end": "10:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "wellesley-community-centre",
+    "start": "09:30",
+    "end": "10:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=451"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "antibes-community-centre",
+    "start": "10:00",
+    "end": "11:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "harrison-pool",
+    "start": "10:00",
+    "end": "18:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=45"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "john-innes-community-recreation-centre",
+    "start": "10:00",
+    "end": "13:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=63"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "north-toronto-memorial-community-centre",
+    "start": "10:00",
+    "end": "11:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "albion-pool-and-health-club",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "cummer-park-community-centre",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "douglas-snow-aquatic-centre",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "memorial-pool-and-health-club",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "humber-community-pool",
+    "start": "11:00",
+    "end": "12:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=357"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "joseph-j-piccininni-community-recreation-centre",
+    "start": "11:00",
+    "end": "21:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=509"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "leaside-gardens-indoor-pool",
+    "start": "11:15",
+    "end": "15:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "north-toronto-memorial-community-centre",
+    "start": "11:15",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "albion-pool-and-health-club",
+    "start": "11:30",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "alderwood-pool",
+    "start": "11:30",
+    "end": "13:25",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "antibes-community-centre",
+    "start": "11:30",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "etobicoke-olympium",
+    "start": "11:30",
+    "end": "13:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=892"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "memorial-pool-and-health-club",
+    "start": "11:30",
+    "end": "13:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "cummer-park-community-centre",
+    "start": "11:45",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "11:45",
+    "end": "12:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "11:45",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "douglas-snow-aquatic-centre",
+    "start": "12:00",
+    "end": "14:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "etobicoke-olympium",
+    "start": "12:00",
+    "end": "13:25",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=892"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "norseman-community-school-and-pool",
+    "start": "12:00",
+    "end": "13:10",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "dennis-r-timbrell-resource-centre",
+    "start": "12:15",
+    "end": "14:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1056"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "east-york-community-recreation-centre",
+    "start": "12:15",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "rouge-valley-community-recreation-centre",
+    "start": "12:15",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "the-elms-community-school-and-pool",
+    "start": "12:30",
+    "end": "13:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=795"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "centennial-recreation-centre-scarborough",
+    "start": "12:45",
+    "end": "14:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "albion-pool-and-health-club",
+    "start": "13:00",
+    "end": "13:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "birchmount-community-centre",
+    "start": "13:00",
+    "end": "14:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "13:00",
+    "end": "14:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "13:00",
+    "end": "15:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "cummer-park-community-centre",
+    "start": "13:15",
+    "end": "14:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "east-york-community-recreation-centre",
+    "start": "13:15",
+    "end": "14:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "rouge-valley-community-recreation-centre",
+    "start": "13:15",
+    "end": "14:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "alderwood-pool",
+    "start": "13:30",
+    "end": "14:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "antibes-community-centre",
+    "start": "13:30",
+    "end": "14:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "13:30",
+    "end": "14:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "norseman-community-school-and-pool",
+    "start": "13:30",
+    "end": "14:25",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "north-toronto-memorial-community-centre",
+    "start": "13:30",
+    "end": "14:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "birchmount-community-centre",
+    "start": "14:00",
+    "end": "15:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "york-recreation-centre",
+    "start": "14:00",
+    "end": "15:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "rouge-valley-community-recreation-centre",
+    "start": "14:15",
+    "end": "15:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "dennis-r-timbrell-resource-centre",
+    "start": "14:30",
+    "end": "15:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1056"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "memorial-pool-and-health-club",
+    "start": "14:30",
+    "end": "15:55",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "birchmount-community-centre",
+    "start": "16:00",
+    "end": "17:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "gord-and-irene-risk-community-recreation-centre",
+    "start": "16:00",
+    "end": "16:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "goulding-community-recreation-centre",
+    "start": "16:00",
+    "end": "18:55",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=643"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "grandravine-community-recreation-centre",
+    "start": "16:00",
+    "end": "18:55",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=647"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "heron-park-community-recreation-centre",
+    "start": "16:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=633"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "16:00",
+    "end": "18:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "mcgregor-park-community-centre",
+    "start": "16:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=506"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "o-connor-community-centre",
+    "start": "16:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1093"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "16:15",
+    "end": "18:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "antibes-community-centre",
+    "start": "17:00",
+    "end": "18:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "gord-and-irene-risk-community-recreation-centre",
+    "start": "17:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=642"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "birchmount-community-centre",
+    "start": "17:15",
+    "end": "20:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "fairmount-park-community-centre",
+    "start": "17:30",
+    "end": "19:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=308"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "norseman-community-school-and-pool",
+    "start": "17:30",
+    "end": "18:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "17:45",
+    "end": "19:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "alderwood-pool",
+    "start": "18:00",
+    "end": "19:25",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "antibes-community-centre",
+    "start": "18:30",
+    "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=42"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "norseman-community-school-and-pool",
+    "start": "18:30",
+    "end": "20:40",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=797"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "18:45",
+    "end": "19:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "mary-mccormick-recreation-centre",
+    "start": "18:45",
+    "end": "20:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=100"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "19:00",
+    "end": "21:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "rouge-valley-community-recreation-centre",
+    "start": "19:00",
+    "end": "21:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3858"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "cummer-park-community-centre",
+    "start": "19:15",
+    "end": "20:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=499"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "albion-pool-and-health-club",
+    "start": "19:30",
+    "end": "20:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=893"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "douglas-snow-aquatic-centre",
+    "start": "19:30",
+    "end": "20:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "east-york-community-recreation-centre",
+    "start": "19:30",
+    "end": "21:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=329"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "jimmie-simpson-recreation-centre",
+    "start": "19:30",
+    "end": "21:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=58"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "york-recreation-centre",
+    "start": "19:30",
+    "end": "21:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3501"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "alderwood-pool",
+    "start": "19:45",
+    "end": "20:55",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=897"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "ethennonnhawahstihnen-community-recreation-centre-and-library",
+    "start": "20:00",
+    "end": "21:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3775"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "north-toronto-memorial-community-centre",
+    "start": "20:00",
+    "end": "21:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=189"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "pam-mcconnell-aquatic-centre",
+    "start": "20:00",
+    "end": "21:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2012"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "memorial-pool-and-health-club",
+    "start": "20:15",
+    "end": "21:10",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=891"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "birchmount-community-centre",
+    "start": "20:30",
+    "end": "21:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=507"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "leaside-gardens-indoor-pool",
+    "start": "20:30",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=542"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "centennial-recreation-centre-scarborough",
+    "start": "20:45",
+    "end": "21:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": true,
+    "fee": "",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=537"
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "douglas-snow-aquatic-centre",
+    "start": "21:00",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Regular drop-in fee",
+    "source": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=567"
   }
 ];
