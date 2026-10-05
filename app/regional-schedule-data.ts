@@ -10,8 +10,8 @@ export type RegionalEvent = {
   source: string;
 };
 
-// Automatically refreshed from official municipal sources on 2026-10-01.
-export const regionalUpdatedDate = "2026-10-01";
+// Automatically refreshed from official municipal sources on 2026-10-05.
+export const regionalUpdatedDate = "2026-10-05";
 export const regionalVenues = [
   {
     "id": "regional-markham-aaniin-community-centre",
@@ -257,3746 +257,6 @@ export const regionalVenues = [
 
 export const regionalSchedule: RegionalEvent[] = [
   {
-    "date": "2026-10-01",
-    "venue": "regional-richmond-hill-centennial-pool",
-    "start": "06:30",
-    "end": "08:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-richmond-hill-elgin-west-pool",
-    "start": "06:30",
-    "end": "08:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-richmond-hill-bayview-hill-pool",
-    "start": "07:15",
-    "end": "08:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-richmond-hill-centennial-pool",
-    "start": "08:30",
-    "end": "09:30",
-    "type": "Lane Swim",
-    "womenOnly": true,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-richmond-hill-oak-ridges-pool",
-    "start": "08:30",
-    "end": "09:20",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/aquafitness-schedule-and-fees.aspx"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-richmond-hill-richvale-pool",
-    "start": "09:20",
-    "end": "10:10",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/aquafitness-schedule-and-fees.aspx"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-richmond-hill-bayview-hill-pool",
-    "start": "09:45",
-    "end": "13:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-chancellor-community-centre",
-    "start": "10:15",
-    "end": "13:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=21e1cc48-3c2b-9e8b-7012-8d317619f00c"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-richmond-hill-richvale-pool",
-    "start": "10:15",
-    "end": "11:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-richmond-hill-centennial-pool",
-    "start": "10:30",
-    "end": "11:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-richmond-hill-elgin-west-pool",
-    "start": "10:30",
-    "end": "13:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-richmond-hill-oak-ridges-pool",
-    "start": "10:30",
-    "end": "13:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-richmond-hill-the-wave-pool",
-    "start": "10:45",
-    "end": "12:40",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-richmond-hill-centennial-pool",
-    "start": "11:30",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-chancellor-community-centre",
-    "start": "12:15",
-    "end": "13:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=cd48dded-f123-304f-b722-fd107e4fcbed"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-maple-community-centre",
-    "start": "12:15",
-    "end": "13:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2b4e2bf4-e721-d20e-27ed-3afe23d651ba"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "12:15",
-    "end": "13:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=f6f22001-5df1-12a1-8753-1ad08bbe3fe0"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "12:30",
-    "end": "13:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=24cf5177-5d14-4793-558b-f3ea9706cf6b"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-dufferin-clark-community-centre",
-    "start": "12:30",
-    "end": "13:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1731901e-c3a1-984f-069d-7ae836784ce6"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "12:30",
-    "end": "13:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2e42e5a4-7115-5ae4-25c0-72cd8545ec77"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
-    "start": "12:30",
-    "end": "13:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e94dc3cf-d1c1-ca8f-8c12-9b6e5553fd6d"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
-    "start": "12:30",
-    "end": "13:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=31d6fe1f-d217-2e73-b3fc-c8faaa4fabe9"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "13:00",
-    "end": "14:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=d2a9ba0c-4bd3-bff2-9248-e5beb78e2375"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "13:00",
-    "end": "14:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9956bcb3-1598-4a7a-9049-5ba70dc92be3"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "13:00",
-    "end": "13:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$7.11 - $10.12",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=bb4701fe-9084-2ddd-4571-145ce3b2234a"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "13:30",
-    "end": "14:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=f157128a-be36-4837-f4ea-259bcfa946eb"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "14:00",
-    "end": "14:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=a5937894-355c-13cc-9107-6802f3b8a4c0"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-richmond-hill-richvale-pool",
-    "start": "19:00",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
-    "start": "19:15",
-    "end": "20:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=fdb82a48-0172-1186-7e7b-918d17d8c37d"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-richmond-hill-oak-ridges-pool",
-    "start": "19:30",
-    "end": "21:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-richmond-hill-elgin-west-pool",
-    "start": "19:35",
-    "end": "20:25",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/aquafitness-schedule-and-fees.aspx"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "19:45",
-    "end": "20:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=22c41985-c36b-3a72-e2dd-43b85d57ca9a"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-chancellor-community-centre",
-    "start": "19:45",
-    "end": "20:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=28d53257-537d-9655-ff33-84418ea14bd8"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "19:45",
-    "end": "20:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $11.25",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=eaf715f4-0e94-58cb-588a-6ea60f7caf6e"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "19:45",
-    "end": "20:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=b411342f-cc2a-e9a9-cad6-0f029176134b"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "20:00",
-    "end": "21:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=7506d933-da24-8e18-ba1f-e993cc2bc13e"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "20:00",
-    "end": "21:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=68a73e40-a35d-2ef3-fc95-a4477e7cbf32"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "20:00",
-    "end": "20:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4d67cc09-3d11-521c-675f-07ae07bc4a65"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-maple-community-centre",
-    "start": "20:00",
-    "end": "20:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=092b527b-c4dc-b7d8-821a-f8c3d5bd3bdc"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-vellore-village-community-centre",
-    "start": "20:00",
-    "end": "20:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2b7943ab-f7bb-3ecd-391c-95f4653cbd30"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
-    "start": "20:00",
-    "end": "21:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=55156bb2-48ee-5e20-3af2-9d75ff9ba2f6"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
-    "start": "20:00",
-    "end": "21:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6e0852e2-01ac-46b7-8737-b05c13150bcb"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "20:05",
-    "end": "20:50",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=4ce6a7d5-334f-48d4-a94c-701f0a1c9ba4"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
-    "start": "20:15",
-    "end": "21:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6a0720ed-cfb7-40bb-4866-c215e9a2bed8"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-richmond-hill-oak-ridges-pool",
-    "start": "20:15",
-    "end": "21:05",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/aquafitness-schedule-and-fees.aspx"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "20:15",
-    "end": "21:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=2832f1b1-a23a-9b3d-96ed-2ffa4c76beb9"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "20:40",
-    "end": "21:40",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=79a5c03e-616f-f885-76d9-2567c6120f99"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "20:45",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1d5d34c3-7b41-8674-93a7-3db30f03be7d"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-chancellor-community-centre",
-    "start": "20:45",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=44f2d750-4472-48e1-87f9-9d5e6e54bef0"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-dufferin-clark-community-centre",
-    "start": "20:45",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=60036447-53ef-e682-025f-358988f8cc07"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "20:45",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=12dea72a-5f8a-1dd4-4c1e-71edf98b4a26"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "20:45",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=c62c0fda-81c8-982b-0563-6f8e7a19e028"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "21:00",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=600984f8-0885-0623-d8ae-cea5caf75d14"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "21:00",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=b2abfc00-5f98-abf7-8ade-6b1506de9e88"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-richmond-hill-bayview-hill-pool",
-    "start": "21:00",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "21:00",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=dc61512a-f23a-27d7-f629-c6449f9db088"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "21:00",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=9a4892fd-0b03-324d-d6f5-3e3c06a37e48"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-maple-community-centre",
-    "start": "21:00",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9557818c-1e2c-f1b9-0543-bc41371e7e90"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-richmond-hill-richvale-pool",
-    "start": "21:00",
-    "end": "22:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-vaughan-vellore-village-community-centre",
-    "start": "21:00",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=37d980e8-1dbe-f4ba-ee14-b6b585ff494b"
-  },
-  {
-    "date": "2026-10-01",
-    "venue": "regional-richmond-hill-richvale-pool",
-    "start": "23:00",
-    "end": "13:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "06:30",
-    "end": "07:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=02f7a64d-52e7-7bf5-6d63-17610c9ff304"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-richmond-hill-richvale-pool",
-    "start": "06:30",
-    "end": "08:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "06:45",
-    "end": "07:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=eef22b81-4fe1-f809-39a7-0e58df425523"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "06:45",
-    "end": "07:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f5dae09f-a111-634c-3d72-be5f808d6c8d"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-vellore-village-community-centre",
-    "start": "06:45",
-    "end": "07:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=c8d2bbb1-8146-d6d0-fb6a-e2ac89d5424d"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "07:00",
-    "end": "08:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=fd23deac-750b-dfa2-729e-8abe64b45948"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-maple-community-centre",
-    "start": "07:00",
-    "end": "08:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2aa583a0-4d88-4073-48e8-fbb072f93f47"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "07:00",
-    "end": "08:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=ef247b68-cbd8-f70d-a2bb-284a9b2b6b10"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "07:00",
-    "end": "08:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=cf555b95-1ee7-2be5-4939-413427dc4224"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-dufferin-clark-community-centre",
-    "start": "07:30",
-    "end": "08:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=37db3e99-b4fe-1745-da04-fe401fa1147b"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-thornlea-pool-gymnasium",
-    "start": "07:30",
-    "end": "08:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=7c6ecd1b-7179-4b0f-8931-ce3c53073877"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-centennial-community-centre",
-    "start": "07:45",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=45572e74-8f04-4dc2-c680-6d832ffe2e16"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "07:45",
-    "end": "08:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f9ad08a3-6c5a-bef3-d226-dc872781d284"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "08:00",
-    "end": "09:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=170c5f65-499a-ac52-5b13-0df73cc3f64c"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "08:00",
-    "end": "08:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4bef6230-2fdf-ffd2-8873-ce4852c84cda"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "08:00",
-    "end": "08:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=5d766057-da9a-489e-9f43-174781a8f0c1"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "08:00",
-    "end": "08:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f18df26c-0ce1-36a9-f72b-1be4686cba31"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "08:00",
-    "end": "09:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=2665bddf-7189-951a-ca6b-f65d9fff17c1"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "08:00",
-    "end": "09:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=f8e9816b-57aa-6567-8751-f65e439b2f40"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-pan-am-centre",
-    "start": "08:00",
-    "end": "09:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=37c43aec-07a3-308d-1be2-4f093bf1b08c"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "08:00",
-    "end": "08:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=583f3f17-230b-4a13-8724-a2d643017bab"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-vellore-village-community-centre",
-    "start": "08:00",
-    "end": "08:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=c4233aa4-95d0-cb02-3bf0-36ede0d213a3"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-chancellor-community-centre",
-    "start": "08:15",
-    "end": "09:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=ca5eeb08-a5fd-5438-4ea2-fca93700c17c"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
-    "start": "08:15",
-    "end": "09:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=16e414a0-3568-24cc-6136-186a24fb6fad"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-maple-community-centre",
-    "start": "08:15",
-    "end": "09:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4d8b6b32-8502-359c-8cb8-13c85ded8dae"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-dufferin-clark-community-centre",
-    "start": "08:30",
-    "end": "09:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f3780827-8a2f-638b-244c-34609c037f0f"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "08:30",
-    "end": "09:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e831067b-e070-5a1e-d735-90e1a419b977"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-thornlea-pool-gymnasium",
-    "start": "08:30",
-    "end": "09:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=bf589972-8591-45ed-939d-23875b2ca58f"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "08:45",
-    "end": "09:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=dabcb637-1212-fdea-2d43-a7c872acd10b"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-richmond-hill-the-wave-pool",
-    "start": "08:55",
-    "end": "09:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/aquafitness-schedule-and-fees.aspx"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "09:00",
-    "end": "09:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f76d01b0-878f-d15f-50b1-5ccb0496e8a2"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "09:00",
-    "end": "09:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=f1bfa247-8ae3-4e4e-8212-6de93b0e2a92"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "09:00",
-    "end": "09:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=17cf0258-f020-e354-8855-775ca84e096a"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-centennial-community-centre",
-    "start": "09:00",
-    "end": "09:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=512068ab-f82f-4766-99b0-2e699632c1e7"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-pan-am-centre",
-    "start": "09:00",
-    "end": "10:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=4dd46686-452f-75f0-299f-483162f5bfd9"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "09:00",
-    "end": "10:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.58",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=032476fe-4134-4f72-8c80-e60880be73f7"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-vellore-village-community-centre",
-    "start": "09:00",
-    "end": "09:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=642b129b-6974-dce7-426b-42be8542ef21"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "09:10",
-    "end": "09:55",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=2b8e9869-4eaf-4b5e-9084-30fb570a9eff"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-chancellor-community-centre",
-    "start": "09:15",
-    "end": "10:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=af5ae7c1-1281-eaa9-a4a7-b5d4920f93a8"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
-    "start": "09:15",
-    "end": "10:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f44012dc-7348-c26c-7ce2-dc9e08114196"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-maple-community-centre",
-    "start": "09:15",
-    "end": "10:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=3f1b2e28-4ae4-66b2-8f4a-2b65f29dcbbd"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-dufferin-clark-community-centre",
-    "start": "09:30",
-    "end": "10:45",
-    "type": "Lane Swim",
-    "womenOnly": true,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2d56a722-5503-7afa-8a1c-9e7ec3e7a0e5"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "09:30",
-    "end": "10:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6a4956bf-acf4-c2b0-7c5e-c23f15ef82a1"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-richmond-hill-oak-ridges-pool",
-    "start": "09:30",
-    "end": "10:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-thornlea-pool-gymnasium",
-    "start": "09:30",
-    "end": "10:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=eb53d1e3-5fd3-421e-a19b-f9afeaf66b5c"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-richmond-hill-elgin-west-pool",
-    "start": "09:35",
-    "end": "08:25",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/aquafitness-schedule-and-fees.aspx"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-richmond-hill-bayview-hill-pool",
-    "start": "09:45",
-    "end": "10:35",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/aquafitness-schedule-and-fees.aspx"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "09:45",
-    "end": "10:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=17d5f0c5-5cd0-52da-13f8-cafcbfb52e9b"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-richmond-hill-the-wave-pool",
-    "start": "09:45",
-    "end": "10:35",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/aquafitness-schedule-and-fees.aspx"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-richmond-hill-the-wave-pool",
-    "start": "09:45",
-    "end": "10:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/aquafitness-schedule-and-fees.aspx"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "10:00",
-    "end": "11:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=294680a7-a28f-2553-4275-839fdb914ae6"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "10:00",
-    "end": "11:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6f1bad52-0f0a-44d0-a1da-e17d6d02ce13"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "10:00",
-    "end": "10:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=ca7b6f97-247d-4d96-a4cd-e75686897afd"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "10:00",
-    "end": "11:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=33055ea7-0015-87ca-be3f-263845a98976"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "10:00",
-    "end": "11:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $14.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=856dc3a6-f47c-456f-af2d-d35456b95613"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-centennial-community-centre",
-    "start": "10:00",
-    "end": "10:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=c3a7cf47-a34d-4963-817d-e069579f5b7f"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "10:00",
-    "end": "11:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=8562e761-b5b1-8f72-4dc4-93c3507da974"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-pan-am-centre",
-    "start": "10:00",
-    "end": "11:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=14e287af-fb73-0b3f-971e-8abb5663ef85"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-richmond-hill-richvale-pool",
-    "start": "10:00",
-    "end": "11:00",
-    "type": "Lane Swim",
-    "womenOnly": true,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "10:00",
-    "end": "10:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.58",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=9ca195d8-4ee6-46b0-a698-36195a10fd0f"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-vellore-village-community-centre",
-    "start": "10:00",
-    "end": "11:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=31d7b881-2ae2-682a-8c49-00e624cec70d"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-chancellor-community-centre",
-    "start": "10:15",
-    "end": "11:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=42e8b5b5-2866-4562-9fd2-b83b499fbba2"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-chancellor-community-centre",
-    "start": "10:15",
-    "end": "13:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=0965dbd0-f622-4a04-bc13-eb4c121410fa"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
-    "start": "10:15",
-    "end": "12:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=dc1bb90b-1add-49de-8c6c-4da0d5d1a7bb"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-maple-community-centre",
-    "start": "10:15",
-    "end": "11:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=57f535a4-2185-55de-3c6b-46167ef1b590"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-richmond-hill-centennial-pool",
-    "start": "10:30",
-    "end": "11:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-richmond-hill-elgin-west-pool",
-    "start": "10:30",
-    "end": "13:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "10:30",
-    "end": "11:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f9be58cd-91c9-4811-381a-294c5cf9f4cf"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "10:30",
-    "end": "11:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $14.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=b01f1125-e9b7-fa6e-2ad8-54fe0b3e542a"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-richmond-hill-oak-ridges-pool",
-    "start": "10:30",
-    "end": "13:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-thornlea-pool-gymnasium",
-    "start": "10:30",
-    "end": "11:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=07188ac1-9d3c-4570-bb3e-1c08ff6e76af"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
-    "start": "10:30",
-    "end": "11:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=8b5799c6-04e4-136b-d39f-98c2f45ca662"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
-    "start": "10:30",
-    "end": "11:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=fb558977-3b29-4552-8b77-0982cee3316e"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-richmond-hill-bayview-hill-pool",
-    "start": "10:45",
-    "end": "13:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "10:45",
-    "end": "11:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=67667d71-bec0-4b86-5f15-60f0422da74d"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "10:45",
-    "end": "11:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=946c2a73-036e-7549-b40f-91de4b48e697"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-richmond-hill-the-wave-pool",
-    "start": "10:45",
-    "end": "12:40",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "11:00",
-    "end": "12:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=5ad6bbc6-edd7-5a1a-85a8-9a5ed59a19a9"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "11:00",
-    "end": "12:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=18475853-35fa-46f8-8090-5f3c6ed6f07d"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "11:00",
-    "end": "12:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=ab9de08e-57b3-47f2-9548-26b84b75379b"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "11:00",
-    "end": "12:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=b3495715-5e48-4fb9-8020-4fc3cb89de0a"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "11:00",
-    "end": "12:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=03243395-61bd-bd4b-944a-01831d9e78d2"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "11:00",
-    "end": "12:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $14.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=dcc202fb-bf09-46c5-809e-a2cf9713eb0d"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "11:00",
-    "end": "12:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=9a96d8dc-8f33-474e-9c4e-6fe005cf44cd"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-dufferin-clark-community-centre",
-    "start": "11:00",
-    "end": "12:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=5be50e48-001a-f643-1794-627deed77326"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-pan-am-centre",
-    "start": "11:00",
-    "end": "12:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=4eec80e2-b7a4-4118-b0c2-f3cc0f26e6ec"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "11:00",
-    "end": "11:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=303ba076-50e0-4e34-9ba1-921e0bcf6bdb"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-vellore-village-community-centre",
-    "start": "11:00",
-    "end": "12:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=d584a0f8-1622-5e8e-9cf2-e5986b509eaa"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-vellore-village-community-centre",
-    "start": "11:00",
-    "end": "12:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=83ad7334-a5ca-4b5a-8b4c-e495ba4c4902"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-centennial-community-centre",
-    "start": "11:15",
-    "end": "12:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=87c3b373-f7af-49f1-94e9-830812fa7296"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-chancellor-community-centre",
-    "start": "11:15",
-    "end": "12:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=004bcb56-bfaf-964e-76d7-b080125bb66d"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-maple-community-centre",
-    "start": "11:15",
-    "end": "12:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=0710d953-4306-88fc-5c17-0cb16547f9cb"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "11:15",
-    "end": "12:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=2926430c-af2c-4e41-a741-9ae67714ae31"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "11:30",
-    "end": "12:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=fb90a74f-3ec9-4e7b-8148-0296abde5249"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-richmond-hill-centennial-pool",
-    "start": "11:30",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "11:30",
-    "end": "12:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=b18ae35b-acb0-a6eb-ff6c-fd70f778dace"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
-    "start": "11:30",
-    "end": "12:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f64d2784-29fc-f0a9-edbe-7c4894ffb195"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
-    "start": "11:30",
-    "end": "12:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=35d8a705-179a-3445-6e82-d4106944fc2d"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "11:45",
-    "end": "12:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=be6ba6b1-0b0b-a2d5-f615-8d27db0f64ec"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "11:45",
-    "end": "12:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=0b094126-44c4-4b3d-9344-28442d1c0e2c"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "12:00",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=b0656d98-832a-5dbc-d9a7-f0e4ae8de024"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "12:00",
-    "end": "13:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=aa4d1922-c594-48dd-ad16-1527a9a36108"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "12:00",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=129543e8-7031-ca74-b9b3-5cd5a343a8e3"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-dufferin-clark-community-centre",
-    "start": "12:00",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=3414373e-7b9b-af45-515e-675c00c9daa5"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "12:00",
-    "end": "13:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.58",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=b38b26a1-942f-4328-b8c0-2a6f0fcd6552"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-vellore-village-community-centre",
-    "start": "12:00",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=b9af51ae-fcd2-b9d2-fb62-9ca5da56d299"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-vellore-village-community-centre",
-    "start": "12:00",
-    "end": "13:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=83bae25c-15d0-4628-b309-7bb92d6733e8"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "12:10",
-    "end": "12:55",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=c16016df-70b8-490f-a8d1-dd99cd2525d5"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "12:15",
-    "end": "13:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=743fcd53-7b80-45d5-8b28-43764ca9df78"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-centennial-community-centre",
-    "start": "12:15",
-    "end": "13:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=7060abf3-cbeb-4e00-b80f-c43acd62bb93"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-chancellor-community-centre",
-    "start": "12:15",
-    "end": "13:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7ffdac6f-7529-44c0-b119-6ec1f85863fe"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-maple-community-centre",
-    "start": "12:15",
-    "end": "13:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=878ba629-4a25-4101-1550-ad4a46e83a52"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "12:15",
-    "end": "13:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=6a798530-9d58-4975-bcce-628970fd1c00"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "12:30",
-    "end": "13:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=28adb21b-35e7-4832-8e25-81e57f030340"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "12:30",
-    "end": "13:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9565c9e4-d15c-6af8-bd35-75c26e24817e"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
-    "start": "12:30",
-    "end": "13:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=74f44650-933a-4b72-93e9-5b3faf834a41"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
-    "start": "12:30",
-    "end": "13:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=ee757770-b048-4042-8b51-70c31edd75f9"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "12:45",
-    "end": "13:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=3c5433df-28cd-5852-244a-94723c083eb2"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "12:45",
-    "end": "13:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=986ecef0-17ff-45dd-92c5-05f65341265d"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "13:00",
-    "end": "14:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=359f6f20-3d28-4a6e-bc56-79eb87dc2db6"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "13:00",
-    "end": "13:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.58",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=e1cc1cfb-d66a-46ec-b0f3-08fc243c7c47"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "13:15",
-    "end": "14:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=ae822774-cbd8-44a5-b275-1516e5daa202"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "13:15",
-    "end": "14:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=1216450e-e05d-4b24-9756-c060a3261765"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "13:30",
-    "end": "14:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=0d1753a5-d8b0-46ee-945d-387032269a75"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "13:30",
-    "end": "14:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=ba9ba3c8-b1e2-4b35-a15c-ad3e9d209a81"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-richmond-hill-oak-ridges-pool",
-    "start": "13:30",
-    "end": "14:30",
-    "type": "Lane Swim",
-    "womenOnly": true,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "14:00",
-    "end": "15:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=683f5034-ac47-47a3-aa3f-448feec01311"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "14:00",
-    "end": "14:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=65a55eea-ffbc-4067-94f4-3ddf16cb1b72"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-richmond-hill-elgin-west-pool",
-    "start": "14:45",
-    "end": "15:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "16:00",
-    "end": "17:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=dec4f9e1-cde6-4408-8fcb-0d0f1a3f4f81"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "16:30",
-    "end": "18:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9284e50c-d00a-0d4b-d227-a47c96556492"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "16:30",
-    "end": "18:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=ec08ad0d-07a7-8389-a778-9714d9710359"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "17:30",
-    "end": "19:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=18af55aa-8760-4f69-97fb-4f1baff55b0c"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "18:15",
-    "end": "19:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.58",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=41359c2e-d7bf-4503-9fb4-7200550b3a21"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "19:00",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $13.45",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=282e2db1-9673-46b0-ac09-e5ac67b150a6"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-richmond-hill-oak-ridges-pool",
-    "start": "19:00",
-    "end": "20:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-richmond-hill-richvale-pool",
-    "start": "19:00",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
-    "start": "19:15",
-    "end": "20:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=98c951a0-e1b1-6104-0305-e70f9be4b4dc"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "19:15",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=c8f127b0-ac5a-4ccb-a52b-49f79f3b6362"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "19:45",
-    "end": "20:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f186aab2-8971-28bd-4c89-b6034c855a6e"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "20:00",
-    "end": "21:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $13.45",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=b18d3d09-1e7d-41a1-a5f4-3ba08b63c6f8"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "20:00",
-    "end": "21:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $13.45",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=22c81465-76cb-4eee-b898-22dd8d308906"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "20:05",
-    "end": "21:05",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=0792ffb2-e860-425d-8c85-857cb58eaffb"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "20:45",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=971a43c5-678c-b3b0-5562-6e4ca7e920bf"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-richmond-hill-bayview-hill-pool",
-    "start": "21:00",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "21:05",
-    "end": "22:05",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=685ff2ac-6a8d-45b4-a965-f1629ca7aacf"
-  },
-  {
-    "date": "2026-10-02",
-    "venue": "regional-richmond-hill-richvale-pool",
-    "start": "23:00",
-    "end": "13:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "06:00",
-    "end": "07:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=458c809f-7708-4835-a028-0ddc1e5229fa"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-richmond-hill-elgin-west-pool",
-    "start": "06:30",
-    "end": "08:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "07:00",
-    "end": "08:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=7fcdbb89-637f-4aa7-b4c1-94acdbc127a9"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "07:30",
-    "end": "08:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4361ce06-9b7a-6bb2-12a5-87b8e7db513e"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "07:30",
-    "end": "08:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=5488d33e-d4e9-4ee1-226e-0d591c106edd"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-richmond-hill-oak-ridges-pool",
-    "start": "07:30",
-    "end": "09:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "07:45",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=cfe97f9d-4c5d-4dd3-85f4-f5fb1876d843"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "07:45",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=dfd20609-db8e-4ac2-923e-af397158f0ad"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "07:45",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1c4dc54b-3bf8-d6a7-c9ca-8553a26d0939"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-maple-community-centre",
-    "start": "07:45",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4e84b264-31bf-ebca-60a6-e78286e57d0f"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "07:45",
-    "end": "08:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=d886a887-c9ab-da5c-d9b6-cef0def77d30"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-vellore-village-community-centre",
-    "start": "07:45",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=cbab5c8a-4d9e-4c19-ac29-a7f960d34d75"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "08:00",
-    "end": "09:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=5c275a09-08e2-462e-bc68-f886d9e54308"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "08:00",
-    "end": "09:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=991f64b8-17a6-4c7b-a59b-4733c5d44f5d"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "08:00",
-    "end": "08:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=583f3f17-230b-4a13-8724-a2d643017bab"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
-    "start": "08:15",
-    "end": "09:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=8f477e53-04d1-8c22-bb8b-97b16c60b58d"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-chancellor-community-centre",
-    "start": "08:30",
-    "end": "09:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e7f744bd-0219-1d87-7111-d9e5d169d4c8"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "11:15",
-    "end": "12:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=b0346c47-91c7-44e6-44b3-9681e31d8467"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-centennial-community-centre",
-    "start": "11:30",
-    "end": "12:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=954a430b-981e-4b6e-bdfe-2aad7db564eb"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-centennial-community-centre",
-    "start": "11:30",
-    "end": "12:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=3046c886-7a1f-4449-ab59-0b4aeed02c35"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-dufferin-clark-community-centre",
-    "start": "12:15",
-    "end": "13:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=cb7c13e9-5208-625e-346a-7753af6cc95f"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "12:15",
-    "end": "13:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.58",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=9e24920b-82bf-48d5-b23e-e3d45bf366ef"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-thornlea-pool-gymnasium",
-    "start": "12:15",
-    "end": "13:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $13.45",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=62f614f5-8119-4dfc-a827-13a37d422d8d"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
-    "start": "12:30",
-    "end": "14:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2788a315-46d6-400c-9774-cf08dfa28f32"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "12:30",
-    "end": "14:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6d542fc1-90fe-dcf0-5ed6-5216c5de77b1"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
-    "start": "12:30",
-    "end": "13:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=74f44650-933a-4b72-93e9-5b3faf834a41"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
-    "start": "12:30",
-    "end": "13:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=978f192c-5015-49d7-b119-2d698d9fd39f"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-chancellor-community-centre",
-    "start": "12:45",
-    "end": "14:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=0af6c04b-0356-610c-31b7-c070be01aa1d"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-maple-community-centre",
-    "start": "12:45",
-    "end": "13:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=df3e9294-c7d5-22da-dd43-922a7153cc49"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "12:45",
-    "end": "13:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=74094d7f-c31b-92e5-08e8-3b4bb9afaf34"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "13:00",
-    "end": "14:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=5318313a-18c8-458b-ba8b-e3aec48194b8"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "13:00",
-    "end": "14:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=5af99452-3cfd-437a-b552-6b5b45624b5d"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-richmond-hill-bayview-hill-pool",
-    "start": "13:00",
-    "end": "14:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "13:15",
-    "end": "14:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $13.45",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=32bf7c70-a3af-420d-8788-0018ebbebac4"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "13:15",
-    "end": "14:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $13.45",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=110f6f38-19f8-4efe-aaa5-c7494d6dcdda"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-richmond-hill-richvale-pool",
-    "start": "13:15",
-    "end": "14:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "13:15",
-    "end": "14:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.58",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=0f349045-4e33-4838-b617-5186d0b43055"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "13:30",
-    "end": "15:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=41c9d502-b852-1f65-1ee6-35f20f01fc44"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "13:30",
-    "end": "14:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e5f48a89-7d73-a8ec-0137-4fbd59e119bf"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-dufferin-clark-community-centre",
-    "start": "13:30",
-    "end": "15:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2ff48036-9bd7-4d74-bb73-01b4d0608dd2"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-thornlea-pool-gymnasium",
-    "start": "13:30",
-    "end": "14:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=3381e943-2d21-4d43-b34f-9d25ad611232"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-vellore-village-community-centre",
-    "start": "13:30",
-    "end": "15:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=18e8a51d-afe8-a8ad-e38b-e19cc979e3fe"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "13:45",
-    "end": "14:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=d529a098-d1e1-857b-1bbf-75892887cb07"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
-    "start": "13:45",
-    "end": "14:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2275700e-c36a-4b3b-a2f4-a9b98950436e"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "14:00",
-    "end": "15:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=ce8c8692-00fb-438f-9347-221b6e8bbbeb"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "14:00",
-    "end": "15:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=876f501d-4910-4455-8b2c-9a003b5db4a0"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-maple-community-centre",
-    "start": "14:00",
-    "end": "15:20",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7989fb3d-c601-3a26-525f-651fa63d76f4"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "14:00",
-    "end": "14:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=65a55eea-ffbc-4067-94f4-3ddf16cb1b72"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "14:15",
-    "end": "15:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $13.45",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=cc5ce027-fc4c-4662-ba18-16dfc83fe3a8"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-richmond-hill-bayview-hill-pool",
-    "start": "14:15",
-    "end": "15:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "14:15",
-    "end": "15:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $13.45",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=452acd0d-e22f-4b52-82f9-22ad72346795"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "14:15",
-    "end": "15:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=86337a0b-d0c9-0c03-61c0-8998013a3945"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-chancellor-community-centre",
-    "start": "14:30",
-    "end": "16:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=ef192dea-0755-48eb-8d9c-78bfb0c1324d"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-richmond-hill-elgin-west-pool",
-    "start": "14:30",
-    "end": "16:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-richmond-hill-oak-ridges-pool",
-    "start": "14:30",
-    "end": "16:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "14:45",
-    "end": "16:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1107dd4e-f25f-263e-44c1-2fa256b36ffd"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-richmond-hill-richvale-pool",
-    "start": "14:45",
-    "end": "15:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-richmond-hill-centennial-pool",
-    "start": "15:00",
-    "end": "16:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "15:00",
-    "end": "16:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=a3f653e9-8254-4596-efd4-9bfd33c770b6"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "15:00",
-    "end": "16:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$3.10",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=65d0a839-4559-4346-86b1-6d7692360fbe"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-richmond-hill-the-wave-pool",
-    "start": "15:35",
-    "end": "17:35",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "16:00",
-    "end": "17:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=605012bd-7e52-4ff9-aadc-fcfe0414989b"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "17:00",
-    "end": "18:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=905638f1-1d0d-4fac-bd45-f17c39f0e09d"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "18:15",
-    "end": "19:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $13.45",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=87d8faa9-8e9a-44b4-9d5d-620a6cc93a16"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "19:00",
-    "end": "20:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $13.45",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=282e2db1-9673-46b0-ac09-e5ac67b150a6"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "19:15",
-    "end": "20:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $13.45",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=dbfd7bf1-9aaf-4f52-b22a-38ea05dbb3f3"
-  },
-  {
-    "date": "2026-10-03",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "20:00",
-    "end": "21:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $13.45",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=22c81465-76cb-4eee-b898-22dd8d308906"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "06:00",
-    "end": "07:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=458c809f-7708-4835-a028-0ddc1e5229fa"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-richmond-hill-oak-ridges-pool",
-    "start": "06:30",
-    "end": "08:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-richmond-hill-richvale-pool",
-    "start": "06:30",
-    "end": "08:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-richmond-hill-centennial-pool",
-    "start": "07:00",
-    "end": "09:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "07:00",
-    "end": "08:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=7fcdbb89-637f-4aa7-b4c1-94acdbc127a9"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-richmond-hill-bayview-hill-pool",
-    "start": "07:15",
-    "end": "08:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "07:30",
-    "end": "08:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=a00f32d7-d8e2-45b2-93f2-9395905f0440"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "07:30",
-    "end": "08:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=09839a73-4db6-f329-ea7c-6109e7b70f11"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "07:45",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=cfe97f9d-4c5d-4dd3-85f4-f5fb1876d843"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "07:45",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=dab9eebc-665c-403a-ae74-acfe0e57e38e"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-maple-community-centre",
-    "start": "07:45",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7b2651bf-0634-faf1-3606-676c73e4113d"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-vellore-village-community-centre",
-    "start": "07:45",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=82a8f8c2-68df-4006-bebb-4b679b5a20aa"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "08:00",
-    "end": "08:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=ed8c401f-7956-4923-a8c0-f6f79a3957da"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "08:00",
-    "end": "08:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=478a9155-39ea-951d-f958-83c108baa781"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "08:00",
-    "end": "09:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=991f64b8-17a6-4c7b-a59b-4733c5d44f5d"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "08:00",
-    "end": "08:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=583f3f17-230b-4a13-8724-a2d643017bab"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-richmond-hill-oak-ridges-pool",
-    "start": "08:10",
-    "end": "09:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/aquafitness-schedule-and-fees.aspx"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
-    "start": "08:15",
-    "end": "09:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=003936a0-b96a-f213-3bb9-b99c6711ccba"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-chancellor-community-centre",
-    "start": "08:30",
-    "end": "09:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=b05b3d79-c392-d0fe-1f2e-9662d0b955a8"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "09:00",
-    "end": "10:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=b8f9cf48-e2a8-6ddd-084a-bdde2ab3d7b2"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "10:00",
-    "end": "11:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=261b6bcc-6c7b-e8e0-97a4-a50a4d51f726"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "11:15",
-    "end": "12:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=3911347e-1539-ab30-3267-7683884c73d9"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-richmond-hill-the-wave-pool",
-    "start": "11:35",
-    "end": "13:35",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "12:00",
-    "end": "13:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=10ee1159-0c07-c4f5-35b4-283154dfc4e2"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-dufferin-clark-community-centre",
-    "start": "12:15",
-    "end": "13:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=ec48e10e-63f4-52d3-4add-e687806166d3"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "12:15",
-    "end": "13:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$7.11 - $10.12",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=f8ef7640-16e2-457f-a01a-60b0e0911ef2"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
-    "start": "12:30",
-    "end": "14:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f54b81da-3746-6d9f-a251-e335be6b8233"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "12:45",
-    "end": "13:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $13.45",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=f2962425-9890-467c-bf4b-8890fdd98b7e"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-chancellor-community-centre",
-    "start": "12:45",
-    "end": "14:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f61004a4-594e-8e61-fcdb-8eebe7e42601"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-maple-community-centre",
-    "start": "12:45",
-    "end": "13:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=a8993d1d-0724-b508-d03e-0ecef15fd833"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "12:45",
-    "end": "13:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=5466dc51-6113-0771-434e-169cefa1042d"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-richmond-hill-bayview-hill-pool",
-    "start": "13:00",
-    "end": "14:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-markham-thornlea-pool-gymnasium",
-    "start": "13:00",
-    "end": "14:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=07358acb-16e9-4ec2-bb5c-6a011c2a830d"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-markham-centennial-community-centre",
-    "start": "13:05",
-    "end": "14:05",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $13.45",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=3cf83ce3-503e-47c2-8058-4641211122dd"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "13:10",
-    "end": "14:10",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $13.45",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=90e5cf69-e592-480b-9270-bbab7f34954e"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "13:15",
-    "end": "14:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=333ca8a1-498f-4ad5-97ba-be52d3e6b0b3"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "13:15",
-    "end": "14:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $13.45",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=110f6f38-19f8-4efe-aaa5-c7494d6dcdda"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "13:15",
-    "end": "14:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1d5f1390-820b-2ca1-70b0-a022e7fb0a90"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-richmond-hill-richvale-pool",
-    "start": "13:15",
-    "end": "14:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "13:30",
-    "end": "14:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=b6e9baf6-9a8e-ab52-7a4f-d9d9ad377a2b"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-dufferin-clark-community-centre",
-    "start": "13:30",
-    "end": "15:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=3ede05cc-a124-283a-07c2-6c7101f6844c"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-vellore-village-community-centre",
-    "start": "13:30",
-    "end": "15:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=62593645-4f71-4fdb-8d20-0548b98a5f52"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "13:45",
-    "end": "14:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $13.45",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=62355491-88de-4932-95de-3d8debfe1a9b"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "13:45",
-    "end": "14:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=5ddbb33b-faf3-c6e9-214f-a3cc8545ee3e"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-maple-community-centre",
-    "start": "14:00",
-    "end": "15:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2550a2ae-9951-1186-a471-b901b0e4dec9"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "14:00",
-    "end": "14:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=65a55eea-ffbc-4067-94f4-3ddf16cb1b72"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "14:15",
-    "end": "15:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $13.45",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=cc5ce027-fc4c-4662-ba18-16dfc83fe3a8"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-richmond-hill-bayview-hill-pool",
-    "start": "14:15",
-    "end": "15:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "14:15",
-    "end": "15:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $13.45",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=452acd0d-e22f-4b52-82f9-22ad72346795"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-chancellor-community-centre",
-    "start": "14:30",
-    "end": "16:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=ef192dea-0755-48eb-8d9c-78bfb0c1324d"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-richmond-hill-elgin-west-pool",
-    "start": "14:30",
-    "end": "16:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "14:30",
-    "end": "16:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=89485d85-569d-a273-0238-9f42827d80fe"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-richmond-hill-oak-ridges-pool",
-    "start": "14:30",
-    "end": "16:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "14:45",
-    "end": "16:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=03118f85-890b-96cb-65de-f9fbf1af97ee"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-richmond-hill-richvale-pool",
-    "start": "14:45",
-    "end": "15:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-richmond-hill-centennial-pool",
-    "start": "15:00",
-    "end": "16:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "15:00",
-    "end": "16:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=bd413e18-9394-f6bc-3abf-41943aad887d"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "15:00",
-    "end": "16:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=165ab63d-4cb4-4493-acba-7a8ca6faa18e"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "15:15",
-    "end": "16:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $13.45",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=5b47d529-f5d3-4151-9d7b-3a56273d11c3"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-richmond-hill-the-wave-pool",
-    "start": "15:35",
-    "end": "17:35",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "Richmond Hill drop-in fee",
-    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "19:15",
-    "end": "20:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=9ac5efc1-454f-4638-bb87-0024f862548d"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "19:15",
-    "end": "20:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=2d1d3f16-aa05-4409-927e-353784ea6e01"
-  },
-  {
-    "date": "2026-10-04",
-    "venue": "regional-markham-thornlea-pool-gymnasium",
-    "start": "20:15",
-    "end": "21:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $13.45",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=b206e939-c86b-4d6d-90c2-ca2e9737619c"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "06:30",
-    "end": "07:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=c8101961-4b01-1ca6-350f-22271fb95676"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "06:30",
-    "end": "07:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=8d1f58cd-2066-4c7d-0565-dd91d7387c9e"
-  },
-  {
     "date": "2026-10-05",
     "venue": "regional-richmond-hill-richvale-pool",
     "start": "06:30",
@@ -4009,83 +269,6 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "date": "2026-10-05",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "06:45",
-    "end": "07:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=5e95356d-863d-4621-8066-6fd898ee4e91"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "06:45",
-    "end": "07:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=367418fc-52ca-fc52-df48-d14949fbc30e"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-vellore-village-community-centre",
-    "start": "06:45",
-    "end": "07:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1a3852c1-045e-fd8d-e84a-2bc60ae6fa7b"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "07:00",
-    "end": "08:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=606f5dae-dcfd-4011-8b4d-91b382827c7f"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "07:00",
-    "end": "08:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=7fcdbb89-637f-4aa7-b4c1-94acdbc127a9"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "07:00",
-    "end": "08:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=c32f4608-d8fa-6e9d-0dcb-6ba67214a6c9"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-dufferin-clark-community-centre",
-    "start": "07:30",
-    "end": "08:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=033ffa34-0d3a-c88b-3f94-1880c68662fb"
-  },
-  {
-    "date": "2026-10-05",
     "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "07:30",
     "end": "09:00",
@@ -4094,204 +277,6 @@ export const regionalSchedule: RegionalEvent[] = [
     "free": false,
     "fee": "Richmond Hill drop-in fee",
     "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-thornlea-pool-gymnasium",
-    "start": "07:30",
-    "end": "08:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=7c6ecd1b-7179-4b0f-8931-ce3c53073877"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-centennial-community-centre",
-    "start": "07:45",
-    "end": "08:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=d4e77d75-cf24-442a-8a6b-ecb3d94da5b7"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "07:45",
-    "end": "08:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=754583c9-8bac-469c-898b-38e6bfe38023"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "08:00",
-    "end": "09:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=f9a9a9e0-0ff2-4e2d-9b79-9d1caa1ab1c9"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "08:00",
-    "end": "08:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=477d35b2-f997-eff6-e1fd-db160ccfcc6c"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "08:00",
-    "end": "08:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=5d766057-da9a-489e-9f43-174781a8f0c1"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "08:00",
-    "end": "08:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4f959b4f-c459-1df3-3c61-35e84a379181"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "08:00",
-    "end": "09:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=5c275a09-08e2-462e-bc68-f886d9e54308"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "08:00",
-    "end": "09:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=991f64b8-17a6-4c7b-a59b-4733c5d44f5d"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-vellore-village-community-centre",
-    "start": "08:00",
-    "end": "08:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=a3c3961d-779b-d37c-9a0f-cd6ed6132f03"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-chancellor-community-centre",
-    "start": "08:15",
-    "end": "09:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=45419290-e790-b91e-0645-b5687ad7115e"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
-    "start": "08:15",
-    "end": "09:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=904f3d26-279c-ae55-998f-a691abe23f38"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-maple-community-centre",
-    "start": "08:15",
-    "end": "09:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7b607057-004c-3fc7-4cb7-8a955bafd353"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-dufferin-clark-community-centre",
-    "start": "08:30",
-    "end": "09:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=652b78ab-9c41-f08a-ced0-017b4cdb6da1"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "08:30",
-    "end": "09:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=d89125a0-f99d-75e9-5a94-e23bbcc53512"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "08:30",
-    "end": "09:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=dd1a5e34-e2b3-440b-a821-38a44877c156"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-thornlea-pool-gymnasium",
-    "start": "08:30",
-    "end": "09:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=bf589972-8591-45ed-939d-23875b2ca58f"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "08:45",
-    "end": "09:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=59951988-5d0f-af1a-3e23-aff4b0bc4f8d"
   },
   {
     "date": "2026-10-05",
@@ -4306,149 +291,6 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "date": "2026-10-05",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "09:00",
-    "end": "10:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=5f99238b-0eec-40f5-b595-629d0767ca2c"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "09:00",
-    "end": "09:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=a292546e-027a-756d-6a7d-40704f1fba6e"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "09:00",
-    "end": "09:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=f1bfa247-8ae3-4e4e-8212-6de93b0e2a92"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "09:00",
-    "end": "09:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=81ec7ee2-92e7-08be-a997-6e52fa9a68ce"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-centennial-community-centre",
-    "start": "09:00",
-    "end": "09:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=512068ab-f82f-4766-99b0-2e699632c1e7"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-vellore-village-community-centre",
-    "start": "09:00",
-    "end": "09:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=140b8d34-85bf-2285-6d5b-bd1e55a3e502"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "09:10",
-    "end": "09:55",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=2b8e9869-4eaf-4b5e-9084-30fb570a9eff"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-chancellor-community-centre",
-    "start": "09:15",
-    "end": "10:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=dc1b295c-28f9-f2db-aad6-b75f4b992648"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
-    "start": "09:15",
-    "end": "10:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6316a043-c9e5-7d44-24ae-455664385388"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-maple-community-centre",
-    "start": "09:15",
-    "end": "10:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=dc0c28da-ff89-aa62-7416-a0715e202afd"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "09:15",
-    "end": "10:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=4bd4ec74-01a9-4fba-9310-d4e5e0f73c4b"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-dufferin-clark-community-centre",
-    "start": "09:30",
-    "end": "10:45",
-    "type": "Lane Swim",
-    "womenOnly": true,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9d8a7be9-14d1-fc75-2c67-45c1377e708b"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "09:30",
-    "end": "10:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2bf57052-4009-13f3-1237-b2df71bb7376"
-  },
-  {
-    "date": "2026-10-05",
     "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "09:30",
     "end": "10:30",
@@ -4457,28 +299,6 @@ export const regionalSchedule: RegionalEvent[] = [
     "free": false,
     "fee": "Richmond Hill drop-in fee",
     "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "09:30",
-    "end": "10:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.58",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=120c2dc7-674d-4087-9845-02b008a861f0"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-thornlea-pool-gymnasium",
-    "start": "09:30",
-    "end": "10:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=eb53d1e3-5fd3-421e-a19b-f9afeaf66b5c"
   },
   {
     "date": "2026-10-05",
@@ -4504,17 +324,6 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "date": "2026-10-05",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "09:45",
-    "end": "10:30",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=c826bae1-35bc-3b58-ce15-c867508b9a61"
-  },
-  {
-    "date": "2026-10-05",
     "venue": "regional-richmond-hill-the-wave-pool",
     "start": "09:45",
     "end": "10:35",
@@ -4537,83 +346,6 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "date": "2026-10-05",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "10:00",
-    "end": "11:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=0d2c2b88-67d4-3072-367c-491cb5ba7d9d"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "10:00",
-    "end": "11:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6f1bad52-0f0a-44d0-a1da-e17d6d02ce13"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "10:00",
-    "end": "10:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=ca7b6f97-247d-4d96-a4cd-e75686897afd"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "10:00",
-    "end": "11:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7d529d74-89db-6ffc-ee93-cf92a7c6fbea"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "10:00",
-    "end": "11:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $14.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=856dc3a6-f47c-456f-af2d-d35456b95613"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-centennial-community-centre",
-    "start": "10:00",
-    "end": "10:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=c3a7cf47-a34d-4963-817d-e069579f5b7f"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "10:00",
-    "end": "11:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=3de05041-5156-4ded-9c45-1611b305a708"
-  },
-  {
-    "date": "2026-10-05",
     "venue": "regional-richmond-hill-richvale-pool",
     "start": "10:00",
     "end": "11:00",
@@ -4622,83 +354,6 @@ export const regionalSchedule: RegionalEvent[] = [
     "free": false,
     "fee": "Richmond Hill drop-in fee",
     "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-vellore-village-community-centre",
-    "start": "10:00",
-    "end": "11:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=17eee743-b7f2-6646-3465-826183fff8db"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "10:15",
-    "end": "11:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=6675dab5-d6eb-4dd0-bff3-9870136482f3"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-chancellor-community-centre",
-    "start": "10:15",
-    "end": "11:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=42e8b5b5-2866-4562-9fd2-b83b499fbba2"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-chancellor-community-centre",
-    "start": "10:15",
-    "end": "13:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=0965dbd0-f622-4a04-bc13-eb4c121410fa"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
-    "start": "10:15",
-    "end": "12:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=dc1bb90b-1add-49de-8c6c-4da0d5d1a7bb"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-maple-community-centre",
-    "start": "10:15",
-    "end": "11:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9b077af4-82de-c226-6248-8d8b7e219154"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "10:15",
-    "end": "11:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=0f594524-df70-45dd-af90-b78d30e13273"
   },
   {
     "date": "2026-10-05",
@@ -4724,28 +379,6 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "date": "2026-10-05",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "10:30",
-    "end": "11:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=55501e4e-ab7a-c675-acd4-2ee83bc17b12"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "10:30",
-    "end": "11:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $14.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=13ce236e-1239-47a2-b420-29174d7e53db"
-  },
-  {
-    "date": "2026-10-05",
     "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "10:30",
     "end": "13:00",
@@ -4754,50 +387,6 @@ export const regionalSchedule: RegionalEvent[] = [
     "free": false,
     "fee": "Richmond Hill drop-in fee",
     "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "10:30",
-    "end": "11:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.58",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=6e7b9e06-7563-4b87-b571-af9cbd21ab9d"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-thornlea-pool-gymnasium",
-    "start": "10:30",
-    "end": "11:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=07188ac1-9d3c-4570-bb3e-1c08ff6e76af"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
-    "start": "10:30",
-    "end": "11:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9b7dfd3e-516a-5add-f536-225a54932526"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
-    "start": "10:30",
-    "end": "11:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=fb558977-3b29-4552-8b77-0982cee3316e"
   },
   {
     "date": "2026-10-05",
@@ -4812,28 +401,6 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "date": "2026-10-05",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "10:45",
-    "end": "11:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=40913b65-9978-f941-f1b6-3794b0d87948"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "10:45",
-    "end": "11:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=287ed3e7-5f78-d648-9cc4-2bf19c8f069e"
-  },
-  {
-    "date": "2026-10-05",
     "venue": "regional-richmond-hill-the-wave-pool",
     "start": "10:45",
     "end": "12:40",
@@ -4842,160 +409,6 @@ export const regionalSchedule: RegionalEvent[] = [
     "free": false,
     "fee": "Richmond Hill drop-in fee",
     "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "11:00",
-    "end": "12:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=ce926050-b5f2-50d5-3928-a9016735d787"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "11:00",
-    "end": "12:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=18475853-35fa-46f8-8090-5f3c6ed6f07d"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "11:00",
-    "end": "12:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=ab9de08e-57b3-47f2-9548-26b84b75379b"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "11:00",
-    "end": "12:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=b3495715-5e48-4fb9-8020-4fc3cb89de0a"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "11:00",
-    "end": "12:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=c8bb9d7b-517a-5d3b-3d9c-74a008ba239b"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "11:00",
-    "end": "12:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=9a96d8dc-8f33-474e-9c4e-6fe005cf44cd"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-dufferin-clark-community-centre",
-    "start": "11:00",
-    "end": "12:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e6dccdfe-cf40-38a4-e958-3877f5abc5d4"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-vellore-village-community-centre",
-    "start": "11:00",
-    "end": "12:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=66a49e05-eb26-fac8-704f-417df09e92a9"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-vellore-village-community-centre",
-    "start": "11:00",
-    "end": "12:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=83ad7334-a5ca-4b5a-8b4c-e495ba4c4902"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "11:15",
-    "end": "12:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=2852d00d-0352-45d3-9a29-3faadb82893d"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-centennial-community-centre",
-    "start": "11:15",
-    "end": "12:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=87c3b373-f7af-49f1-94e9-830812fa7296"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-chancellor-community-centre",
-    "start": "11:15",
-    "end": "12:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9ae077e3-8f5b-4d87-826d-f7ce88fc5fd9"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-maple-community-centre",
-    "start": "11:15",
-    "end": "12:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=8319fef7-126b-8e02-7e84-483b96e5a210"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "11:15",
-    "end": "12:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=6aec8755-bf94-4d04-87f9-5b0358251dba"
   },
   {
     "date": "2026-10-05",
@@ -5010,336 +423,6 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "date": "2026-10-05",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "11:30",
-    "end": "12:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=018323f9-4ebe-0e30-d15b-e3339b67853a"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
-    "start": "11:30",
-    "end": "12:15",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=c9efb917-0ab7-ca2a-84b0-330ef37f75e7"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
-    "start": "11:30",
-    "end": "12:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e40e2aae-ae33-4bb9-87a7-11760c381c67"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "11:45",
-    "end": "12:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=c4bf2975-4ccc-4b66-f31b-89de54cbd687"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "11:45",
-    "end": "12:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=0b094126-44c4-4b3d-9344-28442d1c0e2c"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "12:00",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=89ee393e-e0aa-44d7-9c97-19b43b681ce5"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-al-palladini-community-centre",
-    "start": "12:00",
-    "end": "13:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=aa4d1922-c594-48dd-ad16-1527a9a36108"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "12:00",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=4edc0e27-bb4e-4d8b-a52b-1cbcb4a82b04"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-angus-glen-community-centre",
-    "start": "12:00",
-    "end": "13:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=da78e676-8bc4-4707-8c54-b0aa693a29f0"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "12:00",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=fe7dc418-4d58-5e19-9793-84ba9e6b33f4"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-dufferin-clark-community-centre",
-    "start": "12:00",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=0c561297-7d41-912f-00b4-e7d2070d2382"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "12:00",
-    "end": "13:00",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.58",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=b38b26a1-942f-4328-b8c0-2a6f0fcd6552"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-vellore-village-community-centre",
-    "start": "12:00",
-    "end": "13:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=375dcd39-b700-4e3c-b04e-ff3e63908c92"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-vellore-village-community-centre",
-    "start": "12:00",
-    "end": "13:00",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=83bae25c-15d0-4628-b309-7bb92d6733e8"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "12:10",
-    "end": "12:55",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "No fee",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=c16016df-70b8-490f-a8d1-dd99cd2525d5"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "12:15",
-    "end": "13:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=c00de8af-e722-474c-8b55-c665b09d8fdd"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "12:15",
-    "end": "13:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=965583c0-257d-4f47-afc3-0435d0224055"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-centennial-community-centre",
-    "start": "12:15",
-    "end": "13:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=7060abf3-cbeb-4e00-b80f-c43acd62bb93"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-chancellor-community-centre",
-    "start": "12:15",
-    "end": "13:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7ffdac6f-7529-44c0-b119-6ec1f85863fe"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-maple-community-centre",
-    "start": "12:15",
-    "end": "13:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7b577216-1a4e-d77d-8950-a73bf1138151"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-milliken-mills-community-centre",
-    "start": "12:15",
-    "end": "13:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=6a798530-9d58-4975-bcce-628970fd1c00"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-north-thornhill-community-centre",
-    "start": "12:30",
-    "end": "13:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=28dea187-d3e2-2a18-395c-2efa85ff6054"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
-    "start": "12:30",
-    "end": "13:30",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=74f44650-933a-4b72-93e9-5b3faf834a41"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
-    "start": "12:30",
-    "end": "13:30",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=ee757770-b048-4042-8b51-70c31edd75f9"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "12:45",
-    "end": "13:45",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=fd8cea9a-ef06-9fb6-340a-0164e133db4c"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-garnet-a-williams-community-centre",
-    "start": "12:45",
-    "end": "13:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=986ecef0-17ff-45dd-92c5-05f65341265d"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "13:00",
-    "end": "14:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=359f6f20-3d28-4a6e-bc56-79eb87dc2db6"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "13:00",
-    "end": "13:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.58",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=e1cc1cfb-d66a-46ec-b0f3-08fc243c7c47"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "13:15",
-    "end": "14:15",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=d97fa4ce-90b8-4a8e-9f04-766005e0df45"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-aaniin-community-centre",
-    "start": "13:15",
-    "end": "14:15",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=3461b027-9efd-41d1-a4fa-00b911263d60"
-  },
-  {
-    "date": "2026-10-05",
     "venue": "regional-richmond-hill-oak-ridges-pool",
     "start": "13:30",
     "end": "14:30",
@@ -5348,28 +431,6 @@ export const regionalSchedule: RegionalEvent[] = [
     "free": false,
     "fee": "Richmond Hill drop-in fee",
     "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-cornell-community-centre",
-    "start": "14:00",
-    "end": "15:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=683f5034-ac47-47a3-aa3f-448feec01311"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-markham-thornhill-community-centre",
-    "start": "14:00",
-    "end": "14:45",
-    "type": "Leisure Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=65a55eea-ffbc-4067-94f4-3ddf16cb1b72"
   },
   {
     "date": "2026-10-05",
@@ -5402,7 +463,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": true,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=0e250145-e21a-47e3-a031-aaf8b1c38774"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=ed35109f-5d66-402b-05d1-e9e8b4a276a9"
   },
   {
     "date": "2026-10-05",
@@ -5435,7 +496,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=431c1744-e0a1-453b-a2b7-88f68d55a5c4"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=74375362-6c47-d3c6-a338-068086da77c1"
   },
   {
     "date": "2026-10-05",
@@ -5490,7 +551,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=e6199aef-9b34-48b1-ad45-a9bdd135ac37"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=5a0f012a-4974-ef79-c32c-154af68f52b0"
   },
   {
     "date": "2026-10-05",
@@ -5501,7 +562,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=fe124a58-3413-4ec9-86eb-7fd45394c780"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=92407849-448e-41c0-a243-5c9241f9a45e"
   },
   {
     "date": "2026-10-05",
@@ -5516,17 +577,6 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "date": "2026-10-05",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "20:00",
-    "end": "20:45",
-    "type": "Aquafit",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=136f7eb6-bb93-862d-58d9-c7c7b2052151"
-  },
-  {
-    "date": "2026-10-05",
     "venue": "regional-markham-centennial-community-centre",
     "start": "20:00",
     "end": "21:00",
@@ -5534,7 +584,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=0ba6d4c3-8c73-4541-8bf2-0cb2ea395c97"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=d93661fd-565e-734c-b30a-0aee243ddd7b"
   },
   {
     "date": "2026-10-05",
@@ -5567,7 +617,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $13.45",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=013cdf28-fff2-4d59-ad34-0b1740da307a"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=3b83eb34-90e6-a058-db28-d1cd33db580a"
   },
   {
     "date": "2026-10-05",
@@ -5589,7 +639,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=146b75ce-c1b1-4741-9c35-6e181641cc04"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=6ef6adf1-b82c-7179-961b-c3b9e2eec304"
   },
   {
     "date": "2026-10-05",
@@ -5600,7 +650,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=44c9262b-5d19-4d8c-822c-597a86c06226"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=5cdba190-4042-3208-39de-eb0f21a72272"
   },
   {
     "date": "2026-10-05",
@@ -5622,7 +672,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=44f2d750-4472-48e1-87f9-9d5e6e54bef0"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e5fdbdee-4d4f-c8c8-3949-5bdd5cbd8f03"
   },
   {
     "date": "2026-10-05",
@@ -5655,7 +705,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": true,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=cdd04ae7-1ba5-40c5-ab5f-6160b4aa3cc9"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=3e1a1959-049e-1867-1063-fa11880c2d18"
   },
   {
     "date": "2026-10-05",
@@ -5666,7 +716,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=35b12ddf-b23b-486e-9875-7298098f8e9e"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=bbb5b404-dd9d-4993-f65d-eaad277c3b07"
   },
   {
     "date": "2026-10-05",
@@ -5678,17 +728,6 @@ export const regionalSchedule: RegionalEvent[] = [
     "free": false,
     "fee": "Richmond Hill drop-in fee",
     "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
-  },
-  {
-    "date": "2026-10-05",
-    "venue": "regional-vaughan-carrville-community-centre",
-    "start": "21:00",
-    "end": "22:00",
-    "type": "Lane Swim",
-    "womenOnly": false,
-    "free": false,
-    "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=af4e3b42-5171-62d7-fe3a-28580d89fb62"
   },
   {
     "date": "2026-10-05",
@@ -5743,7 +782,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=f6862b1e-4b57-432f-8333-7a2c766e2cac"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=752c05f5-1bdc-da0b-2009-a4c98c467b39"
   },
   {
     "date": "2026-10-05",
@@ -5765,7 +804,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=458c809f-7708-4835-a028-0ddc1e5229fa"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=71176779-4f7f-42df-adc3-e8e17cfdd4a1"
   },
   {
     "date": "2026-10-06",
@@ -5776,7 +815,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=316fc8fb-3dee-4bda-8f66-892d25536605"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=286fba8d-84df-6a4b-39a6-cbdeaeb7a348"
   },
   {
     "date": "2026-10-06",
@@ -5831,7 +870,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1e5290be-8669-423b-97e2-a586518762fc"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=449c30d8-6bea-e09a-5f5e-0c89e319a20b"
   },
   {
     "date": "2026-10-06",
@@ -5842,7 +881,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=7fcdbb89-637f-4aa7-b4c1-94acdbc127a9"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=a5f2b348-b741-e8cb-cf0b-57b34817c394"
   },
   {
     "date": "2026-10-06",
@@ -5875,7 +914,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=d6c72783-e01c-4d30-8686-e4967543872a"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=d65454ec-4d7a-b6e6-b4d4-1908a7d9b583"
   },
   {
     "date": "2026-10-06",
@@ -5886,7 +925,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=7c6ecd1b-7179-4b0f-8931-ce3c53073877"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=02363385-94ee-c801-fb54-18e3358935da"
   },
   {
     "date": "2026-10-06",
@@ -5908,7 +947,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=f9a9a9e0-0ff2-4e2d-9b79-9d1caa1ab1c9"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=06eff793-c888-d937-498d-e6d27bad4c71"
   },
   {
     "date": "2026-10-06",
@@ -5952,7 +991,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=c0a74c07-78cb-41dd-aea0-8dd8be09a02b"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=83fc11b4-ca88-bbec-7955-2611b7a077af"
   },
   {
     "date": "2026-10-06",
@@ -5963,7 +1002,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=991f64b8-17a6-4c7b-a59b-4733c5d44f5d"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=77aa24e8-3950-c24b-39b8-242045b3ad87"
   },
   {
     "date": "2026-10-06",
@@ -5974,7 +1013,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=f27477ed-0572-488d-83be-0b5c4143cf01"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=71d201d8-eb98-db08-592a-fef5a6db33b9"
   },
   {
     "date": "2026-10-06",
@@ -6007,7 +1046,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=8d2ec412-3e97-4eeb-b377-c185edc42846"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=f0f587f5-4ebd-af52-16ee-b67458a16c40"
   },
   {
     "date": "2026-10-06",
@@ -6084,7 +1123,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=bf589972-8591-45ed-939d-23875b2ca58f"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=1dd0bc12-1cd0-793b-d0f5-7bd281181479"
   },
   {
     "date": "2026-10-06",
@@ -6106,7 +1145,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=5f99238b-0eec-40f5-b595-629d0767ca2c"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=2f391e00-9698-cc4e-01cd-e3af8fd32379"
   },
   {
     "date": "2026-10-06",
@@ -6150,7 +1189,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=395d86e3-3ece-4ac7-82f1-07f6e43fe9ff"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=01e846e7-506f-d9a6-b1dd-4a3403614b97"
   },
   {
     "date": "2026-10-06",
@@ -6161,7 +1200,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=034aaefe-7de9-4f61-bbc9-b13fb6d1e4c0"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=4e573f55-d8c9-e6e3-6805-77a33848a668"
   },
   {
     "date": "2026-10-06",
@@ -6260,7 +1299,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=3b7321f6-9ef3-47cb-8f04-7d917b695b4d"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=6369ca04-f949-956d-8a19-bbf00d874887"
   },
   {
     "date": "2026-10-06",
@@ -6381,7 +1420,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=59f851e6-6d2b-4806-af9a-c03bb0d04566"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=f3cb8a0b-b5ff-d7f0-1274-d5add5c8ae12"
   },
   {
     "date": "2026-10-06",
@@ -6590,7 +1629,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=fb558977-3b29-4552-8b77-0982cee3316e"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=0693b552-2441-c415-9c83-079e0a2ff711"
   },
   {
     "date": "2026-10-06",
@@ -6656,7 +1695,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=ab9de08e-57b3-47f2-9548-26b84b75379b"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=532c5b9f-878e-45dc-29ac-88bcfd143544"
   },
   {
     "date": "2026-10-06",
@@ -6667,7 +1706,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=b3495715-5e48-4fb9-8020-4fc3cb89de0a"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=60eeb4f9-e50d-8d33-0544-991a95cebfd4"
   },
   {
     "date": "2026-10-06",
@@ -6700,7 +1739,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=e75d2be9-5073-4cda-a24b-3f1e546d1b15"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=1f7bca76-0e21-38b8-ab7d-5ca8a4cf9dc0"
   },
   {
     "date": "2026-10-06",
@@ -6711,7 +1750,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=3c882f88-b408-4f8d-be4b-5f367a423b75"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6164e504-2634-fceb-69a8-70d1cc4f4515"
   },
   {
     "date": "2026-10-06",
@@ -6766,7 +1805,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=6aec8755-bf94-4d04-87f9-5b0358251dba"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=9db21363-764e-56a2-4cf5-c76b017a7691"
   },
   {
     "date": "2026-10-06",
@@ -6843,7 +1882,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e40e2aae-ae33-4bb9-87a7-11760c381c67"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=a6a4256f-5d98-5a3c-38af-49f27d645e57"
   },
   {
     "date": "2026-10-06",
@@ -6876,7 +1915,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=4edc0e27-bb4e-4d8b-a52b-1cbcb4a82b04"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=a45eb8b5-d315-fd41-f1cf-9c4cf83ac760"
   },
   {
     "date": "2026-10-06",
@@ -6920,7 +1959,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=71fff815-7321-438c-a8ee-026f3c04c4ee"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=02d38e02-b964-f212-550f-ed353156e8eb"
   },
   {
     "date": "2026-10-06",
@@ -6942,7 +1981,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=375dcd39-b700-4e3c-b04e-ff3e63908c92"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=345a6dce-6907-4ca6-a5c2-a185ba2e83a4"
   },
   {
     "date": "2026-10-06",
@@ -6964,7 +2003,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=c00de8af-e722-474c-8b55-c665b09d8fdd"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=6d2d6880-fc49-45c7-92a5-d33def08929e"
   },
   {
     "date": "2026-10-06",
@@ -7008,7 +2047,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $5.17",
-    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=6a798530-9d58-4975-bcce-628970fd1c00"
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=71a746f9-1768-5f29-bc55-6ca2544bc895"
   },
   {
     "date": "2026-10-06",
@@ -7041,7 +2080,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=74f44650-933a-4b72-93e9-5b3faf834a41"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=fa2d224f-2bfc-7afa-8927-9ce1bb5cafab"
   },
   {
     "date": "2026-10-06",
@@ -7052,7 +2091,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=ee757770-b048-4042-8b51-70c31edd75f9"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6344dd54-933c-730a-8298-d5ebd5f74fde"
   },
   {
     "date": "2026-10-06",
@@ -7272,7 +2311,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=71f70318-c0f7-4488-a0d6-611b15cc274c"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=571acfd1-f835-881a-fc37-577c2f35f259"
   },
   {
     "date": "2026-10-06",
@@ -7338,7 +2377,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=25927b90-339d-4f3b-b6f4-890bce0bed41"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7b8efe06-81de-3e7d-188a-5e38da89202b"
   },
   {
     "date": "2026-10-06",
@@ -7536,7 +2575,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e8ee8627-f43f-45f9-a72e-75ee7296ca02"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e7d94b2f-9910-18b2-09c7-578dc1647002"
   },
   {
     "date": "2026-10-07",
@@ -8042,7 +3081,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=48eb024a-0655-45b9-85d3-9e139bf1453b"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f5c6a640-64ee-c9db-107a-2a4a09d0b0c1"
   },
   {
     "date": "2026-10-07",
@@ -8141,7 +3180,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2c1754a0-85d7-4f13-ac2a-0f95e88a0f87"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=c3486e25-9925-24d9-bfa4-f5e97b4b00e9"
   },
   {
     "date": "2026-10-07",
@@ -8317,7 +3356,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=8dc4df79-3425-4b97-a6f9-edf753ecfe2e"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=17e441b5-a4b1-bfa5-acac-e217ddc9fd5f"
   },
   {
     "date": "2026-10-07",
@@ -8438,7 +3477,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=3c882f88-b408-4f8d-be4b-5f367a423b75"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=79bc9700-1ff1-5cb2-c04d-3d7dda8d071c"
   },
   {
     "date": "2026-10-07",
@@ -8570,7 +3609,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=89ee393e-e0aa-44d7-9c97-19b43b681ce5"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=ae2c48f7-1122-71bb-6937-e30edaefca9c"
   },
   {
     "date": "2026-10-07",
@@ -8658,7 +3697,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=83bae25c-15d0-4628-b309-7bb92d6733e8"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=d47ed3ea-9aca-cb4d-4b46-84717504bbdb"
   },
   {
     "date": "2026-10-07",
@@ -8724,7 +3763,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=d127c136-0c69-43ab-9386-fbee29cffa92"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6199e42e-69c3-c987-1ba4-c0fa960b27f7"
   },
   {
     "date": "2026-10-07",
@@ -8757,7 +3796,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=ee757770-b048-4042-8b51-70c31edd75f9"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6308ab38-d1fd-becc-0e5c-b5d93ecc4c02"
   },
   {
     "date": "2026-10-07",
@@ -8933,7 +3972,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=3c3ee86c-adab-495e-87d9-789d6772098a"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9ab2e2f5-845d-59ab-7d91-208148ca57dc"
   },
   {
     "date": "2026-10-07",
@@ -9076,7 +4115,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6ff3a5dc-47c4-4d22-90f1-a67992d5ffcd"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=75107bea-474c-b2c6-bfb0-b2a2957acc53"
   },
   {
     "date": "2026-10-07",
@@ -9098,7 +4137,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=25927b90-339d-4f3b-b6f4-890bce0bed41"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=725ead1d-127e-f49e-28a9-038dacff6f16"
   },
   {
     "date": "2026-10-07",
@@ -9549,7 +4588,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=335bd9ce-b825-4298-9efd-2a6496a6e493"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9b61c12f-078f-4540-6f56-62f4f2761325"
   },
   {
     "date": "2026-10-08",
@@ -9615,7 +4654,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1e7be71a-aa33-4fbc-8fa8-cec964063c4b"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f7557c30-4652-cb3b-0dd4-ec1c45b1c340"
   },
   {
     "date": "2026-10-08",
@@ -9758,7 +4797,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=48eb024a-0655-45b9-85d3-9e139bf1453b"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=3aad3e0b-04c6-023f-d785-0e20f040b42d"
   },
   {
     "date": "2026-10-08",
@@ -9824,7 +4863,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2c1754a0-85d7-4f13-ac2a-0f95e88a0f87"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=c6b1b4ae-8466-adb4-f14c-65a69d9f212f"
   },
   {
     "date": "2026-10-08",
@@ -10132,7 +5171,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=3c882f88-b408-4f8d-be4b-5f367a423b75"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9c774e52-27d4-d2b3-c490-72f02eb01c8f"
   },
   {
     "date": "2026-10-08",
@@ -10165,7 +5204,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=70599d07-1597-46c5-befd-af6e3492eefe"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=b04d73fc-8352-74eb-2487-32dd8670ad2b"
   },
   {
     "date": "2026-10-08",
@@ -10253,7 +5292,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e40e2aae-ae33-4bb9-87a7-11760c381c67"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=69310d58-fce9-fd30-574f-ab315e139976"
   },
   {
     "date": "2026-10-08",
@@ -10308,7 +5347,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=8519263a-36bf-4c76-8a4f-85f5e6602ef8"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=d3f872f2-dc08-ea78-28df-e423f4da178e"
   },
   {
     "date": "2026-10-08",
@@ -10330,7 +5369,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=71fff815-7321-438c-a8ee-026f3c04c4ee"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=716f935b-1652-751d-ca06-1476d2515911"
   },
   {
     "date": "2026-10-08",
@@ -10385,7 +5424,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=d127c136-0c69-43ab-9386-fbee29cffa92"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2dc4e073-e5fa-d909-c3a7-ffd53437034f"
   },
   {
     "date": "2026-10-08",
@@ -10451,7 +5490,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=ee757770-b048-4042-8b51-70c31edd75f9"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=a0903959-39f8-bdb2-8968-78f59fc80094"
   },
   {
     "date": "2026-10-08",
@@ -10462,7 +5501,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f3fc4ee1-06ad-4660-bd91-6dd4e749677b"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=790a62b7-bcc0-7b80-399c-61acadb40783"
   },
   {
     "date": "2026-10-08",
@@ -10528,7 +5567,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f71c5d51-5a21-455b-a408-4cb9ae5490b3"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=13264892-b82f-194d-5321-69e6de37e77c"
   },
   {
     "date": "2026-10-08",
@@ -10561,7 +5600,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=3c3ee86c-adab-495e-87d9-789d6772098a"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6b15985a-7e4d-8004-077b-6bcc6185d5b5"
   },
   {
     "date": "2026-10-08",
@@ -10583,7 +5622,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $11.25",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e639a38b-1992-4d76-b613-4455170f445b"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=0c265b0a-284a-d8ce-2fb6-ef841101a80b"
   },
   {
     "date": "2026-10-08",
@@ -10594,7 +5633,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=5e0be7e5-375f-4c93-932d-47be61423a20"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=d877bd92-a622-15c8-f08a-18f37fdccfd4"
   },
   {
     "date": "2026-10-08",
@@ -10627,7 +5666,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e566b63e-f6fb-4549-af3b-8ffb063e5dda"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=bb9df971-652a-8cbb-86d9-c1b1ef4e6ba4"
   },
   {
     "date": "2026-10-08",
@@ -10638,7 +5677,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4287c285-cc73-4140-9727-878b39c0deac"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=639e0942-0907-c0ea-8938-c0f3f8edc36a"
   },
   {
     "date": "2026-10-08",
@@ -10649,7 +5688,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=a0dd01df-6301-47b5-8e5a-a53be87849b8"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=0ec25bb4-1fcd-edf2-e40e-5372940bb6a6"
   },
   {
     "date": "2026-10-08",
@@ -10660,7 +5699,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=71f70318-c0f7-4488-a0d6-611b15cc274c"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=a51ca14d-6cbd-e25f-1eaf-84de62ab4529"
   },
   {
     "date": "2026-10-08",
@@ -10693,7 +5732,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=a019fe72-0fea-46e6-a452-86603da482ff"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1858a1e2-14f5-1a1f-2baf-c9283634dc27"
   },
   {
     "date": "2026-10-08",
@@ -10737,7 +5776,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=25927b90-339d-4f3b-b6f4-890bce0bed41"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=08ae832d-982b-48c9-0970-8ebe6f5baea7"
   },
   {
     "date": "2026-10-08",
@@ -10759,7 +5798,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=b3bf8c3a-63d0-4a1d-9daa-f0ce15f82710"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2cb577db-bc56-829e-5394-5fa22c3ceb51"
   },
   {
     "date": "2026-10-08",
@@ -10770,7 +5809,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4f17fe21-7d31-4056-be6b-aa78d39b32ae"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=eb943c75-4a87-3c54-3f23-d94270137ab2"
   },
   {
     "date": "2026-10-08",
@@ -10781,7 +5820,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=c28d6184-fdc0-47d6-8c38-40b87b849667"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=361cb9b7-0773-d0ea-6a55-8010c7049748"
   },
   {
     "date": "2026-10-08",
@@ -10825,7 +5864,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2c097995-e6f6-4f9d-9c8e-6f9867e661d1"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=03fd14a2-356d-9f55-6f3e-302ba92b584e"
   },
   {
     "date": "2026-10-08",
@@ -10847,7 +5886,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9576c95c-6e6f-4c09-9dfd-def25b0c9cb8"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=0819bc78-fb3d-f4c2-c73f-87d4779151ad"
   },
   {
     "date": "2026-10-08",
@@ -10869,7 +5908,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=de06a99d-fd33-4642-980e-d4eefdd3d52a"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=ca1cbf3f-7424-d51f-ed92-f4ef065a0160"
   },
   {
     "date": "2026-10-08",
@@ -10891,7 +5930,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2d1ebaee-526f-4e0e-88f2-7632888dd58e"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=5409b387-13b6-7709-9b4c-534cfa14aa45"
   },
   {
     "date": "2026-10-09",
@@ -10924,7 +5963,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=563b51f1-eb30-44f1-bf21-c9e5a7d2f4c3"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=40540558-02e7-8f9c-cdc5-10053dc4c18b"
   },
   {
     "date": "2026-10-09",
@@ -10935,7 +5974,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e8ee8627-f43f-45f9-a72e-75ee7296ca02"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=44e0cd41-f5e3-6a4c-4e55-6ddf10039719"
   },
   {
     "date": "2026-10-09",
@@ -10957,7 +5996,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1e5290be-8669-423b-97e2-a586518762fc"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=b4f09747-dd94-ef22-f7fa-51798f07d448"
   },
   {
     "date": "2026-10-09",
@@ -10979,7 +6018,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=67bd0810-93a2-4622-897b-c90dbc9cd99e"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=09919f41-f91e-444c-2a86-3cfaa8f8ba2c"
   },
   {
     "date": "2026-10-09",
@@ -10990,7 +6029,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7ef28a4c-2abf-4b7e-8c0b-ff840ff8fae9"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6f6e673a-5e69-551f-6062-2e5bcc3524e9"
   },
   {
     "date": "2026-10-09",
@@ -11023,7 +6062,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e3818c24-1837-4093-834a-bc4ad3d13c1e"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=b92e9901-88c0-8b1e-9e46-2b91f38e54e6"
   },
   {
     "date": "2026-10-09",
@@ -11045,7 +6084,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f4f941c4-c6e3-47a8-bd3e-78909a30abc9"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2ce864ce-a42c-3ed5-5c22-b33a547417d7"
   },
   {
     "date": "2026-10-09",
@@ -11067,7 +6106,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=931b4d4d-b416-4a8b-9bc6-2928e97c49f9"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=216a1405-28f9-3a22-321c-5995e019baa1"
   },
   {
     "date": "2026-10-09",
@@ -11122,7 +6161,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=bfcbdd66-0b0b-46d1-b43d-c9acd342f8d7"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=5836f6eb-f9aa-5862-492e-f1c30f55b49d"
   },
   {
     "date": "2026-10-09",
@@ -11133,7 +6172,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=b710920f-1251-4bc3-9b15-98ce2ddfbc46"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2be9a426-dc97-4522-b3b2-347df4a04e48"
   },
   {
     "date": "2026-10-09",
@@ -11144,7 +6183,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4c644a72-c1fd-48bf-a003-5e22953919e8"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=a6a6bedc-2e77-d873-020b-e5a251d5f036"
   },
   {
     "date": "2026-10-09",
@@ -11155,7 +6194,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=902076a8-8cba-4bba-8dca-3eb7c925dbbd"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=3d5a03c9-19a5-b8b6-0ab4-95b67f743d72"
   },
   {
     "date": "2026-10-09",
@@ -11166,7 +6205,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9d6cbff7-ad60-4bf3-9b9b-d53d0484d90e"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6fae5725-d523-daa8-098b-eae2e6fb2493"
   },
   {
     "date": "2026-10-09",
@@ -11177,7 +6216,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1bb77aa8-0416-43f3-9728-963a99850660"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2bbfa4c8-0d0b-207f-1159-4dd22c5488e8"
   },
   {
     "date": "2026-10-09",
@@ -11199,7 +6238,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=5c580bef-4115-4faf-a090-2030fb6ae9d5"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e369a145-e3da-5de3-1e6e-6aa0bf2e51da"
   },
   {
     "date": "2026-10-09",
@@ -11221,7 +6260,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=335bd9ce-b825-4298-9efd-2a6496a6e493"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=c81de9f5-47c2-3f31-806e-1a397f35671f"
   },
   {
     "date": "2026-10-09",
@@ -11243,7 +6282,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=0d9a1885-df90-4661-ae56-731bfb4dc158"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=a4fafee3-37dc-f6d1-9411-f82d36bd5ba9"
   },
   {
     "date": "2026-10-09",
@@ -11287,7 +6326,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=dbfff1dd-bb6d-45b4-b1cb-516f7edd5330"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=78f569c7-9713-f0f3-908e-8db86b866de2"
   },
   {
     "date": "2026-10-09",
@@ -11309,7 +6348,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1e7be71a-aa33-4fbc-8fa8-cec964063c4b"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7cfa4a65-db53-eae9-a5b3-9967488bd468"
   },
   {
     "date": "2026-10-09",
@@ -11320,7 +6359,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=18596563-1754-4f19-b68a-273e4d2f400f"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e7a14f76-b763-6503-8b19-c32cc97b06ad"
   },
   {
     "date": "2026-10-09",
@@ -11331,7 +6370,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7f1c493f-1058-4c08-a42d-9a904bbf484f"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e5a8226f-00de-5678-d159-691f370db7a4"
   },
   {
     "date": "2026-10-09",
@@ -11342,7 +6381,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": true,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=951661f4-9fbf-4055-afa2-1c2eeadfb5cf"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=bfa29feb-ba6c-1041-c459-7fabb033a8e6"
   },
   {
     "date": "2026-10-09",
@@ -11408,7 +6447,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=15877043-a3f4-4352-af0d-381a5ae426ec"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=81d00e06-2609-aa09-14bb-91486aaa4ca0"
   },
   {
     "date": "2026-10-09",
@@ -11441,7 +6480,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=48eb024a-0655-45b9-85d3-9e139bf1453b"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7d6dae9e-de48-1cad-aefe-4ac4d5a6c9ef"
   },
   {
     "date": "2026-10-09",
@@ -11474,7 +6513,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=920c7f9a-a2d1-4c24-b1b2-7d9360292230"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4e45ba68-b47b-90be-573e-938e2caf3f47"
   },
   {
     "date": "2026-10-09",
@@ -11551,7 +6590,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2c1754a0-85d7-4f13-ac2a-0f95e88a0f87"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=74721649-a5d0-09de-5314-f2cc0a2bd7de"
   },
   {
     "date": "2026-10-09",
@@ -11628,7 +6667,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=5968317b-7857-4013-a248-7b188959ee80"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6fe925e5-fecb-8a94-4a3f-964f326fd95e"
   },
   {
     "date": "2026-10-09",
@@ -11639,7 +6678,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $14.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=13ce236e-1239-47a2-b420-29174d7e53db"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=ff172d35-07d5-b039-6510-fe78f47f7403"
   },
   {
     "date": "2026-10-09",
@@ -11672,7 +6711,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f7d0eaba-42e7-4a7f-9077-ec2526aa849e"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1a7936be-dc88-4f76-f338-902515b5a29e"
   },
   {
     "date": "2026-10-09",
@@ -11705,7 +6744,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=b6950a27-54ee-4f0d-b18f-79b0fefa93fb"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=cf2e50b9-9dee-a293-d93b-dd052d334bbd"
   },
   {
     "date": "2026-10-09",
@@ -11716,7 +6755,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=8dc4df79-3425-4b97-a6f9-edf753ecfe2e"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=c2856174-7604-9c1e-0fdf-db51ec145c2d"
   },
   {
     "date": "2026-10-09",
@@ -11782,7 +6821,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=89f5294f-89d5-4c3f-87a7-1e608a7d80bc"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=213d1a7b-a737-5ccb-df07-608791baf24a"
   },
   {
     "date": "2026-10-09",
@@ -11815,7 +6854,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=067320e2-cc9c-4f03-882b-330a979382c5"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=b5e7cc46-9950-7168-e5c0-66105f9057ac"
   },
   {
     "date": "2026-10-09",
@@ -11848,7 +6887,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=3c882f88-b408-4f8d-be4b-5f367a423b75"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2ff2a204-6be8-c7f6-04fc-eff5395f1fa5"
   },
   {
     "date": "2026-10-09",
@@ -11892,7 +6931,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=70599d07-1597-46c5-befd-af6e3492eefe"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=d4af99a5-2bb2-3a3d-0514-ae025f667cc1"
   },
   {
     "date": "2026-10-09",
@@ -11936,7 +6975,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=3ab8a1f5-1876-4834-81ef-680182d5f600"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6d72a879-e51a-3337-1c39-2820b0777e6e"
   },
   {
     "date": "2026-10-09",
@@ -11947,7 +6986,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=478569cb-b8e1-4617-8feb-a4dc69788e7f"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e8362f2a-c527-2bc4-7ef4-d05fa9221fd3"
   },
   {
     "date": "2026-10-09",
@@ -11958,7 +6997,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e40e2aae-ae33-4bb9-87a7-11760c381c67"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6ec88d80-46b7-524a-6fad-ffaf52e6c311"
   },
   {
     "date": "2026-10-09",
@@ -11969,7 +7008,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1f90b1a2-b967-483e-b514-65a81c8e9f96"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=0b731f9b-8126-7dec-6a31-463c91237089"
   },
   {
     "date": "2026-10-09",
@@ -12013,7 +7052,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=8519263a-36bf-4c76-8a4f-85f5e6602ef8"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4ec02b32-8283-fd35-2487-a232d4b1f049"
   },
   {
     "date": "2026-10-09",
@@ -12024,7 +7063,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=efd19e2a-997d-4431-93e5-f436dbdacdea"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6804d910-e4ea-5da7-89a1-ce2f7532ebee"
   },
   {
     "date": "2026-10-09",
@@ -12046,7 +7085,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=375dcd39-b700-4e3c-b04e-ff3e63908c92"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=dfe34ac7-9365-2455-c600-f842dce495de"
   },
   {
     "date": "2026-10-09",
@@ -12112,7 +7151,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=d127c136-0c69-43ab-9386-fbee29cffa92"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1f5839a4-4e76-da43-450b-39408b0dba09"
   },
   {
     "date": "2026-10-09",
@@ -12145,7 +7184,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=efca9370-ab5f-4ce6-a6f0-cf75f97df4a6"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=23b8e073-f295-cf84-a767-c39338795d6f"
   },
   {
     "date": "2026-10-09",
@@ -12167,7 +7206,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=ee757770-b048-4042-8b51-70c31edd75f9"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=c9bfa9dd-ca8d-772e-bf05-c46772d14b2a"
   },
   {
     "date": "2026-10-09",
@@ -12178,7 +7217,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=59928a25-5e84-4b10-a104-f9031904eae6"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=ae27ca42-73fe-322f-5987-8a12d07b9025"
   },
   {
     "date": "2026-10-09",
@@ -12321,7 +7360,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=086f1546-14d7-436b-a26f-67be425596b4"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=ae0e5a89-d603-5d03-8bea-882ed086cc58"
   },
   {
     "date": "2026-10-09",
@@ -12332,7 +7371,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=79542f0c-f230-40e9-97b5-43ada743bab1"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9a754dbb-c203-15a8-ca0b-6b6d70c404d5"
   },
   {
     "date": "2026-10-09",
@@ -12343,7 +7382,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=18af55aa-8760-4f69-97fb-4f1baff55b0c"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=a8f5ecbf-d05e-d86b-46f7-54a33c4bcf4c"
   },
   {
     "date": "2026-10-09",
@@ -12398,7 +7437,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f71c5d51-5a21-455b-a408-4cb9ae5490b3"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=a52dffbd-deb9-d7f5-11cc-7fa5fd868256"
   },
   {
     "date": "2026-10-09",
@@ -12420,7 +7459,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=5e0be7e5-375f-4c93-932d-47be61423a20"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f99dba2f-3f2a-7499-c27a-d6244bc6d0d3"
   },
   {
     "date": "2026-10-09",
@@ -12464,7 +7503,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=c28d6184-fdc0-47d6-8c38-40b87b849667"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=3a3c9587-7c33-85a3-a4e6-1b07aedd8ae5"
   },
   {
     "date": "2026-10-09",
@@ -12552,7 +7591,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7fe7fac5-6ad4-4cbe-81c1-fc17eba4859b"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=3bc7bb49-8fea-54da-a474-5c0f834ecfdc"
   },
   {
     "date": "2026-10-10",
@@ -12596,7 +7635,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=185739cd-7855-4bca-8e42-8104b04c0f5f"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9568141b-c443-91b0-ff61-c3de9464f322"
   },
   {
     "date": "2026-10-10",
@@ -12607,7 +7646,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f5b65de4-88ca-40a9-bcc1-8d56c8308546"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=33609b63-1025-5100-ec16-cb5c93e5997c"
   },
   {
     "date": "2026-10-10",
@@ -12618,7 +7657,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=44b54605-024d-4ef7-9e3a-21c8357c5da7"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=fd748e62-22d4-c865-0e4f-081bcec4d94b"
   },
   {
     "date": "2026-10-10",
@@ -12629,7 +7668,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6fad0b95-109c-4299-9503-a239d64be4dc"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=04e85bb6-6100-c304-2773-f8223f5888b5"
   },
   {
     "date": "2026-10-10",
@@ -12673,7 +7712,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4c644a72-c1fd-48bf-a003-5e22953919e8"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7aa67cf9-aa00-5821-fa09-15102e9adfbc"
   },
   {
     "date": "2026-10-10",
@@ -12684,7 +7723,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=a73aa99d-8591-48be-94cf-f06c57c63fcb"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=d9ad0470-a934-f127-2a39-583482ba6e58"
   },
   {
     "date": "2026-10-10",
@@ -12695,7 +7734,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=aa106a4e-0fc4-45a7-9ed7-31fb135d71cc"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=55966e90-dc57-4cc0-7cb4-7d1a3bcba59e"
   },
   {
     "date": "2026-10-10",
@@ -12728,7 +7767,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7bfe634b-4428-4253-af34-a7928cf4ba8e"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=34563eb9-c1e0-d63f-42fa-14eab7bcb525"
   },
   {
     "date": "2026-10-10",
@@ -12772,7 +7811,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=fa6a0b3f-1cb9-4f94-88a1-be2f2a1fe250"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=981aae2d-16f8-df41-37e3-3e2920e45739"
   },
   {
     "date": "2026-10-10",
@@ -12805,7 +7844,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9d66acfa-4a2c-4488-8428-0655cb8ab3f8"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2e66aaec-7386-1456-7221-8aa28d29d439"
   },
   {
     "date": "2026-10-10",
@@ -12816,7 +7855,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7591207a-6e1b-4aa8-ab9c-5f09def495ed"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=bc3d790c-bde5-db73-57aa-ffb8ad4bbf52"
   },
   {
     "date": "2026-10-10",
@@ -12827,7 +7866,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=df2d3353-7005-4719-83b7-263534989ca3"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2f85dda8-157d-565e-83c3-4846c607838a"
   },
   {
     "date": "2026-10-10",
@@ -12926,7 +7965,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1e6d1404-3278-49b9-a53d-785b8151c5f3"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6ffea7db-5a9f-1e6d-78af-972f52dfa58a"
   },
   {
     "date": "2026-10-10",
@@ -12970,7 +8009,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6c96297d-ce86-4046-99f5-edb4fbdc897d"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=71c39ab4-c70f-3bf8-30c1-b0729ea03a86"
   },
   {
     "date": "2026-10-10",
@@ -13014,7 +8053,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=075fffc4-5bc1-439f-89b3-e82944b5b014"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=b056fdb7-6f46-24df-c098-61ebe2aeca3f"
   },
   {
     "date": "2026-10-10",
@@ -13069,7 +8108,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=306e7a99-1ea5-41b1-be96-494b225d553d"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=601f7686-15c5-8820-dde1-f0eb66115aee"
   },
   {
     "date": "2026-10-10",
@@ -13113,7 +8152,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=cd8f5f37-6cdc-4450-801c-95193b1e2202"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=3163c887-aa8e-68af-2ea0-69ff0e7e66b6"
   },
   {
     "date": "2026-10-10",
@@ -13183,6 +8222,28 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "date": "2026-10-10",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "17:00",
+    "end": "18:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=8e4e4daa-2dad-4b97-8c22-348226187430"
+  },
+  {
+    "date": "2026-10-10",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "17:00",
+    "end": "18:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=006141ba-a161-4706-9f5f-63d020c377dd"
+  },
+  {
+    "date": "2026-10-10",
     "venue": "regional-markham-milliken-mills-community-centre",
     "start": "17:00",
     "end": "18:00",
@@ -13191,6 +8252,28 @@ export const regionalSchedule: RegionalEvent[] = [
     "free": false,
     "fee": "$0.00 - $5.17",
     "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=905638f1-1d0d-4fac-bd45-f17c39f0e09d"
+  },
+  {
+    "date": "2026-10-10",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "18:00",
+    "end": "19:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=13fab3f0-e09c-4cd9-90b1-a7aae4a30ce8"
+  },
+  {
+    "date": "2026-10-10",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "18:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=8e796593-4d96-4b75-991b-3887c887f948"
   },
   {
     "date": "2026-10-10",
@@ -13322,7 +8405,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7fe7fac5-6ad4-4cbe-81c1-fc17eba4859b"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=95f4e8a1-9a15-bbbb-de5b-698ea8fc1a41"
   },
   {
     "date": "2026-10-11",
@@ -13355,7 +8438,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f5b65de4-88ca-40a9-bcc1-8d56c8308546"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=228e76af-76ce-b49a-3ded-1a4fc4c2d97c"
   },
   {
     "date": "2026-10-11",
@@ -13366,7 +8449,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6fad0b95-109c-4299-9503-a239d64be4dc"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=b4d978f3-00cf-d94a-be04-71ef5e04ebae"
   },
   {
     "date": "2026-10-11",
@@ -13388,7 +8471,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4b3b0ff0-89c6-426f-8913-a5b009c5cfd1"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=5b2ed3a9-e99b-3978-6a60-20b1b5efcf9d"
   },
   {
     "date": "2026-10-11",
@@ -13432,7 +8515,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4c644a72-c1fd-48bf-a003-5e22953919e8"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=510cab82-43f3-8af5-881c-83bfdb480e46"
   },
   {
     "date": "2026-10-11",
@@ -13443,7 +8526,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $12.50",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=a73aa99d-8591-48be-94cf-f06c57c63fcb"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=891b9ec1-28e0-de49-28a3-c078d3c480fc"
   },
   {
     "date": "2026-10-11",
@@ -13465,7 +8548,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=31ac54cb-e8d6-4f35-924c-e9b151d5aa31"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=353125a0-633b-9e52-8901-07d0e6a591ed"
   },
   {
     "date": "2026-10-11",
@@ -13498,7 +8581,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=fa78ba4b-b9a0-47b6-b514-58a8f4e90f14"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=5284f5ec-ffdd-76c9-d7df-bdcf797cd062"
   },
   {
     "date": "2026-10-11",
@@ -13509,7 +8592,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7bfe634b-4428-4253-af34-a7928cf4ba8e"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=38916314-95d5-0e9b-fc54-9145336674f9"
   },
   {
     "date": "2026-10-11",
@@ -13553,7 +8636,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9d66acfa-4a2c-4488-8428-0655cb8ab3f8"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=a53df94c-6fa0-fe1c-31e6-cfcada0c42f1"
   },
   {
     "date": "2026-10-11",
@@ -13564,7 +8647,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7591207a-6e1b-4aa8-ab9c-5f09def495ed"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=48ccb97d-95c1-6b87-7862-5644841f171e"
   },
   {
     "date": "2026-10-11",
@@ -13575,7 +8658,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=df2d3353-7005-4719-83b7-263534989ca3"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=8b2634bd-f30f-0e59-01a1-e902057e9360"
   },
   {
     "date": "2026-10-11",
@@ -13652,7 +8735,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=60b2ec28-a56f-44be-9579-43931cb3cd57"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=a679a558-0835-5eff-5a64-8adccca8b14c"
   },
   {
     "date": "2026-10-11",
@@ -13674,7 +8757,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1e6d1404-3278-49b9-a53d-785b8151c5f3"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=5681d99f-7a07-70a2-ebad-1dc05e7607c5"
   },
   {
     "date": "2026-10-11",
@@ -13718,7 +8801,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6c96297d-ce86-4046-99f5-edb4fbdc897d"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=c824c6db-4838-a531-c08d-9beca949a5f6"
   },
   {
     "date": "2026-10-11",
@@ -13806,7 +8889,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=487f2e5b-3ddf-4e7a-ad62-16e57a089deb"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=705e2bfe-0741-ec7b-4acc-1b86a0557226"
   },
   {
     "date": "2026-10-11",
@@ -13828,7 +8911,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=cd8f5f37-6cdc-4450-801c-95193b1e2202"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=d80bda02-5b47-ee95-5240-b7862014677b"
   },
   {
     "date": "2026-10-11",
@@ -13861,7 +8944,7 @@ export const regionalSchedule: RegionalEvent[] = [
     "womenOnly": false,
     "free": false,
     "fee": "$0.00 - $7.00",
-    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=8dff82a2-0ab9-4d25-81f6-c57f8d74d274"
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2769b87b-4608-c5b2-3629-79e696ead838"
   },
   {
     "date": "2026-10-11",
@@ -21103,6 +16186,4967 @@ export const regionalSchedule: RegionalEvent[] = [
   },
   {
     "date": "2026-10-16",
+    "venue": "regional-richmond-hill-richvale-pool",
+    "start": "23:00",
+    "end": "13:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "06:00",
+    "end": "07:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=458c809f-7708-4835-a028-0ddc1e5229fa"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-richmond-hill-elgin-west-pool",
+    "start": "06:30",
+    "end": "08:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "07:00",
+    "end": "08:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=7fcdbb89-637f-4aa7-b4c1-94acdbc127a9"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "07:30",
+    "end": "08:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=58692b2b-f34f-48c6-b640-d808d4d2c540"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "07:30",
+    "end": "08:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7fe7fac5-6ad4-4cbe-81c1-fc17eba4859b"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
+    "start": "07:30",
+    "end": "09:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "07:45",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=cfe97f9d-4c5d-4dd3-85f4-f5fb1876d843"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "07:45",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=dfd20609-db8e-4ac2-923e-af397158f0ad"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "07:45",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=185739cd-7855-4bca-8e42-8104b04c0f5f"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-maple-community-centre",
+    "start": "07:45",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f5b65de4-88ca-40a9-bcc1-8d56c8308546"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "07:45",
+    "end": "08:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=44b54605-024d-4ef7-9e3a-21c8357c5da7"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-vellore-village-community-centre",
+    "start": "07:45",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6fad0b95-109c-4299-9503-a239d64be4dc"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=5c275a09-08e2-462e-bc68-f886d9e54308"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=991f64b8-17a6-4c7b-a59b-4733c5d44f5d"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-thornhill-community-centre",
+    "start": "08:00",
+    "end": "08:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=583f3f17-230b-4a13-8724-a2d643017bab"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
+    "start": "08:15",
+    "end": "09:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4c644a72-c1fd-48bf-a003-5e22953919e8"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-chancellor-community-centre",
+    "start": "08:30",
+    "end": "09:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=a73aa99d-8591-48be-94cf-f06c57c63fcb"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "11:15",
+    "end": "12:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=aa106a4e-0fc4-45a7-9ed7-31fb135d71cc"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-centennial-community-centre",
+    "start": "11:30",
+    "end": "12:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=954a430b-981e-4b6e-bdfe-2aad7db564eb"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-centennial-community-centre",
+    "start": "11:30",
+    "end": "12:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=3046c886-7a1f-4449-ab59-0b4aeed02c35"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-dufferin-clark-community-centre",
+    "start": "12:15",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7bfe634b-4428-4253-af34-a7928cf4ba8e"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-thornhill-community-centre",
+    "start": "12:15",
+    "end": "13:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.58",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=9e24920b-82bf-48d5-b23e-e3d45bf366ef"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-thornlea-pool-gymnasium",
+    "start": "12:15",
+    "end": "13:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $13.45",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=62f614f5-8119-4dfc-a827-13a37d422d8d"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
+    "start": "12:30",
+    "end": "14:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2788a315-46d6-400c-9774-cf08dfa28f32"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "12:30",
+    "end": "14:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=fa6a0b3f-1cb9-4f94-88a1-be2f2a1fe250"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
+    "start": "12:30",
+    "end": "13:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=74f44650-933a-4b72-93e9-5b3faf834a41"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
+    "start": "12:30",
+    "end": "13:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=978f192c-5015-49d7-b119-2d698d9fd39f"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-chancellor-community-centre",
+    "start": "12:45",
+    "end": "14:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9d66acfa-4a2c-4488-8428-0655cb8ab3f8"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-maple-community-centre",
+    "start": "12:45",
+    "end": "13:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7591207a-6e1b-4aa8-ab9c-5f09def495ed"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "12:45",
+    "end": "13:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=df2d3353-7005-4719-83b7-263534989ca3"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "13:00",
+    "end": "14:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=5318313a-18c8-458b-ba8b-e3aec48194b8"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "13:00",
+    "end": "14:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=5af99452-3cfd-437a-b552-6b5b45624b5d"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
+    "start": "13:00",
+    "end": "14:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "13:15",
+    "end": "14:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $13.45",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=32bf7c70-a3af-420d-8788-0018ebbebac4"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "13:15",
+    "end": "14:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $13.45",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=110f6f38-19f8-4efe-aaa5-c7494d6dcdda"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-richmond-hill-richvale-pool",
+    "start": "13:15",
+    "end": "14:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-thornhill-community-centre",
+    "start": "13:15",
+    "end": "14:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.58",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=0f349045-4e33-4838-b617-5186d0b43055"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "13:30",
+    "end": "15:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4e6df0e2-2704-4183-bd33-393fc0aaa86e"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "13:30",
+    "end": "14:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1e6d1404-3278-49b9-a53d-785b8151c5f3"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-dufferin-clark-community-centre",
+    "start": "13:30",
+    "end": "15:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2ff48036-9bd7-4d74-bb73-01b4d0608dd2"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-thornlea-pool-gymnasium",
+    "start": "13:30",
+    "end": "14:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=3381e943-2d21-4d43-b34f-9d25ad611232"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-vellore-village-community-centre",
+    "start": "13:30",
+    "end": "15:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=62593645-4f71-4fdb-8d20-0548b98a5f52"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "13:45",
+    "end": "14:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6c96297d-ce86-4046-99f5-edb4fbdc897d"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
+    "start": "13:45",
+    "end": "14:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2275700e-c36a-4b3b-a2f4-a9b98950436e"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "14:00",
+    "end": "15:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=ce8c8692-00fb-438f-9347-221b6e8bbbeb"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "14:00",
+    "end": "15:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=876f501d-4910-4455-8b2c-9a003b5db4a0"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-maple-community-centre",
+    "start": "14:00",
+    "end": "15:20",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=075fffc4-5bc1-439f-89b3-e82944b5b014"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-thornhill-community-centre",
+    "start": "14:00",
+    "end": "14:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=65a55eea-ffbc-4067-94f4-3ddf16cb1b72"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "14:15",
+    "end": "15:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $13.45",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=cc5ce027-fc4c-4662-ba18-16dfc83fe3a8"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
+    "start": "14:15",
+    "end": "15:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "14:15",
+    "end": "15:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $13.45",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=452acd0d-e22f-4b52-82f9-22ad72346795"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "14:15",
+    "end": "15:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=306e7a99-1ea5-41b1-be96-494b225d553d"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-chancellor-community-centre",
+    "start": "14:30",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=ef192dea-0755-48eb-8d9c-78bfb0c1324d"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-richmond-hill-elgin-west-pool",
+    "start": "14:30",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
+    "start": "14:30",
+    "end": "16:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "14:45",
+    "end": "16:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=cd8f5f37-6cdc-4450-801c-95193b1e2202"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-richmond-hill-richvale-pool",
+    "start": "14:45",
+    "end": "15:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-richmond-hill-centennial-pool",
+    "start": "15:00",
+    "end": "16:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "15:00",
+    "end": "16:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=8dff82a2-0ab9-4d25-81f6-c57f8d74d274"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-thornhill-community-centre",
+    "start": "15:00",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$3.10",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=65d0a839-4559-4346-86b1-6d7692360fbe"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-richmond-hill-the-wave-pool",
+    "start": "15:35",
+    "end": "17:35",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "16:00",
+    "end": "17:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=605012bd-7e52-4ff9-aadc-fcfe0414989b"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "17:00",
+    "end": "18:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=8e4e4daa-2dad-4b97-8c22-348226187430"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "17:00",
+    "end": "18:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=006141ba-a161-4706-9f5f-63d020c377dd"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "17:00",
+    "end": "18:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=905638f1-1d0d-4fac-bd45-f17c39f0e09d"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "18:00",
+    "end": "19:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=13fab3f0-e09c-4cd9-90b1-a7aae4a30ce8"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "18:00",
+    "end": "19:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=8e796593-4d96-4b75-991b-3887c887f948"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "18:15",
+    "end": "19:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $13.45",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=87d8faa9-8e9a-44b4-9d5d-620a6cc93a16"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "19:00",
+    "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $13.45",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=282e2db1-9673-46b0-ac09-e5ac67b150a6"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "19:15",
+    "end": "20:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $13.45",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=dbfd7bf1-9aaf-4f52-b22a-38ea05dbb3f3"
+  },
+  {
+    "date": "2026-10-17",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "20:00",
+    "end": "21:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $13.45",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=22c81465-76cb-4eee-b898-22dd8d308906"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "06:00",
+    "end": "07:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=458c809f-7708-4835-a028-0ddc1e5229fa"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
+    "start": "06:30",
+    "end": "08:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-richmond-hill-richvale-pool",
+    "start": "06:30",
+    "end": "08:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-richmond-hill-centennial-pool",
+    "start": "07:00",
+    "end": "09:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "07:00",
+    "end": "08:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=7fcdbb89-637f-4aa7-b4c1-94acdbc127a9"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
+    "start": "07:15",
+    "end": "08:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "07:30",
+    "end": "08:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=a00f32d7-d8e2-45b2-93f2-9395905f0440"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "07:30",
+    "end": "08:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7fe7fac5-6ad4-4cbe-81c1-fc17eba4859b"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "07:45",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=cfe97f9d-4c5d-4dd3-85f4-f5fb1876d843"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "07:45",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=dab9eebc-665c-403a-ae74-acfe0e57e38e"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-maple-community-centre",
+    "start": "07:45",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f5b65de4-88ca-40a9-bcc1-8d56c8308546"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-vellore-village-community-centre",
+    "start": "07:45",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6fad0b95-109c-4299-9503-a239d64be4dc"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "08:00",
+    "end": "08:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=fe049ac8-cbe8-48ef-94f5-db314940bde5"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "08:00",
+    "end": "08:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4b3b0ff0-89c6-426f-8913-a5b009c5cfd1"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=991f64b8-17a6-4c7b-a59b-4733c5d44f5d"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-markham-thornhill-community-centre",
+    "start": "08:00",
+    "end": "08:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=583f3f17-230b-4a13-8724-a2d643017bab"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
+    "start": "08:10",
+    "end": "09:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/aquafitness-schedule-and-fees.aspx"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
+    "start": "08:15",
+    "end": "09:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4c644a72-c1fd-48bf-a003-5e22953919e8"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-chancellor-community-centre",
+    "start": "08:30",
+    "end": "09:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=a73aa99d-8591-48be-94cf-f06c57c63fcb"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4f5f7ccb-d23e-42f9-8aac-56a8114cae37"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "10:00",
+    "end": "11:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=31ac54cb-e8d6-4f35-924c-e9b151d5aa31"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "11:15",
+    "end": "12:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=28898711-002a-46be-b643-fcf149caf3ae"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-richmond-hill-the-wave-pool",
+    "start": "11:35",
+    "end": "13:35",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=fa78ba4b-b9a0-47b6-b514-58a8f4e90f14"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-dufferin-clark-community-centre",
+    "start": "12:15",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7bfe634b-4428-4253-af34-a7928cf4ba8e"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-markham-thornhill-community-centre",
+    "start": "12:15",
+    "end": "13:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$7.11 - $10.12",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=f8ef7640-16e2-457f-a01a-60b0e0911ef2"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
+    "start": "12:30",
+    "end": "14:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2788a315-46d6-400c-9774-cf08dfa28f32"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "12:45",
+    "end": "13:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $13.45",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=f2962425-9890-467c-bf4b-8890fdd98b7e"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-chancellor-community-centre",
+    "start": "12:45",
+    "end": "14:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9d66acfa-4a2c-4488-8428-0655cb8ab3f8"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-maple-community-centre",
+    "start": "12:45",
+    "end": "13:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7591207a-6e1b-4aa8-ab9c-5f09def495ed"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "12:45",
+    "end": "13:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=df2d3353-7005-4719-83b7-263534989ca3"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
+    "start": "13:00",
+    "end": "14:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-markham-thornlea-pool-gymnasium",
+    "start": "13:00",
+    "end": "14:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=07358acb-16e9-4ec2-bb5c-6a011c2a830d"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-markham-centennial-community-centre",
+    "start": "13:05",
+    "end": "14:05",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $13.45",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=3cf83ce3-503e-47c2-8058-4641211122dd"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "13:10",
+    "end": "14:10",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $13.45",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=90e5cf69-e592-480b-9270-bbab7f34954e"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "13:15",
+    "end": "14:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=333ca8a1-498f-4ad5-97ba-be52d3e6b0b3"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "13:15",
+    "end": "14:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $13.45",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=110f6f38-19f8-4efe-aaa5-c7494d6dcdda"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "13:15",
+    "end": "14:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=60b2ec28-a56f-44be-9579-43931cb3cd57"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-richmond-hill-richvale-pool",
+    "start": "13:15",
+    "end": "14:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "13:30",
+    "end": "14:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1e6d1404-3278-49b9-a53d-785b8151c5f3"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-dufferin-clark-community-centre",
+    "start": "13:30",
+    "end": "15:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2ff48036-9bd7-4d74-bb73-01b4d0608dd2"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-vellore-village-community-centre",
+    "start": "13:30",
+    "end": "15:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=62593645-4f71-4fdb-8d20-0548b98a5f52"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "13:45",
+    "end": "14:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $13.45",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=62355491-88de-4932-95de-3d8debfe1a9b"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "13:45",
+    "end": "14:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6c96297d-ce86-4046-99f5-edb4fbdc897d"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-maple-community-centre",
+    "start": "14:00",
+    "end": "15:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7bb6a601-456c-4107-a65d-146be7575dc9"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-markham-thornhill-community-centre",
+    "start": "14:00",
+    "end": "14:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=65a55eea-ffbc-4067-94f4-3ddf16cb1b72"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "14:15",
+    "end": "15:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $13.45",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=cc5ce027-fc4c-4662-ba18-16dfc83fe3a8"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
+    "start": "14:15",
+    "end": "15:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "14:15",
+    "end": "15:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $13.45",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=452acd0d-e22f-4b52-82f9-22ad72346795"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-chancellor-community-centre",
+    "start": "14:30",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=ef192dea-0755-48eb-8d9c-78bfb0c1324d"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-richmond-hill-elgin-west-pool",
+    "start": "14:30",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "14:30",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=487f2e5b-3ddf-4e7a-ad62-16e57a089deb"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
+    "start": "14:30",
+    "end": "16:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "14:45",
+    "end": "16:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=cd8f5f37-6cdc-4450-801c-95193b1e2202"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-richmond-hill-richvale-pool",
+    "start": "14:45",
+    "end": "15:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-richmond-hill-centennial-pool",
+    "start": "15:00",
+    "end": "16:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "15:00",
+    "end": "16:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=8dff82a2-0ab9-4d25-81f6-c57f8d74d274"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-markham-thornhill-community-centre",
+    "start": "15:00",
+    "end": "16:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=165ab63d-4cb4-4493-acba-7a8ca6faa18e"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "15:15",
+    "end": "16:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $13.45",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=5b47d529-f5d3-4151-9d7b-3a56273d11c3"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-richmond-hill-the-wave-pool",
+    "start": "15:35",
+    "end": "17:35",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "19:15",
+    "end": "20:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=9ac5efc1-454f-4638-bb87-0024f862548d"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "19:15",
+    "end": "20:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=2d1d3f16-aa05-4409-927e-353784ea6e01"
+  },
+  {
+    "date": "2026-10-18",
+    "venue": "regional-markham-thornlea-pool-gymnasium",
+    "start": "20:15",
+    "end": "21:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $13.45",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=b206e939-c86b-4d6d-90c2-ca2e9737619c"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "06:30",
+    "end": "07:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=316fc8fb-3dee-4bda-8f66-892d25536605"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "06:30",
+    "end": "07:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2d1ebaee-526f-4e0e-88f2-7632888dd58e"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-richvale-pool",
+    "start": "06:30",
+    "end": "08:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "06:45",
+    "end": "07:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=5e95356d-863d-4621-8066-6fd898ee4e91"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "06:45",
+    "end": "07:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=563b51f1-eb30-44f1-bf21-c9e5a7d2f4c3"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-vellore-village-community-centre",
+    "start": "06:45",
+    "end": "07:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e8ee8627-f43f-45f9-a72e-75ee7296ca02"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "07:00",
+    "end": "08:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=606f5dae-dcfd-4011-8b4d-91b382827c7f"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "07:00",
+    "end": "08:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=7fcdbb89-637f-4aa7-b4c1-94acdbc127a9"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "07:00",
+    "end": "08:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=67bd0810-93a2-4622-897b-c90dbc9cd99e"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-dufferin-clark-community-centre",
+    "start": "07:30",
+    "end": "08:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7ef28a4c-2abf-4b7e-8c0b-ff840ff8fae9"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
+    "start": "07:30",
+    "end": "09:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-thornlea-pool-gymnasium",
+    "start": "07:30",
+    "end": "08:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=7c6ecd1b-7179-4b0f-8931-ce3c53073877"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-centennial-community-centre",
+    "start": "07:45",
+    "end": "08:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=d4e77d75-cf24-442a-8a6b-ecb3d94da5b7"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "07:45",
+    "end": "08:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e3818c24-1837-4093-834a-bc4ad3d13c1e"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=f9a9a9e0-0ff2-4e2d-9b79-9d1caa1ab1c9"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "08:00",
+    "end": "08:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f4f941c4-c6e3-47a8-bd3e-78909a30abc9"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "08:00",
+    "end": "08:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=5d766057-da9a-489e-9f43-174781a8f0c1"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "08:00",
+    "end": "08:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=931b4d4d-b416-4a8b-9bc6-2928e97c49f9"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=5c275a09-08e2-462e-bc68-f886d9e54308"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=991f64b8-17a6-4c7b-a59b-4733c5d44f5d"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-vellore-village-community-centre",
+    "start": "08:00",
+    "end": "08:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=bfcbdd66-0b0b-46d1-b43d-c9acd342f8d7"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-chancellor-community-centre",
+    "start": "08:15",
+    "end": "09:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=b710920f-1251-4bc3-9b15-98ce2ddfbc46"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
+    "start": "08:15",
+    "end": "09:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4c644a72-c1fd-48bf-a003-5e22953919e8"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-maple-community-centre",
+    "start": "08:15",
+    "end": "09:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=902076a8-8cba-4bba-8dca-3eb7c925dbbd"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-dufferin-clark-community-centre",
+    "start": "08:30",
+    "end": "09:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9d6cbff7-ad60-4bf3-9b9b-d53d0484d90e"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "08:30",
+    "end": "09:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1bb77aa8-0416-43f3-9728-963a99850660"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-thornhill-community-centre",
+    "start": "08:30",
+    "end": "09:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=dd1a5e34-e2b3-440b-a821-38a44877c156"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-thornlea-pool-gymnasium",
+    "start": "08:30",
+    "end": "09:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=bf589972-8591-45ed-939d-23875b2ca58f"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "08:45",
+    "end": "09:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=5c580bef-4115-4faf-a090-2030fb6ae9d5"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-the-wave-pool",
+    "start": "08:55",
+    "end": "09:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/aquafitness-schedule-and-fees.aspx"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=5f99238b-0eec-40f5-b595-629d0767ca2c"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "09:00",
+    "end": "09:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=335bd9ce-b825-4298-9efd-2a6496a6e493"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "09:00",
+    "end": "09:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=f1bfa247-8ae3-4e4e-8212-6de93b0e2a92"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "09:00",
+    "end": "09:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=0d9a1885-df90-4661-ae56-731bfb4dc158"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-centennial-community-centre",
+    "start": "09:00",
+    "end": "09:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=512068ab-f82f-4766-99b0-2e699632c1e7"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-vellore-village-community-centre",
+    "start": "09:00",
+    "end": "09:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=dbfff1dd-bb6d-45b4-b1cb-516f7edd5330"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "09:10",
+    "end": "09:55",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=2b8e9869-4eaf-4b5e-9084-30fb570a9eff"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-chancellor-community-centre",
+    "start": "09:15",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1e7be71a-aa33-4fbc-8fa8-cec964063c4b"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
+    "start": "09:15",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=18596563-1754-4f19-b68a-273e4d2f400f"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-maple-community-centre",
+    "start": "09:15",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7f1c493f-1058-4c08-a42d-9a904bbf484f"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "09:15",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=4bd4ec74-01a9-4fba-9310-d4e5e0f73c4b"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-dufferin-clark-community-centre",
+    "start": "09:30",
+    "end": "10:45",
+    "type": "Lane Swim",
+    "womenOnly": true,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=951661f4-9fbf-4055-afa2-1c2eeadfb5cf"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "09:30",
+    "end": "10:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=91a96fb7-89e1-618e-6956-b2fad83b2042"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
+    "start": "09:30",
+    "end": "10:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-thornhill-community-centre",
+    "start": "09:30",
+    "end": "10:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.58",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=120c2dc7-674d-4087-9845-02b008a861f0"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-thornlea-pool-gymnasium",
+    "start": "09:30",
+    "end": "10:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=eb53d1e3-5fd3-421e-a19b-f9afeaf66b5c"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-elgin-west-pool",
+    "start": "09:35",
+    "end": "10:25",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/aquafitness-schedule-and-fees.aspx"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
+    "start": "09:45",
+    "end": "10:35",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/aquafitness-schedule-and-fees.aspx"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "09:45",
+    "end": "10:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=15877043-a3f4-4352-af0d-381a5ae426ec"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-the-wave-pool",
+    "start": "09:45",
+    "end": "10:35",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/aquafitness-schedule-and-fees.aspx"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-the-wave-pool",
+    "start": "09:45",
+    "end": "10:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/aquafitness-schedule-and-fees.aspx"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "10:00",
+    "end": "11:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=48eb024a-0655-45b9-85d3-9e139bf1453b"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "10:00",
+    "end": "11:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6f1bad52-0f0a-44d0-a1da-e17d6d02ce13"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "10:00",
+    "end": "10:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=ca7b6f97-247d-4d96-a4cd-e75686897afd"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "10:00",
+    "end": "11:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=920c7f9a-a2d1-4c24-b1b2-7d9360292230"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-centennial-community-centre",
+    "start": "10:00",
+    "end": "10:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=c3a7cf47-a34d-4963-817d-e069579f5b7f"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "10:00",
+    "end": "11:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=3de05041-5156-4ded-9c45-1611b305a708"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-richvale-pool",
+    "start": "10:00",
+    "end": "11:00",
+    "type": "Lane Swim",
+    "womenOnly": true,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-vellore-village-community-centre",
+    "start": "10:00",
+    "end": "11:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2c1754a0-85d7-4f13-ac2a-0f95e88a0f87"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "10:15",
+    "end": "11:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=6675dab5-d6eb-4dd0-bff3-9870136482f3"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-chancellor-community-centre",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=42e8b5b5-2866-4562-9fd2-b83b499fbba2"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-chancellor-community-centre",
+    "start": "10:15",
+    "end": "13:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=0965dbd0-f622-4a04-bc13-eb4c121410fa"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
+    "start": "10:15",
+    "end": "12:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=dc1bb90b-1add-49de-8c6c-4da0d5d1a7bb"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-maple-community-centre",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=b9af92fb-0be8-420e-84b3-9c5ba6cb1192"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "10:15",
+    "end": "11:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=0f594524-df70-45dd-af90-b78d30e13273"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-centennial-pool",
+    "start": "10:30",
+    "end": "11:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-elgin-west-pool",
+    "start": "10:30",
+    "end": "13:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "10:30",
+    "end": "11:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=5968317b-7857-4013-a248-7b188959ee80"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "10:30",
+    "end": "11:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $14.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=13ce236e-1239-47a2-b420-29174d7e53db"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
+    "start": "10:30",
+    "end": "13:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-thornhill-community-centre",
+    "start": "10:30",
+    "end": "11:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.58",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=6e7b9e06-7563-4b87-b571-af9cbd21ab9d"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-thornlea-pool-gymnasium",
+    "start": "10:30",
+    "end": "11:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=07188ac1-9d3c-4570-bb3e-1c08ff6e76af"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
+    "start": "10:30",
+    "end": "11:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f7d0eaba-42e7-4a7f-9077-ec2526aa849e"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
+    "start": "10:30",
+    "end": "11:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=fb558977-3b29-4552-8b77-0982cee3316e"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
+    "start": "10:45",
+    "end": "13:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "10:45",
+    "end": "11:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=b6950a27-54ee-4f0d-b18f-79b0fefa93fb"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "10:45",
+    "end": "11:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=8dc4df79-3425-4b97-a6f9-edf753ecfe2e"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-the-wave-pool",
+    "start": "10:45",
+    "end": "12:40",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "11:00",
+    "end": "12:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=c27c5a53-3456-4300-a1f2-8b7af873bd98"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "11:00",
+    "end": "12:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=18475853-35fa-46f8-8090-5f3c6ed6f07d"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "11:00",
+    "end": "12:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=ab9de08e-57b3-47f2-9548-26b84b75379b"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "11:00",
+    "end": "12:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=b3495715-5e48-4fb9-8020-4fc3cb89de0a"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "11:00",
+    "end": "12:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=89f5294f-89d5-4c3f-87a7-1e608a7d80bc"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "11:00",
+    "end": "12:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=9a96d8dc-8f33-474e-9c4e-6fe005cf44cd"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-dufferin-clark-community-centre",
+    "start": "11:00",
+    "end": "12:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=067320e2-cc9c-4f03-882b-330a979382c5"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-vellore-village-community-centre",
+    "start": "11:00",
+    "end": "12:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=3c882f88-b408-4f8d-be4b-5f367a423b75"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-vellore-village-community-centre",
+    "start": "11:00",
+    "end": "12:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=83ad7334-a5ca-4b5a-8b4c-e495ba4c4902"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "11:15",
+    "end": "12:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=2852d00d-0352-45d3-9a29-3faadb82893d"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-centennial-community-centre",
+    "start": "11:15",
+    "end": "12:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=87c3b373-f7af-49f1-94e9-830812fa7296"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-chancellor-community-centre",
+    "start": "11:15",
+    "end": "12:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9ae077e3-8f5b-4d87-826d-f7ce88fc5fd9"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-maple-community-centre",
+    "start": "11:15",
+    "end": "12:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=70599d07-1597-46c5-befd-af6e3492eefe"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "11:15",
+    "end": "12:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=6aec8755-bf94-4d04-87f9-5b0358251dba"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-centennial-pool",
+    "start": "11:30",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "11:30",
+    "end": "12:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=3ab8a1f5-1876-4834-81ef-680182d5f600"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
+    "start": "11:30",
+    "end": "12:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=478569cb-b8e1-4617-8feb-a4dc69788e7f"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
+    "start": "11:30",
+    "end": "12:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e40e2aae-ae33-4bb9-87a7-11760c381c67"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "11:45",
+    "end": "12:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1f90b1a2-b967-483e-b514-65a81c8e9f96"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "11:45",
+    "end": "12:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=0b094126-44c4-4b3d-9344-28442d1c0e2c"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=89ee393e-e0aa-44d7-9c97-19b43b681ce5"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=aa4d1922-c594-48dd-ad16-1527a9a36108"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=4edc0e27-bb4e-4d8b-a52b-1cbcb4a82b04"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=da78e676-8bc4-4707-8c54-b0aa693a29f0"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=8519263a-36bf-4c76-8a4f-85f5e6602ef8"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-dufferin-clark-community-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=efd19e2a-997d-4431-93e5-f436dbdacdea"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-thornhill-community-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.58",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=b38b26a1-942f-4328-b8c0-2a6f0fcd6552"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-vellore-village-community-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=375dcd39-b700-4e3c-b04e-ff3e63908c92"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-vellore-village-community-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=83bae25c-15d0-4628-b309-7bb92d6733e8"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "12:10",
+    "end": "12:55",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=c16016df-70b8-490f-a8d1-dd99cd2525d5"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "12:15",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=c00de8af-e722-474c-8b55-c665b09d8fdd"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "12:15",
+    "end": "13:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=965583c0-257d-4f47-afc3-0435d0224055"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-centennial-community-centre",
+    "start": "12:15",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=7060abf3-cbeb-4e00-b80f-c43acd62bb93"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-chancellor-community-centre",
+    "start": "12:15",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7ffdac6f-7529-44c0-b119-6ec1f85863fe"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-maple-community-centre",
+    "start": "12:15",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=d127c136-0c69-43ab-9386-fbee29cffa92"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "12:15",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=6a798530-9d58-4975-bcce-628970fd1c00"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "12:30",
+    "end": "13:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=efca9370-ab5f-4ce6-a6f0-cf75f97df4a6"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
+    "start": "12:30",
+    "end": "13:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=74f44650-933a-4b72-93e9-5b3faf834a41"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
+    "start": "12:30",
+    "end": "13:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=ee757770-b048-4042-8b51-70c31edd75f9"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "12:45",
+    "end": "13:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=59928a25-5e84-4b10-a104-f9031904eae6"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "12:45",
+    "end": "13:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=986ecef0-17ff-45dd-92c5-05f65341265d"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "13:00",
+    "end": "14:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=359f6f20-3d28-4a6e-bc56-79eb87dc2db6"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-thornhill-community-centre",
+    "start": "13:00",
+    "end": "13:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.58",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=e1cc1cfb-d66a-46ec-b0f3-08fc243c7c47"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "13:15",
+    "end": "14:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=d97fa4ce-90b8-4a8e-9f04-766005e0df45"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "13:15",
+    "end": "14:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=3461b027-9efd-41d1-a4fa-00b911263d60"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
+    "start": "13:30",
+    "end": "14:30",
+    "type": "Lane Swim",
+    "womenOnly": true,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "14:00",
+    "end": "15:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=683f5034-ac47-47a3-aa3f-448feec01311"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-thornhill-community-centre",
+    "start": "14:00",
+    "end": "14:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=65a55eea-ffbc-4067-94f4-3ddf16cb1b72"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-elgin-west-pool",
+    "start": "14:45",
+    "end": "15:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
+    "start": "18:15",
+    "end": "19:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "19:00",
+    "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": true,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=0e250145-e21a-47e3-a031-aaf8b1c38774"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
+    "start": "19:15",
+    "end": "20:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f71c5d51-5a21-455b-a408-4cb9ae5490b3"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "19:45",
+    "end": "20:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=3c3ee86c-adab-495e-87d9-789d6772098a"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-chancellor-community-centre",
+    "start": "19:45",
+    "end": "20:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=431c1744-e0a1-453b-a2b7-88f68d55a5c4"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-elgin-west-pool",
+    "start": "19:45",
+    "end": "21:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "19:45",
+    "end": "20:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $11.25",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e639a38b-1992-4d76-b613-4455170f445b"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "19:45",
+    "end": "20:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=5e0be7e5-375f-4c93-932d-47be61423a20"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "20:00",
+    "end": "21:00",
+    "type": "Leisure Swim",
+    "womenOnly": true,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=ea79f5d8-0f4c-4202-bb15-138ccffbf929"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "20:00",
+    "end": "21:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=e6199aef-9b34-48b1-ad45-a9bdd135ac37"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "20:00",
+    "end": "21:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=fe124a58-3413-4ec9-86eb-7fd45394c780"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
+    "start": "20:00",
+    "end": "20:50",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/aquafitness-schedule-and-fees.aspx"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "20:00",
+    "end": "20:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e566b63e-f6fb-4549-af3b-8ffb063e5dda"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-centennial-community-centre",
+    "start": "20:00",
+    "end": "21:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=0ba6d4c3-8c73-4541-8bf2-0cb2ea395c97"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-maple-community-centre",
+    "start": "20:00",
+    "end": "20:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4287c285-cc73-4140-9727-878b39c0deac"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-vellore-village-community-centre",
+    "start": "20:00",
+    "end": "20:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=a0dd01df-6301-47b5-8e5a-a53be87849b8"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "20:05",
+    "end": "21:05",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $13.45",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=013cdf28-fff2-4d59-ad34-0b1740da307a"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
+    "start": "20:15",
+    "end": "21:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-thornhill-community-centre",
+    "start": "20:15",
+    "end": "21:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=146b75ce-c1b1-4741-9c35-6e181641cc04"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "20:30",
+    "end": "21:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=44c9262b-5d19-4d8c-822c-597a86c06226"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "20:45",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=25927b90-339d-4f3b-b6f4-890bce0bed41"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-chancellor-community-centre",
+    "start": "20:45",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=44f2d750-4472-48e1-87f9-9d5e6e54bef0"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "20:45",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4f17fe21-7d31-4056-be6b-aa78d39b32ae"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "20:45",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=c28d6184-fdc0-47d6-8c38-40b87b849667"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "21:00",
+    "end": "22:00",
+    "type": "Leisure Swim",
+    "womenOnly": true,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=cdd04ae7-1ba5-40c5-ab5f-6160b4aa3cc9"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "21:00",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=35b12ddf-b23b-486e-9875-7298098f8e9e"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
+    "start": "21:00",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "21:00",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2c097995-e6f6-4f9d-9c8e-6f9867e661d1"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-centennial-pool",
+    "start": "21:00",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-dufferin-clark-community-centre",
+    "start": "21:00",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=ffa5cf23-93e0-4dd0-baa5-305919863b12"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-maple-community-centre",
+    "start": "21:00",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9576c95c-6e6f-4c09-9dfd-def25b0c9cb8"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-vaughan-vellore-village-community-centre",
+    "start": "21:00",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=de06a99d-fd33-4642-980e-d4eefdd3d52a"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-markham-thornlea-pool-gymnasium",
+    "start": "21:30",
+    "end": "22:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=f6862b1e-4b57-432f-8333-7a2c766e2cac"
+  },
+  {
+    "date": "2026-10-19",
+    "venue": "regional-richmond-hill-richvale-pool",
+    "start": "23:00",
+    "end": "13:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "06:00",
+    "end": "07:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=458c809f-7708-4835-a028-0ddc1e5229fa"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "06:30",
+    "end": "07:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=316fc8fb-3dee-4bda-8f66-892d25536605"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-richmond-hill-centennial-pool",
+    "start": "06:30",
+    "end": "08:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-richmond-hill-elgin-west-pool",
+    "start": "06:30",
+    "end": "08:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "06:30",
+    "end": "07:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2d1ebaee-526f-4e0e-88f2-7632888dd58e"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "06:45",
+    "end": "07:45",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=563b51f1-eb30-44f1-bf21-c9e5a7d2f4c3"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-maple-community-centre",
+    "start": "07:00",
+    "end": "08:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1e5290be-8669-423b-97e2-a586518762fc"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "07:00",
+    "end": "08:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=7fcdbb89-637f-4aa7-b4c1-94acdbc127a9"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "07:00",
+    "end": "08:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=67bd0810-93a2-4622-897b-c90dbc9cd99e"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
+    "start": "07:15",
+    "end": "08:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "07:15",
+    "end": "08:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=d6c72783-e01c-4d30-8686-e4967543872a"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-thornlea-pool-gymnasium",
+    "start": "07:30",
+    "end": "08:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=7c6ecd1b-7179-4b0f-8931-ce3c53073877"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "07:45",
+    "end": "08:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e3818c24-1837-4093-834a-bc4ad3d13c1e"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=f9a9a9e0-0ff2-4e2d-9b79-9d1caa1ab1c9"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "08:00",
+    "end": "08:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f4f941c4-c6e3-47a8-bd3e-78909a30abc9"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "08:00",
+    "end": "08:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=5d766057-da9a-489e-9f43-174781a8f0c1"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "08:00",
+    "end": "08:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=931b4d4d-b416-4a8b-9bc6-2928e97c49f9"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-centennial-community-centre",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=c0a74c07-78cb-41dd-aea0-8dd8be09a02b"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=991f64b8-17a6-4c7b-a59b-4733c5d44f5d"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-pan-am-centre",
+    "start": "08:00",
+    "end": "09:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=f27477ed-0572-488d-83be-0b5c4143cf01"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-vellore-village-community-centre",
+    "start": "08:00",
+    "end": "08:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=bfcbdd66-0b0b-46d1-b43d-c9acd342f8d7"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-chancellor-community-centre",
+    "start": "08:15",
+    "end": "09:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=b710920f-1251-4bc3-9b15-98ce2ddfbc46"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "08:15",
+    "end": "09:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=8d2ec412-3e97-4eeb-b377-c185edc42846"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
+    "start": "08:15",
+    "end": "09:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4c644a72-c1fd-48bf-a003-5e22953919e8"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-maple-community-centre",
+    "start": "08:15",
+    "end": "09:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=902076a8-8cba-4bba-8dca-3eb7c925dbbd"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-richmond-hill-centennial-pool",
+    "start": "08:30",
+    "end": "09:30",
+    "type": "Lane Swim",
+    "womenOnly": true,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-dufferin-clark-community-centre",
+    "start": "08:30",
+    "end": "09:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9d6cbff7-ad60-4bf3-9b9b-d53d0484d90e"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "08:30",
+    "end": "09:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1bb77aa8-0416-43f3-9728-963a99850660"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
+    "start": "08:30",
+    "end": "09:20",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/aquafitness-schedule-and-fees.aspx"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-thornlea-pool-gymnasium",
+    "start": "08:30",
+    "end": "09:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=bf589972-8591-45ed-939d-23875b2ca58f"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "08:45",
+    "end": "09:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=5c580bef-4115-4faf-a090-2030fb6ae9d5"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=5f99238b-0eec-40f5-b595-629d0767ca2c"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "09:00",
+    "end": "09:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=335bd9ce-b825-4298-9efd-2a6496a6e493"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "09:00",
+    "end": "09:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=f1bfa247-8ae3-4e4e-8212-6de93b0e2a92"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "09:00",
+    "end": "09:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=0d9a1885-df90-4661-ae56-731bfb4dc158"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-centennial-community-centre",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=395d86e3-3ece-4ac7-82f1-07f6e43fe9ff"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-pan-am-centre",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=034aaefe-7de9-4f61-bbc9-b13fb6d1e4c0"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-thornhill-community-centre",
+    "start": "09:00",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.58",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=b2f22920-c188-4786-bfb5-dad77f3da62e"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-vellore-village-community-centre",
+    "start": "09:00",
+    "end": "09:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=dbfff1dd-bb6d-45b4-b1cb-516f7edd5330"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-chancellor-community-centre",
+    "start": "09:15",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1e7be71a-aa33-4fbc-8fa8-cec964063c4b"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
+    "start": "09:15",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=18596563-1754-4f19-b68a-273e4d2f400f"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-maple-community-centre",
+    "start": "09:15",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7f1c493f-1058-4c08-a42d-9a904bbf484f"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "09:15",
+    "end": "10:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=4bd4ec74-01a9-4fba-9310-d4e5e0f73c4b"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-richmond-hill-richvale-pool",
+    "start": "09:20",
+    "end": "10:10",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/aquafitness-schedule-and-fees.aspx"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "09:30",
+    "end": "10:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=01635166-242f-4695-b60e-66f6a3e77d82"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "09:30",
+    "end": "10:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=3b7321f6-9ef3-47cb-8f04-7d917b695b4d"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-dufferin-clark-community-centre",
+    "start": "09:30",
+    "end": "10:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f8089abe-48ed-45b3-b3bf-6f61a66dc59a"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "09:30",
+    "end": "10:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=1ea85ee5-d48e-47b3-a0cc-4b82bd2f7b4e"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
+    "start": "09:45",
+    "end": "13:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "09:45",
+    "end": "10:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=15877043-a3f4-4352-af0d-381a5ae426ec"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-thornlea-pool-gymnasium",
+    "start": "09:45",
+    "end": "10:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$7.11 - $10.12",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=47f9f20b-3d21-4afa-b1e2-81dd1365a8e2"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "10:00",
+    "end": "11:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=48eb024a-0655-45b9-85d3-9e139bf1453b"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "10:00",
+    "end": "11:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6f1bad52-0f0a-44d0-a1da-e17d6d02ce13"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "10:00",
+    "end": "10:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=ca7b6f97-247d-4d96-a4cd-e75686897afd"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "10:00",
+    "end": "11:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=920c7f9a-a2d1-4c24-b1b2-7d9360292230"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "10:00",
+    "end": "11:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $14.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=856dc3a6-f47c-456f-af2d-d35456b95613"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-pan-am-centre",
+    "start": "10:00",
+    "end": "11:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=59f851e6-6d2b-4806-af9a-c03bb0d04566"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-thornhill-community-centre",
+    "start": "10:00",
+    "end": "10:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.58",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=9ca195d8-4ee6-46b0-a698-36195a10fd0f"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-vellore-village-community-centre",
+    "start": "10:00",
+    "end": "11:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2c1754a0-85d7-4f13-ac2a-0f95e88a0f87"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "10:15",
+    "end": "11:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=6675dab5-d6eb-4dd0-bff3-9870136482f3"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-centennial-community-centre",
+    "start": "10:15",
+    "end": "11:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=fc616c9a-bfdc-4dde-828d-128b2c13ac72"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-chancellor-community-centre",
+    "start": "10:15",
+    "end": "11:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=42e8b5b5-2866-4562-9fd2-b83b499fbba2"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-chancellor-community-centre",
+    "start": "10:15",
+    "end": "13:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=0965dbd0-f622-4a04-bc13-eb4c121410fa"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
+    "start": "10:15",
+    "end": "12:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=dc1bb90b-1add-49de-8c6c-4da0d5d1a7bb"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-maple-community-centre",
+    "start": "10:15",
+    "end": "11:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2b338144-b1d2-4440-b085-aaab7c46de4a"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "10:15",
+    "end": "11:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=0f594524-df70-45dd-af90-b78d30e13273"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-richmond-hill-richvale-pool",
+    "start": "10:15",
+    "end": "11:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-richmond-hill-centennial-pool",
+    "start": "10:30",
+    "end": "11:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "10:30",
+    "end": "11:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=7c4611a2-8f7c-4860-ad26-551cba3b6d28"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-dufferin-clark-community-centre",
+    "start": "10:30",
+    "end": "11:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=8c31a786-1951-4bfe-a019-5c3383da04c1"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-richmond-hill-elgin-west-pool",
+    "start": "10:30",
+    "end": "13:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "10:30",
+    "end": "11:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=5968317b-7857-4013-a248-7b188959ee80"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "10:30",
+    "end": "11:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $14.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=13ce236e-1239-47a2-b420-29174d7e53db"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
+    "start": "10:30",
+    "end": "13:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
+    "start": "10:30",
+    "end": "11:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f7d0eaba-42e7-4a7f-9077-ec2526aa849e"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
+    "start": "10:30",
+    "end": "11:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=fb558977-3b29-4552-8b77-0982cee3316e"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "10:45",
+    "end": "11:45",
+    "type": "Lane Swim",
+    "womenOnly": true,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=45923c21-d6e9-42af-a0de-c29bc8a1a017"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-richmond-hill-the-wave-pool",
+    "start": "10:45",
+    "end": "12:40",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-thornlea-pool-gymnasium",
+    "start": "10:45",
+    "end": "11:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$7.11 - $10.12",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=71d74fb0-607c-4854-a2d2-cc7e303abd4e"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "11:00",
+    "end": "12:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=c27c5a53-3456-4300-a1f2-8b7af873bd98"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "11:00",
+    "end": "12:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=18475853-35fa-46f8-8090-5f3c6ed6f07d"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "11:00",
+    "end": "12:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=ab9de08e-57b3-47f2-9548-26b84b75379b"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "11:00",
+    "end": "12:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=b3495715-5e48-4fb9-8020-4fc3cb89de0a"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "11:00",
+    "end": "12:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=89f5294f-89d5-4c3f-87a7-1e608a7d80bc"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "11:00",
+    "end": "12:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $14.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=dcc202fb-bf09-46c5-809e-a2cf9713eb0d"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-pan-am-centre",
+    "start": "11:00",
+    "end": "12:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=e75d2be9-5073-4cda-a24b-3f1e546d1b15"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-vellore-village-community-centre",
+    "start": "11:00",
+    "end": "12:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=3c882f88-b408-4f8d-be4b-5f367a423b75"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-vellore-village-community-centre",
+    "start": "11:00",
+    "end": "12:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=83ad7334-a5ca-4b5a-8b4c-e495ba4c4902"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "11:15",
+    "end": "12:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=2852d00d-0352-45d3-9a29-3faadb82893d"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-chancellor-community-centre",
+    "start": "11:15",
+    "end": "12:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=9ae077e3-8f5b-4d87-826d-f7ce88fc5fd9"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-maple-community-centre",
+    "start": "11:15",
+    "end": "12:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=70599d07-1597-46c5-befd-af6e3492eefe"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "11:15",
+    "end": "12:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=6aec8755-bf94-4d04-87f9-5b0358251dba"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-richmond-hill-centennial-pool",
+    "start": "11:30",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "11:30",
+    "end": "12:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=3910b861-acd4-4d92-9057-d68af7938282"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "11:30",
+    "end": "12:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=fd413bef-b4c4-4ed9-801d-d1372ce6f4cb"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-dufferin-clark-community-centre",
+    "start": "11:30",
+    "end": "12:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=02df7af5-ca57-47d0-9d46-ae253035708e"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "11:30",
+    "end": "12:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=3ab8a1f5-1876-4834-81ef-680182d5f600"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
+    "start": "11:30",
+    "end": "12:15",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=478569cb-b8e1-4617-8feb-a4dc69788e7f"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
+    "start": "11:30",
+    "end": "12:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e40e2aae-ae33-4bb9-87a7-11760c381c67"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=89ee393e-e0aa-44d7-9c97-19b43b681ce5"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=aa4d1922-c594-48dd-ad16-1527a9a36108"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=4edc0e27-bb4e-4d8b-a52b-1cbcb4a82b04"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=da78e676-8bc4-4707-8c54-b0aa693a29f0"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=8519263a-36bf-4c76-8a4f-85f5e6602ef8"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4cac58a8-786f-47be-a8dd-f9d92d70b1ae"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=71fff815-7321-438c-a8ee-026f3c04c4ee"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-thornhill-community-centre",
+    "start": "12:00",
+    "end": "12:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=0fe6fba9-3804-448b-a630-fd206350c1c0"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-vellore-village-community-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=375dcd39-b700-4e3c-b04e-ff3e63908c92"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-vellore-village-community-centre",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=83bae25c-15d0-4628-b309-7bb92d6733e8"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "12:15",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=c00de8af-e722-474c-8b55-c665b09d8fdd"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "12:15",
+    "end": "13:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=965583c0-257d-4f47-afc3-0435d0224055"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-chancellor-community-centre",
+    "start": "12:15",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=7ffdac6f-7529-44c0-b119-6ec1f85863fe"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-maple-community-centre",
+    "start": "12:15",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=d127c136-0c69-43ab-9386-fbee29cffa92"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "12:15",
+    "end": "13:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=6a798530-9d58-4975-bcce-628970fd1c00"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-dufferin-clark-community-centre",
+    "start": "12:30",
+    "end": "13:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=0c2f6196-0848-4592-9e32-c323bc340a6e"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "12:30",
+    "end": "13:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=efca9370-ab5f-4ce6-a6f0-cf75f97df4a6"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
+    "start": "12:30",
+    "end": "13:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=74f44650-933a-4b72-93e9-5b3faf834a41"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
+    "start": "12:30",
+    "end": "13:30",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=ee757770-b048-4042-8b51-70c31edd75f9"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "13:00",
+    "end": "14:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f3fc4ee1-06ad-4660-bd91-6dd4e749677b"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "13:00",
+    "end": "14:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=065c285d-ca82-4da1-9223-1ea4ec2aaf8c"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-thornhill-community-centre",
+    "start": "13:00",
+    "end": "13:45",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=cf7359b8-1386-4340-b22a-aa80b9c4b2ca"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "13:15",
+    "end": "14:15",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=d97fa4ce-90b8-4a8e-9f04-766005e0df45"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "13:15",
+    "end": "14:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=3461b027-9efd-41d1-a4fa-00b911263d60"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "13:15",
+    "end": "14:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=68eb56a6-1a55-42e9-9e1d-a9684500be65"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-maple-community-centre",
+    "start": "18:30",
+    "end": "19:30",
+    "type": "Lane Swim",
+    "womenOnly": true,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=089eda7a-2991-415d-b912-512fc6651c17"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-richmond-hill-the-wave-pool",
+    "start": "18:45",
+    "end": "20:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-richmond-hill-richvale-pool",
+    "start": "19:00",
+    "end": "20:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
+    "start": "19:15",
+    "end": "20:00",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=f71c5d51-5a21-455b-a408-4cb9ae5490b3"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
+    "start": "19:30",
+    "end": "21:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-richmond-hill-elgin-west-pool",
+    "start": "19:35",
+    "end": "20:25",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/aquafitness-schedule-and-fees.aspx"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "19:45",
+    "end": "20:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=3c3ee86c-adab-495e-87d9-789d6772098a"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-chancellor-community-centre",
+    "start": "19:45",
+    "end": "20:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=431c1744-e0a1-453b-a2b7-88f68d55a5c4"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "19:45",
+    "end": "20:30",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=5e0be7e5-375f-4c93-932d-47be61423a20"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "20:00",
+    "end": "21:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=e6199aef-9b34-48b1-ad45-a9bdd135ac37"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "20:00",
+    "end": "21:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=fe124a58-3413-4ec9-86eb-7fd45394c780"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "20:00",
+    "end": "20:45",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e566b63e-f6fb-4549-af3b-8ffb063e5dda"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-maple-community-centre",
+    "start": "20:00",
+    "end": "20:45",
+    "type": "Aquafit",
+    "womenOnly": true,
+    "free": false,
+    "fee": "$0.00 - $12.50",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4dbfa65a-2484-41e4-8376-3c09e7dd0f0f"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
+    "start": "20:00",
+    "end": "21:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=71f70318-c0f7-4488-a0d6-611b15cc274c"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-woodbridge-pool-memorial-arena",
+    "start": "20:00",
+    "end": "21:00",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=6e0852e2-01ac-46b7-8737-b05c13150bcb"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "20:05",
+    "end": "20:50",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "No fee",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=4ce6a7d5-334f-48d4-a94c-701f0a1c9ba4"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-father-ermanno-bulfon-community-centre",
+    "start": "20:15",
+    "end": "21:15",
+    "type": "Leisure Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=a019fe72-0fea-46e6-a452-86603da482ff"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-richmond-hill-oak-ridges-pool",
+    "start": "20:15",
+    "end": "21:05",
+    "type": "Aquafit",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/aquafitness-schedule-and-fees.aspx"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-milliken-mills-community-centre",
+    "start": "20:30",
+    "end": "21:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=44c9262b-5d19-4d8c-822c-597a86c06226"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-al-palladini-community-centre",
+    "start": "20:45",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=25927b90-339d-4f3b-b6f4-890bce0bed41"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-chancellor-community-centre",
+    "start": "20:45",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=44f2d750-4472-48e1-87f9-9d5e6e54bef0"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-dufferin-clark-community-centre",
+    "start": "20:45",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=b3bf8c3a-63d0-4a1d-9daa-f0ce15f82710"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-garnet-a-williams-community-centre",
+    "start": "20:45",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=4f17fe21-7d31-4056-be6b-aa78d39b32ae"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-north-thornhill-community-centre",
+    "start": "20:45",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=c28d6184-fdc0-47d6-8c38-40b87b849667"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-aaniin-community-centre",
+    "start": "21:00",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=be10c7dd-1a88-4fce-be44-ec6a4ae2cac8"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-angus-glen-community-centre",
+    "start": "21:00",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=35b12ddf-b23b-486e-9875-7298098f8e9e"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-richmond-hill-bayview-hill-pool",
+    "start": "21:00",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-carrville-community-centre",
+    "start": "21:00",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=2c097995-e6f6-4f9d-9c8e-6f9867e661d1"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-markham-cornell-community-centre",
+    "start": "21:00",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "$0.00 - $5.17",
+    "source": "https://cityofmarkham.perfectmind.com/Clients/BookMe4LandingPages/Class?widgetId=6825ea71-e5b7-4c2a-948f-9195507ad90a&classId=bf977644-5efa-4436-a1b8-344eb746b2cb"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-vaughan-maple-community-centre",
+    "start": "21:00",
+    "end": "22:00",
+    "type": "Lane Swim",
+    "womenOnly": true,
+    "free": false,
+    "fee": "$0.00 - $7.00",
+    "source": "https://vaughan.perfectmind.com/25076/Clients/BookMe4LandingPages/Class?widgetId=090e1ac2-67e2-443a-a3a9-bb1b38aa4cb8&classId=e88f94bf-3663-4777-bccb-c64f9aa6a894"
+  },
+  {
+    "date": "2026-10-20",
+    "venue": "regional-richmond-hill-richvale-pool",
+    "start": "21:00",
+    "end": "22:30",
+    "type": "Lane Swim",
+    "womenOnly": false,
+    "free": false,
+    "fee": "Richmond Hill drop-in fee",
+    "source": "https://www.richmondhill.ca/en/things-to-do/Swimming.aspx"
+  },
+  {
+    "date": "2026-10-20",
     "venue": "regional-richmond-hill-richvale-pool",
     "start": "23:00",
     "end": "13:00",
